@@ -1,0 +1,9 @@
+^F02 
+^F06 Braedonnal Tuare
+^F02^W310
+ Der Elf Braedonnal Tuare ist der Befehlshaber der 
+ Armee Tuornens. Nichts würde ihm mehr Freude 
+ bereiten, als Alamie und Rupp anzugreifen. Gewisse 
+ Faktoren halten ihn jedoch zurück. Mächtig, aber 
+ hitzköpfig, hat er sich den Spitzname "Heißsporn" 
+ eingehandelt. 

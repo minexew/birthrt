@@ -1,0 +1,11 @@
+^F02 
+^F06  Cariele
+^F02^W310
+   A cold Northern Marches realm, this once beauti-
+   ful country has been stripped and harvested
+   of its resources.  Roads and stumps dot the land
+   now, and the people have grown to be bitter and
+   unfriendly, showing concern only for themselves.
+   The handy roads and plentiful trade halls do 
+   provide a bustling commerce for the busy guilders
+   of Cariele.

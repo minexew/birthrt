@@ -1,0 +1,3 @@
+^F02^W304In dem wenig einladenen Schloß Black Stone ruht nun Farids Schatulle des Reichs. Vor den Toren der Hauptstadt von Seasbridge gelegen, wird das königliche Schloß von gut ausgebildeten Verteidigern streng bewacht. Die aus Ebon-Granit gehauene düstere Anlage steht auf einem vom Wind umtosten Fels, auf dem noch Überbleibsel älterer Festungen zu finden sind. Die alten Steine brechen weg; was bleibt, ist eine scheinbar willkürliche Ansammlung von Trümmern, die den grasbedeckten Hügel krönt. 
+^C064ZIEL: FINDEN SIE FARIDS SCHATULLE DES REICHS ^C000 
+

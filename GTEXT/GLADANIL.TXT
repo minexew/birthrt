@@ -1,0 +1,9 @@
+^F02 
+^F06Entier Gladanil
+^F02^W310
+Entier Gladanil ist willensschwach und eitel, gibt 
+sein Geld hauptsächlich für seine Garderobe und 
+die Ausstattung seines Schlosses aus. Er wird von 
+den Gilden der Stadt bevormundet und läßt ihnen 
+großen Freiraum, während sein Vater alle Entscheidungen 
+über ihren Kopf hinweg getroffen hatte.

@@ -1,0 +1,27 @@
+// Aelies
+
+// magic items
+50
+
+// spells
+133 // 1st Detect Magic
+134 // 1st Feather Fall
+135 // 1st Jump
+138 // 1st Reduce
+141 // 2nd Continual Light
+143 // 2nd Levitate
+144 // 2nd Locate Object
+147 // 3rd Fireball
+148 // 3rd Fly
+149 // 3rd Stone Undead
+152 // 4th Confusion
+155 // 4th Stoneskin
+156 // 5th Cone of Cold
+160 // 6th Death Spell
+164 // 7th Power Word Stun
+166 // 8th Seerten's Spell Immunity
+
+192 // Alchemy
+199 // Scry
+203 // Warding
+

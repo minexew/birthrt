@@ -1,0 +1,3 @@
+# INTRO.RSP for RESUTIL, 4-03-97
+# Expects to live in a subdirectory off the main BIRTHRT directory.
++ ..\intro\*.pcx

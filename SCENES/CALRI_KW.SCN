@@ -1,0 +1,35 @@
+[Version]
+1.0
+[Sounds]
+2
+[Music]
+4
+[Panorama]
+Back01b
+Back01c
+Back01e
+Back01b
+Back01c
+Back01b
+Back01c
+Back01e
+Back01b
+Back01c
+[QuestThingType]
+400
+[Wad]
+calri_kw.wad
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 3
+[Exit]
+2
+901     calri2kw
+902     calri2kw
+[Notes]
+3
+1   9
+2   10
+3   11

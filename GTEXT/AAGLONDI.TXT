@@ -1,0 +1,9 @@
+^F02 
+^F02 
+^F06  Lady Alliene Aglondier
+^F02^W300
+   Die Priesterin Lady Alliene Aglondier ist 
+   die behütete, noch etwas naive Tochter des 
+   Grafen und steht diesem stets hilfreich zur 
+   Seite. Mit ihrem guten Herzen schlägt die 
+   anmutige Lady ganz ihrem Vater nach.

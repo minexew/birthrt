@@ -1,0 +1,9 @@
+# WAVE.RSP for RESUTIL, 3-07-97
+# Expects to live in a subdirectory off the main BIRTHRT directory.
++ ..\wave00\*.wav
++ ..\wave10\*.wav
++ ..\wave20\*.wav
++ ..\wave30\*.wav
++ ..\wave384\*.wav
++ ..\waveloop\*.wav
+

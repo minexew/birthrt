@@ -1,0 +1,13 @@
+audio.cpp(886): Warning! W389: (col 57) integral value may be truncated during assignment or initialization 
+audio.cpp(951): Warning! W389: (col 70) integral value may be truncated during assignment or initialization 
+audio.cpp(951): Warning! W389: (col 75) integral value may be truncated during assignment or initialization 
+audio.cpp(1079): Warning! W389: (col 75) integral value may be truncated during assignment or initialization 
+audio.cpp(1110): Warning! W389: (col 67) integral value may be truncated during assignment or initialization 
+audio.cpp(1114): Warning! W389: (col 63) integral value may be truncated during assignment or initialization 
+audio.cpp(1125): Warning! W389: (col 77) integral value may be truncated during assignment or initialization 
+audio.cpp(1135): Warning! W389: (col 57) integral value may be truncated during assignment or initialization 
+audio.cpp(1147): Warning! W389: (col 47) integral value may be truncated during assignment or initialization 
+audio.cpp(1147): Warning! W389: (col 52) integral value may be truncated during assignment or initialization 
+audio.cpp(1167): Warning! W389: (col 47) integral value may be truncated during assignment or initialization 
+audio.cpp(1170): Warning! W389: (col 38) integral value may be truncated during assignment or initialization 
+audio.cpp(1170): Warning! W389: (col 46) integral value may be truncated during assignment or initialization 

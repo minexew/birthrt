@@ -1,0 +1,3 @@
+# MAP.RSP for RESUTIL, 3-27-97
+# Expects to live in a subdirectory off the main BIRTHRT directory.
++ ..\map\*.pcx

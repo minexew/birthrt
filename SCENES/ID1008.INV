@@ -1,0 +1,25 @@
+75
+50
+66
+
+// spells
+
+133 // Detect Magic
+135 // Jump
+137 // Magic Missile
+
+146 // Strength
+
+151 // Lightning Bolt
+
+
+// blood abilities
+
+220 // Healing (major)
+213 // Heightened Ability
+
+
+// Realm Spells
+
+192 // Alchemy
+194 // Demagogue

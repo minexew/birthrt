@@ -1,0 +1,41 @@
+[Version]
+1.0
+[Sounds]
+4
+[Music]
+3
+[Panorama]
+Back01c
+Back01d
+Back01h
+Back01c
+Back01d
+Back01c
+Back01d
+Back01h
+Back01c
+Back01d
+[QuestThingType]
+388
+[Wad]
+falcomw.wad
+[Pallet]
+nova_d
+[Avatars]
+1
+139 -755 -530 250 64 1 23
+7
+850 -530 250 64
+850 -530 250 0
+850 990 250 0
+850 990 250 192
+-755 990 250 192
+-755 990 250 128
+-755 -530 250 128
+-755 -530 250 64
+[Map]
+1
+ZoomFactor 5
+[Notes]
+1
+1    16

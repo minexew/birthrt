@@ -1,0 +1,3 @@
+^F02^W304Das Schloß Aglondier ist von imposanter Bauweise, und über den Mauern erheben sich viele Zinnen. Hier residiert Rogr Aglondier, der Herrscher Iliens. Trotz seiner Größe wirkt das Schloß Aglondier unscheinbar und unbedeutend. Im Grunde ist es nichts weiter als ein Turm, der von einer hohen Mauer und einigen Außengebäuden umgeben ist. Jedoch wohnten lange Zeit Zauberer in diesem Schloß, und es enthält vieles, was nicht sofort ins Auge springt. Wandbehänge verstecken geheime Türen, einige Räume sind doppelt so groß wie sie von außen scheinen. Von der Ferne sieht es malerisch aus, doch die, die nahe herankommen und den Ioun-Stein erspähen können, stellen fest, daß ein Entkommen nicht leicht ist.
+^C064ZIEL: FINDEN SIE DEN IOUN-STEIN
+

@@ -1,0 +1,13 @@
+# UI.RSP for RESUTIL, 3-07-97
+# Expects to live in a subdirectory off the main BIRTHRT directory.
+# Don't use the "r" (rotation) command on UI.RES.  These aren't rotated.
++ ..\ui\*.pcx
++ ..\ui\invnicon\*.pcx
++ ..\ui\btlscn\*.pcx
++ ..\ui\ports_l\*.pcx
++ ..\ui\ports_s\*.pcx
++ ..\ui\ports_w\*.pcx
++ ..\ui\advisors\*.pcx
++ ..\ui\advisors\*.flc
++ ..\ui\advscn\*.pcx
+

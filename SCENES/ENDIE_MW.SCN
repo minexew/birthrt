@@ -1,0 +1,30 @@
+[Version]
+1.0
+[Sounds]
+4
+[Music]
+11
+[Panorama]
+Back01a
+Back01b
+Back01c
+Back01b
+Back01a
+Back01b
+Back01c
+Back01a
+Back01b
+Back01c
+[QuestThingType]
+391
+[Wad]
+endie_mw.wad
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 5
+[Notes]
+2
+1    13
+2    14

@@ -1,0 +1,246 @@
+# This is a template for a scene file.
+# At the moment to add a new scene to the game you must create one of these
+# Some fields are required, some are optional.
+# All lines beginning with "#" are comments. However comments will be lost
+# if you save a copy of the scene file from the game scene editor.
+# Don't worry though, all the real data will be retained.
+# You can also inbed blank lines. These too will be lost if you use the
+# game scene editor.
+
+
+# Version is a required key word.
+# At the moment we are at version 1.0 so just copy in the next two lines.
+# Note: This should be the first keyword!
+[Version]
+1.0
+
+# Music is not required. 
+# This section is a beginning for the music. At the moment we only have background
+# music and this is how you get it in. This section will change.
+[Music]
+fileName
+
+# Demo is not required.
+# If this scene is for a demo add this next section. Otherwise delete it.
+[Demo]
+# The file name is a series of commands to run for this scene. (.srd)
+filename
+
+# Panarama is optional. If it is used, it should be set before the wad
+# so that the panarama scapes will be used in place of the ones in the wad.
+# At the moment, Alan has decreed that there will be 10 file names to make this
+# feature work.
+[Panorama]
+# The complete file names.
+fileName1
+fileName2
+fileName3
+fileName4
+fileName5
+fileName6
+fileName7
+fileName8
+fileName9
+fileName10
+
+# QuestThingType is the object to be found in the wad, or on the person of
+# a fiend to indicate you have solved the level.
+# It must be defined before the [Wad] declaration.
+# Change the number 396 to the number of the thing in your wad.
+[QuestThingType]
+396
+
+# Wad is also required, without the wad...no place for the scene to run!
+# Change the name from castle86.wad to the name of your new wad.
+[Wad]
+castle86.wad
+
+# Pallet is not required, however it is generally a good idea to name the 
+# pallet your wad was created with. This is becuase otherwise you'll get the
+# last pallet loaded which may or may not be the same as yours.
+[Pallet]
+nova_d
+
+# Avatars are not required. The format is undergoing some change right now
+# so its probably not a good idea to try and guess the data fields.
+# If this is a new scene file, just cut the Avatar section out.
+[Avatars]
+
+#Number of Avatars
+15
+
+#AvatarId X Y Z A AIIndex
+1 -639 -2356 0 0 3
+#AI data.
+-639 -2356
+2 -532 -2326 0 0 3
+0 0
+21 -152 -2209 0 56 4
+9 2
+3 -539 -490 0 120 4
+4 -9
+5 -327 -1494 -96 0 4
+0 9
+100 -1369 -1890 0 128 4
+2 -10
+101 -1424 512 0 216 4
+-7 7
+7 -2135 -425 0 48 4
+9 3
+22 -1246 -1112 0 128 4
+-1 -10
+23 -1852 357 0 128 4
+-1 -10
+24 1075 -2511 0 240 4
+-5 8
+8 -29 -2980 0 56 4
+10 0
+9 -328 -2930 0 0 4
+0 -10
+10 -549 -2888 0 0 4
+0 -2
+11 -794 -2842 0 0 4
+0 5
+
+# Keys are the Hot keys that are set up on a scene by scene basis.
+# They will override any other settings of these keys. Currently
+# there is no runtime game editor to enter this information. So if you
+# want them, you must enter them by hand. This section is of course optional.
+# However, it was decided for the game that KEY_ESCAPE should load the worldmap.
+#
+# The keys available at the momemt are KEY_0 thru KEY_9, KEY_F1 thru KEY_F12
+# and KEY_ESCAPE. If you need another key see one of the programing staff and
+# we'll add it. Note: At the moment KEY_F1 and KEY_F2 are used by the help system.
+#
+# You can the the point information by running the game and pressing the "p" key.
+# At some time in the future you will be able to enter this data directly from the game.
+[Keys]
+
+# The next line tells the parser how many hot keys are defined.
+11
+
+# KEY_X Command
+# These are the currently available commands. 
+# SetCamera moves the camera to this spot with no intervening renders. 
+# MoveCamera "fly's" to this location.
+#       SetCamera	X	Y	Z	Angle	Pitch	Roll
+#	MoveCamera	X	Y	Z	Angle	Pitch	Roll
+#	LoadScene	SceneFileName
+
+KEY_1	SetCamera	-273	-1592	0	240	0	0
+KEY_2	SetCamera	-1504	-1734	0	120	0	0
+KEY_3	SetCamera	-1008	520	0	54	0	0
+KEY_4	SetCamera	-1487	507	0	210	0	0
+KEY_5	SetCamera	226	668	0	21	0	0
+KEY_6	SetCamera	-2041	-453	0	200	0	0
+KEY_7	SetCamera	-1629	-372	0	42	0	0
+KEY_8	SetCamera	-1984	588	0	218	0	0
+KEY_9	SetCamera	419	-539	0	248	0	0
+KEY_0	SetCamera	-485	-3598	0	143	0	0
+KEY_ESCAPE	LoadScene	worldmap
+
+# Exit lines are also optional. Some wads have them, some don't.
+# Ask the wad designer for the numbers.
+# Each one is the scene to be loaded when the player crosses that exit line.
+[Exit]
+
+# Number of exit lines.
+1
+
+# Exit_line_number SceneName
+800	town
+
+
+# Map related data. This is also optional
+# Currently there are two options.
+[Map]
+
+# The number of options.
+1
+
+#Option Data
+# ZoomFactor	Number (1 thru 50)
+# This sets how much the map is zoomed out by default.
+# 
+ZoomFactor 4
+
+# MapState (On or Off)
+# MapState On
+# Determins whether the Map will be on or off when the scene is loaded.
+# At the moment you should not set this flag.
+
+# Places are optional. They were designed for the worldmap scene, however
+# if you want a thing that when clicked on loads a new scene for you go
+# ahead and use'm. Otherwise remove this section.
+[Places]
+# The number of Places
+6
+
+#X	Y	ThingType	SceneName
+0	0	69	castle
+1000	0	2035	town
+2000	0	64	castle
+2000	2000	90	town
+3000	3000	5	castle
+3000	0	45	castle
+
+# Sectors are optional. This feature was added for the world map. So that if you
+# clicked on the grass you would go to the appropreate battlefield scene. Currently
+# I only have one battlefield, so this is it.
+# Generally if you are not editing the worldmap scene file, delete this section.
+[Sectors]
+# The number of Sectors
+8
+
+#SectorNumber	SceneName
+1 battle
+2 battle
+3 battle
+4 battle
+5 battle
+6 battle
+7 battle
+8 battle
+
+# This is a new feature, which is not connected yet. It sets the data about the
+# camera for the scene.
+[Camera]
+# Number of camera settings.
+1
+#Keyword Data
+#Accelleration Number 
+# sets the speed change for moving the camera. On an open
+# scene like the world map or a battlefield you will want to set this number.
+# At the moment this is the only setting available.
+# If you don't set it, the camera will reset to the default settings when the scene
+# is loaded.
+Accelleraion	10
+
+# Notes are the link to the text for a note object. They are the hints
+# in the levels.
+[Notes]
+# The number of notes following.
+3
+# NoteObject NoteNumber
+# The note object number, followed by the text offset in the string table.
+# The offset is computed from the first note object.
+# So, note 1 uses the third note string.
+1 3
+2 4
+3 9
+
+# These are dialogs which appear after a line has been crossed.
+[DialogTriplines]
+# The number of dialog triplines following
+3
+# TriplineNumber DialogNoteNumber
+# The tripline number followed by the text offset in the string table.
+# The offset is computed from the first dialog note object.
+302	10
+303	12
+304	5
+
+# This dialog will appear with a counciler's head at the beginning of the scene.
+[OpeningDialog]
+# the Offset from the first opening dialog string.
+1

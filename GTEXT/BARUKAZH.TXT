@@ -1,0 +1,8 @@
+^F02 
+^F02 
+^F06  Baruk-Azhik
+^F02^W300
+   Dieses bergige Reich im Osten ist voller 
+   schneebedeckter Berge und gefährlicher Schluchten. 
+   Viele Zwergenfesten wurden auf dem felsigen Grund 
+   gebaut.

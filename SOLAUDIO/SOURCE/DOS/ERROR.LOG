@@ -1,0 +1,46 @@
+copy makeinit.rel makeinit
+c:\birthrt\solaudio\source\dos\makeinit.rel => c:\birthrt\solaudio\source\dos\makeinit
+     1 file(s) copied
+del *.obj
+Deleting c:\birthrt\solaudio\source\dos\skel.obj
+Deleting c:\birthrt\solaudio\source\dos\custmsys.obj
+     2 file(s) deleted         65,536 bytes freed
+del *.exe
+     0 file(s) deleted
+wmake
+WATCOM Make Version 10.6
+Copyright by WATCOM International Corp. 1988, 1996. All rights reserved.
+WATCOM is a trademark of WATCOM International Corp.
+	wpp386 /I..\..\inc /dDOS /dAUDIO_LIB /5s /w3 /s /zp1 /oteanmlr /zq /ei /j /bt=dos  skel.cpp
+skel.cpp(62): Warning! W627: (col 8) text following pre-processor directive 
+	wpp386 /I..\..\inc /dDOS /dAUDIO_LIB /5s /w3 /s /zp1 /oteanmlr /zq /ei /j /bt=dos  custmsys.cpp
+	wpp386 /I..\..\inc /dDOS /dAUDIO_LIB /5s /w3 /s /zp1 /oteanmlr /zq /ei /j /bt=dos  kernaud.cpp
+kernaud.cpp(464): Error! E003: (col 1) missing return value 
+kernaud.cpp(513): Error! E003: (col 1) missing return value 
+kernaud.cpp(561): Error! E003: (col 1) missing return value 
+kernaud.cpp(578): Error! E003: (col 1) missing return value 
+kernaud.cpp(656): Error! E003: (col 1) missing return value 
+kernaud.cpp(723): Error! E056: (col 55) not expecting a return value 
+kernaud.cpp(724): Error! E056: (col 33) not expecting a return value 
+kernaud.cpp(725): Error! E056: (col 28) not expecting a return value 
+kernaud.cpp(804): Error! E056: (col 33) not expecting a return value 
+kernaud.cpp(805): Error! E056: (col 28) not expecting a return value 
+kernaud.cpp(849): Error! E003: (col 1) missing return value 
+wlib -n -c -p=64 solaudd.lib @libfiles.lbc
+rename skel.exe testrel.exe
+     0 file(s) renamed
+copy makeinit.dbg makeinit
+c:\birthrt\solaudio\source\dos\makeinit.dbg => c:\birthrt\solaudio\source\dos\makeinit
+     1 file(s) copied
+del *.obj
+Deleting c:\birthrt\solaudio\source\dos\skel.obj
+Deleting c:\birthrt\solaudio\source\dos\custmsys.obj
+     2 file(s) deleted         65,536 bytes freed
+wmake
+WATCOM Make Version 10.6
+Copyright by WATCOM International Corp. 1988, 1996. All rights reserved.
+WATCOM is a trademark of WATCOM International Corp.
+	wpp386 /I..\..\inc /dDOS /dDEBUG /dAUDIO_LIB /hw /d2 /5s /w3 /r /od /zq /ei /j /bt=dos  skel.cpp
+skel.cpp(62): Warning! W627: (col 8) text following pre-processor directive 
+	wpp386 /I..\..\inc /dDOS /dDEBUG /dAUDIO_LIB /hw /d2 /5s /w3 /r /od /zq /ei /j /bt=dos  custmsys.cpp
+	wpp386 /I..\..\inc /dDOS /dDEBUG /dAUDIO_LIB /hw /d2 /5s /w3 /r /od /zq /ei /j /bt=dos  kernaud.cpp

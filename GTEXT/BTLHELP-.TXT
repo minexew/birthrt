@@ -1,0 +1,20 @@
+^F11NAHKAMPF-STEUERUNG
+ 
+^F02F3  ^t024Zu versendende Nachricht eingeben
+F4  ^t024Empfänger der Nachricht auswählen
+ 
+I   ^t032Inventarbildschirm^t132R   ^t150Rückzug
+Tab ^t032Nächster Charakter ^t132S   ^t150Statusanzeige
+X   ^t032Angriff 1        ^t132C   ^t150Angriff 2
+
+RUNDENBASIERTE STEUERUNG 
+F   ^t032Fertig
+R   ^t032Rückzug
+
+ARCADE-STEUERUNG
+V   ^t032Verteidigung
+
+UMSCHALT-X   ^t056Schneller Angriff 1
+UMSCHALT-C   ^t056Schneller Angriff 2
+
+0 (Null)  ^t056Ende des eigenhändigen Kampfes

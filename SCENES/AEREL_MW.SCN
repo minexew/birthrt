@@ -1,0 +1,32 @@
+[Version]
+1.0
+[Sounds]
+1
+[Music]
+7
+[Panorama]
+Back01a
+Back01b
+Back01e
+Back01a
+Back01b
+Back01a
+Back01e
+Back01b
+Back01a
+Back01b
+[QuestThingType]
+396
+[Wad]
+aerel_mw.wad
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 5
+[Notes]
+3
+1  1
+2  2
+3  3
+

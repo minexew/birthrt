@@ -1,0 +1,26 @@
+[Version]
+1.0
+[Sounds]
+2
+[Music]
+4
+[Panorama]
+Back01a
+Back01d
+Back01a
+Back01d
+Back01e
+Back01a
+Back01d
+Back01e
+Back01a
+Back01d
+[QuestThingType]
+390
+[Wad]
+nowel_kw.wad
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 5

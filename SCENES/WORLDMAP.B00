@@ -1,0 +1,104 @@
+[Version]
+1.0
+[Music]
+intro1
+[Panorama]
+BACK01A
+BACK01B
+BACK01C
+BACK01D
+BACK01E
+BACK01F
+BACK01G
+BACK01H
+BACK01I
+BACK01J
+[Wad]
+worldmap.wad
+[Pallet]
+nova_d
+[Places]
+6
+0	0	169	castle
+1000	0	169	town
+2000	0	169	castle
+2000	2000	169	town
+3000	3000	169	castle
+3000	0	169	castle
+[Keys]
+20
+KEY_1  		LoadScene	ansietw
+KEY_2  		LoadScene	calri_kw
+KEY_3  		LoadScene	kruann75
+KEY_4  		LoadScene	sonne_kw
+KEY_5  		LoadScene	battle
+KEY_6  		LoadScene	castle19
+KEY_7  		LoadScene	lofto_mw
+KEY_8  		LoadScene	storm_kw  
+KEY_9  		LoadScene	bindi_mw
+KEY_0  		LoadScene	castle86
+KEY_F3  	LoadScene	mocas3
+KEY_F4	  	LoadScene	tim18a    
+KEY_F5  	LoadScene	braem_mw
+KEY_F6	  	LoadScene	kcaere31
+KEY_F7  	LoadScene	molab
+KEY_F8  	LoadScene	tower5    
+KEY_F9	  	LoadScene	caerl_kw
+KEY_F10	  	LoadScene	khaes83
+KEY_F11	  	LoadScene	ruorvtw
+KEY_F12	  	LoadScene	town      
+#KEY_ESCAPE	LoadScene	worldmap
+[Map]
+1
+ZoomFactor 30
+#MapState On
+[Sectors]
+48
+1 battle
+2 battle
+3 battle
+4 battle
+5 battle
+6 battle
+7 battle
+8 battle
+9 battle
+10 battle
+11 battle
+12 battle
+13 battle
+14 battle
+15 battle
+16 battle
+17 battle
+18 battle
+19 battle
+20 battle
+21 battle
+22 battle
+23 battle
+24 battle
+25 battle
+26 battle
+27 battle
+28 battle
+29 battle
+30 battle
+31 battle
+32 battle
+33 battle
+34 battle
+35 battle
+36 battle
+37 battle
+38 battle
+39 battle
+40 battle
+41 battle
+42 battle
+43 battle
+44 battle
+45 battle
+46 battle
+47 battle
+48 battle

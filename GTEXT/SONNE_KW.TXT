@@ -1,0 +1,3 @@
+^F02^W304Die Marionetten des Gorgon beherrschen nun die rauhe Schönheit der Goblinhauptstadt Drak-Mail, und die königlichen Verliese sind jetzt das Heim des früheren Königs der Goblins, Tie'Skar Graecher. In diesem feuchten, stinkenden Kerker, der voller Goblinpatrouillen und dem Abschaum menschlicher Söldner ist, die in ganz Anuire für ihre Brutalität verschrieen sind, wird der König der Goblins gefangengehalten, der das Amulett der Inspiration hütet.
+^C064ZIEL: RETTEN SIE DEN KÖNIG DER GOBLINS
+

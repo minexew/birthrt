@@ -1,0 +1,6 @@
+# TEXTURES.RSP for RESUTIL, 3-18-97
+# Expects to live in a subdirectory off the main BIRTHRT directory.
+# r = rotate PCX files
+r
++ ..\textures\*.pcx
+

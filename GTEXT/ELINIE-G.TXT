@@ -1,0 +1,9 @@
+^F02 
+^F06  Elinie
+^F02^W310
+   Ein vielfältiges Reich im Kernland, das an
+   drei feindliche Provinzen angrenzt und in dem Weideland,
+   zahlreiche Hügel und ein Moorgebiet, Hopes Demise genannt,
+   vorzufinden sind. Die Elinier sind von unbeugsamer Natur und
+   halten dem Reich von Khinasi eine unerschütterliche
+   Treue.

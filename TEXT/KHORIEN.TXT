@@ -1,0 +1,8 @@
+^F02 
+^F06Count of Taeghas, Harald Khorien
+^F02^W310
+Having sworn fealty to Darian Avan, this count leaves
+the administration of his kingdom to the bureaucrats
+to the east.  He prefers to pursue his studies of the
+magical arts.  He does, however, show a willingness to
+defend his borders against those he disagrees with.

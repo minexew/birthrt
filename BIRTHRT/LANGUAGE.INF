@@ -1,0 +1,102 @@
+[Ident]
+Title=Birthright - The Gorgon's Alliance
+ShortTitle=Birthright
+TestTitle=Birthright
+DirName=Birthrt
+
+[Strings]
+ReadmeTitle=Birthright Read This
+
+InstallTypeTitle=Birthright Setup
+InstallTypeText=You can install the Windows95 version by selecting an install size. You may select the DOS version instead: you won't get network or multiplayer capability, but, on some systems, the game might run better.
+
+TinyInstall=3 meg - CD-ROM drives 6x or faster
+SmallInstall=30 megs  - Cleaner sound
+MediumInstall=70 megs - Better for slower computers 
+LargeInstall=256 megs - Fastest play
+
+NoSpaceTitle=What were you thinking?
+NoSpaceText=You don't have enough space for the installation size chosen.  Setup has selected the largest possible install for you.  If you wish to free hard drive space and try again, select Cancel now.
+
+FinishedTitle=Installation Complete
+FinishedText=Birthright - The Gorgon's Alliance has been successfully installed. To run it, exit Setup and click on the Birthright icon in the Sierra group. Also, be sure to try the DEMOS of other great Sierra products while you are there.
+
+DOSFinishedTitle=DOS Installation Complete
+DOSFinishedText=If the DOS Install ran properly, Birthright - The Gorgon's Alliance is ready to play. To run it, exit Setup and click on the Birthright DOS icon in the Sierra group.
+DOSFinishedText2=You can install the Windows95 version right over the DOS install. Run SETUP, select the same directory the DOS version is in, and select the TINY install.
+
+MicrosoftSDKTitle=Microsoft Game SDK
+GameSDKPrompt1=This game requires the Microsoft Game SDK.
+GameSDKPrompt2=It will now be installed automatically.
+
+WinDiskSpaceWarnTitle=Insufficient Space
+WinDiskSpaceWarnText1=Running Birthright requires the Game SDK be installed in your Windows directory, which currently does not have enough space (5 Megs).
+WinDiskSpaceWarnText2=Please free up some space on your Windows drive and run Setup again.
+
+MultiDiskTitle=Multiple CD-ROM Drives
+MultiDiskText=Setup found multiple CD-ROM drives connected to your computer.  Would you like to use these drives?
+		
+r this product
+RegisterPrompt1=NOTE: Sierra highly recommends that you register your product. This allows us to notify you regarding enhancements to this product, keep you informed about the latest events at Sierra and to provide you the finest in customer support.
+RegisterPrompt2=Would you like to take a few seconds now to register your product via modem? (It's a free 800 number phone call).
+
+BootTitle=Boot Disk Maker
+SetupTitle=Setup Uninstall
+Title=Birthright - The Gorgon's Alliance
+ShortTitle=Birthright
+DirName=Birthrt
+
+AbortText=Abort Install
+OKText=OK
+YESText=&Yes
+NOText=&No
+CancelText=Cancel
+
+Bootdisk=Optional Bootdisk
+BootPrompt1=Low memory machines may have trouble running this game without a boot disk.
+BootPrompt2=Run Boot Disk Maker?
+
+MidiPrompt1=Choose MIDI support level.
+MidiPrompt2=If in doubt, choose base level.
+MidiExt=Use e&xtended
+MidiBase=Use &base
+Video For Windows=Install Video for Windows
+Installation Complete=Installation Complete
+BootTitle=Boot Disk Maker
+
+ACCESSORIES=Accessories
+MPLAYER=Media Player
+RESTARTTITLE=Restart Windows?
+RESTARTPROMPT=You must restart Windows before you can run Birthright.
+RESTARTPROMPT2=Do you want to restart Windows now?
+YES=&Yes
+NO=&No
+
+RESTARTSIGSTITLE=Restart Windows?
+RESTARTSIGSPROMPT=You must restart Windows if you want to join SIGS. (Sierra Internet Gaming System)
+RESTARTSIGSPROMPT2=Do you want to restart Windows now?
+YES=&Yes
+NO=&No
+
+AllDone=Installation	Completed
+AllDoneText=Remember to restart Windows before playing.
+ReadmeTitle=Read This First
+InstallTitle=Install Help
+
+ColorsTitle=More Than 256 Colors Detected
+NumColorsDialog=This game is designed to be played with 256 colors selected to be displayed in Windows.  We have detected that you are using a color mode higher than 256 colors, such as 65535 "high color
+
+Lords2=Install 'Lords of the Realm 2' Demo
+Cyber='CyberGladiators' Demo 
+Chess='Power Chess' demo
+CivilWar=Install 'Civil War' Demo
+Hunter='Hunter Hunted' Demo
+Antara=Install 'Betrayal in Antara' Demo
+TitleWIN=Birthright - The Gorgon's Alliance 
+TitleDOS=Birthright DOS - The Gorgon's Alliance
+DOSInstall=Birthright DOS install
+Realm=Install 'The Realm' Demo
+
+WANNAINSTALLDIRECTX=DirectX Installation
+YOURSYSTEMREQUIRESDX=Your system requires DirectX in order to run Birthright.
+DOYOUWANTTOINSTALLIT=Do you want to install it now?

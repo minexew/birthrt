@@ -1,0 +1,29 @@
+[Version]
+1.0
+[Sounds]
+2
+[Music]
+4
+[Panorama]
+Back01a
+Back01b
+Back01f
+Back01a
+Back01b
+Back01f
+Back01a
+Back01b
+Back01f
+Back01a
+[QuestThingType]
+572
+[Wad]
+sonne_kw.wad
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 5
+[Exit]
+1
+902     sonne2kw

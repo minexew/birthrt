@@ -1,0 +1,10 @@
+^F02 
+^F06  Herzogin Eriene Mierelen
+^F02^W310
+   Die Herzogin Eriene Mierelen ist eine rechte Opportunistin, 
+   die auf clevere und skrupellose Art sowohl politische 
+   als auch geschäftliche Vorgänge im Auge behält und jede 
+   Gelegenheit beim Schopfe packt, um Vorteile zu erlangen. 
+   Sie hat dem Herrscher Avanil ihre Treue geschworen, was 
+   sie jedoch nicht davon abhält, Dinge vor ihm geheimzuhalten 
+   und mit Boeruine unter einer Decke zu stecken.

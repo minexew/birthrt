@@ -1,0 +1,171 @@
+Non PURGABLE memory blocks still in use when the program quit.
+
+  Id     Size Locked Resource Moldy Class  FileName[LineNo] BlockName
+=====================================================================
+  70   307212                 MOLDY             system.c[2861] 
+  75      176                 MOLDY         playstat.cpp[177] 1028
+  77      176                 MOLDY         playstat.cpp[177] 1029
+  79      176                 MOLDY         playstat.cpp[177] 1007
+  81      176                 MOLDY         playstat.cpp[177] 1008
+  83      176                 MOLDY         playstat.cpp[177] 1003
+  85      176                 MOLDY         playstat.cpp[177] 1082
+  87      176                 MOLDY         playstat.cpp[177] 1044
+  89      176                 MOLDY         playstat.cpp[177] 1045
+  91      176                 MOLDY         playstat.cpp[177] 1017
+  93      176                 MOLDY         playstat.cpp[177] 1018
+  95      176                 MOLDY         playstat.cpp[177] 1039
+  97      176                 MOLDY         playstat.cpp[177] 1002
+  99      176                 MOLDY         playstat.cpp[177] 1011
+ 101      176                 MOLDY         playstat.cpp[177] 1012
+ 103      176                 MOLDY         playstat.cpp[177] 1035
+ 105      176                 MOLDY         playstat.cpp[177] 1036
+ 107      176                 MOLDY         playstat.cpp[177] 1043
+ 109      176                 MOLDY         playstat.cpp[177] 1042
+ 111      176                 MOLDY         playstat.cpp[177] 1009
+ 113      176                 MOLDY         playstat.cpp[177] 1010
+ 115      176                 MOLDY         playstat.cpp[177] 1013
+ 117      176                 MOLDY         playstat.cpp[177] 1014
+ 119      176                 MOLDY         playstat.cpp[177] 1023
+ 121      176                 MOLDY         playstat.cpp[177] 1024
+ 123      176                 MOLDY         playstat.cpp[177] 1005
+ 125      176                 MOLDY         playstat.cpp[177] 1006
+ 127      176                 MOLDY         playstat.cpp[177] 1019
+ 129      176                 MOLDY         playstat.cpp[177] 1020
+ 131      176                 MOLDY         playstat.cpp[177] 1081
+ 133      176                 MOLDY         playstat.cpp[177] 1999
+ 135      176                 MOLDY         playstat.cpp[177] 1046
+ 137      176                 MOLDY         playstat.cpp[177] 1047
+ 139      176                 MOLDY         playstat.cpp[177] 1049
+ 141      176                 MOLDY         playstat.cpp[177] 1050
+ 143      176                 MOLDY         playstat.cpp[177] 1037
+ 145      176                 MOLDY         playstat.cpp[177] 1038
+ 147      176                 MOLDY         playstat.cpp[177] 1053
+ 149      176                 MOLDY         playstat.cpp[177] 1083
+ 151      176                 MOLDY         playstat.cpp[177] 1031
+ 153      176                 MOLDY         playstat.cpp[177] 1032
+ 155      176                 MOLDY         playstat.cpp[177] 1040
+ 157      176                 MOLDY         playstat.cpp[177] 1041
+ 391      176                 MOLDY         playstat.cpp[177] 1999
+ 392      176                 MOLDY         playstat.cpp[177] 1999
+ 393      176                 MOLDY         playstat.cpp[177] 1999
+ 394      176                 MOLDY         playstat.cpp[177] 1999
+ 163      176                 MOLDY         playstat.cpp[177] 1048
+ 165      176                 MOLDY         playstat.cpp[177] 1084
+ 167      176                 MOLDY         playstat.cpp[177] 1051
+ 169      176                 MOLDY         playstat.cpp[177] 1052
+ 171      176                 MOLDY         playstat.cpp[177] 1054
+ 173      176                 MOLDY         playstat.cpp[177] 1055
+ 175      176                 MOLDY         playstat.cpp[177] 1000
+ 177      176                 MOLDY         playstat.cpp[177] 1030
+ 179      176                 MOLDY         playstat.cpp[177] 1025
+ 181      176                 MOLDY         playstat.cpp[177] 1026
+ 183      176                 MOLDY         playstat.cpp[177] 1056
+ 185      176                 MOLDY         playstat.cpp[177] 1085
+ 187      176                 MOLDY         playstat.cpp[177] 1021
+ 189      176                 MOLDY         playstat.cpp[177] 1022
+ 191      176                 MOLDY         playstat.cpp[177] 1033
+ 193      176                 MOLDY         playstat.cpp[177] 1034
+ 195      176                 MOLDY         playstat.cpp[177] 1057
+ 197      176                 MOLDY         playstat.cpp[177] 1086
+ 199      176                 MOLDY         playstat.cpp[177] 1015
+ 201      176                 MOLDY         playstat.cpp[177] 1016
+ 203      176                 MOLDY         playstat.cpp[177] 1027
+ 205      176                 MOLDY         playstat.cpp[177] 1004
+ 207      176                 MOLDY         playstat.cpp[177] 1001
+ 209      176                 MOLDY         playstat.cpp[177] 1058
+ 211      176                 MOLDY         playstat.cpp[177] 1059
+ 213      176                 MOLDY         playstat.cpp[177] 1074
+ 215      176                 MOLDY         playstat.cpp[177] 1060
+ 217      176                 MOLDY         playstat.cpp[177] 1061
+ 219      176                 MOLDY         playstat.cpp[177] 1062
+ 221      176                 MOLDY         playstat.cpp[177] 1063
+ 223      176                 MOLDY         playstat.cpp[177] 1064
+ 225      176                 MOLDY         playstat.cpp[177] 1065
+ 227      176                 MOLDY         playstat.cpp[177] 1066
+ 229      176                 MOLDY         playstat.cpp[177] 1067
+ 231      176                 MOLDY         playstat.cpp[177] 1068
+ 233      176                 MOLDY         playstat.cpp[177] 1069
+ 235      176                 MOLDY         playstat.cpp[177] 1070
+ 237      176                 MOLDY         playstat.cpp[177] 1071
+ 239      176                 MOLDY         playstat.cpp[177] 1072
+ 241      176                 MOLDY         playstat.cpp[177] 1073
+ 243      176                 MOLDY         playstat.cpp[177] 1075
+ 245      176                 MOLDY         playstat.cpp[177] 1076
+ 247      176                 MOLDY         playstat.cpp[177] 1077
+ 249      176                 MOLDY         playstat.cpp[177] 1078
+ 251      176                 MOLDY         playstat.cpp[177] 1079
+ 253      176                 MOLDY         playstat.cpp[177] 1080
+ 395      176                 MOLDY         playstat.cpp[177] 1999
+ 256      176                 MOLDY         playstat.cpp[177] 2000
+ 258      176                 MOLDY         playstat.cpp[177] 2001
+ 260      176                 MOLDY         playstat.cpp[177] 2002
+ 262      176                 MOLDY         playstat.cpp[177] 2003
+ 264      176                 MOLDY         playstat.cpp[177] 2004
+ 266      176                 MOLDY         playstat.cpp[177] 2005
+ 268      176                 MOLDY         playstat.cpp[177] 2006
+ 270      176                 MOLDY         playstat.cpp[177] 2007
+ 272      176                 MOLDY         playstat.cpp[177] 2008
+ 274      176                 MOLDY         playstat.cpp[177] 2009
+ 276      176                 MOLDY         playstat.cpp[177] 2010
+ 278      176                 MOLDY         playstat.cpp[177] 2011
+ 280      176                 MOLDY         playstat.cpp[177] 2012
+ 282      176                 MOLDY         playstat.cpp[177] 2013
+ 284      176                 MOLDY         playstat.cpp[177] 2014
+ 286      176                 MOLDY         playstat.cpp[177] 2015
+ 288      176                 MOLDY         playstat.cpp[177] 2016
+ 290      176                 MOLDY         playstat.cpp[177] 2017
+ 292      176                 MOLDY         playstat.cpp[177] 2018
+ 294      176                 MOLDY         playstat.cpp[177] 2019
+ 296      176                 MOLDY         playstat.cpp[177] 2020
+ 298      176                 MOLDY         playstat.cpp[177] 2021
+ 300      176                 MOLDY         playstat.cpp[177] 2022
+ 322     1428                 MOLDY             strmgr.c[218] 44.STR
+ 336     2072                 MOLDY             strmgr.c[218] 18.STR
+ 343    19492 LOCKED RESOURCE MOLDY         custmsys.cpp[85] wave00\8030.WAV
+ 354     2428                 MOLDY             strmgr.c[218] 1.STR
+ 355     3828 LOCKED RESOURCE MOLDY         custmsys.cpp[85] wave00\8010.WAV
+ 411     1516                 MOLDY             strmgr.c[218] 39.STR
+ 369      324                 MOLDY             strmgr.c[218] 26.STR
+ 417    20976                 MOLDY             strmgr.c[218] 35.STR
+ 488    26972 LOCKED RESOURCE MOLDY         custmsys.cpp[85] ave30\32366.WAV
+ 518     4416                 MOLDY             strmgr.c[218] 36.STR
+ 443     3288                 MOLDY             strmgr.c[218] 31.STR
+ 520     2480                 MOLDY             strmgr.c[218] 2.STR
+ 453     2312                 MOLDY             strmgr.c[218] 0.STR
+ 533     2168                 MOLDY             strmgr.c[218] 32.STR
+ 498     1924                 MOLDY             strmgr.c[218] 37.STR
+ 473     1736                 MOLDY             strmgr.c[218] 45.STR
+ 516     1252                 MOLDY             strmgr.c[218] 43.STR
+ 427      920                 MOLDY             strmgr.c[218] 38.STR
+ 507      204                 MOLDY             strmgr.c[218] 19.STR
+ 625      680                 MOLDY             strmgr.c[218] 20.STR
+ 639     3456                 MOLDY             strmgr.c[218] 22.STR
+ 643     2020                 MOLDY             strmgr.c[218] 21.STR
+  71       12 FREE BLOCK
+ 843     8192 LOCKED          MOLDY         custmsys.cpp[335] 
+  69       12 FREE BLOCK
+ 846     8192 LOCKED          MOLDY         custmsys.cpp[335] 
+  67       12 FREE BLOCK
+ 849     8192 LOCKED          MOLDY         custmsys.cpp[335] 
+2984      240                 MOLDY             strmgr.c[218] 3.STR
+  64   132444                 MOLDY             system.c[2861] 
+ 160  4166028 FREE BLOCK
+3059     8192 LOCKED          MOLDY         custmsys.cpp[335] 
+3064   496880 FREE BLOCK
+  63    40960 LOCKED          MOLDY         custmsys.cpp[335] 
+  62     8192 LOCKED          MOLDY         custmsys.cpp[335] 
+  61    57344 LOCKED          MOLDY         custmsys.cpp[335] 
+3048   131072 LOCKED          MOLDY         custmsys.cpp[335] 
+3047    65536 LOCKED          MOLDY         custmsys.cpp[335] 
+   6     4096 LOCKED          MOLDY         custmsys.cpp[335] 
+ 785     4144 FREE BLOCK
+   3     4368 LOCKED          MOLDY         custmsys.cpp[335] 
+   1   307200 LOCKED          MOLDY        csys\sysgraph.c[187] 
+
+Total space still in use = 1217740
+Total number of Handles used by this space = 153
+
+Total class1 space still in use  = 0
+Total class2 space still in use  = 0
+Total Free block space available = 4667088
+Total Purgable space available   = 7238052

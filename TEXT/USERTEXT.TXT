@@ -1,0 +1,1 @@
+^F02^W304This is a user wad. To put your own text here, create a file in the TEXT subdirectory named the same as your wad (e.g. mywad.txt).  In this file you put the description of your scene.

@@ -1,0 +1,20 @@
+^F03ADVENTURE CONTROLS
+^F02 
+Keypad + and -  Zoom Adventure Map In and Out
+Arrows^t048Move Camera in that Direction
+F3^t048Type in a Message to Send
+F4^t048Select Person or Group for Message
+ 
+A ^t016Move/Jump Up     ^t172Shift ^t220Run
+Z ^t016Move/Crouch Down ^t172PgUp  ^t220Look Up
+V ^t016Follow View      ^t172PgDn  ^t220Look Down
+L ^t016Change Leader    ^t172Esc   ^t220Main Menu
+E ^t016Exit Adventure   ^t172F1    ^t220Quick Help
+ 
+Insert  Slide Left    ^t130Space  ^t172Activate Door/Switch
+Delete  Slide Right   ^t130F5-F8  ^t172Place Camera
+ 
+M   ^t024Toggle Adventure Map (Off, Small, and Large)
+F2  ^t024Toggle Full Screen (Windows only)
+1-6 ^t024Cast Memorized Spells
+^F11[^F02 and ^F11]^F02   Shrink and Enlarge Screen

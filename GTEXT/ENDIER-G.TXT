@@ -1,0 +1,8 @@
+^F02 
+^F06Endier
+^F02^W300
+Endier ist ein kleines Reich im Kernland, das zu allen
+Seiten an große, mächtige Provinzen grenzt. Was Landwirtschaft
+und Verteidigung angeht, kann es mit seinen Nachbarn nicht
+konkurrieren und lebt daher vom Handel. Der Fluß Maesil durchzieht
+hier eine Landschaft, die von Weideland und Hügelketten geprägt ist.

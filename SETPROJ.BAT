@@ -1,0 +1,12 @@
+@ECHO OFF
+REM ----------------- Setup environmental variables for Triple Play -------
+SET PROJECT_LOCATION=N:\BIRTHRT.PRJ
+SET PROJECT_NAME=BIRTHRT
+
+
+REM ---------- Compiler
+CALL CWATDOS.BAT
+SET INCLUDE=C:\DXSDK5\SDK\INC;%INCLUDE%
+SET LIB=C:\DXSDK5\SDK\LIB
+
+CALL NETCONN.BAT

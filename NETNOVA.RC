@@ -1,0 +1,350 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winsys\afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+APPMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Save",                       ID_APP_FILE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Connect",                    ID_APP_FILE_CONNECT
+        MENUITEM "&Disconnect",                 ID_APP_FILE_DISCONNECT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_FILE_EXIT
+    END
+    POPUP "&Options"
+    BEGIN
+        POPUP "&Display"
+        BEGIN
+            MENUITEM "&Auto - Speed and detail",    ID_APP_OPTIONS_AUTO
+            MENUITEM "&Least detail - Most speed",  ID_APP_OPTIONS_LOWRES
+            MENUITEM "&Most detail - Least speed",  ID_APP_OPTIONS_HIGHRES
+        END
+        MENUITEM "&New Window",                 ID_APP_OPTIONS_NEWWINDOW
+        MENUITEM "&Music",                      ID_APP_OPTIONS_MUSIC
+        , CHECKED
+        MENUITEM "Show Player Names",           ID_APP_OPTIONS_SHOWNAMES
+        , CHECKED
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      ID_APP_HELP_ABOUT
+    END
+    POPUP "&Test"
+    BEGIN
+        MENUITEM "&Load",                       ID_APP_FILE_LOAD
+        MENUITEM "&Animate",                    ID_APP_TEST_ANIMATE, CHECKED
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+WAVEWAIT DIALOG DISCARDABLE  0, 0, 110, 48
+STYLE WS_CHILD | WS_VISIBLE | WS_CAPTION
+CAPTION "Birthright"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Mixing Sound Please Wait ",IDC_STATIC,45,15,45,20
+    ICON            "AAAAAAAA",IDC_STATIC,15,10,18,20
+    GROUPBOX        "",IDC_STATIC,5,0,100,40
+END
+
+IDD_EDITOR DIALOG DISCARDABLE  0, 0, 458, 279
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Avatar Editor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Save to Memory/Disk",IDC_BUTTON_CREATE_AVATAR,127,238,
+                    78,14
+    PUSHBUTTON      "Save to Memory",IDOK,209,259,59,14
+    EDITTEXT        IDC_EDIT_STRENGTH,325,31,22,14,ES_AUTOHSCROLL
+    LTEXT           "Strength",IDC_STATIC,281,36,28,8
+    LTEXT           "Dexterity",IDC_STATIC,281,53,28,8
+    LTEXT           "Constitution",IDC_STATIC,281,71,38,8
+    LTEXT           "Intelligence",IDC_STATIC,281,90,37,8
+    LTEXT           "Wisdom",IDC_STATIC,283,111,26,8
+    LTEXT           "Charisma",IDC_STATIC,281,130,30,8
+    EDITTEXT        IDC_EDIT_DEXTERITY,325,50,22,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CONSTITUTION,325,68,22,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_INTELLIGENCE,325,87,22,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_WISDOM,325,108,22,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CHARISMA,325,127,22,14,ES_AUTOHSCROLL
+    LTEXT           "Name",IDC_STATIC,157,36,20,8
+    EDITTEXT        IDC_EDIT_NAME,187,33,57,14,ES_AUTOHSCROLL
+    LTEXT           "Title",IDC_STATIC,157,59,14,8
+    LTEXT           "Alignment",IDC_STATIC,267,158,32,8
+    EDITTEXT        IDC_EDIT_LEVEL,188,90,17,14,ES_AUTOHSCROLL
+    LTEXT           "Level",IDC_STATIC,158,92,18,8
+    LISTBOX         IDC_LIST_ALIGNMENT,251,174,72,51,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Class",IDC_STATIC,185,158,18,8
+    LISTBOX         IDC_LIST_CLASS,153,174,85,51,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "HP",IDC_STATIC,166,116,11,8
+    LTEXT           "AC",IDC_STATIC,170,138,10,8
+    EDITTEXT        IDC_EDIT_HP,188,113,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_AC,188,135,17,14,ES_AUTOHSCROLL
+    LTEXT           "ID",IDC_STATIC,59,30,8,8
+    LISTBOX         IDC_LIST_ID,25,42,75,47,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Thing Type",IDC_STATIC,43,92,37,8
+    LISTBOX         IDC_LIST_THINGTYPE,25,104,76,47,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "AI Function",IDC_STATIC,39,156,37,8
+    LISTBOX         IDC_LIST_AI,25,168,77,51,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "ADD Player Characteristics",IDC_STATIC,145,17,267,214
+    GROUPBOX        "Engine Characteristics",IDC_STATIC,12,12,107,249
+    LTEXT           "Angle",IDC_STATIC,35,238,19,8
+    EDITTEXT        IDC_EDIT_ANGLE,61,234,21,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Save Scene",IDC_BUTTON_SAVE_SCENE,279,238,50,14
+    LISTBOX         IDC_LIST_RACE,337,174,68,49,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Race",IDC_STATIC,361,159,18,8
+    PUSHBUTTON      "Save All Avatars",IDC_BUTTON_SAVE_ALL_AVATARS,341,238,
+                    60,14
+    PUSHBUTTON      "Delete Avatar",IDC_BUTTON_DELETE_AVATAR,217,238,50,14,
+                    WS_DISABLED
+    LISTBOX         IDC_LIST_TITLE,187,53,58,32,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Avatar ID",IDC_STATIC,223,99,31,8
+    LTEXT           "New",IDC_STATIC_ID,229,111,19,8
+    PUSHBUTTON      "Exit",IDC_BUTTON_CANCEL,281,259,50,14
+END
+
+IDD_EDIT_AI DIALOG DISCARDABLE  0, 0, 192, 117
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,135,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,135,24,50,14
+    LTEXT           "Target ID",IDC_STATIC,19,9,31,8
+    LTEXT           "Target X",IDC_STATIC,19,28,28,8
+    LTEXT           "Target Y",IDC_STATIC,19,47,28,8
+    EDITTEXT        IDC_EDIT_TARGETID,61,7,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TARGETX,61,25,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TARGETY,61,44,40,14,ES_AUTOHSCROLL
+    LTEXT           "Target Z",IDC_STATIC,19,68,28,8
+    LTEXT           "Target A",IDC_STATIC,19,90,28,8
+    EDITTEXT        IDC_EDIT_TARGETZ,61,63,40,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_TARGETA,61,87,40,14,ES_AUTOHSCROLL
+    LTEXT           "Rate",IDC_STATIC,123,89,16,8
+    EDITTEXT        IDC_EDIT_RATE,145,87,24,14,ES_AUTOHSCROLL
+END
+
+CONNECT DIALOG DISCARDABLE  0, 0, 186, 124
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Connect to Server"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,35,103,50,14,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDCANCEL,100,103,50,14
+    LTEXT           "Your name",IDC_STATIC,7,30,38,9
+    EDITTEXT        CD_NAME,7,40,69,12,ES_AUTOHSCROLL
+    LTEXT           "Server machine name",CD_SERVER_TEXT,7,55,78,9
+    EDITTEXT        CD_SERVER,7,65,84,13,ES_AUTOHSCROLL
+    LTEXT           "",CD_HELP,7,86,172,12,SS_SUNKEN
+    CONTROL         "Male",IDC_RADMALE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_NOTIFY,109,50,64,12
+    CONTROL         "Female",IDC_RADFEMALE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_NOTIFY,109,65,64,12
+    GROUPBOX        "Gender",IDC_STATIC,104,40,75,39
+    LTEXT           "Please register information about yourself.",IDC_STATIC,
+                    7,7,165,20
+END
+
+CHAT DIALOG DISCARDABLE  0, 0, 287, 175
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Chat Window"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Enter text to send",IDC_STATIC,7,7,65,8
+    EDITTEXT        ID_CHAT_TEXT,7,15,170,15,ES_AUTOHSCROLL
+    LTEXT           "Text received",IDC_STATIC,7,42,53,8
+    LISTBOX         ID_CHAT_LIST,7,50,170,95,LBS_NOINTEGRALHEIGHT | 
+                    LBS_DISABLENOSCROLL | LBS_NOSEL | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Private chat",ID_CHAT_PRIVATE,190,95,85,12
+    LISTBOX         ID_NAMES,190,20,85,70,LBS_NOINTEGRALHEIGHT | 
+                    LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Mute Member",ID_CHAT_MUTE,190,110,85,12
+    PUSHBUTTON      "Complain",ID_CHAT_COMPLAIN,190,125,85,12
+    GROUPBOX        "Members",IDC_STATIC,185,7,95,138
+    LTEXT           "",ID_CHAT_HELP,7,153,273,15,SS_SUNKEN
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""winsys\\afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR  DISCARDABLE     "res\\cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_EDITOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 451
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 273
+    END
+
+    IDD_EDIT_AI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 185
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 110
+    END
+
+    "CONNECT", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 117
+    END
+
+    "CHAT", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", " \0"
+            VALUE "FileDescription", "NetNova\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "NetNova\0"
+            VALUE "LegalCopyright", "Copyright © 1996\0"
+            VALUE "OriginalFilename", "NetNova.exe\0"
+            VALUE "ProductName", "  NetNova\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDC_COLOR_BLACK     "Display player names over their avatars"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

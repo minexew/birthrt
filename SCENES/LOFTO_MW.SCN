@@ -1,0 +1,32 @@
+[Version]
+1.0
+[Sounds]
+2
+[Music]
+1
+[Panorama]
+Back01c
+Back01d
+Back01c
+Back01d
+Back01e
+Back01c
+Back01d
+Back01e
+Back01c
+Back01d
+[QuestThingType]
+401
+[Wad]
+lofto_mw.wad
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 5
+[Exit]
+4
+902 lofto2mw
+903 lofto2mw
+904 lofto2mw
+907 lofto2mw

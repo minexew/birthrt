@@ -1,0 +1,3 @@
+^F02^W304Keirvald Tower liegt außerhalb der Hauptstadt Coeranys auf dem Besitztum eines unbedeutenden Barons an einem Flußufer, umgeben von Sümpfen. Die festen Mauern der Burg sind noch gut erhalten, werden aber immer mehr von Pflanzen überwuchert. Der Abkömmling der Chimäre, die Faeles Ring bewacht, ist irgendwie über das Sumpfgebiet in den Turm gekommen. Zusammen mit der Brut aus den Sümpfen und Untoten terrorisiert sie nun die Leute im Dorf. Das stürzt die ganze Region in Furcht. Nur das Licht Eurer Gegenwart kann vielleicht der Bevölkerung dieser geplagten Gegend die Freiheit bringen. 
+^C064ZIEL: BESIEGEN SIE DEN ABKÖMMLING DER CHIMÄRE, UND FINDEN SIE FAELES RING
+

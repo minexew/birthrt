@@ -1,0 +1,20 @@
+^F11ABENTEUER-STEUERUNG
+ 
+^F02+ und - auf dem Ziffernblock: Vergrößern und Verkleinern der Karte
+Pfeiltasten^t048Kamera in entsprechende Richtung schwenken 
+F3^t048Zu sendende Nachricht eingeben
+F4^t048Auswählen, wer die Nachricht erhalten soll
+ 
+A ^t016Bewegen/Springen ^t172UMSCHALTEN ^t220Rennen
+Z ^t016Bewegen/Ducken ^t172BILD HOCH  ^t220Nach oben schauen
+V ^t016Blickfeld ändern ^t172BILD RUNTER  ^t220Nach unten schauen
+L ^t016Anführer wechseln ^t172Esc   ^t220Hauptmenü
+E ^t016Ende des Abenteuers ^t172F1    ^t220Hilfe
+ 
+EINFG  Schritt nach links ^t130LEERTASTE  ^t172Tür / Schalter bedienen
+ENTF  Schritt nach rechts ^t130F5-F8  ^t172Kamera positionieren
+ 
+M   ^t024Karte (aus, klein, groß) 
+F2  ^t024Vollbildmodus ein / aus (nur unter Windows) 
+1-6 ^t024Gelernte Zauber einsetzen 
+[ und ]  Bildschirmausschnitt verkleinern / vergrößern

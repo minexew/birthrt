@@ -1,0 +1,795 @@
+# DESCRIPTION
+# -----------
+# Generic make file for a C program.
+
+# If this makefile is called "makefile" then just run WMAKE.
+# If it has another name such as "example.mak" then you have to
+# give the file name at the command line:
+#   WMAKE /f example.mak
+
+# BEGINNING OF MAKE FILE....
+
+##########################
+## User settable macros ##
+##########################
+
+ASM = ml
+##AFLAGS = -5p
+AFLAGS = /Gz /c /Cp /Zm /Zp4 /DDEBUG
+ExeFile  =
+
+CCompiler = wcc386
+CPPCompiler = wpp386
+
+# This is a wmake style makefile
+
+# Provide helpful messages for runtime mistakes.
+!ifndef OS
+!error "Please define OS"
+!endif
+
+!ifeq RAND ON
+Rand_Flag = -d_RANDLOG
+!else
+Rand_Flag =
+!endif
+
+
+!ifeq OS DOS
+op_sys = dos
+!else
+!ifeq OS WIN95
+op_sys = win
+!else
+!error "OS must be DOS or WIN95"
+!endif
+!endif
+
+!ifndef DEBUG
+!ifndef PROFILE
+!error "Please define DEBUG"
+!endif
+!endif
+
+!ifeq DEBUG ON
+version = debugging
+Mem_Check = -dMEMORY_CHK
+Vec_Check = -d_VECTOR_CHK
+!else
+!ifeq DEBUG OFF
+version = production
+Mem_Check =
+Vec_Check =
+!else
+!ifeq PROFILE ON
+version = profiling
+Mem_Check =
+Vec_Check =
+!else
+!error "DEBUG must either be ON or OFF"
+!endif
+!endif
+!endif
+
+LogComments =
+!ifeq DEBUG ON
+!ifeq OS WIN95
+LogComments = -d_LOGCOMMENT
+!endif
+!endif
+
+!ifeq LOGCOMMENT ON
+LogComments = -d_LOGCOMMENT
+!endif
+
+soundsys = on
+!ifeq SOUND OFF
+soundsys = off
+!endif
+
+ForeignVer =
+FrenchVer =
+!ifeq FRENCH ON
+FrenchVer = -d_FRENCHVER
+ForeignVer = -d_FOREIGNVER
+!endif
+
+GermanVer =
+!ifeq GERMAN ON
+GermanVer = -d_GERMANVER
+ForeignVer = -d_FOREIGNVER
+!endif
+
+ReleaseVer =
+!ifeq RELEASE ON
+ReleaseVer = -d_RELEASE
+!endif
+
+DemoVer =
+!ifeq DEMO ON
+DemoVer = -d_DEMO
+!endif
+
+NetDemoVer =
+!ifeq NETDEMO ON
+NetDemoVer = -d_NETDEMO
+!endif
+
+JuneDemoVer =
+!ifeq JUNEDEMO ON
+JuneDemoVer = -d_JUNEDEMO
+!endif
+!ifeq NETJUNEDEMO ON
+JuneDemoVer = -d_JUNEDEMO -d_NETJUNEDEMO
+!endif
+
+MultiPlayOnly =
+!ifeq MULTIPLAY ON
+MultiPlayOnly = -d_MULTIPLAY_ONLY
+!endif
+
+CRC_Check =
+!ifeq CRCCHECK ON
+CRC_Check = -dCRC_CHK
+!endif
+
+CharEdFlag =
+!ifeq CHARED ON
+CharEdFlag = -d_CHARED
+!endif
+
+StatusFlag =
+!ifeq STATUS ON
+StatusFlag = -d_STATUS
+!endif
+
+WadBuildersVer =
+!ifeq WADBUILDERS ON
+WadBuildersVer = -d_WADBUILDERS
+!endif
+
+msg_debugging  = linking $(op_sys) debug version ...
+msg_production = linking $(op_sys) production version ...
+msg_profiling = linking $(op_sys) profile version ...
+
+dos_debugging_object_dir = dosobjsd
+dos_production_object_dir = dosobjsr
+dos_profiling_object_dir = dosobjsd
+dos_browser_dir = dosmbr
+dos_browser_database = nova.dbr
+dos_executable = nova.exe
+dos_system = dos4g
+dos_sys_dir = .\pcsys\
+dos_debugging_sound_on_lib = lib SOLAUDIO\LIB\DOS\W\SOLAUDDD.lib
+dos_debugging_sound_off_lib =
+dos_profiling_sound_on_lib = lib SOLAUDIO\LIB\DOS\W\SOLAUDDD.lib
+dos_profiling_sound_off_lib =
+dos_production_sound_on_lib = lib SOLAUDIO\LIB\DOS\W\SOLAUDDD.lib
+dos_production_sound_off_lib =
+dos_sound_on = -dAUDIO_LIB
+dos_sound_off =
+dos_graphics_lib =
+dos_multimedia_lib =
+
+win_debugging_object_dir = winobjsd
+win_profiling_object_dir = winobjsd
+win_production_object_dir = winobjsr
+win_browser_dir = winmbr
+win_browser_database = nova95.dbr
+win_executable = nova95.exe
+win_system = nt_win
+win_sys_dir = .\winsys\
+win_debugging_sound_on_lib =	lib SOLAUDIO\LIB\WIN\W\SOLAUDWD.lib
+win_debugging_sound_off_lib =
+win_profiling_sound_on_lib =	lib SOLAUDIO\LIB\WIN\W\SOLAUDWD.lib
+win_profiling_sound_off_lib =
+win_production_sound_on_lib =	 lib SOLAUDIO\LIB\WIN\W\SOLAUDW.lib
+win_production_sound_off_lib =
+win_sound_on = -dAUDIO_LIB
+win_sound_off =
+win_graphics_lib = lib ddraw.lib
+win_multimedia_lib = lib winmm.lib
+
+
+OBJD = $($(op_sys)_$(version)_object_dir)
+MBRD = $($(op_sys)_browser_dir)
+
+SYS_DIR = $($(op_sys)_sys_dir)
+
+Exe_file     = $($(op_sys)_executable)
+System       = $($(op_sys)_system)
+SoundFlag    = $($(op_sys)_sound_$(soundsys))
+
+!ifndef LIBRARIES
+LIBRARIES    = $($(op_sys)_graphics_lib) $($(op_sys)_multimedia_lib) $($(op_sys)_$(version)_sound_$(soundsys)_lib)
+!endif
+
+!ifdef %LIB
+LIBPATH = libpath $(%LIB)
+!else
+LIBPATH =
+!endif
+
+
+dos_production_sound_on_Includes= -i=SOLAUDIO\INC
+dos_production_sound_off_Includes=
+dos_debugging_sound_on_Includes=  -i=SOLAUDIO\INC
+dos_debugging_sound_off_Includes=
+dos_profiling_sound_on_Includes=  -i=SOLAUDIO\INC
+dos_profiling_sound_off_Includes=
+
+win_production_sound_on_Includes=  -i=SOLAUDIO\INC
+win_production_sound_off_Includes=
+win_debugging_sound_on_Includes=	  -i=SOLAUDIO\INC
+win_debugging_sound_off_Includes=
+win_profiling_sound_on_Includes=	  -i=SOLAUDIO\INC
+win_profiling_sound_off_Includes=
+
+
+#compiler option flags
+# makefile flag to just preprocess a file.
+preprocess_flag = -pcl
+pentium_profiling = et
+
+browser_info = -db
+remove_stack_checking = -s
+# save & restore segment registers
+save_registers = -r
+optimize_on = -5s -otexan
+optimize_off = -5s -od
+warning_level = -w3
+# Note: -d2 implies -od (No optimizations.)
+debugging_on = -d2 -d_DEBUG -hw
+profiling_on = -d1 -hw
+large_memory_model = -mf
+# Note: -za for Ansi C implies that enum are int.
+no_lang_extension = -za
+# pack structures at one byte
+one_byte_data_packing = -zp1
+# minimum int enumerations
+int_enumerations = -ei
+default_signed_chars = -j
+quiet = -zq
+
+# Following doesn't work for DOS debugger
+#	$(optimize_on) &
+
+# Following is best setup for WATCOM DOS debugger.
+!ifdef PREPROCESS
+dos_debugging_Compiler_Options = &
+	$(warning_level) &
+	$(quiet) &
+	$(preprocess_flag) &
+	$(SoundFlag) $(ReleaseVer) $(ForeignVer) $(FrenchVer) $(GermanVer) $(Mem_Check) $(Vec_Check) $(CRC_Check) $(NetDemoVer) $(DemoVer) $(JuneDemoVer) $(MultiPlayOnly) $(WadBuildersVer) $($(op_sys)_$(version)_sound_$(sound_sys)_Includes)
+
+dos_production_Compiler_Options = &
+	$(dos_debugging_Compiler_Options)
+!else
+dos_debugging_Compiler_Options = &
+	$(optimize_off) &
+	$(debugging_on) &
+	$(remove_stack_checking) &
+	$(warning_level) &
+	$(save_registers) &
+	$(quiet) &
+	$(one_byte_data_packing) &
+	$(default_signed_chars) &
+	-bt=$(System) -fo$(OBJD)\ &
+	$(SoundFlag) $(ReleaseVer) $(ForeignVer) $(FrenchVer) $(GermanVer) $(Mem_Check) $(Vec_Check) $(CRC_Check) $(NetDemoVer) $(JuneDemoVer) $(MultiPlayOnly) $(DemoVer) $(WadBuildersVer) $($(op_sys)_$(version)_sound_$(soundsys)_Includes)
+
+dos_profiling_Compiler_Options = &
+	$(optimize_on) &
+	$(remove_stack_checking) &
+	$(warning_level) &
+	$(quiet) &
+	$(profiling_on) &
+	$(one_byte_data_packing) &
+	$(default_signed_chars) &
+	-bt=$(System) -fo=$(OBJD)\ &
+	$(SoundFlag) $(ReleaseVer) $(ForeignVer) $(FrenchVer) $(GermanVer) $(Mem_Check) $(Vec_Check) $(CRC_Check) $(NetDemoVer) $(DemoVer) $(JuneDemoVer) $(MultiPlayOnly) $(WadBuildersVer)  &
+	$($(op_sys)_$(version)_sound_$(soundsys)_Includes)
+	
+# Following is more optimized
+dos_production_Compiler_Options = &
+	$(optimize_on) &
+	$(remove_stack_checking) &
+	$(warning_level) &
+	$(quiet) &
+	$(one_byte_data_packing) &
+	$(default_signed_chars) &
+	-bt=$(System) -fo=$(OBJD)\ &
+	$(SoundFlag) $(ForeignVer) $(FrenchVer) $(GermanVer) $(ReleaseVer) $(Mem_Check) $(Vec_Check) $(CRC_Check) $(NetDemoVer) $(DemoVer) $(JuneDemoVer) $(MultiPlayOnly) $(WadBuildersVer)  &
+	$($(op_sys)_$(version)_sound_$(soundsys)_Includes)
+!endif
+
+dos_browser_options = &
+	$(browser_info) &
+	$(optimize_off) &
+	$(debugging_on) &
+	$(warning_level) &
+	$(quiet) &
+	$(one_byte_data_packing) &
+	$(default_signed_chars) &
+	-bt=$(System) -fo=$(MBRD)\ &
+	$(SoundFlag) $(ReleaseVer) $(Mem_Check) $(Vec_Check) $(CRC_Check) $(NetDemoVer) $(DemoVer) $(JuneDemoVer) $(ForeignVer) $(FrenchVer) $(GermanVer) $(MultiPlayOnly) $(WadBuildersVer) $($(op_sys)_$(version)_sound_$(soundsys)_Includes)
+
+# Linker_options   =
+dos_debugging_Linker_options  = debug all option stack=32k option map
+dos_profiling_Linker_options  = debug all option stack=32k option map
+!ifeq DEBUGLINK ON
+dos_production_Linker_options  = debug all option stack=32k option map
+!else
+dos_production_Linker_Options = option stack=32k option map
+!endif
+
+
+RCCompiler = wrc
+RSC_FLAGS = -q -ad -bt=nt
+RES_OPTIONS = -r -q -ad -bt=nt
+
+!ifeq CHARED ON
+RSC_FLAGS = -q -ad -bt=nt -d=_CHARED
+RES_OPTIONS = -r -q -ad -bt=nt -d=_CHARED
+!endif
+
+!ifeq MULTIPLAY ON
+RSC_FLAGS = -q -ad -bt=nt -d=_MULTIPLAY_ONLY
+RES_OPTIONS = -r -q -ad -bt=nt -d=_MULTIPLAY_ONLY
+!endif
+
+!ifdef PREPROCESS
+win_debugging_Compiler_Options = &
+	$($(op_sys)_$(version)_sound_$(soundsys)_Includes)&
+	$(LogComments) -dWIN32 -d_WINDOWS $(SoundFlag) $(ReleaseVer) $(ForeignVer) $(FrenchVer) $(GermanVer) $(Rand_Flag) $(Mem_Check) $(Vec_Check) $(CRC_Check) $(NetDemoVer) $(DemoVer) $(JuneDemoVer) $(MultiPlayOnly) $(StatusFlag)&
+	$(CharEdFlag) &
+	$(warning_level) &
+	$(quiet) &
+	$(preprocess_flag)
+	
+win_production_Compiler_Options = &
+	$(win_debugging_Compiler_Options)
+	
+!else
+win_debugging_Compiler_Options = &
+	$($(op_sys)_$(version)_sound_$(soundsys)_Includes)&
+	$(LogComments) -dWIN32 -d_WINDOWS $(SoundFlag) $(ReleaseVer) $(ForeignVer) $(FrenchVer) $(GermanVer) $(Rand_Flag) $(Mem_Check) $(Vec_Check) $(CRC_Check) $(NetDemoVer) $(DemoVer) $(JuneDemoVer) $(MultiPlayOnly) $(StatusFlag)&
+	$(CharEdFlag) &
+	$(optimize_on) &
+	$(debugging_on) &
+	$(warning_level) &
+	$(quiet) &
+	$(one_byte_data_packing) &
+	$(default_signed_chars) &
+	$(large_memory_model) &
+	-bt=nt -fo=$(OBJD)\
+	
+win_profiling_Compiler_Options = &
+	$($(op_sys)_$(version)_sound_$(soundsys)_Includes)&
+	$(LogComments) -dWIN32 -d_WINDOWS $(SoundFlag) $(ReleaseVer) $(ForeignVer) $(FrenchVer) $(GermanVer) $(Rand_Flag) $(Mem_Check) $(Vec_Check) $(CRC_Check) $(NetDemoVer) $(DemoVer) $(JuneDemoVer) $(MultiPlayOnly) $(StatusFlag)&
+	$(CharEdFlag) &
+	$(profiling_on) &
+	$(optimize_on) &
+	$(warning_level) &
+	$(quiet) &
+	$(one_byte_data_packing) &
+	$(default_signed_chars) &
+	$(large_memory_model) &
+	-bt=nt -fo=$(OBJD)\
+	
+win_production_Compiler_Options = &
+	$($(op_sys)_$(version)_sound_$(soundsys)_Includes)&
+	$(LogComments) -dWIN32 -d_WINDOWS $(SoundFlag) $(ReleaseVer) $(ForeignVer) $(FrenchVer) $(GermanVer) $(Rand_Flag) $(Mem_Check) $(Vec_Check) $(CRC_Check) $(NetDemoVer) $(DemoVer) $(JuneDemoVer) $(MultiPlayOnly) $(StatusFlag)&
+	$(CharEdFlag) &
+	$(optimize_on) &
+	$(warning_level) &
+	$(quiet) &
+	$(one_byte_data_packing) &
+	$(default_signed_chars) &
+	$(large_memory_model) &
+	-bt=nt -fo=$(OBJD)\
+!endif
+
+win_browser_options = &
+	$(browser_info) &
+	$(optimize_off) &
+	$(debugging_on) &
+	$(LogComments) $($(op_sys)_$(version)_sound_$(soundsys)_Includes)&
+	-dWIN32 -d_WINDOWS $(SoundFlag) $(ReleaseVer) $(ForeignVer) $(FrenchVer) $(GermanVer) $(Rand_Flag) $(Mem_Check) $(Vec_Check) $(CRC_Check) $(NetDemoVer) $(DemoVer) $(JuneDemoVer) $(MultiPlayOnly) $(StatusFlag)&
+	$(CharEdFlag) &
+	$(quiet) &
+	$(warning_level) &
+	$(one_byte_data_packing) &
+	$(default_signed_chars) &
+	$(large_memory_model) &
+	-bt=nt -fo=$(MBRD)\
+	
+win_debugging_Linker_Options = debug all option map option q option symf
+win_profiling_Linker_Options = debug all option map option q option symf
+!ifeq DEBUGLINK ON
+win_production_Linker_Options = debug all option q option map option symf
+!else
+win_production_Linker_Options = option q option map
+!endif
+
+
+SYSTEM_OBJ =	&
+	$(OBJD)\memmanag.obj &
+	$(OBJD)\regions.obj &
+	$(OBJD)\menu.obj     &
+	$(OBJD)\panel.obj     &
+	$(OBJD)\request.obj     &
+	$(OBJD)\resmanag.obj  &
+	lzssdcod.obj  &
+	$(OBJD)\system.obj &
+	$(OBJD)\strmgr.obj &
+	$(OBJD)\fopen.obj &
+	$(OBJD)\findfile.obj &
+	$(OBJD)\assert.obj &
+	$(OBJD)\vdpmi.obj &
+	$(OBJD)\random.obj &
+
+MACHINE_OBJ =	&
+	$(OBJD)\keyint.obj   &
+	$(OBJD)\machine.obj  &
+	$(OBJD)\mouse.obj    &
+	$(OBJD)\sysgraph.obj &
+	$(OBJD)\statisti.obj &
+	$(OBJD)\util.obj
+
+DOS_MAIN_OBJ =		&
+	$(OBJD)\main.obj    &
+	
+WIN95_MAIN_OBJ =		&
+	$(OBJD)\main.obj    &
+	
+WIN95_OBJ =		&
+	$(OBJD)\swinutil.obj &
+	$(OBJD)\mciutil.obj &
+	$(OBJD)\ddraw.obj &
+	$(OBJD)\messque.obj &
+	$(OBJD)\mulplay.obj &
+	$(OBJD)\gmulplay.obj &
+	$(OBJD)\pnetmod.obj &
+	$(OBJD)\crc.obj &
+	$(OBJD)\mono.obj &
+	$(OBJD)\mono_c.obj &
+	$(OBJD)\status.obj &
+	$(OBJD)\filexfer.obj &
+	$(OBJD)\gotourl.obj
+				
+CHARED_OBJ =	&
+	$(OBJD)\main.obj    &
+	$(OBJD)\chared.obj  &
+	$(OBJD)\charedin.obj &
+	$(OBJD)\appear.obj  &
+	$(OBJD)\bloodreq.obj  &
+	$(OBJD)\ava.obj  &
+	$(OBJD)\getfile.obj  &
+	$(OBJD)\playrace.obj  &
+	
+ENGINE_OBJ =	&
+	$(OBJD)\2dmouse.obj &
+	$(OBJD)\bump.obj    &
+	$(OBJD)\blockm.obj  &
+	$(OBJD)\camera.obj  &
+	$(OBJD)\clip.obj    &
+	$(OBJD)\convert.obj &
+	$(OBJD)\cue.obj     &
+	$(OBJD)\doors.obj   &
+	$(OBJD)\extent.obj  &
+	$(OBJD)\level.obj   &
+	$(OBJD)\map.obj     &
+	$(OBJD)\player.obj  &
+	$(OBJD)\point.obj   &
+	$(OBJD)\reject.obj  &
+	$(OBJD)\render.obj  &
+	$(OBJD)\scan.obj    &
+	$(OBJD)\sectors.obj &
+	$(OBJD)\spans.obj   &
+	$(OBJD)\task.obj    &
+	$(OBJD)\textures.obj &
+	$(OBJD)\things.obj  &
+	$(OBJD)\timer.obj  &
+	$(OBJD)\dynamtex.obj &
+
+GAME_OBJ =	&
+	$(OBJD)\actions.obj &
+	$(OBJD)\actnmenu.obj &
+	$(OBJD)\adventur.obj &
+	$(OBJD)\advprep.obj &
+	$(OBJD)\ai_utils.obj &
+	$(OBJD)\aibtlcap.obj &
+	$(OBJD)\aifolply.obj &
+	$(OBJD)\aifirebl.obj &
+	$(OBJD)\aifolpth.obj &
+	$(OBJD)\aiftseq.obj &
+	$(OBJD)\aigargl.obj &
+	$(OBJD)\aihhound.obj &
+	$(OBJD)\aiharpy.obj &
+	$(OBJD)\aihorse.obj &
+	$(OBJD)\aileader.obj &
+	$(OBJD)\aipong.obj &
+	$(OBJD)\aipthatt.obj &
+	$(OBJD)\aispider.obj &
+	$(OBJD)\aispectr.obj &
+	$(OBJD)\aistun.obj &
+	$(OBJD)\aiwyvern.obj &
+	$(OBJD)\athing.obj &
+	$(OBJD)\anim.obj &
+	$(OBJD)\avatar.obj &
+	$(OBJD)\battle.obj &
+	$(OBJD)\battleui.obj &
+	$(OBJD)\combatui.obj &
+	$(OBJD)\combcamr.obj &
+	$(OBJD)\combcntl.obj &
+	$(OBJD)\combdata.obj &
+	$(OBJD)\combopts.obj &
+	$(OBJD)\combtarg.obj &
+	$(OBJD)\charsel.obj &
+	$(OBJD)\describe.obj    &
+	$(OBJD)\demoflic.obj    &
+	$(OBJD)\dice.obj  &
+	$(OBJD)\fileutil.obj    &
+	$(OBJD)\flicplay.obj    &
+	$(OBJD)\game.obj    &
+	$(OBJD)\gamekey.obj    &
+	$(OBJD)\gamemap.obj    &
+	$(OBJD)\gameopt.obj    &
+	$(OBJD)\gametype.obj    &
+	$(OBJD)\playid.obj    &
+	$(OBJD)\hmgr.obj    &
+	$(OBJD)\invntory.obj    &
+	$(OBJD)\invngui.obj    &
+	$(OBJD)\itemtype.obj    &
+	$(OBJD)\itemeqp.obj    &
+	$(OBJD)\itemutil.obj    &
+	$(OBJD)\bloodeff.obj    &
+	$(OBJD)\itemeff.obj    &
+	$(OBJD)\mapeff.obj    &
+	$(OBJD)\reliceff.obj    &
+	$(OBJD)\spelleff.obj    &
+	$(OBJD)\regen.obj    &
+	$(OBJD)\loadsave.obj    &
+	$(OBJD)\doshelp.obj    &
+	$(OBJD)\listbox.obj    &
+	$(OBJD)\regents.obj    &
+	$(OBJD)\regutil.obj    &
+	$(OBJD)\magic.obj    &
+	$(OBJD)\mapai.obj    &
+	$(OBJD)\mapaitbl.obj    &
+	$(OBJD)\margin.obj    &
+	$(OBJD)\menueff.obj    &
+	$(OBJD)\multimap.obj &
+	$(OBJD)\multiui.obj &
+	$(OBJD)\panorama.obj &
+	$(OBJD)\parch.obj &
+	$(OBJD)\places.obj &
+	$(OBJD)\playhit.obj &
+	$(OBJD)\playstat.obj &
+	$(OBJD)\practice.obj &
+	$(OBJD)\provdata.obj &
+	$(OBJD)\provtax.obj &
+	$(OBJD)\realm.obj &
+	$(OBJD)\regrelic.obj &
+	$(OBJD)\report.obj &
+	$(OBJD)\scene.obj &
+	$(OBJD)\scnai.obj &
+	$(OBJD)\scncamr.obj &
+	$(OBJD)\scnkey.obj &
+	$(OBJD)\scnmap.obj &
+	$(OBJD)\scnmgr.obj &
+	$(OBJD)\scnver.obj &
+	$(OBJD)\slfrdemo.obj &
+	$(OBJD)\tmsgbox.obj &
+	$(OBJD)\tutor.obj    &
+	$(OBJD)\tutrmenu.obj &
+	$(OBJD)\infobox.obj &
+	$(OBJD)\units.obj
+
+	
+D_AND_D_OBJ =	&
+	$(OBJD)\armor.obj &
+	$(OBJD)\ability.obj &
+	$(OBJD)\alignmnt.obj &
+	$(OBJD)\blood.obj &
+	$(OBJD)\charisma.obj &
+	$(OBJD)\constitn.obj &
+	$(OBJD)\dexterit.obj  &
+	$(OBJD)\experien.obj  &
+	$(OBJD)\explevel.obj  &
+	$(OBJD)\intelli.obj    &
+	$(OBJD)\playclas.obj &
+	$(OBJD)\rlmspell.obj  &
+	$(OBJD)\spell.obj   &
+	$(OBJD)\spellpro.obj &
+	$(OBJD)\strength.obj &
+	$(OBJD)\weapon.obj  &
+	$(OBJD)\wisdom.obj  &
+	$(OBJD)\version.obj &
+				
+SOUND_OBJ =	&
+	$(OBJD)\sound.obj &
+	$(OBJD)\redbook.obj &
+	$(OBJD)\sndvox.obj
+
+SIERRA_SOUND_OBJ =	&
+	$(OBJD)\custmsys.obj
+
+WINDOWS_SOUND_OBJ =	&
+	$(OBJD)\sndutil.obj &
+	$(OBJD)\wave.obj &
+	$(OBJD)\swinutil.obj
+
+
+###############################
+## Sound Configuration Flags ##
+###############################
+
+!ifeq OS DOS
+sound_on_objs = $(SOUND_OBJ) $(SIERRA_SOUND_OBJ)
+sound_off_objs = $(SOUND_OBJ)
+!else
+sound_on_objs = $(SOUND_OBJ) $(SIERRA_SOUND_OBJ)
+sound_off_objs = $(SOUND_OBJ)
+!endif
+
+dos_debugging_OBJ =
+dos_production_OBJ =
+dos_profiling_OBJ =
+
+win_debugging_OBJ = $(OBJD)\debug.obj
+win_profiling_OBJ = $(OBJD)\debug.obj
+			
+win_production_OBJ = $(OBJD)\debug.obj &
+			
+STRMGR_OBJ = $(OBJD)\strmake.obj
+
+####################
+## Makefile rules ##
+####################
+
+install : version.cpp CleanVersion strmake.exe strdat.dat $(Exe_file)
+
+## Realm AI version number remainder
+version.cpp: mapai.cpp gamemap.cpp actnmenu.cpp multimap.cpp multiui.cpp mapaitbl.cpp
+	@echo *
+	@echo *
+	@echo *  Did you update the RealmAIVersionNumber in version.cpp?
+	@echo *
+	@echo *
+	
+#####################
+##  Game Exe's     ##
+#####################
+nova.exe: $(DOS_MAIN_OBJ) $(SYSTEM_OBJ) $(MACHINE_OBJ) $(ENGINE_OBJ) $(GAME_OBJ) $(D_AND_D_OBJ) $(sound_$(soundsys)_objs) $($(op_sys)_$(version)_OBJ)
+        echo $(msg_$(version))
+        *wlink system $(System) $(dos_$(version)_Linker_Options) name $^. &
+                file {$(DOS_MAIN_OBJ) $(SYSTEM_OBJ) $(MACHINE_OBJ) $(ENGINE_OBJ) $(GAME_OBJ) $(D_AND_D_OBJ) $(sound_$(soundsys)_objs) $($(op_sys)_$(version)_OBJ) mem.obj} &
+                $(LIBPATH) $(LIBRARIES)
+
+nova95.exe: $(WIN95_MAIN_OBJ) $(WIN95_OBJ) $(SYSTEM_OBJ) $(MACHINE_OBJ) $(ENGINE_OBJ) $(GAME_OBJ) $(D_AND_D_OBJ) $(sound_$(soundsys)_objs) nova95.res $($(op_sys)_$(version)_OBJ)
+        echo $(msg_$(version))
+        *wlink system $(System) $(win_$(version)_Linker_Options) name $^. &
+                file {$(WIN95_MAIN_OBJ) $(WIN95_OBJ) $(SYSTEM_OBJ) $(MACHINE_OBJ) $(ENGINE_OBJ) $(GAME_OBJ) $(D_AND_D_OBJ) $(sound_$(soundsys)_objs) $($(op_sys)_$(version)_OBJ) mem.obj} &
+                $(LIBPATH) $(LIBRARIES)
+        *wrc $(RSC_FLAGS) nova95.rc
+
+
+#####################
+##  Tool Exe's     ##
+#####################
+chared.exe: $(CHARED_OBJ) $(WIN95_OBJ) $(SYSTEM_OBJ) $(MACHINE_OBJ) $(ENGINE_OBJ) $(GAME_OBJ) $(D_AND_D_OBJ) chared.res $(sound_$(soundsys)_objs) $($(op_sys)_$(version)_OBJ)
+        echo $(msg_$(version))
+        *wlink system $(System) $(win_$(version)_Linker_Options) name $^. &
+                file {$(CHARED_OBJ) $(WIN95_OBJ) $(SYSTEM_OBJ) $(MACHINE_OBJ) $(ENGINE_OBJ) $(GAME_OBJ) $(D_AND_D_OBJ) $(sound_$(soundsys)_objs) $($(op_sys)_$(version)_OBJ) } &
+                $(LIBPATH) $(LIBRARIES)
+        *wrc $(RSC_FLAGS) chared.rc
+        *copy strdat.dat chared.dat
+
+strdat.dat: strdat.txt strmake.exe
+	echo Making $^.
+	strmake
+
+strenum.h: strdat.txt strmake.exe
+	echo Making $^.
+	strmake
+
+strmake.exe: $(STRMGR_OBJ)
+	echo Making $^.
+        *wlink system $(System) $(dos_$(version)_Linker_Options) name $^. &
+                file {$(STRMGR_OBJ) } &
+                $(LIBPATH) $(LIBRARIES)
+
+CleanVersion : .SYMBOLIC
+	del $(OBJD)\version.obj
+	
+	
+.EXTENSIONS:
+.EXTENSIONS: .exe .obj .mbr .asm .res .cpp .c .h .hxx .hpp .rc
+
+# Search Paths.
+.c: $(SYS_DIR);.
+.cpp: $(SYS_DIR);.
+
+.c.obj: .AUTODEPEND
+	*$(CCompiler) $($(op_sys)_$(version)_Compiler_Options) $<
+
+.cpp.obj: .AUTODEPEND
+	*$(CPPCompiler) $($(op_sys)_$(version)_Compiler_Options) -ew $<
+
+.rc.res: .AUTODEPEND
+	*$(RCCompiler) $(RES_OPTIONS) $<
+
+.c.mbr: .AUTODEPEND
+	*$(CCompiler) $($(op_sys)_browser_options) $<
+
+.cpp.mbr: .AUTODEPEND
+	*$(CPPCompiler) $($(op_sys)_browser_options) $<
+
+.asm.obj: .SYMBOLIC
+        *$(ASM) $(AFLAGS) /Fo$(OBJD)\ $<
+
+clean : .SYMBOLIC
+        del $(OBJD)\*.obj
+        del *.res
+        del *.err
+
+clean_all : .SYMBOLIC
+	del $(win_debugging_object_dir)\*.obj
+	del $(win_profiling_object_dir)\*.obj
+	del $(win_production_object_dir)\*.obj
+	del $(dos_debugging_object_dir)\*.obj
+	del $(dos_profiling_object_dir)\*.obj
+	del $(dos_production_object_dir)\*.obj
+        del *.res
+        del *.err
+
+CleanCompile: clean install
+      	echo Done.
+
+CleanAllCompile: clean_all install
+	 echo Done.
+
+# Remove the sound only dependant files.
+CleanSound : .SYMBOLIC
+	del $(OBJD)\sound.obj
+	del $(OBJD)\main.obj
+	
+MakeDirs : $(win_production_object_dir) &
+	$(win_debugging_object_dir) &
+	$(dos_debugging_object_dir) &
+	$(dos_production_object_dir)
+	
+$(win_production_object_dir) : .SYMBOLIC
+	 MKDIR $^.
+	
+$(win_debugging_object_dir) : .SYMBOLIC
+	 MKDIR $^.
+	
+$(dos_production_object_dir) : .SYMBOLIC
+	 MKDIR $^.
+	
+$(dos_debugging_object_dir) : .SYMBOLIC
+	 MKDIR $^.
+	
+#$(win_profiling_object_dir) : .SYMBOLIC
+#	 MKDIR $^.
+
+#$(dos_profiling_object_dir) : .SYMBOLIC
+#	 MKDIR $^.
+	
+CreateBrowser : $($(op_sys)_browser_database)
+
+CleanBrowser : .SYMBOLIC
+	del $(MBRD)\*.mbr
+
+#nova.dbr: $(MBRD) $(SYSTEM_MBR) $(MACHINE_MBR) $(ENGINE_MBR) $(GAME_MBR) $(D_AND_D_MBR) $(SOUND_MBR) $(SERRIA_SOUND_MBR)
+#	wbrg database $^. file { $(MBRD)/*.mbr }
+	
+#nova95.dbr : $(MBRD) $(SYSTEM_MBR) $(MACHINE_MBR) $(WIN95_MBR) $(ENGINE_MBR) $(GAME_MBR) $(D_AND_D_MBR) $(SOUND_MBR) $(WINDOWS_SOUND_MBR)
+#	wbrg database $^. file { $(MBRD)/*.mbr }
+	
+	
+##      proto : .SYMBOLIC
+##              protit *.c pcsys\*.c
+

@@ -1,0 +1,36 @@
+[Version]
+1.0
+[Sounds]
+2
+[Music]
+10
+[Panorama]
+Back01b
+Back01c
+Back01h
+Back01b
+Back01c
+Back01h
+Back01b
+Back01c
+Back01h
+Back01c
+[QuestThingType]
+361
+[Wad]
+rourv_mw.wad
+[Pallet]
+nova_d
+[Exit]
+2
+900     rourv2mw
+905     rourv2mw
+[Map]
+1
+ZoomFactor 3
+[Notes]
+3
+1   27
+3   29
+5   17
+

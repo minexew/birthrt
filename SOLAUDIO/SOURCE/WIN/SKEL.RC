@@ -1,0 +1,15 @@
+# include "skel.hpp"
+
+skelicon ICON skel.ico
+
+Skel MENU
+     BEGIN
+           POPUP "File"
+                BEGIN
+                      MENUITEM "Exit"      IDM_EXIT
+                END
+           POPUP "Test"
+                BEGIN
+                      MENUITEM "Test",      IDM_TEST
+                END
+     END

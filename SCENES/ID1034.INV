@@ -1,0 +1,36 @@
+75
+50
+67
+
+
+// spells
+
+133 // Detect Magic
+135 // Jump
+136 // Light
+139 // Shocking Grasp
+
+130 // Blindness
+141 // Continual Light
+144 // Locate Object
+
+148 // Fly
+151 // Lightning Bolt
+
+154 // Minor Globe of Invulnerability
+155 // Stoneskin
+
+156 // Cone of Cold
+
+
+// blood abilities
+
+211 // courage
+223 // protection from evil
+
+
+// realm spells
+
+192 // Alchemy
+193 // Death Plague
+202 // Transport

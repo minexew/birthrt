@@ -1,0 +1,7 @@
+^F06 
+^F06    Baroness Fhiele Dhoesone
+^F02^W310
+      Half-elf, proud, and pragmatic, the Baroness
+      bears the burdens of rulership well.  A master
+      thief, she battles with the guilds of the realm
+      for control.

@@ -1,0 +1,2 @@
+^F02^W304Ihr seid nun auf dem Weg zu einer kleinen, aber starken Festung, ein gutes Stück außerhalb von Bindier. Ein gerissener Bandit, der das Banner von Roele aus dem königlichen Waffenlager entwendete, hat hier mit seinen Mannen Unterschlupf gefunden. Der Lärm ihrer Gelage ist in manch verregneter Nacht im ganzen Umkreis zu hören. Niemand weiß, ob ein anderer Regent ihm Rückendeckung gewährt. Sicher ist nur, daß dies der Zufluchtsort des Plünderers ist.
+^C064ZIEL: FINDEN SIE DAS BANNER VON ROELE

@@ -1,0 +1,3 @@
+^F02^W304Barrow Mound war einst ein freundlicher Ort, wird aber nun teilweise von der Spinne kontrolliert. In den unteren Tunnels wimmelt es von riesigen Archaniden und brutalen Goblin-Söldnern. Die einstigen Hallen des Palastes wurden in ein Labyrinth des Terrors verwandelt, wo im Schatten der Tod mit gierigen Augen lauert. Der König der Spinnen stößt immer weiter in die Tiefe des Labyrinths vor. Wenn man ihn findet und Kontrolle über ihn gewinnt, bedeutet dies, daß man all seine Macht und seinen Besitz erlangt.
+^C064ZIEL: BESIEGEN SIE DEN KÖNIG DER SPINNEN, UND FINDEN SIE BRENNAS GUNST
+

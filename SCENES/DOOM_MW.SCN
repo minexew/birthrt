@@ -1,0 +1,29 @@
+[Version]
+1.0
+[Music]
+6
+[Sounds]
+3
+[Panorama]
+Back01a
+Back01d
+Back01f
+Back01a
+Back01d
+Back01f
+Back01a
+Back01d
+Back01a
+Back01d
+[QuestThingType]
+393
+[Wad]
+doom_mw.wad
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 5
+[Exit]
+1
+512  doom2mw

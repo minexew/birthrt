@@ -1,0 +1,31 @@
+// magic items
+50
+73
+93
+93
+93
+68
+68
+
+// spells
+
+133 // Detect Magic
+136 // Light
+139 // Shocking Grasp
+
+141 // Continual Light
+146 // Strength
+
+151 // Lightning Bolt
+
+
+// blood abilities
+
+217 // enhanced sense - divination
+226 // travel
+
+
+// realm spells
+
+202 // Transport
+206 // Legion of the Dead

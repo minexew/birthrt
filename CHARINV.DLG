@@ -1,0 +1,32 @@
+DIALOG_CHARINV DIALOGEX FIXED IMPURE  8, 0, 395, 251
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_OVERLAPPED | WS_CAPTION | WS_VISIBLE | WS_SYSMENU
+CAPTION "Birthright Character Editor Select Inventory"
+FONT 8, "Helv"
+BEGIN
+	CONTROL "Realm:",                                      IDS_STATICTEXT, "STATIC", SS_LEFT | WS_CHILD | WS_VISIBLE, 6, 15, 33, 9
+	CONTROL "Character:",                                  IDS_STATICTEXT, "STATIC", SS_LEFT | WS_CHILD | WS_VISIBLE, 6, 33, 34, 9
+	CONTROL "[Realm name]",                                IDS_INV_REALM, "STATIC", SS_LEFT | WS_CHILD | WS_VISIBLE, 42, 15, 71, 9
+	CONTROL "[Character Name]",                            IDS_INV_CHAR, "STATIC", SS_LEFT | WS_CHILD | WS_VISIBLE, 42, 33, 97, 9
+	CONTROL "Roll",                                        IDB_INV_ROLL, "BUTTON", BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 145, 24, 40, 29
+	CONTROL "Accept selections and return to main dialog", IDOK, "BUTTON", BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 233, 9, 152, 14
+	CONTROL "Cancel selections and return to main dialog", IDCANCEL, "BUTTON", BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 233, 30, 152, 14
+	CONTROL "Select Magic Items:",                         IDS_STATICTEXT, "STATIC", SS_LEFT | WS_CHILD | WS_VISIBLE, 6, 59, 77, 8
+	CONTROL "",                                            IDL_SELECT_MAGIC_ITEMS, "LISTBOX", LBS_STANDARD | LBS_HASSTRINGS | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 6, 73, 110, 50, 0
+	CONTROL "SELECTED:",                                   IDS_STATICTEXT, "STATIC", SS_LEFT | WS_CHILD | WS_VISIBLE, 123, 59, 77, 8
+	CONTROL "",                                            IDL_LIST_MAGIC_ITEMS, "LISTBOX", LBS_STANDARD | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 124, 74, 90, 50
+	CONTROL "Select Blood Abilities:",                     IDS_STATICTEXT, "STATIC", SS_LEFT | WS_CHILD | WS_VISIBLE, 235, 60, 71, 8
+	CONTROL "",                                            IDL_SELECT_BLOOD_ABILITIES, "LISTBOX", LBS_STANDARD | LBS_HASSTRINGS | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 236, 73, 71, 50
+	CONTROL "SELECTED:",                                   IDS_STATICTEXT, "STATIC", SS_LEFT | WS_CHILD | WS_VISIBLE, 314, 60, 71, 8
+	CONTROL "",                                            IDL_LIST_BLOOD_ABILITIES, "LISTBOX", LBS_STANDARD | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 315, 74, 70, 50
+	CONTROL "Bards and Wizards Only",                      IDS_STATICTEXT, "BUTTON", BS_GROUPBOX | BS_LEFT | WS_CHILD | WS_VISIBLE, 7, 132, 381, 95
+	CONTROL "Select Spells:",                              IDS_SELECT_SPELLS_1, "STATIC", SS_LEFT | WS_CHILD | WS_VISIBLE, 19, 146, 69, 11
+	CONTROL "",                                            IDL_SELECT_SPELLS, "LISTBOX", LBS_STANDARD | LBS_HASSTRINGS | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 18, 162, 91, 50
+	CONTROL "SELECTED:",                                   IDS_SELECT_SPELLS_2, "STATIC", SS_LEFT | WS_CHILD | WS_VISIBLE, 117, 146, 69, 11
+	CONTROL "",                                            IDL_LIST_SPELLS, "LISTBOX", LBS_STANDARD | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 118, 162, 70, 50
+	CONTROL "Select Realm Spells:",                        IDS_SELECT_REALM_SPELLS_1, "STATIC", SS_LEFT | WS_CHILD | WS_VISIBLE, 203, 147, 77, 8
+	CONTROL "",                                            IDL_SELECT_REALM_SPELLS, "LISTBOX", LBS_STANDARD | LBS_HASSTRINGS | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 206, 161, 91, 50
+	CONTROL "SELECTED:",                                   IDS_SELECT_REALM_SPELLS_2, "STATIC", SS_LEFT | WS_CHILD | WS_VISIBLE, 306, 147, 77, 8
+	CONTROL "",                                            IDL_LIST_REALM_SPELLS, "LISTBOX", LBS_STANDARD | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 307, 161, 70, 50
+END
+
+

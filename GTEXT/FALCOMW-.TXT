@@ -1,0 +1,3 @@
+^F02^W304 Hier, in Falcons Roost, lebt und arbeitet Caine, Zauberer von Endier. Der Turm steht in einem Sumpfgebiet, in dem es keine Quellen gibt, und das selbst im tiefsten Winter warm bleibt. Der Turm reicht hoch in den Himmel hinauf. Seine schlanke Spitze thront mindestens 70 Meter über den Boden. Eingänge sind nicht auszumachen. Niemand weiß, woher der Turm stammt, und niemand möchte Caine danach fragen, der für sein unberechenbares Temperament bekannt ist. Legenden über eine geheimnisvolle Krone der Befehle ziehen immer wieder Neugierige an, die den Turm aus einer sicheren Entfernung von etwa einer oder zwei Meilen beobachten. 
+^C064ZIEL: FINDEN SIE DIE KRONE DER BEFEHLE
+

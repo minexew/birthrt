@@ -1,0 +1,9 @@
+^F02 
+^F06  Herzogin Laela Flaertes 
+^F02^W308
+   Die Herzogin Laela Flaertes möchte ihrem Land die
+   Unabhängigkeit von Avanil und Boeruine erhalten.
+   Zwischen diesen beiden Supermächten ein Land 
+   aufzubauen, ist ein schwieriges Unterfangen. Sie 
+   regiert weise und vermeidet alles, was ihrem Volk
+   schaden könnte, aber sie steht unter großem Druck.

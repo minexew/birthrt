@@ -1,0 +1,461 @@
+Non PURGABLE memory blocks still in use when the program quit.
+
+  Id     Size Locked Resource Moldy Class  FileName[LineNo] BlockName
+=====================================================================
+   1      404        RESOURCE MOLDY        \winsys\mouse.c[104] hics\DAGGER.PCX
+  68      176                 MOLDY         playstat.cpp[178] 1028
+1202      176                 MOLDY         playstat.cpp[178] 1029
+1203      176                 MOLDY         playstat.cpp[178] 1007
+1204      176                 MOLDY         playstat.cpp[178] 1008
+1205      176                 MOLDY         playstat.cpp[178] 1003
+1206      176                 MOLDY         playstat.cpp[178] 1082
+1207      176                 MOLDY         playstat.cpp[178] 1044
+1208      176                 MOLDY         playstat.cpp[178] 1045
+1209      176                 MOLDY         playstat.cpp[178] 1017
+1210      176                 MOLDY         playstat.cpp[178] 1018
+1211      176                 MOLDY         playstat.cpp[178] 1039
+1212      176                 MOLDY         playstat.cpp[178] 1002
+1213      176                 MOLDY         playstat.cpp[178] 1011
+1214      176                 MOLDY         playstat.cpp[178] 1012
+1215      176                 MOLDY         playstat.cpp[178] 1035
+1216      176                 MOLDY         playstat.cpp[178] 1036
+1217      176                 MOLDY         playstat.cpp[178] 1043
+1218      176                 MOLDY         playstat.cpp[178] 1042
+1219      176                 MOLDY         playstat.cpp[178] 1009
+1220      176                 MOLDY         playstat.cpp[178] 1010
+1221      176                 MOLDY         playstat.cpp[178] 1013
+1222      176                 MOLDY         playstat.cpp[178] 1014
+1223      176                 MOLDY         playstat.cpp[178] 1023
+1224      176                 MOLDY         playstat.cpp[178] 1024
+1225      176                 MOLDY         playstat.cpp[178] 1005
+1226      176                 MOLDY         playstat.cpp[178] 1006
+1227      176                 MOLDY         playstat.cpp[178] 1019
+1228      176                 MOLDY         playstat.cpp[178] 1020
+1229      176                 MOLDY         playstat.cpp[178] 1081
+1230      176                 MOLDY         playstat.cpp[178] 1999
+1231      176                 MOLDY         playstat.cpp[178] 1046
+1232      176                 MOLDY         playstat.cpp[178] 1047
+1233      176                 MOLDY         playstat.cpp[178] 1049
+1234      176                 MOLDY         playstat.cpp[178] 1050
+1235      176                 MOLDY         playstat.cpp[178] 1037
+1236      176                 MOLDY         playstat.cpp[178] 1038
+1237      176                 MOLDY         playstat.cpp[178] 1053
+1238      176                 MOLDY         playstat.cpp[178] 1083
+1239      176                 MOLDY         playstat.cpp[178] 1031
+1240      176                 MOLDY         playstat.cpp[178] 1032
+1241      176                 MOLDY         playstat.cpp[178] 1040
+1242      176                 MOLDY         playstat.cpp[178] 1041
+1243      176                 MOLDY         playstat.cpp[178] 1999
+1244      176                 MOLDY         playstat.cpp[178] 1999
+1245      176                 MOLDY         playstat.cpp[178] 1999
+1246      176                 MOLDY         playstat.cpp[178] 1999
+1247      176                 MOLDY         playstat.cpp[178] 1048
+1248      176                 MOLDY         playstat.cpp[178] 1084
+1249      176                 MOLDY         playstat.cpp[178] 1051
+1250      176                 MOLDY         playstat.cpp[178] 1052
+1251      176                 MOLDY         playstat.cpp[178] 1054
+1252      176                 MOLDY         playstat.cpp[178] 1055
+1253      176                 MOLDY         playstat.cpp[178] 1000
+1254      176                 MOLDY         playstat.cpp[178] 1030
+1255      176                 MOLDY         playstat.cpp[178] 1025
+1256      176                 MOLDY         playstat.cpp[178] 1026
+1257      176                 MOLDY         playstat.cpp[178] 1056
+1258      176                 MOLDY         playstat.cpp[178] 1085
+1259      176                 MOLDY         playstat.cpp[178] 1021
+1260      176                 MOLDY         playstat.cpp[178] 1022
+1261      176                 MOLDY         playstat.cpp[178] 1033
+1262      176                 MOLDY         playstat.cpp[178] 1034
+1263      176                 MOLDY         playstat.cpp[178] 1057
+1264      176                 MOLDY         playstat.cpp[178] 1086
+1265      176                 MOLDY         playstat.cpp[178] 1015
+1266      176                 MOLDY         playstat.cpp[178] 1016
+1267      176                 MOLDY         playstat.cpp[178] 1027
+1268      176                 MOLDY         playstat.cpp[178] 1004
+1269      176                 MOLDY         playstat.cpp[178] 1001
+1270      176                 MOLDY         playstat.cpp[178] 1058
+1271      176                 MOLDY         playstat.cpp[178] 1059
+1272      176                 MOLDY         playstat.cpp[178] 1074
+1273      176                 MOLDY         playstat.cpp[178] 1060
+1274      176                 MOLDY         playstat.cpp[178] 1061
+1275      176                 MOLDY         playstat.cpp[178] 1062
+1276      176                 MOLDY         playstat.cpp[178] 1063
+1277      176                 MOLDY         playstat.cpp[178] 1064
+1278      176                 MOLDY         playstat.cpp[178] 1065
+1279      176                 MOLDY         playstat.cpp[178] 1066
+1280      176                 MOLDY         playstat.cpp[178] 1067
+1281      176                 MOLDY         playstat.cpp[178] 1068
+1282      176                 MOLDY         playstat.cpp[178] 1069
+1283      176                 MOLDY         playstat.cpp[178] 1070
+1284      176                 MOLDY         playstat.cpp[178] 1071
+1285      176                 MOLDY         playstat.cpp[178] 1072
+1286      176                 MOLDY         playstat.cpp[178] 1073
+1287      176                 MOLDY         playstat.cpp[178] 1075
+1288      176                 MOLDY         playstat.cpp[178] 1076
+1289      176                 MOLDY         playstat.cpp[178] 1077
+1290      176                 MOLDY         playstat.cpp[178] 1078
+1291      176                 MOLDY         playstat.cpp[178] 1079
+1292      176                 MOLDY         playstat.cpp[178] 1080
+1293      176                 MOLDY         playstat.cpp[178] 1999
+1294      176                 MOLDY         playstat.cpp[178] 2000
+1295      176                 MOLDY         playstat.cpp[178] 2001
+1296      176                 MOLDY         playstat.cpp[178] 2002
+1297      176                 MOLDY         playstat.cpp[178] 2003
+1298      176                 MOLDY         playstat.cpp[178] 2004
+1299      176                 MOLDY         playstat.cpp[178] 2005
+1300      176                 MOLDY         playstat.cpp[178] 2006
+1301      176                 MOLDY         playstat.cpp[178] 2007
+1302      176                 MOLDY         playstat.cpp[178] 2008
+1303      176                 MOLDY         playstat.cpp[178] 2009
+1304      176                 MOLDY         playstat.cpp[178] 2010
+1305      176                 MOLDY         playstat.cpp[178] 2011
+1306      176                 MOLDY         playstat.cpp[178] 2012
+1307      176                 MOLDY         playstat.cpp[178] 2013
+1308      176                 MOLDY         playstat.cpp[178] 2014
+1309      176                 MOLDY         playstat.cpp[178] 2015
+1310      176                 MOLDY         playstat.cpp[178] 2016
+1311      176                 MOLDY         playstat.cpp[178] 2017
+1312      176                 MOLDY         playstat.cpp[178] 2018
+1313      176                 MOLDY         playstat.cpp[178] 2019
+1314      176                 MOLDY         playstat.cpp[178] 2020
+1315      176                 MOLDY         playstat.cpp[178] 2021
+1316      176                 MOLDY         playstat.cpp[178] 2022
+1043     2892                 MOLDY             strmgr.c[226] 45.STR
+1164     2372                 MOLDY             strmgr.c[226] 5.STR
+1166      680                 MOLDY             strmgr.c[226] 20.STR
+1174     1420                 MOLDY             strmgr.c[226] 7.STR
+1190     1516                 MOLDY             strmgr.c[226] 39.STR
+1329     2964                 MOLDY             strmgr.c[226] 2.STR
+1379       20                 MOLDY         panorama.cpp[66] 
+1380       12                 MOLDY         panorama.cpp[74] 
+1381       12                 MOLDY         panorama.cpp[74] 
+1382       12                 MOLDY         panorama.cpp[74] 
+1383       12                 MOLDY         panorama.cpp[74] 
+1384       12                 MOLDY         panorama.cpp[74] 
+1385       12                 MOLDY         panorama.cpp[74] 
+1386       12                 MOLDY         panorama.cpp[74] 
+1387       12                 MOLDY         panorama.cpp[74] 
+1388       12                 MOLDY         panorama.cpp[74] 
+1389       12                 MOLDY         panorama.cpp[74] 
+1390       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2637      144        RESOURCE MOLDY CLASS2      things.c[3172] trch03.IDA
+2638       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2642       60 FREE BLOCK
+1785       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2644       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2646       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2648       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2650       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2652       84                 MOLDY CLASS2      things.c[3158] fire03.IAM
+2664      144        RESOURCE MOLDY CLASS2      things.c[3172] fire03.IDA
+2665       84                 MOLDY CLASS2      things.c[3158] fire03.IAM
+2669      100 FREE BLOCK
+1468       84                 MOLDY CLASS2      things.c[3158] fire03.IAM
+2671       84                 MOLDY CLASS2      things.c[3158] fire03.IAM
+2673       60 FREE BLOCK
+1515       84                 MOLDY CLASS2      things.c[3158] fire03.IAM
+2675       92 FREE BLOCK
+1518       84                 MOLDY CLASS2      things.c[3158] fire03.IAM
+2677       92 FREE BLOCK
+1521       84                 MOLDY CLASS2      things.c[3158] fire03.IAM
+2679       92 FREE BLOCK
+1522       16                 MOLDY            scene.cpp[610] 
+1523       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2681       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2683       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2685      112 FREE BLOCK
+1461     8204        RESOURCE MOLDY CLASS2    resmanag.c[1526] CAVECHOT.PCX
+2544     4108        RESOURCE MOLDY CLASS2    resmanag.c[1526] MARB0207.PCX
+2552     4108        RESOURCE MOLDY CLASS2    resmanag.c[1526] DOOR07_C.PCX
+2659       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2687       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2693       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2695       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2697       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2699       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2701       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2703       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2707       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2709       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2711       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2713       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2717       92 FREE BLOCK
+1830       40 FREE BLOCK
+1570       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2719       32 FREE BLOCK
+1581       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2725       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2727       84                 MOLDY CLASS2      things.c[3158] C_WTH2.IAM
+2729      128 FREE BLOCK
+1528      144        RESOURCE MOLDY CLASS2      things.c[3172] C_WTH2.IDA
+2730       84                 MOLDY CLASS2      things.c[3158] C_SPC2.IAM
+2734       60 FREE BLOCK
+1850      144        RESOURCE MOLDY CLASS2      things.c[3172] C_SPC2.IDA
+2735       84                 MOLDY CLASS2      things.c[3158] C_WTH2.IAM
+2739      120 FREE BLOCK
+2363       84                 MOLDY CLASS2      things.c[3158] C_WTH2.IAM
+2745       84                 MOLDY CLASS2      things.c[3158] C_WTH2.IAM
+2747       84                 MOLDY CLASS2      things.c[3158] C_ZOM2.IAM
+2757      144        RESOURCE MOLDY CLASS2      things.c[3172] C_ZOM2.IDA
+2758       32 FREE BLOCK
+1537     3044        RESOURCE MOLDY CLASS2      things.c[3203] F1\L_WRF1S0.FLC
+1539     1068                 MOLDY             strmgr.c[226] 4.STR
+2750       84                 MOLDY CLASS2      things.c[3158] C_ZOM2.IAM
+2762       52 FREE BLOCK
+1543     3532        RESOURCE MOLDY CLASS2      things.c[3203] M2\L_PSM2S0.FLC
+2356     2076                 MOLDY             strmgr.c[226] 11.STR
+2663     1052                 MOLDY CLASS2      system.c[2930] 
+2893      144        RESOURCE MOLDY CLASS2      things.c[387] ELORD1.IDA
+2903      144        RESOURCE MOLDY CLASS2      things.c[387] LORDM1.IDA
+2907       32 FREE BLOCK
+2733       84                 MOLDY CLASS2      things.c[3158] CNDL01.IAM
+2764      144        RESOURCE MOLDY CLASS2      things.c[3172] CNDL01.IDA
+2765      100 FREE BLOCK
+2382       84                 MOLDY CLASS2      things.c[3158] CNDL01.IAM
+2769       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2779       84                 MOLDY CLASS2      things.c[3158] trch03.IAM
+2781       84                 MOLDY CLASS2      things.c[3158] C_ZOM2.IAM
+2803       84                 MOLDY CLASS2      things.c[3158] C_ZOM2.IAM
+2805       12 FREE BLOCK
+2792       84                 MOLDY CLASS2      things.c[3158] C_ZOM2.IAM
+2807       84                 MOLDY CLASS2      things.c[3158] C_ZOM2.IAM
+2809       84                 MOLDY CLASS2      things.c[3158] C_ZOM2.IAM
+2811       84                 MOLDY CLASS2      things.c[3158] C_ZOM2.IAM
+1563     3456                 MOLDY             strmgr.c[226] 22.STR
+2458     2292                 MOLDY CLASS2      system.c[2930] 
+2668       84                 MOLDY CLASS2      things.c[3158] C_ZOM2.IAM
+2814      120 FREE BLOCK
+1609    13260        RESOURCE MOLDY CLASS2      things.c[3203] M1\LORDM1S0.FLC
+2013     2332                 MOLDY             strmgr.c[226] 9.STR
+2378       84                 MOLDY CLASS2      things.c[3158] E_OFF3.IAM
+2852       60 FREE BLOCK
+1899     2292                 MOLDY CLASS2      system.c[2930] 
+2821      176                 MOLDY         playstat.cpp[178] 128
+2822       24 FREE BLOCK
+2824       84                 MOLDY CLASS2      things.c[3158] L_FTM1.IAM
+2856       24 FREE BLOCK
+1833     3348                 MOLDY             strmgr.c[226] 10.STR
+2364      176                 MOLDY         playstat.cpp[178] 136
+2825      176                 MOLDY         playstat.cpp[178] 128
+2827      112 FREE BLOCK
+1628     4108        RESOURCE MOLDY CLASS2    resmanag.c[1526] DOOR01_C.PCX
+2590      176                 MOLDY         playstat.cpp[178] 128
+2829       68 FREE BLOCK
+1891     2292                 MOLDY CLASS2      system.c[2930] 
+2672       84                 MOLDY CLASS2      things.c[3158] L_WRF1.IAM
+2860       16 FREE BLOCK
+2362     2292                 MOLDY CLASS2      system.c[2930] 
+2674     1388                 MOLDY CLASS2      system.c[2930] 
+2898        8 FREE BLOCK
+1836     2292                 MOLDY CLASS2      system.c[2930] 
+2676      892                 MOLDY CLASS2      system.c[2930] 
+2894      144        RESOURCE MOLDY CLASS2      things.c[387] LORDF1.IDA
+2909       28 FREE BLOCK
+2761      176                 MOLDY         playstat.cpp[178] 128
+2831      104 FREE BLOCK
+2636     2292                 MOLDY CLASS2      system.c[2930] 
+2833      176                 MOLDY         playstat.cpp[178] 140
+2834      116 FREE BLOCK
+1942     5940                 MOLDY CLASS2      system.c[2930] 
+2641      176                 MOLDY         playstat.cpp[178] 140
+2836      176                 MOLDY         playstat.cpp[178] 140
+2838       88 FREE BLOCK
+1901     2292                 MOLDY CLASS2      system.c[2930] 
+2680      892                 MOLDY CLASS2      system.c[2930] 
+2895      144        RESOURCE MOLDY CLASS2      things.c[387] PRSTM2.IDA
+2911       88 FREE BLOCK
+1757     8204        RESOURCE MOLDY CLASS2    resmanag.c[1526] DUNGCSTP.PCX
+2732      892                 MOLDY CLASS2      system.c[2930] 
+2886      576 FREE BLOCK
+2740      176                 MOLDY         playstat.cpp[178] 140
+2840      176                 MOLDY         playstat.cpp[178] 140
+2842      176                 MOLDY         playstat.cpp[178] 140
+2844      108 FREE BLOCK
+2744     1208                 MOLDY CLASS2      system.c[2930] 
+2882      260 FREE BLOCK
+2746      176                 MOLDY         playstat.cpp[178] 140
+2846       84                 MOLDY CLASS2      things.c[3158] L_PSM2.IAM
+2864       20 FREE BLOCK
+2235      892                 MOLDY CLASS2      system.c[2930] 
+2887      576 FREE BLOCK
+2784      892                 MOLDY CLASS2      system.c[2930] 
+2888      220 FREE BLOCK
+2804      176                 MOLDY         playstat.cpp[178] 140
+2848      176                 MOLDY         playstat.cpp[178] 140
+2850      100                 MOLDY         combatui.cpp[172] 
+2867       28 FREE BLOCK
+2760     2716                 MOLDY CLASS2      system.c[2930] 
+2768      120 FREE BLOCK
+1853     4108        RESOURCE MOLDY CLASS2    resmanag.c[1526] MARB0206.PCX
+2566     2716                 MOLDY CLASS2      system.c[2930] 
+2770      892                 MOLDY CLASS2      system.c[2930] 
+2889      324 FREE BLOCK
+1940     4108        RESOURCE MOLDY CLASS2    resmanag.c[1526] X_MRB021.PCX
+2619     1112                 MOLDY CLASS2      system.c[2930] 
+2808     1112                 MOLDY CLASS2      system.c[2930] 
+2810      892                 MOLDY CLASS2      system.c[2930] 
+2890     1476 FREE BLOCK
+1954     1160 FREE BLOCK
+2819      144        RESOURCE MOLDY CLASS2      things.c[3172] E_OFF3.IDA
+2853     1092 FREE BLOCK
+2854      144        RESOURCE MOLDY CLASS2      things.c[3172] L_FTM1.IDA
+2857       96 FREE BLOCK
+2655      144        RESOURCE MOLDY CLASS2      things.c[387] L_WRF1.IDA
+2861      144        RESOURCE MOLDY CLASS2      things.c[387] L_PSM2.IDA
+2865     1860 FREE BLOCK
+ 316     1432                 MOLDY             strmgr.c[226] 44.STR
+ 330     2068                 MOLDY             strmgr.c[226] 18.STR
+1181    20976                 MOLDY             strmgr.c[226] 35.STR
+1358      240                 MOLDY             strmgr.c[226] 3.STR
+1363      260 FREE BLOCK
+ 909     2420                 MOLDY             strmgr.c[226] 1.STR
+ 919     1176                 MOLDY             strmgr.c[226] 33.STR
+ 923     2300                 MOLDY             strmgr.c[226] 0.STR
+2199     5940                 MOLDY CLASS2      system.c[2930] 
+2643     1884                 MOLDY CLASS2      system.c[2930] 
+2970      276 FREE BLOCK
+2632     2884                 MOLDY CLASS2      system.c[2930] 
+2968      452 FREE BLOCK
+2002     5940                 MOLDY CLASS2      system.c[2930] 
+2645      988 FREE BLOCK
+1974     5940                 MOLDY CLASS2      system.c[2930] 
+2647     1572                 MOLDY CLASS2      system.c[2930] 
+2883      828 FREE BLOCK
+2224     4136 FREE BLOCK
+2127     5940                 MOLDY CLASS2      system.c[2930] 
+2649      616 FREE BLOCK
+1372     2836                 MOLDY             strmgr.c[226] 14.STR
+2078     5940                 MOLDY CLASS2      system.c[2930] 
+2651      164 FREE BLOCK
+1353     2828                 MOLDY             strmgr.c[226] 13.STR
+2088     5940                 MOLDY CLASS2      system.c[2930] 
+2653     2432 FREE BLOCK
+2878     2864 FREE BLOCK
+2261     3300                 MOLDY         adventur.cpp[223] 
+2868       76 FREE BLOCK
+2424     5940                 MOLDY CLASS2      system.c[2930] 
+2682      892 FREE BLOCK
+2149     5940                 MOLDY CLASS2      system.c[2930] 
+2684     1852 FREE BLOCK
+2482     5940                 MOLDY CLASS2      system.c[2930] 
+2686     1828 FREE BLOCK
+2251     5940                 MOLDY CLASS2      system.c[2930] 
+2881     2056 FREE BLOCK
+2885     2536 FREE BLOCK
+2248     5940                 MOLDY CLASS2      system.c[2930] 
+2694     1256 FREE BLOCK
+2256     8204        RESOURCE MOLDY CLASS2    resmanag.c[1526] BEAM04.PCX
+2568     5940                 MOLDY CLASS2      system.c[2930] 
+2696     4240                 MOLDY CLASS2      system.c[2930] 
+2969      708 FREE BLOCK
+2892     2440 FREE BLOCK
+2295     5940                 MOLDY CLASS2      system.c[2930] 
+2897     3092 FREE BLOCK
+2271     5940                 MOLDY CLASS2      system.c[2930] 
+2700      948 FREE BLOCK
+2318     5940                 MOLDY CLASS2      system.c[2930] 
+2702      428 FREE BLOCK
+2320    16396        RESOURCE MOLDY CLASS2    resmanag.c[1526] CAVEC_L2.PCX
+2539     8204        RESOURCE MOLDY CLASS2    resmanag.c[1526] MRB02STP.PCX
+2570     5940                 MOLDY CLASS2      system.c[2930] 
+2704     3440 FREE BLOCK
+2519     8204        RESOURCE MOLDY CLASS2    resmanag.c[1526] DUNGCHOT.PCX
+2574     5940                 MOLDY CLASS2      system.c[2930] 
+2708     2772 FREE BLOCK
+2412     4208 FREE BLOCK
+2529    16396        RESOURCE MOLDY CLASS2    resmanag.c[1526] F_CAVC01.PCX
+2604    16396        RESOURCE MOLDY CLASS2    resmanag.c[1526] C_CAVC01.PCX
+2606    16396        RESOURCE MOLDY CLASS2    resmanag.c[1526] F_CAVC04.PCX
+2608     5940                 MOLDY CLASS2      system.c[2930] 
+2710     3140 FREE BLOCK
+2531    32780        RESOURCE MOLDY CLASS2    resmanag.c[1526] DUNGC104.PCX
+2533    32780        RESOURCE MOLDY CLASS2    resmanag.c[1526] DUNGC107.PCX
+2535    32780        RESOURCE MOLDY CLASS2    resmanag.c[1526] CAVEC103.PCX
+2537    32780        RESOURCE MOLDY CLASS2    resmanag.c[1526] CAVEC101.PCX
+2541    32780        RESOURCE MOLDY CLASS2    resmanag.c[1508] CAVEC102.PCX
+2542    32780        RESOURCE MOLDY CLASS2    resmanag.c[1526] CAVEC105.PCX
+2546    32780        RESOURCE MOLDY CLASS2    resmanag.c[1526] DUNGC101.PCX
+2548    65548        RESOURCE MOLDY CLASS2    resmanag.c[1526] DUNGC111.PCX
+2554    16396        RESOURCE MOLDY CLASS2    resmanag.c[1526] CAVEC_R2.PCX
+2556    32780        RESOURCE MOLDY CLASS2    resmanag.c[1526] CAVECARC.PCX
+2558    32780        RESOURCE MOLDY CLASS2    resmanag.c[1526] CAVEC104.PCX
+2560    32780        RESOURCE MOLDY CLASS2    resmanag.c[1526] DOOR06_L.PCX
+2564    32780        RESOURCE MOLDY CLASS2    resmanag.c[1526] MARB0202.PCX
+2572    32780        RESOURCE MOLDY CLASS2    resmanag.c[1526] MARB0201.PCX
+2576    32780        RESOURCE MOLDY CLASS2    resmanag.c[1526] MARB0204.PCX
+2578    32780        RESOURCE MOLDY CLASS2    resmanag.c[1526] MARB0203.PCX
+2580    32780        RESOURCE MOLDY CLASS2    resmanag.c[1526] DUNGC105.PCX
+2582    65548        RESOURCE MOLDY CLASS2    resmanag.c[1526] MARB0205.PCX
+2584    16396        RESOURCE MOLDY CLASS2    resmanag.c[1526] COLUM101.PCX
+2586    32780        RESOURCE MOLDY CLASS2    resmanag.c[1526] CAVEC106.PCX
+2602    16396        RESOURCE MOLDY CLASS2    textures.c[711] F_LAVA01.ANT
+2609    16396        RESOURCE MOLDY CLASS2    resmanag.c[1526] F_MRB021.PCX
+2611    16396        RESOURCE MOLDY CLASS2    resmanag.c[1526] C_MRB021.PCX
+2613    16396        RESOURCE MOLDY CLASS2    resmanag.c[1526] F_DNGC01.PCX
+2615    16396        RESOURCE MOLDY CLASS2    resmanag.c[1526] C_DNGC01.PCX
+2617    16396        RESOURCE MOLDY CLASS2    resmanag.c[1526] F_MRB022.PCX
+2621    16396        RESOURCE MOLDY CLASS2    resmanag.c[1526] C_SLAB01.PCX
+2623    16396        RESOURCE MOLDY CLASS2    resmanag.c[1526] X_RFWOD1.PCX
+2706     5940                 MOLDY CLASS2      system.c[2930] 
+2712     5940                 MOLDY CLASS2      system.c[2930] 
+2716     5940                 MOLDY CLASS2      system.c[2930] 
+2718     5940                 MOLDY CLASS2      system.c[2930] 
+2724     5940                 MOLDY CLASS2      system.c[2930] 
+2726     5940                 MOLDY CLASS2      system.c[2930] 
+2778     5940                 MOLDY CLASS2      system.c[2930] 
+2780     5940                 MOLDY CLASS2      system.c[2930] 
+2863    65548        RESOURCE MOLDY CLASS2    resmanag.c[1526] F_LAVA01.PCX
+2965    12916                 MOLDY CLASS2      system.c[2930] 
+2966    13924                 MOLDY CLASS2      system.c[2930] 
+2974   114336 FREE BLOCK
+2975   102344 FREE BLOCK
+2905    15556 FREE BLOCK
+2942    57184 FREE BLOCK
+2935   307212                 MOLDY             system.c[2930] 
+2971   242412                 MOLDY             system.c[2930] 
+2972 11681796 FREE BLOCK
+2859      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2855      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2851      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2849      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2847      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2845      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2843      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2841      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2839      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2837      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2835      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2832      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2830      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2828      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2826      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2823      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2820      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2817      276 LOCKED          MOLDY           avatar.cpp[1056] 
+2629    20000 LOCKED          MOLDY CLASS1      things.c[1177] 
+2628   420000 LOCKED          MOLDY CLASS1      things.c[1176] 
+2627    30400 LOCKED          MOLDY CLASS1      things.c[1175] 
+2626     8724 LOCKED          MOLDY CLASS1       level.c[307] 
+2625     2852 LOCKED          MOLDY CLASS1       level.c[335] 
+2601     3928 LOCKED          MOLDY CLASS1       level.c[747] 
+2599      152 LOCKED          MOLDY CLASS1       level.c[732] 
+2597    21460 LOCKED          MOLDY CLASS1       level.c[685] 
+2595     7160 LOCKED          MOLDY CLASS1       level.c[632] 
+2594     9180 LOCKED          MOLDY CLASS1       level.c[564] 
+2593     9180 LOCKED          MOLDY CLASS1       level.c[563] 
+2592    27544 LOCKED          MOLDY CLASS1       level.c[539] 
+2588    11776 LOCKED          MOLDY CLASS1       level.c[509] 
+2530    46728 LOCKED          MOLDY CLASS1       level.c[449] 
+2528    17488 LOCKED          MOLDY CLASS1       level.c[398] 
+2527     5032 LOCKED          MOLDY CLASS1       level.c[361] 
+2526     5760 LOCKED          MOLDY CLASS1       spans.c[168] 
+2525     5880 LOCKED          MOLDY CLASS1       spans.c[162] 
+2440   122880 LOCKED          MOLDY CLASS1       spans.c[159] 
+1369     1704 LOCKED          MOLDY           scnmgr.cpp[229] 
+
+Total space still in use = 2689668
+Total number of Handles used by this space = 373
+
+Total class1 space still in use  = 776124
+Total class2 space still in use  = 1270008
+Total Free block space available = 12025984
+Total Purgable space available   = 10343868

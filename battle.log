@@ -1,0 +1,26 @@
+CheckMove: unit:146 to r:2 c:2
+SendMove: unit 278 to r:0,c2
+CheckArrive: unit:146 arrived
+SendMove: unit 264 to r:0,c3
+SendArrive: 278 arrived
+SendMove: unit 277 to r:0,c1
+SendArrive: 264 arrived
+SendMove: unit 17 to r:0,c0
+SendArrive: 277 arrived
+SendMove: unit 278 to r:1,c2
+SendArrive: 17 arrived
+SendMove: unit 264 to r:1,c3
+SendArrive: 278 arrived
+SendMove: unit 278 to r:2,c2
+SendMove: unit 277 to r:1,c1
+SendArrive: 264 arrived
+SendMove: unit 264 to r:2,c3
+CheckResults: unit:146 points:4 shot:0
+SendArrive: 278 arrived
+SendMove: unit 17 to r:0,c1
+SendArrive: 277 arrived
+SendMove: unit 277 to r:2,c1
+SendArrive: 264 arrived
+SendResults: unit:278 points:4 shot:0
+CheckWin: 0 Wins
+SendWin: 1 Won

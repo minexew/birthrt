@@ -1,0 +1,4 @@
+# THINGPCX.RSP for RESUTIL, 4-02-97
+# Expects to live in a subdirectory off the main BIRTHRT directory.
+r
++ ..\things\pcx\*.pcx

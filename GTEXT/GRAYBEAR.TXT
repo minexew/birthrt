@@ -1,0 +1,10 @@
+^F02 
+^F06  Overthane Grimm Graybeard
+^F02^W305
+   Dieser mürrische alte Zwerg setzt alles daran, die 
+   Orogs in Schach zu halten, fürchtet jedoch, daß 
+   ihm das möglicherweise nicht gelingen könnte. 
+   Er hat nichts gegen Menschen, aber bevor er ihnen 
+   einen wertvollen Schatz oder eine wichtige Aufgabe 
+   anvertraut, möchte er sehen, ob sie das Vertrauen
+   auch wert sind.

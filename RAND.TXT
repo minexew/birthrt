@@ -1,0 +1,1558 @@
+RealmAI Version 0.000000
+^MultiUI::WaitSync - Sync 7 stat :  2xxxxxxx
+^ Start Rand Seed
+^ Next Seed 1 in    mapai.cpp line 0194
+^ DoNPCAdmin - Aerenwe  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Aerenwe:Banien's Deep  FINAL province - civlvl:1 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Aerenwe:Banien's Deep  prov_tax:0002  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Aerenwe:Calrie  FINAL province - civlvl:6 taxlvl:1 roll:9 prov_tax:9
+^ DoNPCAdmin - Aerenwe:Calrie  prov_tax:0009  prov_trade:0006  prov_reg:0012
+^ PROVINCE INFO - Aerenwe:Dhoenel  FINAL province - civlvl:5 taxlvl:1 roll:7 prov_tax:7
+^ DoNPCAdmin - Aerenwe:Dhoenel  prov_tax:0007  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Aerenwe:Halried  FINAL province - civlvl:5 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Aerenwe:Halried  prov_tax:0002  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Aerenwe:Northvale  FINAL province - civlvl:1 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Aerenwe:Northvale  prov_tax:0002  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Aerenwe:Shadowgreen  FINAL province - civlvl:1 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Aerenwe:Shadowgreen  prov_tax:0001  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Aerenwe:Westmarch  FINAL province - civlvl:1 taxlvl:1 roll:0 prov_tax:0
+^ DoNPCAdmin - Aerenwe:Westmarch  prov_tax:0000  prov_trade:0000  prov_reg:0002
+^ DoNPCAdmin - Aerenwe  realm_tax:0023  trade:0006  payroll:0003  maint:0005
+^ DoNPCAdmin - Aerenwe  regency:0087  treasury:000360
+
+^ Next Seed 2 in    mapai.cpp line 0194
+^ DoNPCAdmin - Alamie  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Alamie:Alaroine  FINAL province - civlvl:5 taxlvl:1 roll:7 prov_tax:7
+^ DoNPCAdmin - Alamie:Alaroine  prov_tax:0007  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Alamie:Deseirain  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Alamie:Deseirain  prov_tax:0003  prov_trade:0003  prov_reg:0005
+^ PROVINCE INFO - Alamie:Hildon  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Alamie:Hildon  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Alamie:Laraeth  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Alamie:Laraeth  prov_tax:0001  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Alamie:Maesford  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Alamie:Maesford  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Alamie:Nortmoor  FINAL province - civlvl:1 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Alamie:Nortmoor  prov_tax:0002  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Alamie:Sorelies  FINAL province - civlvl:1 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Alamie:Sorelies  prov_tax:0002  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Alamie:Soutmoor  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Alamie:Soutmoor  prov_tax:0001  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Alamie:Traiward  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Alamie:Traiward  prov_tax:0001  prov_trade:0000  prov_reg:0005
+^ DoNPCAdmin - Alamie  realm_tax:0021  trade:0003  payroll:0012  maint:0006
+^ DoNPCAdmin - Alamie  regency:0084  treasury:000210
+
+^ Next Seed 3 in    mapai.cpp line 0194
+^ DoNPCAdmin - Alamie  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Alamie:City of Anuire  FINAL province - civlvl:10 taxlvl:1 roll:14 prov_tax:14
+^ DoNPCAdmin - Alamie:City of Anuire  prov_tax:0014  prov_trade:0010  prov_reg:0013
+^ DoNPCAdmin - Alamie  realm_tax:0014  trade:0010  payroll:0004  maint:0002
+^ DoNPCAdmin - Alamie  regency:0063  treasury:000330
+
+^ Next Seed 4 in    mapai.cpp line 0194
+^ DoNPCAdmin - Avanil  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Avanil:Aerele  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Ciliene  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Bhaine  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Brosien  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Seamist  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Wilder's Gorge  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Anuire  FINAL guild and temple - roll:5 prov_tax:5
+^ PROVINCE INFO - Avanil:Anuire  FINAL guild and temple - roll:5 prov_tax:10
+^ PROVINCE INFO - Avanil:Anuire  FINAL province - civlvl:7 taxlvl:1 roll:4 prov_tax:14
+^ DoNPCAdmin - Avanil:Anuire  prov_tax:0014  prov_trade:0000  prov_reg:0014
+^ PROVINCE INFO - Avanil:Avarien  FINAL guild and temple - roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:Avarien  FINAL guild and temple - roll:2 prov_tax:6
+^ PROVINCE INFO - Avanil:Avarien  FINAL province - civlvl:3 taxlvl:1 roll:4 prov_tax:10
+^ DoNPCAdmin - Avanil:Avarien  prov_tax:0010  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Avanil:Bhrein  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Bhrein  FINAL guild and temple - roll:3 prov_tax:4
+^ PROVINCE INFO - Avanil:Bhrein  FINAL province - civlvl:4 taxlvl:1 roll:2 prov_tax:6
+^ DoNPCAdmin - Avanil:Bhrein  prov_tax:0006  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Avanil:Caulnor  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Caulnor  FINAL guild and temple - roll:5 prov_tax:6
+^ PROVINCE INFO - Avanil:Caulnor  FINAL province - civlvl:5 taxlvl:1 roll:7 prov_tax:13
+^ DoNPCAdmin - Avanil:Caulnor  prov_tax:0013  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Avanil:Daulton  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Daulton  FINAL guild and temple - roll:1 prov_tax:4
+^ PROVINCE INFO - Avanil:Daulton  FINAL province - civlvl:5 taxlvl:1 roll:6 prov_tax:10
+^ DoNPCAdmin - Avanil:Daulton  prov_tax:0010  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Avanil:Duriene  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Duriene  FINAL guild and temple - roll:1 prov_tax:2
+^ PROVINCE INFO - Avanil:Duriene  FINAL province - civlvl:4 taxlvl:1 roll:3 prov_tax:5
+^ DoNPCAdmin - Avanil:Duriene  prov_tax:0005  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Avanil:Nentril  FINAL guild and temple - roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:Nentril  FINAL guild and temple - roll:3 prov_tax:7
+^ PROVINCE INFO - Avanil:Nentril  FINAL province - civlvl:3 taxlvl:1 roll:2 prov_tax:9
+^ DoNPCAdmin - Avanil:Nentril  prov_tax:0009  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Avanil:Taliern  FINAL guild and temple - roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:Taliern  FINAL guild and temple - roll:2 prov_tax:6
+^ PROVINCE INFO - Avanil:Taliern  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:9
+^ DoNPCAdmin - Avanil:Taliern  prov_tax:0009  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Avanil:Vanilen  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Vanilen  FINAL guild and temple - roll:4 prov_tax:7
+^ PROVINCE INFO - Avanil:Vanilen  FINAL province - civlvl:3 taxlvl:1 roll:4 prov_tax:11
+^ DoNPCAdmin - Avanil:Vanilen  prov_tax:0011  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Avanil:Alamsreft  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Elevesnemiere  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Haesrien  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Monsedge  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Nabhriene  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Nabhriene  FINAL guild and temple - roll:0 prov_tax:2
+^ PROVINCE INFO - Avanil:Pechalinn  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Tuor's Hold  FINAL guild and temple - roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:Tuor's Hold  FINAL guild and temple - roll:2 prov_tax:6
+^ PROVINCE INFO - Avanil:Deseirain  FINAL guild and temple - roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:Maesford  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Sorelies  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Traiward  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:City of Anuire  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:City of Anuire  FINAL guild and temple - roll:3 prov_tax:6
+^ PROVINCE INFO - Avanil:Endier  FINAL guild and temple - roll:3 prov_tax:3
+^ DoNPCAdmin - Avanil  realm_tax:0128  trade:0000  payroll:0034  maint:0022
+^ DoNPCAdmin - Avanil  regency:0120  treasury:000870
+
+^ Next Seed 5 in    mapai.cpp line 0194
+^ Next Seed 6 in    mapai.cpp line 0194
+^ DoNPCAdmin - Boeruine  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Boeruine:Bacaele  FINAL guild and temple - roll:4 prov_tax:4
+^ PROVINCE INFO - Boeruine:Bacaele  FINAL province - civlvl:3 taxlvl:1 roll:4 prov_tax:8
+^ DoNPCAdmin - Boeruine:Bacaele  prov_tax:0008  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Calant  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Boeruine:Calant  FINAL province - civlvl:3 taxlvl:1 roll:2 prov_tax:4
+^ DoNPCAdmin - Boeruine:Calant  prov_tax:0004  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Dhalaese  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Boeruine:Dhalaese  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Boeruine:Dhalaese  prov_tax:0001  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Fhoruile  FINAL guild and temple - roll:4 prov_tax:4
+^ PROVINCE INFO - Boeruine:Fhoruile  FINAL province - civlvl:3 taxlvl:1 roll:4 prov_tax:8
+^ DoNPCAdmin - Boeruine:Fhoruile  prov_tax:0008  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Nietier  FINAL province - civlvl:3 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Boeruine:Nietier  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Redoubt  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Boeruine:Redoubt  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:4
+^ DoNPCAdmin - Boeruine:Redoubt  prov_tax:0004  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Rivien  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Boeruine:Rivien  FINAL province - civlvl:6 taxlvl:1 roll:9 prov_tax:11
+^ DoNPCAdmin - Boeruine:Rivien  prov_tax:0011  prov_trade:0000  prov_reg:0012
+^ PROVINCE INFO - Boeruine:Seasedge  FINAL guild and temple - roll:4 prov_tax:4
+^ PROVINCE INFO - Boeruine:Seasedge  FINAL province - civlvl:6 taxlvl:1 roll:2 prov_tax:6
+^ DoNPCAdmin - Boeruine:Seasedge  prov_tax:0006  prov_trade:0000  prov_reg:0012
+^ PROVINCE INFO - Boeruine:Tariene  FINAL guild and temple - roll:4 prov_tax:4
+^ PROVINCE INFO - Boeruine:Tariene  FINAL province - civlvl:6 taxlvl:1 roll:7 prov_tax:11
+^ DoNPCAdmin - Boeruine:Tariene  prov_tax:0011  prov_trade:0006  prov_reg:0012
+^ PROVINCE INFO - Boeruine:Lindholme  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Boeruine:Wilder's Gorge  FINAL guild and temple - roll:0 prov_tax:0
+^ DoNPCAdmin - Boeruine  realm_tax:0058  trade:0006  payroll:0028  maint:0009
+^ DoNPCAdmin - Boeruine  regency:0110  treasury:000420
+
+^ Next Seed 7 in    mapai.cpp line 0194
+^ DoNPCAdmin - Brosengae  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Brosengae:Bindier  FINAL guild and temple - roll:5 prov_tax:5
+^ PROVINCE INFO - Brosengae:Bindier  FINAL province - civlvl:4 taxlvl:1 roll:5 prov_tax:10
+^ DoNPCAdmin - Brosengae:Bindier  prov_tax:0010  prov_trade:0004  prov_reg:0014
+^ PROVINCE INFO - Brosengae:Coere  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Brosengae:Coere  FINAL guild and temple - roll:1 prov_tax:3
+^ PROVINCE INFO - Brosengae:Coere  FINAL province - civlvl:4 taxlvl:1 roll:4 prov_tax:7
+^ DoNPCAdmin - Brosengae:Coere  prov_tax:0007  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Brosengae:Marilen  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Brosengae:Marilen  FINAL guild and temple - roll:6 prov_tax:7
+^ PROVINCE INFO - Brosengae:Marilen  FINAL province - civlvl:4 taxlvl:1 roll:4 prov_tax:11
+^ DoNPCAdmin - Brosengae:Marilen  prov_tax:0011  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Brosengae:Anuire  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Brosengae:Bhrein  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Brosengae:Duriene  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Brosengae:Taliern  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Brosengae:Haesrien  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Brosengae:Nabhriene  FINAL guild and temple - roll:1 prov_tax:1
+^ DoNPCAdmin - Brosengae  realm_tax:0036  trade:0004  payroll:0003  maint:0005
+^ DoNPCAdmin - Brosengae  regency:0091  treasury:000470
+
+^ Next Seed 8 in    mapai.cpp line 0194
+^ DoNPCAdmin - Cariele  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Cariele:Alamsreft  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Ghonallison  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Haesrien  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Cariele:Monsedge  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Alaroine  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Deseirain  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Hildon  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Nortmoor  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Cariele:Sorelies  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Cariele:Sonnelind  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Tradebhein  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Avallaigh  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Bhindraith  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Cwmbheir  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Mhelliviene  FINAL guild and temple - roll:5 prov_tax:5
+^ PROVINCE INFO - Cariele:Mhelliviene  FINAL province - civlvl:5 taxlvl:1 roll:5 prov_tax:10
+^ DoNPCAdmin - Cariele:Mhelliviene  prov_tax:0010  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Cariele:Mountainsedge  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Mountainsedge  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:5
+^ DoNPCAdmin - Cariele:Mountainsedge  prov_tax:0005  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Cariele:Riverford  FINAL guild and temple - roll:5 prov_tax:5
+^ PROVINCE INFO - Cariele:Riverford  FINAL province - civlvl:5 taxlvl:1 roll:2 prov_tax:7
+^ DoNPCAdmin - Cariele:Riverford  prov_tax:0007  prov_trade:0000  prov_reg:0010
+^ DoNPCAdmin - Cariele  realm_tax:0040  trade:0000  payroll:0005  maint:0006
+^ DoNPCAdmin - Cariele  regency:0070  treasury:000440
+
+^ Next Seed 9 in    mapai.cpp line 0194
+^ DoNPCAdmin - Chimaeron  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Chimaeron:Barniere  FINAL province - civlvl:1 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Chimaeron:Barniere  prov_tax:0002  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Chimaeron:Careine  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Chimaeron:Careine  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:4
+^ DoNPCAdmin - Chimaeron:Careine  prov_tax:0004  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Chimaeron:Hamein  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Chimaeron:Hamein  FINAL province - civlvl:1 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Chimaeron:Hamein  prov_tax:0001  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Chimaeron:Lyssan  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Chimaeron:Lyssan  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:3
+^ DoNPCAdmin - Chimaeron:Lyssan  prov_tax:0003  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Chimaeron:Mhowe  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Chimaeron:Mhowe  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:4
+^ DoNPCAdmin - Chimaeron:Mhowe  prov_tax:0004  prov_trade:0002  prov_reg:0002
+^ PROVINCE INFO - Chimaeron:Ruorkhe  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Chimaeron:Ruorkhe  FINAL province - civlvl:1 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Chimaeron:Ruorkhe  prov_tax:0001  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Chimaeron:Salviene  FINAL province - civlvl:1 taxlvl:1 roll:0 prov_tax:0
+^ DoNPCAdmin - Chimaeron:Salviene  prov_tax:0000  prov_trade:0000  prov_reg:0006
+^ DoNPCAdmin - Chimaeron  realm_tax:0015  trade:0002  payroll:0007  maint:0005
+^ DoNPCAdmin - Chimaeron  regency:0087  treasury:000200
+
+^ Next Seed 10 in    mapai.cpp line 0194
+^ DoNPCAdmin - Coeranys  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Coeranys:Achiese  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Conallier  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Thoralinar  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Coeranys:City of Anuire  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Ansien  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Hope's Demise  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Osoeriene  FINAL guild and temple - roll:4 prov_tax:4
+^ PROVINCE INFO - Coeranys:Sendouras  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Soileite  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Bogsend  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Bogsend  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:2
+^ DoNPCAdmin - Coeranys:Bogsend  prov_tax:0002  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Coeranys:Caudraight  FINAL province - civlvl:4 taxlvl:1 roll:4 prov_tax:4
+^ DoNPCAdmin - Coeranys:Caudraight  prov_tax:0004  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Coeranys:Deepshadow  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Deepshadow  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:3
+^ DoNPCAdmin - Coeranys:Deepshadow  prov_tax:0003  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Coeranys:Duornil  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Duornil  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:2
+^ DoNPCAdmin - Coeranys:Duornil  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Coeranys:Mistil  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Mistil  FINAL province - civlvl:2 taxlvl:1 roll:2 prov_tax:4
+^ DoNPCAdmin - Coeranys:Mistil  prov_tax:0004  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Coeranys:Ranien  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Ranien  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:4
+^ DoNPCAdmin - Coeranys:Ranien  prov_tax:0004  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Coeranys:Ruorven  FINAL guild and temple - roll:4 prov_tax:4
+^ PROVINCE INFO - Coeranys:Ruorven  FINAL province - civlvl:4 taxlvl:1 roll:3 prov_tax:7
+^ DoNPCAdmin - Coeranys:Ruorven  prov_tax:0007  prov_trade:0004  prov_reg:0007
+^ DoNPCAdmin - Coeranys  realm_tax:0042  trade:0004  payroll:0004  maint:0007
+^ DoNPCAdmin - Coeranys  regency:0073  treasury:000500
+
+^ Next Seed 11 in    mapai.cpp line 0194
+^ DoNPCAdmin - Dhoesone  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Dhoesone:Bjondrig  FINAL province - civlvl:1 taxlvl:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Dhoesone:Bjondrig  prov_tax:0000  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Dhoesone:Dharilein  FINAL province - civlvl:1 taxlvl:2 roll:3 prov_tax:3
+^ DoNPCAdmin - Dhoesone:Dharilein  prov_tax:0003  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Dhoesone:Giant's Fastness  FINAL province - civlvl:1 taxlvl:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Dhoesone:Giant's Fastness  prov_tax:0000  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Dhoesone:Hidaele  FINAL province - civlvl:2 taxlvl:2 roll:3 prov_tax:3
+^ DoNPCAdmin - Dhoesone:Hidaele  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Dhoesone:Nolien  FINAL province - civlvl:3 taxlvl:2 roll:2 prov_tax:2
+^ DoNPCAdmin - Dhoesone:Nolien  prov_tax:0002  prov_trade:0003  prov_reg:0007
+^ PROVINCE INFO - Dhoesone:Riveside  FINAL province - civlvl:2 taxlvl:2 roll:3 prov_tax:3
+^ DoNPCAdmin - Dhoesone:Riveside  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Dhoesone:Romiene  FINAL province - civlvl:1 taxlvl:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Dhoesone:Romiene  prov_tax:0000  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Dhoesone:Ruidewash  FINAL province - civlvl:2 taxlvl:2 roll:2 prov_tax:2
+^ DoNPCAdmin - Dhoesone:Ruidewash  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Dhoesone:Sidhuire  FINAL province - civlvl:2 taxlvl:2 roll:4 prov_tax:4
+^ DoNPCAdmin - Dhoesone:Sidhuire  prov_tax:0004  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Dhoesone:Soniele  FINAL province - civlvl:1 taxlvl:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Dhoesone:Soniele  prov_tax:0000  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Dhoesone:Sonnelind  FINAL province - civlvl:4 taxlvl:2 roll:2 prov_tax:2
+^ DoNPCAdmin - Dhoesone:Sonnelind  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Dhoesone:Tradebhein  FINAL province - civlvl:2 taxlvl:2 roll:4 prov_tax:4
+^ DoNPCAdmin - Dhoesone:Tradebhein  prov_tax:0004  prov_trade:0000  prov_reg:0003
+^ DoNPCAdmin - Dhoesone  realm_tax:0023  trade:0003  payroll:0010  maint:0006
+^ DoNPCAdmin - Dhoesone  regency:0087  treasury:000250
+
+^ Next Seed 12 in    mapai.cpp line 0194
+^ DoNPCAdmin - Diemed  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Diemed:Aerele  FINAL province - civlvl:4 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Diemed:Aerele  prov_tax:0002  prov_trade:0004  prov_reg:0007
+^ PROVINCE INFO - Diemed:Bliene  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Diemed:Bliene  prov_tax:0001  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Diemed:Ciliene  FINAL province - civlvl:6 taxlvl:1 roll:5 prov_tax:5
+^ DoNPCAdmin - Diemed:Ciliene  prov_tax:0005  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Diemed:Duene  FINAL province - civlvl:3 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Diemed:Duene  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Diemed:Moere  FINAL province - civlvl:5 taxlvl:1 roll:5 prov_tax:5
+^ DoNPCAdmin - Diemed:Moere  prov_tax:0005  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Diemed:Tier  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Diemed:Tier  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ DoNPCAdmin - Diemed  realm_tax:0016  trade:0004  payroll:0009  maint:0005
+^ DoNPCAdmin - Diemed  regency:0091  treasury:000210
+
+^ Next Seed 13 in    mapai.cpp line 0194
+^ DoNPCAdmin - Elinie  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Elinie:Ansien  FINAL province - civlvl:5 taxlvl:1 roll:7 prov_tax:7
+^ DoNPCAdmin - Elinie:Ansien  prov_tax:0007  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Elinie:Chalsedon  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Elinie:Chalsedon  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Elinie:Hope's Demise  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Elinie:Hope's Demise  prov_tax:0001  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Elinie:Mholien  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Elinie:Mholien  prov_tax:0001  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Elinie:Osoeriene  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Elinie:Osoeriene  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Elinie:Sendouras  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Elinie:Sendouras  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Elinie:Soileite  FINAL province - civlvl:2 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Elinie:Soileite  prov_tax:0002  prov_trade:0000  prov_reg:0002
+^ DoNPCAdmin - Elinie  realm_tax:0018  trade:0000  payroll:0009  maint:0005
+^ DoNPCAdmin - Elinie  regency:0070  treasury:000190
+
+^ Next Seed 14 in    mapai.cpp line 0194
+^ DoNPCAdmin - Endier  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Endier:Ciliene  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Moere  FINAL guild and temple - roll:5 prov_tax:5
+^ PROVINCE INFO - Endier:Tier  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:Caerwil  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Ghiere  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Rhumannen  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Tireste  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:Maesford  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:Traiward  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:City of Anuire  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Endier  FINAL guild and temple - roll:8 prov_tax:8
+^ PROVINCE INFO - Endier:Endier  FINAL province - civlvl:6 taxlvl:1 roll:9 prov_tax:17
+^ DoNPCAdmin - Endier:Endier  prov_tax:0017  prov_trade:0006  prov_reg:0021
+^ DoNPCAdmin - Endier  realm_tax:0037  trade:0006  payroll:0003  maint:0004
+^ DoNPCAdmin - Endier  regency:0080  treasury:000510
+
+^ Next Seed 15 in    mapai.cpp line 0194
+^ DoNPCAdmin - Five Peaks  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Five Peaks:The Gorge  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Five Peaks:The Gorge  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Floodspaeth  FINAL province - civlvl:3 taxlvl:1 roll:4 prov_tax:4
+^ DoNPCAdmin - Five Peaks:Floodspaeth  prov_tax:0004  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Helmshaven  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Five Peaks:Helmshaven  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Puinol  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Five Peaks:Puinol  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Sufhanie  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Five Peaks:Sufhanie  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Thasbyrn  FINAL province - civlvl:3 taxlvl:1 roll:4 prov_tax:4
+^ DoNPCAdmin - Five Peaks:Thasbyrn  prov_tax:0004  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Torain  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Five Peaks:Torain  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ DoNPCAdmin - Five Peaks  realm_tax:0017  trade:0000  payroll:0000  maint:0004
+^ DoNPCAdmin - Five Peaks  regency:0000  treasury:000280
+
+^ Next Seed 16 in    mapai.cpp line 0194
+^ DoNPCAdmin - Ghoere  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Ghoere:Achiese  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Achiese  FINAL province - civlvl:4 taxlvl:1 roll:3 prov_tax:5
+^ DoNPCAdmin - Ghoere:Achiese  prov_tax:0005  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Ghoere:Bhalaene  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Bhalaene  FINAL province - civlvl:6 taxlvl:1 roll:8 prov_tax:10
+^ DoNPCAdmin - Ghoere:Bhalaene  prov_tax:0010  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Ghoere:Bheline  FINAL guild and temple - roll:6 prov_tax:6
+^ PROVINCE INFO - Ghoere:Bheline  FINAL province - civlvl:4 taxlvl:1 roll:3 prov_tax:9
+^ DoNPCAdmin - Ghoere:Bheline  prov_tax:0009  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Ghoere:Conallier  FINAL province - civlvl:2 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Ghoere:Conallier  prov_tax:0002  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Ghoere:Danaroene  FINAL guild and temple - roll:5 prov_tax:5
+^ PROVINCE INFO - Ghoere:Danaroene  FINAL province - civlvl:4 taxlvl:1 roll:3 prov_tax:8
+^ DoNPCAdmin - Ghoere:Danaroene  prov_tax:0008  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Ghoere:Ghiere  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Ghiere  FINAL province - civlvl:5 taxlvl:1 roll:7 prov_tax:8
+^ DoNPCAdmin - Ghoere:Ghiere  prov_tax:0008  prov_trade:0005  prov_reg:0008
+^ PROVINCE INFO - Ghoere:Rhumannen  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Ghoere:Rhumannen  FINAL province - civlvl:4 taxlvl:1 roll:2 prov_tax:5
+^ DoNPCAdmin - Ghoere:Rhumannen  prov_tax:0005  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Ghoere:Thoralinar  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Thoralinar  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:2
+^ DoNPCAdmin - Ghoere:Thoralinar  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Ghoere:Tireste  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Tireste  FINAL province - civlvl:5 taxlvl:1 roll:6 prov_tax:8
+^ DoNPCAdmin - Ghoere:Tireste  prov_tax:0008  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Ghoere:Tornilen  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Ghoere:Tornilen  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:6
+^ DoNPCAdmin - Ghoere:Tornilen  prov_tax:0006  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Ghoere:Cwlldon  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Tenarien  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Alaroine  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Laraeth  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Bogsend  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Caudraight  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Brothendar  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Ghoere:Ghalliere  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Moriel  FINAL guild and temple - roll:2 prov_tax:2
+^ DoNPCAdmin - Ghoere  realm_tax:0079  trade:0005  payroll:0030  maint:0009
+^ DoNPCAdmin - Ghoere  regency:0099  treasury:000600
+
+^ Next Seed 17 in    mapai.cpp line 0194
+^ DoNPCAdmin - Gorgon's Crown  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Gorgon's Crown:Abattoir  FINAL province - civlvl:3 taxlvl:1 roll:4 prov_tax:4
+^ DoNPCAdmin - Gorgon's Crown:Abattoir  prov_tax:0004  prov_trade:0000  prov_reg:0012
+^ PROVINCE INFO - Gorgon's Crown:Anathar  FINAL province - civlvl:1 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Anathar  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Gorgon's Crown:Elfseyes  FINAL province - civlvl:2 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Elfseyes  prov_tax:0002  prov_trade:0000  prov_reg:0011
+^ PROVINCE INFO - Gorgon's Crown:Jogh Warren  FINAL province - civlvl:3 taxlvl:1 roll:4 prov_tax:4
+^ DoNPCAdmin - Gorgon's Crown:Jogh Warren  prov_tax:0004  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Gorgon's Crown:Kal-Saitharak  FINAL province - civlvl:4 taxlvl:1 roll:4 prov_tax:4
+^ DoNPCAdmin - Gorgon's Crown:Kal-Saitharak  prov_tax:0004  prov_trade:0000  prov_reg:0013
+^ PROVINCE INFO - Gorgon's Crown:Mettle  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Gorgon's Crown:Mettle  prov_tax:0003  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Gorgon's Crown:Motile  FINAL province - civlvl:2 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Motile  prov_tax:0002  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Gorgon's Crown:Mutian's Point  FINAL province - civlvl:1 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Mutian's Point  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Gorgon's Crown:Orog's Head  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Orog's Head  prov_tax:0001  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Gorgon's Crown:Pelt  FINAL province - civlvl:1 taxlvl:1 roll:0 prov_tax:0
+^ DoNPCAdmin - Gorgon's Crown:Pelt  prov_tax:0000  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Gorgon's Crown:Plumbago  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Plumbago  prov_tax:0001  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Gorgon's Crown:Sage's Fen  FINAL province - civlvl:2 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Sage's Fen  prov_tax:0002  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Gorgon's Crown:Sere's Hold  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Sere's Hold  prov_tax:0001  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Gorgon's Crown:Sideath  FINAL province - civlvl:2 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Sideath  prov_tax:0002  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Gorgon's Crown:Stone's End  FINAL province - civlvl:1 taxlvl:1 roll:0 prov_tax:0
+^ DoNPCAdmin - Gorgon's Crown:Stone's End  prov_tax:0000  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Gorgon's Crown:Sunder Falls  FINAL province - civlvl:1 taxlvl:1 roll:0 prov_tax:0
+^ DoNPCAdmin - Gorgon's Crown:Sunder Falls  prov_tax:0000  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Gorgon's Crown:Zaptig  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Zaptig  prov_tax:0001  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Gorgon's Crown:Brushfire  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Dwarf's Hold  FINAL guild and temple - roll:4 prov_tax:4
+^ PROVINCE INFO - Gorgon's Crown:Elfsdemise  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Periltrees  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Riverspring  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Shattered Hills  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Sutren Hills  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Gorgon's Crown:Crushing Rock  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Fallen Rock  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Lost Realm  FINAL guild and temple - roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown  realm_tax:0050  trade:0000  payroll:0039  maint:0021
+^ DoNPCAdmin - Gorgon's Crown  regency:0150  treasury:000050
+
+^ Next Seed 18 in    mapai.cpp line 0194
+^ DoNPCAdmin - Ilien  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Ilien:Ilien  FINAL province - civlvl:7 taxlvl:1 roll:10 prov_tax:10
+^ DoNPCAdmin - Ilien:Ilien  prov_tax:0010  prov_trade:0007  prov_reg:0007
+^ DoNPCAdmin - Ilien  realm_tax:0010  trade:0007  payroll:0002  maint:0002
+^ DoNPCAdmin - Ilien  regency:0071  treasury:000280
+
+^ Next Seed 19 in    mapai.cpp line 0194
+^ DoNPCAdmin - Markazor  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Markazor:Brushfire  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Markazor:Brushfire  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Markazor:Dwarf's Hold  FINAL province - civlvl:4 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Markazor:Dwarf's Hold  prov_tax:0003  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Markazor:Elfsdemise  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Markazor:Elfsdemise  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Markazor:Periltrees  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Markazor:Periltrees  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Markazor:Riverspring  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Markazor:Riverspring  prov_tax:0001  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Markazor:Shattered Hills  FINAL province - civlvl:4 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Markazor:Shattered Hills  prov_tax:0003  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Markazor:Sutren Hills  FINAL province - civlvl:1 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Markazor:Sutren Hills  prov_tax:0002  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Markazor:Lost Realm  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Markazor:Lost Realm  prov_tax:0003  prov_trade:0000  prov_reg:0002
+^ DoNPCAdmin - Markazor  realm_tax:0021  trade:0000  payroll:0003  maint:0005
+^ DoNPCAdmin - Markazor  regency:0052  treasury:000280
+
+^ Next Seed 20 in    mapai.cpp line 0194
+^ DoNPCAdmin - Medoere  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Medoere:Caercas  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Medoere:Alamier  FINAL guild and temple - roll:4 prov_tax:4
+^ PROVINCE INFO - Medoere:Alamier  FINAL province - civlvl:4 taxlvl:1 roll:3 prov_tax:7
+^ DoNPCAdmin - Medoere:Alamier  prov_tax:0007  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Medoere:Braeme  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Medoere:Braeme  FINAL province - civlvl:3 taxlvl:1 roll:2 prov_tax:4
+^ DoNPCAdmin - Medoere:Braeme  prov_tax:0004  prov_trade:0003  prov_reg:0007
+^ PROVINCE INFO - Medoere:Caerwil  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Medoere:Caerwil  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:3
+^ DoNPCAdmin - Medoere:Caerwil  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ DoNPCAdmin - Medoere  realm_tax:0015  trade:0003  payroll:0006  maint:0004
+^ DoNPCAdmin - Medoere  regency:0072  treasury:000230
+
+^ Next Seed 21 in    mapai.cpp line 0194
+^ DoNPCAdmin - Mhoried  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Mhoried:Bhalaene  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Conallier  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Tornilen  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Balteruine  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Balteruine  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:3
+^ DoNPCAdmin - Mhoried:Balteruine  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Mhoried:Bevaldruor  FINAL guild and temple - roll:6 prov_tax:6
+^ PROVINCE INFO - Mhoried:Bevaldruor  FINAL province - civlvl:6 taxlvl:1 roll:4 prov_tax:10
+^ DoNPCAdmin - Mhoried:Bevaldruor  prov_tax:0010  prov_trade:0000  prov_reg:0011
+^ PROVINCE INFO - Mhoried:Byrnnor  FINAL guild and temple - roll:4 prov_tax:4
+^ PROVINCE INFO - Mhoried:Byrnnor  FINAL province - civlvl:4 taxlvl:1 roll:4 prov_tax:8
+^ DoNPCAdmin - Mhoried:Byrnnor  prov_tax:0008  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Mhoried:Cwlldon  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Cwlldon  FINAL province - civlvl:3 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Mhoried:Cwlldon  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Mhoried:Dhalsiel  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Dhalsiel  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:4
+^ DoNPCAdmin - Mhoried:Dhalsiel  prov_tax:0004  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Mhoried:Maesilar  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Maesilar  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:2
+^ DoNPCAdmin - Mhoried:Maesilar  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Mhoried:Marloer's Gap  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Marloer's Gap  FINAL province - civlvl:2 taxlvl:1 roll:2 prov_tax:3
+^ DoNPCAdmin - Mhoried:Marloer's Gap  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Mhoried:Tenarien  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Tenarien  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Mhoried:Tenarien  prov_tax:0001  prov_trade:0003  prov_reg:0003
+^ PROVINCE INFO - Mhoried:Torien's Watch  FINAL province - civlvl:3 taxlvl:1 roll:4 prov_tax:4
+^ DoNPCAdmin - Mhoried:Torien's Watch  prov_tax:0004  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Mhoried:Winoene  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Winoene  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Mhoried:Winoene  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Mhoried:City of Anuire  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Rivenrock  FINAL guild and temple - roll:4 prov_tax:4
+^ DoNPCAdmin - Mhoried  realm_tax:0048  trade:0003  payroll:0023  maint:0010
+^ DoNPCAdmin - Mhoried  regency:0096  treasury:000330
+
+^ Next Seed 22 in    mapai.cpp line 0194
+^ DoNPCAdmin - Monsters  starting regency:0000  treasury:000150
+^ DoNPCAdmin - Monsters  realm_tax:0000  trade:0000  payroll:0000  maint:0002
+^ DoNPCAdmin - Monsters  regency:0000  treasury:000130
+
+^ Next Seed 23 in    mapai.cpp line 0194
+^ DoNPCAdmin - Mur-Kilad  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Mur-Kilad:Crushing Rock  FINAL province - civlvl:5 taxlvl:1 roll:4 prov_tax:4
+^ DoNPCAdmin - Mur-Kilad:Crushing Rock  prov_tax:0004  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Mur-Kilad:Fallen Rock  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Mur-Kilad:Fallen Rock  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ DoNPCAdmin - Mur-Kilad  realm_tax:0007  trade:0000  payroll:0006  maint:0004
+^ DoNPCAdmin - Mur-Kilad  regency:0055  treasury:000120
+
+^ Next Seed 24 in    mapai.cpp line 0194
+^ DoNPCAdmin - Osoerde  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Osoerde:Algael  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Osoerde:Algael  prov_tax:0001  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Osoerde:Brothendar  FINAL province - civlvl:3 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Osoerde:Brothendar  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Osoerde:Ghalliere  FINAL province - civlvl:2 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Osoerde:Ghalliere  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Osoerde:Gulfport  FINAL province - civlvl:3 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Osoerde:Gulfport  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Osoerde:Moergen  FINAL province - civlvl:2 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Osoerde:Moergen  prov_tax:0002  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Osoerde:Moriel  FINAL province - civlvl:4 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Osoerde:Moriel  prov_tax:0002  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Osoerde:Spiritsend  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Osoerde:Spiritsend  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Osoerde:Sunken Lands  FINAL province - civlvl:2 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Osoerde:Sunken Lands  prov_tax:0002  prov_trade:0000  prov_reg:0002
+^ DoNPCAdmin - Osoerde  realm_tax:0016  trade:0000  payroll:0006  maint:0005
+^ DoNPCAdmin - Osoerde  regency:0083  treasury:000200
+
+^ Next Seed 25 in    mapai.cpp line 0194
+^ DoNPCAdmin - Rhuobhe  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Rhuobhe:Rhuobhe  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Rhuobhe:Rhuobhe  prov_tax:0003  prov_trade:0000  prov_reg:0013
+^ DoNPCAdmin - Rhuobhe  realm_tax:0003  trade:0000  payroll:0005  maint:0001
+^ DoNPCAdmin - Rhuobhe  regency:0070  treasury:000120
+
+^ Next Seed 26 in    mapai.cpp line 0194
+^ DoNPCAdmin - Roesone  starting regency:0056  treasury:000150
+^ PROVINCE INFO - Roesone:Abbatuor  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Roesone:Abbatuor  prov_tax:0003  prov_trade:0003  prov_reg:0004
+^ PROVINCE INFO - Roesone:Bellam  FINAL province - civlvl:3 taxlvl:1 roll:4 prov_tax:4
+^ DoNPCAdmin - Roesone:Bellam  prov_tax:0004  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Roesone:Caercas  FINAL province - civlvl:4 taxlvl:1 roll:5 prov_tax:5
+^ DoNPCAdmin - Roesone:Caercas  prov_tax:0005  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Roesone:Duerlin  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Roesone:Duerlin  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Roesone:Edlin  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Roesone:Edlin  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Roesone:Fairfield  FINAL province - civlvl:3 taxlvl:1 roll:4 prov_tax:4
+^ DoNPCAdmin - Roesone:Fairfield  prov_tax:0004  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Roesone:Ghoried  FINAL province - civlvl:2 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Roesone:Ghoried  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ DoNPCAdmin - Roesone  realm_tax:0024  trade:0003  payroll:0010  maint:0005
+^ DoNPCAdmin - Roesone  regency:0080  treasury:000270
+
+^ Next Seed 27 in    mapai.cpp line 0194
+^ DoNPCAdmin - Sielwode  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Sielwode:Annydwr  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Sielwode:Annydwr  prov_tax:0003  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Sielwode:Cu Haellyrd  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Sielwode:Cu Haellyrd  prov_tax:0001  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Sielwode:Fhylallien  FINAL province - civlvl:6 taxlvl:1 roll:6 prov_tax:6
+^ DoNPCAdmin - Sielwode:Fhylallien  prov_tax:0006  prov_trade:0000  prov_reg:0011
+^ PROVINCE INFO - Sielwode:Ghyllwn  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Sielwode:Ghyllwn  prov_tax:0001  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Sielwode:Hoehnaen  FINAL province - civlvl:3 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Sielwode:Hoehnaen  prov_tax:0002  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Sielwode:Iseare  FINAL province - civlvl:4 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Sielwode:Iseare  prov_tax:0002  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Sielwode:Llewhoellen  FINAL province - civlvl:3 taxlvl:1 roll:4 prov_tax:4
+^ DoNPCAdmin - Sielwode:Llewhoellen  prov_tax:0004  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Sielwode:Tuar Llyrien  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Sielwode:Tuar Llyrien  prov_tax:0003  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Sielwode:Ywrndor  FINAL province - civlvl:2 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Sielwode:Ywrndor  prov_tax:0002  prov_trade:0000  prov_reg:0008
+^ DoNPCAdmin - Sielwode  realm_tax:0024  trade:0000  payroll:0008  maint:0006
+^ DoNPCAdmin - Sielwode  regency:0092  treasury:000250
+
+^ Next Seed 28 in    mapai.cpp line 0194
+^ DoNPCAdmin - Spiderfell  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Spiderfell:Spiderfell  FINAL province - civlvl:5 taxlvl:1 roll:6 prov_tax:6
+^ DoNPCAdmin - Spiderfell:Spiderfell  prov_tax:0006  prov_trade:0000  prov_reg:0005
+^ DoNPCAdmin - Spiderfell  realm_tax:0006  trade:0000  payroll:0001  maint:0001
+^ DoNPCAdmin - Spiderfell  regency:0055  treasury:000190
+
+^ Next Seed 29 in    mapai.cpp line 0194
+^ DoNPCAdmin - Taeghas  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Taeghas:Bayside  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Taeghas:Bayside  prov_tax:0001  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Taeghas:Bhaine  FINAL province - civlvl:6 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Taeghas:Bhaine  prov_tax:0003  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Taeghas:Brosien  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Taeghas:Brosien  prov_tax:0001  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Taeghas:Islien  FINAL province - civlvl:3 taxlvl:1 roll:4 prov_tax:4
+^ DoNPCAdmin - Taeghas:Islien  prov_tax:0004  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Taeghas:Portage  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Taeghas:Portage  prov_tax:0001  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Taeghas:Seamist  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Taeghas:Seamist  prov_tax:0001  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Taeghas:Seasdeep  FINAL province - civlvl:3 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Taeghas:Seasdeep  prov_tax:0002  prov_trade:0003  prov_reg:0007
+^ PROVINCE INFO - Taeghas:Wilder's Gorge  FINAL province - civlvl:1 taxlvl:1 roll:0 prov_tax:0
+^ DoNPCAdmin - Taeghas:Wilder's Gorge  prov_tax:0000  prov_trade:0000  prov_reg:0007
+^ DoNPCAdmin - Taeghas  realm_tax:0013  trade:0003  payroll:0003  maint:0004
+^ DoNPCAdmin - Taeghas  regency:0083  treasury:000240
+
+^ Next Seed 30 in    mapai.cpp line 0194
+^ DoNPCAdmin - Talinie  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Talinie:Calant  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Dhalaese  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Talinie:Fhoruile  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Rivien  FINAL guild and temple - roll:5 prov_tax:5
+^ PROVINCE INFO - Talinie:Seasedge  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Tariene  FINAL guild and temple - roll:4 prov_tax:4
+^ PROVINCE INFO - Talinie:Freestead  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Freestead  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:5
+^ DoNPCAdmin - Talinie:Freestead  prov_tax:0005  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Talinie:Greensward  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Greensward  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:5
+^ DoNPCAdmin - Talinie:Greensward  prov_tax:0005  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Talinie:Ice Haven  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Ice Haven  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:5
+^ DoNPCAdmin - Talinie:Ice Haven  prov_tax:0005  prov_trade:0003  prov_reg:0007
+^ PROVINCE INFO - Talinie:Lindholme  FINAL guild and temple - roll:6 prov_tax:6
+^ PROVINCE INFO - Talinie:Lindholme  FINAL province - civlvl:5 taxlvl:1 roll:2 prov_tax:8
+^ DoNPCAdmin - Talinie:Lindholme  prov_tax:0008  prov_trade:0000  prov_reg:0011
+^ PROVINCE INFO - Talinie:Seaport  FINAL guild and temple - roll:0 prov_tax:0
+^ PROVINCE INFO - Talinie:Seaport  FINAL province - civlvl:1 taxlvl:1 roll:0 prov_tax:0
+^ DoNPCAdmin - Talinie:Seaport  prov_tax:0000  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Talinie:Serimset  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Serimset  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:5
+^ DoNPCAdmin - Talinie:Serimset  prov_tax:0005  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Talinie:Winter's Deep  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Winter's Deep  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:4
+^ DoNPCAdmin - Talinie:Winter's Deep  prov_tax:0004  prov_trade:0000  prov_reg:0006
+^ DoNPCAdmin - Talinie  realm_tax:0048  trade:0003  payroll:0007  maint:0006
+^ DoNPCAdmin - Talinie  regency:0083  treasury:000530
+
+^ Next Seed 31 in    mapai.cpp line 0194
+^ DoNPCAdmin - Thurazor  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Thurazor:Bloodbay  FINAL province - civlvl:2 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Thurazor:Bloodbay  prov_tax:0002  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Thurazor:Crushing Hills  FINAL province - civlvl:3 taxlvl:1 roll:4 prov_tax:4
+^ DoNPCAdmin - Thurazor:Crushing Hills  prov_tax:0004  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Thurazor:Doom's Peak  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Thurazor:Doom's Peak  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Thurazor:Falling Timber  FINAL province - civlvl:4 taxlvl:1 roll:5 prov_tax:5
+^ DoNPCAdmin - Thurazor:Falling Timber  prov_tax:0005  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Thurazor:Mergarrote  FINAL province - civlvl:4 taxlvl:1 roll:4 prov_tax:4
+^ DoNPCAdmin - Thurazor:Mergarrote  prov_tax:0004  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Thurazor:Storm's Release  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Thurazor:Storm's Release  prov_tax:0001  prov_trade:0000  prov_reg:0006
+^ DoNPCAdmin - Thurazor  realm_tax:0019  trade:0000  payroll:0009  maint:0004
+^ DoNPCAdmin - Thurazor  regency:0074  treasury:000210
+
+^ Next Seed 32 in    mapai.cpp line 0194
+^ Next Seed 33 in    mapai.cpp line 0194
+^ DoNPCAdmin - Tuornen  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Tuornen:Alamsreft  FINAL province - civlvl:3 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Tuornen:Alamsreft  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Tuornen:Elevesnemiere  FINAL province - civlvl:2 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Tuornen:Elevesnemiere  prov_tax:0003  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Tuornen:Ghonallison  FINAL province - civlvl:2 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Tuornen:Ghonallison  prov_tax:0002  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Tuornen:Haesrien  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Tuornen:Haesrien  FINAL province - civlvl:5 taxlvl:1 roll:6 prov_tax:8
+^ DoNPCAdmin - Tuornen:Haesrien  prov_tax:0008  prov_trade:0005  prov_reg:0006
+^ PROVINCE INFO - Tuornen:Monsedge  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Tuornen:Monsedge  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Tuornen:Nabhriene  FINAL province - civlvl:3 taxlvl:1 roll:2 prov_tax:2
+^ DoNPCAdmin - Tuornen:Nabhriene  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Tuornen:Pechalinn  FINAL province - civlvl:2 taxlvl:1 roll:1 prov_tax:1
+^ DoNPCAdmin - Tuornen:Pechalinn  prov_tax:0001  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Tuornen:Tuor's Hold  FINAL province - civlvl:3 taxlvl:1 roll:3 prov_tax:3
+^ DoNPCAdmin - Tuornen:Tuor's Hold  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ DoNPCAdmin - Tuornen  realm_tax:0023  trade:0005  payroll:0007  maint:0005
+^ DoNPCAdmin - Tuornen  regency:0074  treasury:000310
+
+^ =============================================
+^ ===          START OF TURN 00           ===
+^ =============================================
+^ PROVINCE INFO - Baruk-Azhik:Bran's Retreat  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:Bran's Retreat  FINAL province - civlvl:4 taxlvl:2 roll:3 prov_tax:6
+^ PROVINCE INFO - Baruk-Azhik:Cliff's Lament  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Cliff's Lament  FINAL province - civlvl:4 taxlvl:2 roll:2 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:Land's Victory  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Land's Victory  FINAL province - civlvl:3 taxlvl:2 roll:5 prov_tax:7
+^ PROVINCE INFO - Baruk-Azhik:The Promontory  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:The Promontory  FINAL province - civlvl:3 taxlvl:2 roll:4 prov_tax:5
+^ PROVINCE INFO - Baruk-Azhik:Rivenrock  FINAL guild and temple - roll:3 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:Rivenrock  FINAL province - civlvl:5 taxlvl:2 roll:9 prov_tax:12
+^ PROVINCE INFO - Baruk-Azhik:Caudraight  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Deepshadow  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Duornil  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Mistil  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Ruorven  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Algael  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Moergen  FINAL guild and temple - roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Moriel  FINAL guild and temple - roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Spiritsend  FINAL guild and temple - roll:1 prov_tax:1
+^    multimap.cpp - Baruk-Azhik regency:88
+^    multimap.cpp - Tuarhievel regency:105
+^ actnmenu.cpp - Player Baruk-Azhik is doing Lieutenant Action
+^ ProcessGoldAndRegency - HomeRealm:Baruk-Azhik  regency:0088
+^    multimap.cpp - Baruk-Azhik regency:88
+^ actnmenu.cpp - Player Baruk-Azhik is doing Diplomacy
+^    multimap.cpp - Tuarhievel regency:105
+^ SyncRegencySpentInOpposition - HomeRealm:Baruk-Azhik  regency:0088
+^    multimap.cpp - Baruk-Azhik regency:88
+^ SyncRegencySpentInOpposition - TargetRealm:Second Swamp Mage  regency:0050
+^    multimap.cpp - Second Swamp Mage regency:50
+^ ProcessGoldAndRegency - HomeRealm:Baruk-Azhik  regency:0087
+^    multimap.cpp - Baruk-Azhik regency:87
+^ actnmenu.cpp - Player Baruk-Azhik is doing Diplomacy
+^    multimap.cpp - Tuarhievel regency:105
+^ SyncRegencySpentInOpposition - HomeRealm:Baruk-Azhik  regency:0087
+^    multimap.cpp - Baruk-Azhik regency:87
+^ SyncRegencySpentInOpposition - TargetRealm:Second Swamp Mage  regency:0050
+^    multimap.cpp - Second Swamp Mage regency:50
+^ ProcessGoldAndRegency - HomeRealm:Baruk-Azhik  regency:0086
+^    multimap.cpp - Baruk-Azhik regency:86
+^ DoNPCAction - CurrentRealm=5  HomeRealm=5 
+^ DoNPCAction - start waiting for SYNC3
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^    multimap.cpp - Tuarhievel regency:105
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^    multimap.cpp - N. Import and Export regency:50
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^    multimap.cpp - Tuarhievel regency:104
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^    multimap.cpp - Tuarhievel regency:104
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^    multimap.cpp - N. Import and Export regency:50
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^    multimap.cpp - Tuarhievel regency:103
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - CurrentRealm=0  HomeRealm=5 
+^ DoNPCAction - end waiting for SYNC3
+^ --------    #1: start of Monsters turn (GB:130 R:0)    --------
+^ Next Seed 34 in    mapai.cpp line 3101
+^ DoNPCAction - Monsters  doing action:mustering archers
+^    FindProvince - Failed
+^    muster unit - Failed3: FindProv
+^ DoNPCAction - Reroll
+^ DoNPCAction - Monsters  doing action:casting Mass destruction
+^ DoNPCAction - Reroll
+^ DoNPCAction - Monsters  doing action:moving unoccup foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Monsters  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Monsters  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Monsters  doing action:passing
+^ --------    end of Monsters turn (GB:10450692 R:0)    --------
+^ --------    #2: start of Cariele turn (GB:440 R:70)    --------
+^ Next Seed 35 in    mapai.cpp line 3101
+^ TRIGGERED  TR:ADJNALNUNSML I:Dhoesone (11)
+^ DoNPCAction - Cariele  triggered action:RAID  target realm:Dhoesone
+^ DoNPCAction - Cariele  doing action:moving reinforce foe (maybe on Dhoesone)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Cariele  doing action:moving unoccup foe (maybe on Dhoesone)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Cariele  doing action:moving unoccup foe (maybe on Dhoesone)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Cariele  doing action:declaring war (w) (maybe on Dhoesone)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Cariele  doing action:mustering knights (maybe on Dhoesone)
+^    PayForIt - Cariele  GB spent:6  GB now (x10):10450392   Reg spent:0  Reg now:70
+^ DoNPCAction - Cariele  doing action:declaring war (w) (maybe on Dhoesone)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Cariele  doing action:moving reinforce foe (maybe on Dhoesone)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Cariele  doing action:declaring war (w) (maybe on Dhoesone)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Cariele  doing action:mustering irregs. (maybe on Dhoesone)
+^    PayForIt - Cariele  GB spent:1  GB now (x10):10450392   Reg spent:0  Reg now:70
+^ DoNPCAction - Cariele  doing action:moving reinforce foe (maybe on Dhoesone)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Cariele  doing action:casting Raze (maybe on Dhoesone)
+^    FindProvince - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Cariele  doing action:declaring war (w) (maybe on Dhoesone)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Cariele  doing action:passing (maybe on Dhoesone)
+^ --------    end of Cariele turn (GB:10450392 R:70)    --------
+^ --------    #3: start of Gorgon's Crown turn (GB:50 R:150)    --------
+^ Next Seed 36 in    mapai.cpp line 3101
+^ TRIGGERED  TR:ADJNALNUN I:Tuarhievel (33)
+^ DoNPCAction - Gorgon's Crown  triggered action:RAID_GORGON  target realm:Tuarhievel
+^ DoNPCAction - Gorgon's Crown  doing action:moving unoccup foe (maybe on Tuarhievel)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Gorgon's Crown  doing action:moving attack own (maybe on Tuarhievel)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Gorgon's Crown  doing action:moving attack own (maybe on Tuarhievel)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Gorgon's Crown  doing action:passing (maybe on Tuarhievel)
+^ --------    end of Gorgon's Crown turn (GB:10450572 R:150)    --------
+^ --------    #4: start of Tuarhievel turn (GB:0 R:103)    --------
+^ Next Seed 37 in    mapai.cpp line 3101
+^ --------    #5: start of Baruk-Azhik turn (GB:130 R:86)    --------
+^ Next Seed 38 in    mapai.cpp line 3101
+^ --------    #6: start of Endier turn (GB:510 R:80)    --------
+^ Next Seed 39 in    mapai.cpp line 3101
+^ TRIGGERED  TR:ADJNALNUNSML I:Alamie (2)
+^ DoNPCAction - Endier  triggered action:RAID  target realm:Alamie
+^ DoNPCAction - Endier  doing action:moving unoccup foe (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Endier  doing action:casting Raze (maybe on Alamie)
+^    FindHolding - Failed
+^    FindHolding - Failed
+^    FindProvince - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Endier  doing action:mustering irregs. (maybe on Alamie)
+^    PayForIt - Endier  GB spent:1  GB now (x10):10450512   Reg spent:0  Reg now:80
+^ DoNPCAction - Endier  doing action:moving attack own (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Endier  doing action:moving unoccup foe (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Endier  doing action:mustering infantry (maybe on Alamie)
+^    PayForIt - Endier  GB spent:2  GB now (x10):10450512   Reg spent:0  Reg now:80
+^ DoNPCAction - Endier  doing action:moving attack own (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Endier  doing action:moving reinforce own (maybe on Alamie)
+^    npc_move - TargetUnit:261 cur_prov:Endier TargetProvince:Endier
+^ DoNPCAction - Endier  doing action:declaring war (w) (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Endier  doing action:moving reinforce own (maybe on Alamie)
+^    npc_move - TargetUnit:261 cur_prov:Endier TargetProvince:Endier
+^ DoNPCAction - Endier  doing action:mustering archers (maybe on Alamie)
+^    PayForIt - Endier  GB spent:2  GB now (x10):10450512   Reg spent:0  Reg now:80
+^ DoNPCAction - Endier  doing action:declaring war (w) (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Endier  doing action:declaring war (w) (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Endier  doing action:mustering scouts (maybe on Alamie)
+^    PayForIt - Endier  GB spent:2  GB now (x10):10450512   Reg spent:0  Reg now:80
+^ DoNPCAction - Endier  doing action:passing (maybe on Alamie)
+^ --------    end of Endier turn (GB:10450512 R:80)    --------
+^ --------    #7: start of Boeruine turn (GB:420 R:110)    --------
+^ Next Seed 40 in    mapai.cpp line 3101
+^ TRIGGERED  TR:ADJBLD I:Boeruine (6)
+^ DoNPCAction - Boeruine  triggered action:RAID  target realm:Boeruine
+^ DoNPCAction - Boeruine  doing action:mustering archers
+^    PayForIt - Boeruine  GB spent:2  GB now (x10):10450352   Reg spent:0  Reg now:110
+^ DoNPCAction - Boeruine  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:casting Raze
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:moving reinforce own
+^    npc_move - TargetUnit:30 cur_prov:Fhoruile TargetProvince:Bacaele
+^    multimap.cpp - Boeruine unit:30 DestProvince:27
+^    multimap.cpp - DestPath1:5
+^    multimap.cpp - DestPath2:3
+^ DoNPCAction - Boeruine  doing action:casting Mass destruction
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:mustering scouts
+^    PayForIt - Boeruine  GB spent:2  GB now (x10):10450352   Reg spent:0  Reg now:110
+^ DoNPCAction - Boeruine  doing action:mustering cavalry
+^    PayForIt - Boeruine  GB spent:4  GB now (x10):10450352   Reg spent:0  Reg now:110
+^ DoNPCAction - Boeruine  doing action:moving unoccup foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:moving reinforce foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:moving unoccup foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:mustering scouts
+^    PayForIt - Boeruine  GB spent:2  GB now (x10):10450352   Reg spent:0  Reg now:110
+^ DoNPCAction - Boeruine  doing action:moving reinforce foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:moving unoccup foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:casting Raze
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:moving reinforce foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:casting Mass destruction
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:casting Raze
+^ DoNPCAction - Reroll
+^ DoNPCAction - Boeruine  doing action:passing
+^ --------    end of Boeruine turn (GB:10450352 R:110)    --------
+^ --------    #8: start of Alamie turn (GB:330 R:63)    --------
+^ Next Seed 41 in    mapai.cpp line 3101
+^ DoNPCAction - Alamie  doing action:creating guild
+^    SpendNPCRegency - Alamie spent:15 now:48
+^ --------    end of Alamie turn (GB:10450292 R:48)    --------
+^ --------    #9: start of Taeghas turn (GB:240 R:83)    --------
+^ Next Seed 42 in    mapai.cpp line 3101
+^ TRIGGERED  TR:ADJBLDBIG I:Avanil (4)
+^ DoNPCAction - Taeghas  triggered action:ENTRENCH  target realm:Avanil
+^ DoNPCAction - Taeghas  doing action:mustering infantry (maybe on Avanil)
+^    PayForIt - Taeghas  GB spent:2  GB now (x10):10450832   Reg spent:0  Reg now:83
+^ DoNPCAction - Taeghas  doing action:fortifying (maybe on Avanil)
+^    FindHolding - Failed
+^    FindHolding - Failed
+^    FindHolding - Failed
+^    FindHolding - Failed
+^ --------    end of Taeghas turn (GB:10450832 R:83)    --------
+^ --------    #10: start of Avanil turn (GB:870 R:120)    --------
+^ Next Seed 43 in    mapai.cpp line 3101
+^ TRIGGERED  TR:ADJBLD I:Avanil (4)
+^ DoNPCAction - Avanil  triggered action:RAID  target realm:Avanil
+^ DoNPCAction - Avanil  doing action:mustering infantry
+^    PayForIt - Avanil  GB spent:2  GB now (x10):10450312   Reg spent:0  Reg now:120
+^ DoNPCAction - Avanil  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:mustering infantry
+^    PayForIt - Avanil  GB spent:2  GB now (x10):10450312   Reg spent:0  Reg now:120
+^ DoNPCAction - Avanil  doing action:moving unoccup foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:mustering cavalry
+^    PayForIt - Avanil  GB spent:4  GB now (x10):10450312   Reg spent:0  Reg now:120
+^ DoNPCAction - Avanil  doing action:mustering scouts
+^    PayForIt - Avanil  GB spent:2  GB now (x10):10450312   Reg spent:0  Reg now:120
+^ DoNPCAction - Avanil  doing action:moving unoccup foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:moving reinforce own
+^    npc_move - TargetUnit:68 cur_prov:Caulnor TargetProvince:Vanilen
+^    multimap.cpp - Avanil unit:68 DestProvince:56
+^    multimap.cpp - DestPath1:5
+^    multimap.cpp - DestPath2:1
+^ DoNPCAction - Avanil  doing action:moving unoccup foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:moving unoccup foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:moving reinforce foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:moving unoccup foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:casting Raze
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:mustering archers
+^    PayForIt - Avanil  GB spent:2  GB now (x10):10450312   Reg spent:0  Reg now:120
+^ DoNPCAction - Avanil  doing action:moving reinforce foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:moving unoccup foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:casting Mass destruction
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:mustering archers
+^    PayForIt - Avanil  GB spent:2  GB now (x10):10450312   Reg spent:0  Reg now:120
+^ DoNPCAction - Avanil  doing action:moving unoccup foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:moving reinforce own
+^    npc_move - TargetUnit:68 cur_prov:Vanilen TargetProvince:Bhrein
+^    multimap.cpp - Avanil unit:68 DestProvince:59
+^    multimap.cpp - DestPath1:2
+^ DoNPCAction - Avanil  doing action:mustering irregs.
+^    PayForIt - Avanil  GB spent:1  GB now (x10):10450312   Reg spent:0  Reg now:120
+^ DoNPCAction - Avanil  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:moving unoccup foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Avanil  doing action:mustering infantry
+^    PayForIt - Avanil  GB spent:2  GB now (x10):10450312   Reg spent:0  Reg now:120
+^ DoNPCAction - Avanil  doing action:moving reinforce own
+^    npc_move - TargetUnit:68 cur_prov:Bhrein TargetProvince:Vanilen
+^    multimap.cpp - Avanil unit:68 DestProvince:61
+^    multimap.cpp - DestPath1:1
+^ DoNPCAction - Avanil  doing action:passing
+^ --------    end of Avanil turn (GB:10450312 R:120)    --------
+^ --------    #11: start of Alamie turn (GB:210 R:84)    --------
+^ Next Seed 44 in    mapai.cpp line 3101
+^ TRIGGERED  TR:ADJBLD I:Alamie (2)
+^ DoNPCAction - Alamie  triggered action:RAID  target realm:Alamie
+^ DoNPCAction - Alamie  doing action:mustering scouts
+^    PayForIt - Alamie  GB spent:2  GB now (x10):10450272   Reg spent:0  Reg now:84
+^ DoNPCAction - Alamie  doing action:mustering knights
+^    PayForIt - Alamie  GB spent:6  GB now (x10):10450272   Reg spent:0  Reg now:84
+^ DoNPCAction - Alamie  doing action:moving reinforce own
+^    npc_move - TargetUnit:131 cur_prov:Sorelies TargetProvince:Alaroine
+^    multimap.cpp - Alamie unit:131 DestProvince:93
+^    multimap.cpp - DestPath1:4
+^ DoNPCAction - Alamie  doing action:mustering cavalry
+^    PayForIt - Alamie  GB spent:4  GB now (x10):10450272   Reg spent:0  Reg now:84
+^ DoNPCAction - Alamie  doing action:mustering knights
+^    PayForIt - Alamie  GB spent:6  GB now (x10):10450272   Reg spent:0  Reg now:84
+^ DoNPCAction - Alamie  doing action:moving unoccup foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:mustering archers
+^    PayForIt - Alamie  GB spent:2  GB now (x10):10450272   Reg spent:0  Reg now:84
+^ DoNPCAction - Alamie  doing action:mustering infantry
+^    CanAfford - Failed2
+^    muster unit - Failed2: CanAfford
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:casting Mass destruction
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:moving unoccup foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:mustering scouts
+^    CanAfford - Failed2
+^    muster unit - Failed2: CanAfford
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:moving reinforce foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:mustering knights
+^    CanAfford - Failed2
+^    muster unit - Failed2: CanAfford
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:mustering irregs.
+^    CanAfford - Failed2
+^    muster unit - Failed2: CanAfford
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:casting Raze
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:mustering cavalry
+^    CanAfford - Failed2
+^    muster unit - Failed2: CanAfford
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:moving attack own
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:declaring war (w)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Alamie  doing action:passing
+^ --------    end of Alamie turn (GB:10450272 R:84)    --------
+^ --------    #12: start of Roesone turn (GB:270 R:80)    --------
+^ Next Seed 45 in    mapai.cpp line 3101
+^ DoNPCAction - Roesone  doing action:creating guild
+^    SpendNPCRegency - Roesone spent:15 now:65
+^ --------    end of Roesone turn (GB:10450772 R:65)    --------
+^ --------    #13: start of Mur-Kilad turn (GB:120 R:55)    --------
+^ Next Seed 46 in    mapai.cpp line 3101
+^ DoNPCAction - Mur-Kilad  doing action:creating law
+^    FindNotHolding - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Mur-Kilad  doing action:mustering irregs.
+^    PayForIt - Mur-Kilad  GB spent:1  GB now (x10):10450712   Reg spent:0  Reg now:55
+^ DoNPCAction - Mur-Kilad  doing action:contesting guild
+^    SpendNPCRegency - Mur-Kilad spent:15 now:40
+^    SpendNPCRegency - Gorgon's Crown spent:13 now:137
+^    SpendNPCRegency - Mur-Kilad spent:8 now:32
+^    SpendNPCRegency - Gorgon's Crown spent:11 now:126
+^    SpendNPCRegency - Mur-Kilad spent:15 now:17
+^    SpendNPCRegency - Gorgon's Crown spent:1 now:125
+^ --------    end of Mur-Kilad turn (GB:10450712 R:17)    --------
+^ --------    #14: start of Elinie turn (GB:190 R:70)    --------
+^ Next Seed 47 in    mapai.cpp line 3101
+^ DoNPCAction - Elinie  doing action:casting Blessland
+^    FindProvince - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Elinie  doing action:building a road
+^    FindHolding - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Elinie  doing action:agitating
+^    FindProvince - Failed
+^    FindProvince - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Elinie  doing action:moving fill own
+^    npc_move - TargetUnit:140 cur_prov:Mholien TargetProvince:Chalsedon
+^    multimap.cpp - Elinie unit:140 DestProvince:102
+^ DoNPCAction - Elinie  doing action:building a road
+^    FindHolding - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Elinie  doing action:moving border foe
+^ DoNPCAction - Reroll
+^ DoNPCAction - Elinie  doing action:creating guild
+^    SpendNPCRegency - Elinie spent:15 now:55
+^ --------    end of Elinie turn (GB:10450492 R:55)    --------
+^ --------    #15: start of Five Peaks turn (GB:280 R:0)    --------
+^ Next Seed 48 in    mapai.cpp line 3101
+^ TRIGGERED  TR:ADJNALNUN I:Alamie (2)
+^ DoNPCAction - Five Peaks  triggered action:RAID_GOBBO  target realm:Alamie
+^ DoNPCAction - Five Peaks  doing action:mustering goblins (maybe on Alamie)
+^    PayForIt - Five Peaks  GB spent:1  GB now (x10):10450532   Reg spent:0  Reg now:0
+^ DoNPCAction - Five Peaks  doing action:mustering gnolls (maybe on Alamie)
+^    PayForIt - Five Peaks  GB spent:2  GB now (x10):10450532   Reg spent:0  Reg now:0
+^ DoNPCAction - Five Peaks  doing action:mustering goblins (maybe on Alamie)
+^    PayForIt - Five Peaks  GB spent:1  GB now (x10):10450532   Reg spent:0  Reg now:0
+^ DoNPCAction - Five Peaks  doing action:declaring war (w) (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:mustering gnolls (maybe on Alamie)
+^    PayForIt - Five Peaks  GB spent:2  GB now (x10):10450532   Reg spent:0  Reg now:0
+^ DoNPCAction - Five Peaks  doing action:mustering goblins (maybe on Alamie)
+^    PayForIt - Five Peaks  GB spent:1  GB now (x10):10450532   Reg spent:0  Reg now:0
+^ DoNPCAction - Five Peaks  doing action:mustering goblins (maybe on Alamie)
+^    PayForIt - Five Peaks  GB spent:1  GB now (x10):10450532   Reg spent:0  Reg now:0
+^ DoNPCAction - Five Peaks  doing action:mustering goblins (maybe on Alamie)
+^    PayForIt - Five Peaks  GB spent:1  GB now (x10):10450532   Reg spent:0  Reg now:0
+^ DoNPCAction - Five Peaks  doing action:moving unoccup foe (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:casting Mass destruction (maybe on Alamie)
+^    FindUnit - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:moving unoccup foe (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:moving unoccup foe (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:mustering goblins (maybe on Alamie)
+^    PayForIt - Five Peaks  GB spent:1  GB now (x10):10450532   Reg spent:0  Reg now:0
+^ DoNPCAction - Five Peaks  doing action:declaring war (w) (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:casting Mass destruction (maybe on Alamie)
+^    FindUnit - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:mustering gnolls (maybe on Alamie)
+^    PayForIt - Five Peaks  GB spent:3  GB now (x10):10450532   Reg spent:0  Reg now:0
+^ DoNPCAction - Five Peaks  doing action:moving unoccup foe (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:moving unoccup foe (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:mustering goblins (maybe on Alamie)
+^    PayForIt - Five Peaks  GB spent:1  GB now (x10):10450532   Reg spent:0  Reg now:0
+^ DoNPCAction - Five Peaks  doing action:moving reinforce own (maybe on Alamie)
+^    npc_move - TargetUnit:263 cur_prov:Floodspaeth TargetProvince:Sufhanie
+^    multimap.cpp - Five Peaks unit:263 DestProvince:154
+^    multimap.cpp - DestPath1:3
+^ DoNPCAction - Five Peaks  doing action:mustering goblins (maybe on Alamie)
+^    PayForIt - Five Peaks  GB spent:1  GB now (x10):10450532   Reg spent:0  Reg now:0
+^ DoNPCAction - Five Peaks  doing action:declaring war (w) (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:moving unoccup foe (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:mustering gnolls (maybe on Alamie)
+^    PayForIt - Five Peaks  GB spent:2  GB now (x10):10450532   Reg spent:0  Reg now:0
+^ DoNPCAction - Five Peaks  doing action:moving reinforce own (maybe on Alamie)
+^    npc_move - TargetUnit:263 cur_prov:Sufhanie TargetProvince:Thasbyrn
+^    multimap.cpp - Five Peaks unit:263 DestProvince:153
+^ DoNPCAction - Five Peaks  doing action:declaring war (w) (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:declaring war (w) (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:declaring war (w) (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:casting Raze (maybe on Alamie)
+^    FindProvince - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:moving unoccup foe (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:moving unoccup foe (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:casting Mass destruction (maybe on Alamie)
+^    FindUnit - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:mustering gnolls (maybe on Alamie)
+^    PayForIt - Five Peaks  GB spent:2  GB now (x10):10450532   Reg spent:0  Reg now:0
+^ DoNPCAction - Five Peaks  doing action:mustering goblins (maybe on Alamie)
+^    PayForIt - Five Peaks  GB spent:4  GB now (x10):10450532   Reg spent:0  Reg now:0
+^ DoNPCAction - Five Peaks  doing action:moving unoccup foe (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:declaring war (w) (maybe on Alamie)
+^ DoNPCAction - Reroll
+^ DoNPCAction - Five Peaks  doing action:passing (maybe on Alamie)
+^ --------    end of Five Peaks turn (GB:10450532 R:0)    --------
+^ --------    #16: start of Dhoesone turn (GB:250 R:87)    --------
+^ Next Seed 49 in    mapai.cpp line 3101
+^ DoNPCAction - Dhoesone  doing action:forming alliance
+^ --------    end of Dhoesone turn (GB:10450452 R:87)    --------
+^ --------    #17: start of Diemed turn (GB:210 R:91)    --------
+^ Next Seed 50 in    mapai.cpp line 3101
+^ DoNPCAction - Diemed  doing action:creating law
+^    FindNotHolding - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Diemed  doing action:casting Blessland
+^    FindProvince - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Diemed  doing action:contesting law
+^    SpendNPCRegency - Diemed spent:15 now:76
+^    SpendNPCRegency - Avanil spent:1 now:119
+^ --------    end of Diemed turn (GB:10450472 R:76)    --------
+^ --------    #18: start of Thurazor turn (GB:210 R:74)    --------
+^ Next Seed 51 in    mapai.cpp line 3101
+^ DoNPCAction - Thurazor  doing action:moving fill own
+^    FindProvince - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Thurazor  doing action:creating law
+^    FindNotHolding - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Thurazor  doing action:moving fill own
+^    FindProvince - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Thurazor  doing action:casting Stronghold
+^    FindProvince - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Thurazor  doing action:ruling guild
+^    FindHolding - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Thurazor  doing action:forming alliance
+^ DoNPCAction - Reroll
+^ DoNPCAction - Thurazor  doing action:building a road
+^    FindHolding - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Thurazor  doing action:building a road
+^    FindHolding - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Thurazor  doing action:moving fill own
+^    FindProvince - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Thurazor  doing action:ruling guild
+^    FindHolding - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Thurazor  doing action:contesting guild
+^    SpendNPCRegency - Thurazor spent:15 now:59
+^    multimap.cpp - Tuarhievel regency:72
+^    multimap.cpp - Thurazor regency:48
+^ --------    end of Thurazor turn (GB:10450872 R:48)    --------
+^ --------    #19: start of Osoerde turn (GB:200 R:83)    --------
+^ Next Seed 52 in    mapai.cpp line 3101
+^ DoNPCAction - Osoerde  doing action:ruling province
+^    SpendNPCRegency - Osoerde spent:15 now:68
+^ --------    end of Osoerde turn (GB:10450732 R:68)    --------
+^ --------    #20: start of Ilien turn (GB:280 R:71)    --------
+^ Next Seed 53 in    mapai.cpp line 3101
+^ DoNPCAction - Ilien  doing action:creating guild
+^    SpendNPCRegency - Ilien spent:15 now:56
+^ --------    end of Ilien turn (GB:10450592 R:56)    --------
+^ --------    #21: start of Spiderfell turn (GB:190 R:55)    --------
+^ Next Seed 54 in    mapai.cpp line 3101
+^ TRIGGERED  TR:ADJBLDBIG I:Endier (14)
+^ DoNPCAction - Spiderfell  triggered action:BUILD_SPIDER  target realm:Endier
+^ DoNPCAction - Spiderfell  doing action:mustering gnolls (maybe on Endier)
+^    PayForIt - Spiderfell  GB spent:3  GB now (x10):10450812   Reg spent:0  Reg now:55
+^ DoNPCAction - Spiderfell  doing action:mustering spiders (maybe on Endier)
+^    FindProvince - Failed
+^    muster unit - Failed3: FindProv
+^ DoNPCAction - Reroll
+^ DoNPCAction - Spiderfell  doing action:mustering gnolls (maybe on Endier)
+^    PayForIt - Spiderfell  GB spent:3  GB now (x10):10450812   Reg spent:0  Reg now:55
+^ DoNPCAction - Spiderfell  doing action:mustering skeletons (maybe on Endier)
+^    PayForIt - Spiderfell  GB spent:4  GB now (x10):10450812   Reg spent:0  Reg now:55
+^ DoNPCAction - Spiderfell  doing action:fortifying (maybe on Endier)
+^    FindHolding - Failed
+^    FindProvince - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Spiderfell  doing action:mustering spiders (maybe on Endier)
+^    FindProvince - Failed
+^    muster unit - Failed3: FindProv
+^ DoNPCAction - Reroll
+^ DoNPCAction - Spiderfell  doing action:contesting temple (maybe on Endier)
+^    FindHolding - Failed
+^    FindHolding - Failed
+^    FindHolding - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Spiderfell  doing action:mustering spiders (maybe on Endier)
+^    FindProvince - Failed
+^    muster unit - Failed3: FindProv
+^ DoNPCAction - Reroll
+^ DoNPCAction - Spiderfell  doing action:casting Death plague (maybe on Endier)
+^    FindProvince - Failed
+^ DoNPCAction - Reroll
+^ DoNPCAction - Spiderfell  doing action:mustering spiders (maybe on Endier)
+^    FindProvince - Failed
+^    muster unit - Failed3: FindProv
+^ DoNPCAction - Reroll
+^ DoNPCAction - Spiderfell  doing action:contesting source (maybe on Endier)
+^    SpendNPCRegency - Spiderfell spent:15 now:40
+^    SpendNPCRegency - Endier spent:11 now:69
+^ --------    end of Spiderfell turn (GB:10450812 R:40)    --------

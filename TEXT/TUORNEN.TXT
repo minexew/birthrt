@@ -1,0 +1,8 @@
+^F02 
+^F06Tuornen
+^F02^W312
+This Heartlands realm has all terrain types, including
+battle-scarred areas where nothing will grow.  Once
+a part of Alamie, Tuornen split off in a rebellion.  The
+people are generally friendly, but somewhat defen-
+sive about their rebel status.

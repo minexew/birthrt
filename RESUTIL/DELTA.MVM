@@ -1,0 +1,4 @@
+project = BIRTHRT
+location = //MAINSERVER/PROJECTS/BIRTHRT.PRJ
+user root = //D:GARY_D2/BIRTHRT
+sub dir = /resutil

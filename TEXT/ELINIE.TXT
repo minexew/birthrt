@@ -1,0 +1,8 @@
+^F02 
+^F06  Elinie
+^F02^W310
+   This diverse Heartlands realm borders on three
+   hostile domains and hosts grasslands, hills, and a
+   swamp named Hope's Demise.  The Eliniens have an
+   indomitable spirit and exhibit unwavering loyalty
+   to their Khinasi liege.

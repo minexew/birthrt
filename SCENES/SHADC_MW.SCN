@@ -1,0 +1,26 @@
+[Version]
+1.0
+[Sounds]
+4
+[Music]
+6
+[Panorama]
+Back01a
+Back01b
+Back01e
+Back01a
+Back01b
+Back01e
+Back01a
+Back01b
+Back01e
+Back01b
+[QuestThingType]
+386
+[Wad]
+shadc_mw.wad
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 5

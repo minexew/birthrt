@@ -1,0 +1,2520 @@
+v Saved game on turn 0.
+^ StartSync/CheckSync - start of sync 7 -----------------
+^    StartSync - Player 2, send sync 7
+^ Birthright - Sending a message
+^    StartSync - Player 2, sync 7 sent
+^ CheckSync - Start of check sync 7
+^    CheckSync - Player 2, receive GO, sync 7
+^    CheckSync - Player 2, master ID 1, index 0, realm N. Import and Export
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 7 -----------------
+^ Birthright - Waiting for a message
+^ Birthright - Waiting for a file
+^ StartSync/CheckSync - start of sync 5 -----------------
+^    StartSync - Player 2, send sync 5
+^ Birthright - Sending a message
+^    StartSync - Player 2, sync 5 sent
+^ CheckSync - Start of check sync 5
+^    CheckSync - Player 2, receive GO, sync 5
+^    CheckSync - Player 2, master ID 1, index 0, realm N. Import and Export
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 5 -----------------
+^ Start Receive File (lMasterId = 1)
+^ FILEXFER - ReceiveFile Sending OKTS to master (1) 1000 wait and 10 retrys.
+^ FILEXFER - StartFileReceive waiting.
+^ FILEXFER - StartFileReceive got NETMSGID_FILESTART.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFileBlock got NETMSGID_FILEDATA.
+^ FILEXFER - ReceiveFile WAS COOL.
+^ End Receive File
+^ Birthright - Sending a message
+^ LoadSaveDoMulti: Leaving domain turn
+^ LoadSaveDoMulti: Entering domain turn
+^ StartSync/CheckSync - start of sync 4 -----------------
+^    StartSync - Player 2, send sync 4
+^ Birthright - Sending a message
+^    StartSync - Player 2, sync 4 sent
+^ CheckSync - Start of check sync 4
+^    CheckSync - Player 2, receive GO, sync 4
+^    CheckSync - Player 2, master ID 1, index 0, realm N. Import and Export
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 4 -----------------
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Player ID:1, has left the game.
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+v Saved game on turn 0.
+^ StartSync/CheckSync - start of sync 7 -----------------
+^    StartSync - Player 1, send sync 7
+^ Birthright - Sending a message
+^    StartSync - Player 1, sync 7 sent
+^ CheckSync - Start of check sync 7
+^    CheckSync - Player 1, receive GO, sync 7
+^    CheckSync - Player 1, master ID 0, index 0, realm N. Import and Export
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 7 -----------------
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Start Rand Seed
+^ Next Seed 1 in    mapai.cpp line 0275
+^ DoNPCAdmin - Aerenwe is realm #29 in the realm order
+
+^ Next Seed 2 in    mapai.cpp line 0275
+^ DoNPCAdmin - Alamie  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Alamie:Alaroine  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Alamie:Alaroine  prov_tax:0002  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Alamie:Deseirain  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Alamie:Deseirain  prov_tax:0003  prov_trade:0003  prov_reg:0005
+^ PROVINCE INFO - Alamie:Hildon  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Alamie:Hildon  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Alamie:Laraeth  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Alamie:Laraeth  prov_tax:0002  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Alamie:Maesford  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Alamie:Maesford  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Alamie:Nortmoor  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Alamie:Nortmoor  prov_tax:0001  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Alamie:Sorelies  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Alamie:Sorelies  prov_tax:0002  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Alamie:Soutmoor  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Alamie:Soutmoor  prov_tax:0003  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Alamie:Traiward  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Alamie:Traiward  prov_tax:0004  prov_trade:0000  prov_reg:0005
+^ DoNPCAdmin - Alamie  realm_tax:0020  trade:0003  payroll:0012  maint:0006
+^ DoNPCAdmin - Alamie  regency:0084  treasury:000700
+^ DoNPCAdmin - Alamie is realm #24 in the realm order
+
+^ Next Seed 3 in    mapai.cpp line 0275
+^ DoNPCAdmin - Anuire  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Anuire:City of Anuire  FINAL province - civlvl:10 taxlvl:1 mod:0 roll:9 prov_tax:9
+^ DoNPCAdmin - Anuire:City of Anuire  prov_tax:0009  prov_trade:0010  prov_reg:0013
+^ DoNPCAdmin - Anuire  realm_tax:0009  trade:0010  payroll:0004  maint:0002
+^ DoNPCAdmin - Anuire  regency:0063  treasury:000280
+^ DoNPCAdmin - Anuire is realm #34 in the realm order
+
+^ Next Seed 4 in    mapai.cpp line 0275
+^ DoNPCAdmin - Avanil  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Avanil:Aerele  FINAL gld & tmpl - civ:4 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Ciliene  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Bhaine  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Brosien  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Seamist  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Wilder's Gorge  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Anuire  FINAL gld & tmpl - civ:7 hld:4 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Anuire  FINAL gld & tmpl - civ:7 hld:4 mod:0 roll:2 prov_tax:5
+^ PROVINCE INFO - Avanil:Anuire  FINAL province - civlvl:7 taxlvl:1 mod:0 roll:5 prov_tax:10
+^ DoNPCAdmin - Avanil:Anuire  prov_tax:0010  prov_trade:0000  prov_reg:0014
+^ PROVINCE INFO - Avanil:Avarien  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:Avarien  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:5
+^ PROVINCE INFO - Avanil:Avarien  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:8
+^ DoNPCAdmin - Avanil:Avarien  prov_tax:0008  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Avanil:Bhrein  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Bhrein  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:5
+^ PROVINCE INFO - Avanil:Bhrein  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:7
+^ DoNPCAdmin - Avanil:Bhrein  prov_tax:0007  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Avanil:Caulnor  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Caulnor  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:5 prov_tax:6
+^ PROVINCE INFO - Avanil:Caulnor  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:4 prov_tax:10
+^ DoNPCAdmin - Avanil:Caulnor  prov_tax:0010  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Avanil:Daulton  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Daulton  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:2 prov_tax:4
+^ PROVINCE INFO - Avanil:Daulton  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:2 prov_tax:6
+^ DoNPCAdmin - Avanil:Daulton  prov_tax:0006  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Avanil:Duriene  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Duriene  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Avanil:Duriene  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:10
+^ DoNPCAdmin - Avanil:Duriene  prov_tax:0010  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Avanil:Nentril  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Nentril  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:4
+^ PROVINCE INFO - Avanil:Nentril  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:5
+^ DoNPCAdmin - Avanil:Nentril  prov_tax:0005  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Avanil:Taliern  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Taliern  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:3
+^ PROVINCE INFO - Avanil:Taliern  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:6
+^ DoNPCAdmin - Avanil:Taliern  prov_tax:0006  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Avanil:Vanilen  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Vanilen  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:3
+^ PROVINCE INFO - Avanil:Vanilen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:7
+^ DoNPCAdmin - Avanil:Vanilen  prov_tax:0007  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Avanil:Alamsreft  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Elevesnemiere  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Haesrien  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Monsedge  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Nabhriene  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Nabhriene  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:1
+^ PROVINCE INFO - Avanil:Pechalinn  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Tuor's Hold  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Tuor's Hold  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:6
+^ PROVINCE INFO - Avanil:Deseirain  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Maesford  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Sorelies  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Traiward  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:City of Anuire  FINAL gld & tmpl - civ:10 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:City of Anuire  FINAL gld & tmpl - civ:10 hld:2 mod:0 roll:1 prov_tax:3
+^ PROVINCE INFO - Avanil:Endier  FINAL gld & tmpl - civ:6 hld:3 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Avanil  realm_tax:0105  trade:0000  payroll:0034  maint:0022
+^ DoNPCAdmin - Avanil  regency:0120  treasury:000640
+^ DoNPCAdmin - Avanil is realm #2 in the realm order
+
+^ Next Seed 5 in    mapai.cpp line 0275
+^ DoNPCAdmin - Baruk-Azhik  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Baruk-Azhik:Bran's Retreat  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:Bran's Retreat  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:8
+^ DoNPCAdmin - Baruk-Azhik:Bran's Retreat  prov_tax:0008  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Baruk-Azhik:Cliff's Lament  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Cliff's Lament  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:6
+^ DoNPCAdmin - Baruk-Azhik:Cliff's Lament  prov_tax:0006  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Baruk-Azhik:Land's Victory  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Land's Victory  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ DoNPCAdmin - Baruk-Azhik:Land's Victory  prov_tax:0005  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Baruk-Azhik:The Promontory  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:The Promontory  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:7
+^ DoNPCAdmin - Baruk-Azhik:The Promontory  prov_tax:0007  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Baruk-Azhik:Rivenrock  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Rivenrock  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:3 prov_tax:4
+^ DoNPCAdmin - Baruk-Azhik:Rivenrock  prov_tax:0004  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Baruk-Azhik:Caudraight  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:Deepshadow  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Duornil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Mistil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Ruorven  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:Algael  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Moergen  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Moriel  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Spiritsend  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Baruk-Azhik  realm_tax:0046  trade:0000  payroll:0016  maint:0006
+^ DoNPCAdmin - Baruk-Azhik  regency:0088  treasury:000390
+^ DoNPCAdmin - Baruk-Azhik is realm #33 in the realm order
+
+^ Next Seed 6 in    mapai.cpp line 0275
+^ DoNPCAdmin - Boeruine  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Boeruine:Bacaele  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Boeruine:Bacaele  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ DoNPCAdmin - Boeruine:Bacaele  prov_tax:0005  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Calant  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Boeruine:Calant  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:4
+^ DoNPCAdmin - Boeruine:Calant  prov_tax:0004  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Dhalaese  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Boeruine:Dhalaese  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Boeruine:Dhalaese  prov_tax:0003  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Fhoruile  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Boeruine:Fhoruile  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:3
+^ DoNPCAdmin - Boeruine:Fhoruile  prov_tax:0003  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Nietier  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Boeruine:Nietier  prov_tax:0001  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Redoubt  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Boeruine:Redoubt  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:6
+^ DoNPCAdmin - Boeruine:Redoubt  prov_tax:0006  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Rivien  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Boeruine:Rivien  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:3 prov_tax:8
+^ DoNPCAdmin - Boeruine:Rivien  prov_tax:0008  prov_trade:0000  prov_reg:0012
+^ PROVINCE INFO - Boeruine:Seasedge  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Boeruine:Seasedge  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:9 prov_tax:12
+^ DoNPCAdmin - Boeruine:Seasedge  prov_tax:0012  prov_trade:0000  prov_reg:0012
+^ PROVINCE INFO - Boeruine:Tariene  FINAL gld & tmpl - civ:6 hld:4 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Boeruine:Tariene  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:7 prov_tax:10
+^ DoNPCAdmin - Boeruine:Tariene  prov_tax:0010  prov_trade:0006  prov_reg:0012
+^ PROVINCE INFO - Boeruine:Lindholme  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Boeruine:Wilder's Gorge  FINAL gld & tmpl - civ:1 hld:0 mod:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Boeruine  realm_tax:0055  trade:0006  payroll:0028  maint:0009
+^ DoNPCAdmin - Boeruine  regency:0110  treasury:000890
+^ DoNPCAdmin - Boeruine is realm #21 in the realm order
+
+^ Next Seed 7 in    mapai.cpp line 0275
+^ DoNPCAdmin - Brosengae  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Brosengae:Bindier  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Brosengae:Bindier  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:7
+^ DoNPCAdmin - Brosengae:Bindier  prov_tax:0007  prov_trade:0004  prov_reg:0014
+^ PROVINCE INFO - Brosengae:Coere  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Brosengae:Coere  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:1 prov_tax:4
+^ PROVINCE INFO - Brosengae:Coere  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:8
+^ DoNPCAdmin - Brosengae:Coere  prov_tax:0008  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Brosengae:Marilen  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Brosengae:Marilen  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:4 prov_tax:6
+^ PROVINCE INFO - Brosengae:Marilen  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:8
+^ DoNPCAdmin - Brosengae:Marilen  prov_tax:0008  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Brosengae:Anuire  FINAL gld & tmpl - civ:7 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Brosengae:Bhrein  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Brosengae:Duriene  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Brosengae:Taliern  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Brosengae:Haesrien  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Brosengae:Nabhriene  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Brosengae  realm_tax:0033  trade:0004  payroll:0003  maint:0005
+^ DoNPCAdmin - Brosengae  regency:0091  treasury:000440
+^ DoNPCAdmin - Brosengae is realm #27 in the realm order
+
+^ Next Seed 8 in    mapai.cpp line 0275
+^ DoNPCAdmin - Cariele  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Cariele:Alamsreft  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Ghonallison  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Haesrien  FINAL gld & tmpl - civ:5 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Cariele:Monsedge  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Alaroine  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Deseirain  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Cariele:Hildon  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Nortmoor  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Cariele:Sorelies  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Sonnelind  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Tradebhein  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Avallaigh  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Bhindraith  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Cwmbheir  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Mhelliviene  FINAL gld & tmpl - civ:5 hld:5 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Cariele:Mhelliviene  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:7 prov_tax:11
+^ DoNPCAdmin - Cariele:Mhelliviene  prov_tax:0011  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Cariele:Mountainsedge  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Mountainsedge  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:4
+^ DoNPCAdmin - Cariele:Mountainsedge  prov_tax:0004  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Cariele:Riverford  FINAL gld & tmpl - civ:5 hld:5 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Riverford  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:6 prov_tax:9
+^ DoNPCAdmin - Cariele:Riverford  prov_tax:0009  prov_trade:0000  prov_reg:0010
+^ DoNPCAdmin - Cariele  realm_tax:0047  trade:0000  payroll:0005  maint:0006
+^ DoNPCAdmin - Cariele  regency:0070  treasury:000510
+^ DoNPCAdmin - Cariele is realm #12 in the realm order
+
+^ Next Seed 9 in    mapai.cpp line 0275
+^ DoNPCAdmin - Chimaeron  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Chimaeron:Barniere  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Chimaeron:Barniere  prov_tax:0002  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Chimaeron:Careine  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Chimaeron:Careine  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ DoNPCAdmin - Chimaeron:Careine  prov_tax:0003  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Chimaeron:Hamein  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Chimaeron:Hamein  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:2
+^ DoNPCAdmin - Chimaeron:Hamein  prov_tax:0002  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Chimaeron:Lyssan  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Chimaeron:Lyssan  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:3
+^ DoNPCAdmin - Chimaeron:Lyssan  prov_tax:0003  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Chimaeron:Mhowe  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Chimaeron:Mhowe  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:4
+^ DoNPCAdmin - Chimaeron:Mhowe  prov_tax:0004  prov_trade:0002  prov_reg:0002
+^ PROVINCE INFO - Chimaeron:Ruorkhe  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Chimaeron:Ruorkhe  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Chimaeron:Ruorkhe  prov_tax:0001  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Chimaeron:Salviene  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Chimaeron:Salviene  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ DoNPCAdmin - Chimaeron  realm_tax:0017  trade:0002  payroll:0007  maint:0005
+^ DoNPCAdmin - Chimaeron  regency:0087  treasury:000720
+^ DoNPCAdmin - Chimaeron is realm #10 in the realm order
+
+^ Next Seed 10 in    mapai.cpp line 0275
+^ DoNPCAdmin - Coeranys  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Coeranys:Achiese  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Conallier  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Thoralinar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:City of Anuire  FINAL gld & tmpl - civ:10 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Coeranys:Ansien  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Coeranys:Hope's Demise  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Osoeriene  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Sendouras  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Coeranys:Soileite  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Bogsend  FINAL gld & tmpl - civ:3 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Coeranys:Bogsend  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Coeranys:Bogsend  prov_tax:0004  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Coeranys:Caudraight  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Coeranys:Caudraight  prov_tax:0004  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Coeranys:Deepshadow  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Coeranys:Deepshadow  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:7
+^ DoNPCAdmin - Coeranys:Deepshadow  prov_tax:0007  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Coeranys:Duornil  FINAL gld & tmpl - civ:2 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Duornil  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ DoNPCAdmin - Coeranys:Duornil  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Coeranys:Mistil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Mistil  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:3
+^ DoNPCAdmin - Coeranys:Mistil  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Coeranys:Ranien  FINAL gld & tmpl - civ:2 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Coeranys:Ranien  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Coeranys:Ranien  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Coeranys:Ruorven  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Coeranys:Ruorven  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:6
+^ DoNPCAdmin - Coeranys:Ruorven  prov_tax:0006  prov_trade:0004  prov_reg:0007
+^ DoNPCAdmin - Coeranys  realm_tax:0047  trade:0004  payroll:0004  maint:0007
+^ DoNPCAdmin - Coeranys  regency:0073  treasury:000550
+^ DoNPCAdmin - Coeranys is realm #32 in the realm order
+
+^ Next Seed 11 in    mapai.cpp line 0275
+^ DoNPCAdmin - Dhoesone  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Dhoesone:Bjondrig  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Dhoesone:Bjondrig  prov_tax:0000  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Dhoesone:Dharilein  FINAL province - civlvl:1 taxlvl:2 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Dhoesone:Dharilein  prov_tax:0002  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Dhoesone:Giant's Fastness  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Dhoesone:Giant's Fastness  prov_tax:0000  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Dhoesone:Hidaele  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Dhoesone:Hidaele  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Dhoesone:Nolien  FINAL province - civlvl:3 taxlvl:2 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Dhoesone:Nolien  prov_tax:0003  prov_trade:0003  prov_reg:0007
+^ PROVINCE INFO - Dhoesone:Riveside  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Dhoesone:Riveside  prov_tax:0004  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Dhoesone:Romiene  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Dhoesone:Romiene  prov_tax:0000  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Dhoesone:Ruidewash  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Dhoesone:Ruidewash  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Dhoesone:Sidhuire  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Dhoesone:Sidhuire  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Dhoesone:Soniele  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Dhoesone:Soniele  prov_tax:0000  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Dhoesone:Sonnelind  FINAL province - civlvl:4 taxlvl:2 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Dhoesone:Sonnelind  prov_tax:0003  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Dhoesone:Tradebhein  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Dhoesone:Tradebhein  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ DoNPCAdmin - Dhoesone  realm_tax:0021  trade:0003  payroll:0010  maint:0006
+^ DoNPCAdmin - Dhoesone  regency:0087  treasury:000230
+^ DoNPCAdmin - Dhoesone is realm #31 in the realm order
+
+^ Next Seed 12 in    mapai.cpp line 0275
+^ DoNPCAdmin - Diemed  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Diemed:Aerele  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Diemed:Aerele  prov_tax:0004  prov_trade:0004  prov_reg:0007
+^ PROVINCE INFO - Diemed:Bliene  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Diemed:Bliene  prov_tax:0003  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Diemed:Ciliene  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Diemed:Ciliene  prov_tax:0003  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Diemed:Duene  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Diemed:Duene  prov_tax:0001  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Diemed:Moere  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:6 prov_tax:6
+^ DoNPCAdmin - Diemed:Moere  prov_tax:0006  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Diemed:Tier  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Diemed:Tier  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ DoNPCAdmin - Diemed  realm_tax:0018  trade:0004  payroll:0009  maint:0005
+^ DoNPCAdmin - Diemed  regency:0091  treasury:000730
+^ DoNPCAdmin - Diemed is realm #11 in the realm order
+
+^ Next Seed 13 in    mapai.cpp line 0275
+^ DoNPCAdmin - Elinie  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Elinie:Ansien  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:7 prov_tax:7
+^ DoNPCAdmin - Elinie:Ansien  prov_tax:0007  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Elinie:Chalsedon  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Elinie:Chalsedon  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Elinie:Hope's Demise  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Elinie:Hope's Demise  prov_tax:0001  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Elinie:Mholien  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Elinie:Mholien  prov_tax:0001  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Elinie:Osoeriene  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Elinie:Osoeriene  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Elinie:Sendouras  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Elinie:Sendouras  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Elinie:Soileite  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Elinie:Soileite  prov_tax:0001  prov_trade:0000  prov_reg:0002
+^ DoNPCAdmin - Elinie  realm_tax:0017  trade:0000  payroll:0009  maint:0005
+^ DoNPCAdmin - Elinie  regency:0070  treasury:000680
+^ DoNPCAdmin - Elinie is realm #18 in the realm order
+
+^ Next Seed 14 in    mapai.cpp line 0275
+^ DoNPCAdmin - Endier  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Endier:Ciliene  FINAL gld & tmpl - civ:6 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Endier:Moere  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:6 prov_tax:6
+^ PROVINCE INFO - Endier:Tier  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:Caerwil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:Ghiere  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Rhumannen  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Tireste  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Endier:Maesford  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Traiward  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Endier:City of Anuire  FINAL gld & tmpl - civ:10 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:Endier  FINAL gld & tmpl - civ:6 hld:6 mod:0 roll:6 prov_tax:6
+^ PROVINCE INFO - Endier:Endier  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:3 prov_tax:9
+^ DoNPCAdmin - Endier:Endier  prov_tax:0009  prov_trade:0006  prov_reg:0021
+^ DoNPCAdmin - Endier  realm_tax:0035  trade:0006  payroll:0003  maint:0004
+^ DoNPCAdmin - Endier  regency:0080  treasury:000490
+^ DoNPCAdmin - Endier is realm #25 in the realm order
+
+^ Next Seed 15 in    mapai.cpp line 0275
+^ DoNPCAdmin - Five Peaks  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Five Peaks:The Gorge  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Five Peaks:The Gorge  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Floodspaeth  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Five Peaks:Floodspaeth  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Helmshaven  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Five Peaks:Helmshaven  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Puinol  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Five Peaks:Puinol  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Sufhanie  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Five Peaks:Sufhanie  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Thasbyrn  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Five Peaks:Thasbyrn  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Torain  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Five Peaks:Torain  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ DoNPCAdmin - Five Peaks  realm_tax:0013  trade:0000  payroll:0000  maint:0004
+^ DoNPCAdmin - Five Peaks  regency:0000  treasury:000240
+^ DoNPCAdmin - Five Peaks is realm #14 in the realm order
+
+^ Next Seed 16 in    mapai.cpp line 0275
+^ DoNPCAdmin - Ghoere  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Ghoere:Achiese  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Ghoere:Achiese  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:8
+^ DoNPCAdmin - Ghoere:Achiese  prov_tax:0008  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Ghoere:Bhalaene  FINAL gld & tmpl - civ:6 hld:4 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Bhalaene  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:7 prov_tax:9
+^ DoNPCAdmin - Ghoere:Bhalaene  prov_tax:0009  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Ghoere:Bheline  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Bheline  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ DoNPCAdmin - Ghoere:Bheline  prov_tax:0003  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Ghoere:Conallier  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Ghoere:Conallier  prov_tax:0001  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Ghoere:Danaroene  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Danaroene  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ DoNPCAdmin - Ghoere:Danaroene  prov_tax:0003  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Ghoere:Ghiere  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Ghiere  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:5 prov_tax:7
+^ DoNPCAdmin - Ghoere:Ghiere  prov_tax:0007  prov_trade:0005  prov_reg:0008
+^ PROVINCE INFO - Ghoere:Rhumannen  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Ghoere:Rhumannen  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:6
+^ DoNPCAdmin - Ghoere:Rhumannen  prov_tax:0006  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Ghoere:Thoralinar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Ghoere:Thoralinar  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:6
+^ DoNPCAdmin - Ghoere:Thoralinar  prov_tax:0006  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Ghoere:Tireste  FINAL gld & tmpl - civ:5 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Tireste  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ DoNPCAdmin - Ghoere:Tireste  prov_tax:0003  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Ghoere:Tornilen  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Tornilen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ DoNPCAdmin - Ghoere:Tornilen  prov_tax:0005  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Ghoere:Cwlldon  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Tenarien  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Ghoere:Alaroine  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Laraeth  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Bogsend  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Ghoere:Caudraight  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Ghoere:Brothendar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Ghoere:Ghalliere  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Moriel  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Ghoere  realm_tax:0072  trade:0005  payroll:0030  maint:0009
+^ DoNPCAdmin - Ghoere  regency:0099  treasury:000530
+^ DoNPCAdmin - Ghoere is realm #17 in the realm order
+
+^ Next Seed 17 in    mapai.cpp line 0275
+^ DoNPCAdmin - Gorgon's Crown  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Gorgon's Crown:Abattoir  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Abattoir  prov_tax:0002  prov_trade:0000  prov_reg:0012
+^ PROVINCE INFO - Gorgon's Crown:Anathar  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Anathar  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Gorgon's Crown:Elfseyes  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Gorgon's Crown:Elfseyes  prov_tax:0003  prov_trade:0000  prov_reg:0011
+^ PROVINCE INFO - Gorgon's Crown:Jogh Warren  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Jogh Warren  prov_tax:0001  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Gorgon's Crown:Kal-Saitharak  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Gorgon's Crown:Kal-Saitharak  prov_tax:0003  prov_trade:0000  prov_reg:0013
+^ PROVINCE INFO - Gorgon's Crown:Mettle  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Mettle  prov_tax:0001  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Gorgon's Crown:Motile  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Motile  prov_tax:0002  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Gorgon's Crown:Mutian's Point  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Mutian's Point  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Gorgon's Crown:Orog's Head  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Gorgon's Crown:Orog's Head  prov_tax:0003  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Gorgon's Crown:Pelt  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Gorgon's Crown:Pelt  prov_tax:0000  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Gorgon's Crown:Plumbago  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Gorgon's Crown:Plumbago  prov_tax:0003  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Gorgon's Crown:Sage's Fen  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Sage's Fen  prov_tax:0001  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Gorgon's Crown:Sere's Hold  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Sere's Hold  prov_tax:0001  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Gorgon's Crown:Sideath  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Sideath  prov_tax:0001  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Gorgon's Crown:Stone's End  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Stone's End  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Gorgon's Crown:Sunder Falls  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Sunder Falls  prov_tax:0002  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Gorgon's Crown:Zaptig  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Zaptig  prov_tax:0002  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Gorgon's Crown:Brushfire  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Dwarf's Hold  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:6 prov_tax:6
+^ PROVINCE INFO - Gorgon's Crown:Elfsdemise  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Periltrees  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Riverspring  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Shattered Hills  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Sutren Hills  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Gorgon's Crown:Crushing Rock  FINAL gld & tmpl - civ:5 hld:5 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Fallen Rock  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Lost Realm  FINAL gld & tmpl - civ:2 hld:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown  realm_tax:0054  trade:0000  payroll:0000  maint:0022
+^ DoNPCAdmin - Gorgon's Crown  regency:0150  treasury:000470
+^ DoNPCAdmin - Gorgon's Crown is realm #6 in the realm order
+
+^ Next Seed 18 in    mapai.cpp line 0275
+^ DoNPCAdmin - Ilien  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Ilien:Ilien  FINAL province - civlvl:7 taxlvl:1 mod:0 roll:11 prov_tax:11
+^ DoNPCAdmin - Ilien:Ilien  prov_tax:0011  prov_trade:0007  prov_reg:0007
+^ DoNPCAdmin - Ilien  realm_tax:0011  trade:0007  payroll:0002  maint:0002
+^ DoNPCAdmin - Ilien  regency:0071  treasury:000290
+^ DoNPCAdmin - Ilien is realm #16 in the realm order
+
+^ Next Seed 19 in    mapai.cpp line 0275
+^ DoNPCAdmin - Markazor  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Markazor:Brushfire  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Markazor:Brushfire  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Markazor:Dwarf's Hold  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Markazor:Dwarf's Hold  prov_tax:0002  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Markazor:Elfsdemise  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Markazor:Elfsdemise  prov_tax:0002  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Markazor:Periltrees  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Markazor:Periltrees  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Markazor:Riverspring  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Markazor:Riverspring  prov_tax:0001  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Markazor:Shattered Hills  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Markazor:Shattered Hills  prov_tax:0003  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Markazor:Sutren Hills  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Markazor:Sutren Hills  prov_tax:0001  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Markazor:Lost Realm  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Markazor:Lost Realm  prov_tax:0002  prov_trade:0000  prov_reg:0002
+^ DoNPCAdmin - Markazor  realm_tax:0016  trade:0000  payroll:0000  maint:0005
+^ DoNPCAdmin - Markazor  regency:0052  treasury:000760
+^ DoNPCAdmin - Markazor is realm #15 in the realm order
+
+^ Next Seed 20 in    mapai.cpp line 0275
+^ DoNPCAdmin - Medoere  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Medoere:Caercas  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Medoere:Alamier  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Medoere:Alamier  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:6
+^ DoNPCAdmin - Medoere:Alamier  prov_tax:0006  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Medoere:Braeme  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Medoere:Braeme  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:7
+^ DoNPCAdmin - Medoere:Braeme  prov_tax:0007  prov_trade:0003  prov_reg:0007
+^ PROVINCE INFO - Medoere:Caerwil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Medoere:Caerwil  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:4
+^ DoNPCAdmin - Medoere:Caerwil  prov_tax:0004  prov_trade:0000  prov_reg:0004
+^ DoNPCAdmin - Medoere  realm_tax:0019  trade:0003  payroll:0006  maint:0004
+^ DoNPCAdmin - Medoere  regency:0072  treasury:000270
+^ DoNPCAdmin - Medoere is realm #26 in the realm order
+
+^ Next Seed 21 in    mapai.cpp line 0275
+^ DoNPCAdmin - Mhoried  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Mhoried:Bhalaene  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Conallier  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Tornilen  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Balteruine  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Balteruine  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:3
+^ DoNPCAdmin - Mhoried:Balteruine  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Mhoried:Bevaldruor  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Mhoried:Bevaldruor  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:7 prov_tax:10
+^ DoNPCAdmin - Mhoried:Bevaldruor  prov_tax:0010  prov_trade:0000  prov_reg:0011
+^ PROVINCE INFO - Mhoried:Byrnnor  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Byrnnor  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ DoNPCAdmin - Mhoried:Byrnnor  prov_tax:0003  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Mhoried:Cwlldon  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Cwlldon  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Mhoried:Cwlldon  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Mhoried:Dhalsiel  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Dhalsiel  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:2
+^ DoNPCAdmin - Mhoried:Dhalsiel  prov_tax:0002  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Mhoried:Maesilar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Mhoried:Maesilar  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:4
+^ DoNPCAdmin - Mhoried:Maesilar  prov_tax:0004  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Mhoried:Marloer's Gap  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Marloer's Gap  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ DoNPCAdmin - Mhoried:Marloer's Gap  prov_tax:0005  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Mhoried:Tenarien  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Tenarien  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Mhoried:Tenarien  prov_tax:0002  prov_trade:0003  prov_reg:0003
+^ PROVINCE INFO - Mhoried:Torien's Watch  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Mhoried:Torien's Watch  prov_tax:0004  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Mhoried:Winoene  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Winoene  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Mhoried:Winoene  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Mhoried:City of Anuire  FINAL gld & tmpl - civ:10 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Rivenrock  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Mhoried  realm_tax:0044  trade:0003  payroll:0023  maint:0010
+^ DoNPCAdmin - Mhoried  regency:0096  treasury:000290
+^ DoNPCAdmin - Mhoried is realm #30 in the realm order
+
+^ Next Seed 22 in    mapai.cpp line 0275
+^ DoNPCAdmin - Chaos  starting regency:0000  treasury:000150
+^ DoNPCAdmin - Chaos  realm_tax:0000  trade:0000  payroll:0000  maint:0001
+^ DoNPCAdmin - Chaos  regency:0000  treasury:000640
+^ DoNPCAdmin - Chaos is realm #13 in the realm order
+
+^ Next Seed 23 in    mapai.cpp line 0275
+^ DoNPCAdmin - Mur-Kilad  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Mur-Kilad:Crushing Rock  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:7 prov_tax:7
+^ DoNPCAdmin - Mur-Kilad:Crushing Rock  prov_tax:0007  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Mur-Kilad:Fallen Rock  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Mur-Kilad:Fallen Rock  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ DoNPCAdmin - Mur-Kilad  realm_tax:0010  trade:0000  payroll:0000  maint:0004
+^ DoNPCAdmin - Mur-Kilad  regency:0055  treasury:000210
+^ DoNPCAdmin - Mur-Kilad is realm #7 in the realm order
+
+^ Next Seed 24 in    mapai.cpp line 0275
+^ DoNPCAdmin - Osoerde  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Osoerde:Algael  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Osoerde:Algael  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Osoerde:Brothendar  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Osoerde:Brothendar  prov_tax:0003  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Osoerde:Ghalliere  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Osoerde:Ghalliere  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Osoerde:Gulfport  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Osoerde:Gulfport  prov_tax:0001  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Osoerde:Moergen  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Osoerde:Moergen  prov_tax:0003  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Osoerde:Moriel  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Osoerde:Moriel  prov_tax:0004  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Osoerde:Spiritsend  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Osoerde:Spiritsend  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Osoerde:Sunken Lands  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Osoerde:Sunken Lands  prov_tax:0002  prov_trade:0000  prov_reg:0002
+^ DoNPCAdmin - Osoerde  realm_tax:0018  trade:0000  payroll:0006  maint:0005
+^ DoNPCAdmin - Osoerde  regency:0083  treasury:000220
+^ DoNPCAdmin - Osoerde is realm #5 in the realm order
+
+^ Next Seed 25 in    mapai.cpp line 0275
+^ DoNPCAdmin - Rhuobhe  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Rhuobhe:Rhuobhe  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Rhuobhe:Rhuobhe  prov_tax:0003  prov_trade:0000  prov_reg:0013
+^ DoNPCAdmin - Rhuobhe  realm_tax:0003  trade:0000  payroll:0000  maint:0002
+^ DoNPCAdmin - Rhuobhe  regency:0070  treasury:000160
+^ DoNPCAdmin - Rhuobhe is realm #19 in the realm order
+
+^ Next Seed 26 in    mapai.cpp line 0275
+^ DoNPCAdmin - Roesone is realm #4 in the realm order
+
+^ Next Seed 27 in    mapai.cpp line 0275
+^ DoNPCAdmin - Sielwode  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Sielwode:Annydwr  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Sielwode:Annydwr  prov_tax:0002  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Sielwode:Cu Haellyrd  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Sielwode:Cu Haellyrd  prov_tax:0004  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Sielwode:Fhylallien  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:8 prov_tax:8
+^ DoNPCAdmin - Sielwode:Fhylallien  prov_tax:0008  prov_trade:0000  prov_reg:0011
+^ PROVINCE INFO - Sielwode:Ghyllwn  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Sielwode:Ghyllwn  prov_tax:0003  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Sielwode:Hoehnaen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Sielwode:Hoehnaen  prov_tax:0004  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Sielwode:Iseare  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Sielwode:Iseare  prov_tax:0004  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Sielwode:Llewhoellen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Sielwode:Llewhoellen  prov_tax:0004  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Sielwode:Tuar Llyrien  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Sielwode:Tuar Llyrien  prov_tax:0001  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Sielwode:Ywrndor  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Sielwode:Ywrndor  prov_tax:0003  prov_trade:0000  prov_reg:0008
+^ DoNPCAdmin - Sielwode  realm_tax:0033  trade:0000  payroll:0008  maint:0006
+^ DoNPCAdmin - Sielwode  regency:0092  treasury:000340
+^ DoNPCAdmin - Sielwode is realm #23 in the realm order
+
+^ Next Seed 28 in    mapai.cpp line 0275
+^ DoNPCAdmin - Spiderfell  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Spiderfell:Spiderfell  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:7 prov_tax:7
+^ DoNPCAdmin - Spiderfell:Spiderfell  prov_tax:0007  prov_trade:0000  prov_reg:0005
+^ DoNPCAdmin - Spiderfell  realm_tax:0007  trade:0000  payroll:0000  maint:0002
+^ DoNPCAdmin - Spiderfell  regency:0055  treasury:000200
+^ DoNPCAdmin - Spiderfell is realm #1 in the realm order
+
+^ Next Seed 29 in    mapai.cpp line 0275
+^ DoNPCAdmin - Taeghas  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Taeghas:Bayside  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Taeghas:Bayside  prov_tax:0003  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Taeghas:Bhaine  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:6 prov_tax:6
+^ DoNPCAdmin - Taeghas:Bhaine  prov_tax:0006  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Taeghas:Brosien  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Taeghas:Brosien  prov_tax:0003  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Taeghas:Islien  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Taeghas:Islien  prov_tax:0003  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Taeghas:Portage  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Taeghas:Portage  prov_tax:0004  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Taeghas:Seamist  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Taeghas:Seamist  prov_tax:0001  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Taeghas:Seasdeep  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Taeghas:Seasdeep  prov_tax:0001  prov_trade:0003  prov_reg:0007
+^ PROVINCE INFO - Taeghas:Wilder's Gorge  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Taeghas:Wilder's Gorge  prov_tax:0002  prov_trade:0000  prov_reg:0007
+^ DoNPCAdmin - Taeghas  realm_tax:0023  trade:0003  payroll:0003  maint:0004
+^ DoNPCAdmin - Taeghas  regency:0083  treasury:000340
+^ DoNPCAdmin - Taeghas is realm #20 in the realm order
+
+^ Next Seed 30 in    mapai.cpp line 0275
+^ DoNPCAdmin - Talinie  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Talinie:Calant  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Dhalaese  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Talinie:Fhoruile  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Rivien  FINAL gld & tmpl - civ:6 hld:6 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Talinie:Seasedge  FINAL gld & tmpl - civ:6 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Tariene  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Freestead  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Talinie:Freestead  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:4
+^ DoNPCAdmin - Talinie:Freestead  prov_tax:0004  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Talinie:Greensward  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Talinie:Greensward  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:2
+^ DoNPCAdmin - Talinie:Greensward  prov_tax:0002  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Talinie:Ice Haven  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Talinie:Ice Haven  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:5
+^ DoNPCAdmin - Talinie:Ice Haven  prov_tax:0005  prov_trade:0003  prov_reg:0007
+^ PROVINCE INFO - Talinie:Lindholme  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Talinie:Lindholme  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:7 prov_tax:11
+^ DoNPCAdmin - Talinie:Lindholme  prov_tax:0011  prov_trade:0000  prov_reg:0011
+^ PROVINCE INFO - Talinie:Seaport  FINAL gld & tmpl - civ:1 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Talinie:Seaport  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Talinie:Seaport  prov_tax:0001  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Talinie:Serimset  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Talinie:Serimset  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ DoNPCAdmin - Talinie:Serimset  prov_tax:0003  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Talinie:Winter's Deep  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Winter's Deep  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:7
+^ DoNPCAdmin - Talinie:Winter's Deep  prov_tax:0007  prov_trade:0000  prov_reg:0006
+^ DoNPCAdmin - Talinie  realm_tax:0049  trade:0003  payroll:0007  maint:0006
+^ DoNPCAdmin - Talinie  regency:0083  treasury:000540
+^ DoNPCAdmin - Talinie is realm #3 in the realm order
+
+^ Next Seed 31 in    mapai.cpp line 0275
+^ DoNPCAdmin - Thurazor  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Thurazor:Bloodbay  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Thurazor:Bloodbay  prov_tax:0001  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Thurazor:Crushing Hills  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Thurazor:Crushing Hills  prov_tax:0001  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Thurazor:Doom's Peak  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Thurazor:Doom's Peak  prov_tax:0002  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Thurazor:Falling Timber  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Thurazor:Falling Timber  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Thurazor:Mergarrote  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:5
+^ DoNPCAdmin - Thurazor:Mergarrote  prov_tax:0005  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Thurazor:Storm's Release  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Thurazor:Storm's Release  prov_tax:0003  prov_trade:0000  prov_reg:0006
+^ DoNPCAdmin - Thurazor  realm_tax:0014  trade:0000  payroll:0009  maint:0004
+^ DoNPCAdmin - Thurazor  regency:0074  treasury:000160
+^ DoNPCAdmin - Thurazor is realm #9 in the realm order
+
+^ Next Seed 32 in    mapai.cpp line 0275
+^ DoNPCAdmin - Tuarhievel  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Tuarhievel:Avallaigh  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Tuarhievel:Avallaigh  prov_tax:0002  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Tuarhievel:Bhindraith  FINAL gld & tmpl - civ:2 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Tuarhievel:Bhindraith  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Tuarhievel:Bhindraith  prov_tax:0003  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Tuarhievel:Braethindyr  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Tuarhievel:Braethindyr  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ DoNPCAdmin - Tuarhievel:Braethindyr  prov_tax:0003  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Tuarhievel:Cwmbheir  FINAL gld & tmpl - civ:6 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Tuarhievel:Cwmbheir  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Tuarhievel:Cwmbheir  prov_tax:0004  prov_trade:0000  prov_reg:0015
+^ PROVINCE INFO - Tuarhievel:Cymryr  FINAL gld & tmpl - civ:3 hld:5 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Tuarhievel:Cymryr  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Tuarhievel:Cymryr  prov_tax:0003  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Tuarhievel:Dhoneaghmiere  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Tuarhievel:Dhoneaghmiere  prov_tax:0001  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Tuarhievel:Llyrandor  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Tuarhievel:Llyrandor  prov_tax:0001  prov_trade:0000  prov_reg:0010
+^ DoNPCAdmin - Tuarhievel  realm_tax:0017  trade:0000  payroll:0013  maint:0005
+^ DoNPCAdmin - Tuarhievel  regency:0105  treasury:000640
+^ DoNPCAdmin - Tuarhievel is realm #22 in the realm order
+
+^ Next Seed 33 in    mapai.cpp line 0275
+^ DoNPCAdmin - Tuornen  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Tuornen:Alamsreft  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Tuornen:Alamsreft  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Tuornen:Elevesnemiere  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Tuornen:Elevesnemiere  prov_tax:0002  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Tuornen:Ghonallison  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Tuornen:Ghonallison  prov_tax:0001  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Tuornen:Haesrien  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Tuornen:Haesrien  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:4 prov_tax:5
+^ DoNPCAdmin - Tuornen:Haesrien  prov_tax:0005  prov_trade:0005  prov_reg:0006
+^ PROVINCE INFO - Tuornen:Monsedge  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Tuornen:Monsedge  prov_tax:0004  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Tuornen:Nabhriene  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Tuornen:Nabhriene  prov_tax:0004  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Tuornen:Pechalinn  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Tuornen:Pechalinn  prov_tax:0001  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Tuornen:Tuor's Hold  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Tuornen:Tuor's Hold  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ DoNPCAdmin - Tuornen  realm_tax:0021  trade:0005  payroll:0007  maint:0005
+^ DoNPCAdmin - Tuornen  regency:0074  treasury:000790
+^ DoNPCAdmin - Tuornen is realm #28 in the realm order
+
+^ DoNPCAdmin - Order for new turn:  
+^              #0 - Chaos
+^              #1 - Spiderfell
+^              #2 - Avanil
+^              #3 - Talinie
+^              #4 - Roesone
+^              #5 - Osoerde
+^              #6 - Gorgon's Crown
+^              #7 - Mur-Kilad
+^              #8 - unused
+^              #9 - Thurazor
+^              #10 - Chimaeron
+^              #11 - Diemed
+^              #12 - Cariele
+^              #13 - Chaos
+^              #14 - Five Peaks
+^              #15 - Markazor
+^              #16 - Ilien
+^              #17 - Ghoere
+^              #18 - Elinie
+^              #19 - Rhuobhe
+^              #20 - Taeghas
+^              #21 - Boeruine
+^              #22 - Tuarhievel
+^              #23 - Sielwode
+^              #24 - Alamie
+^              #25 - Endier
+^              #26 - Medoere
+^              #27 - Brosengae
+^              #28 - Tuornen
+^              #29 - Aerenwe
+^              #30 - Mhoried
+^              #31 - Dhoesone
+^              #32 - Coeranys
+^              #33 - Baruk-Azhik
+^              #34 - Anuire
+^ Saved game on turn 0.
+^ =============================================
+^ ===          START OF TURN 00           ===
+^ =============================================
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+v Player ID:0, has left the game.
+v Saved game on turn 0.
+^ StartSync/CheckSync - start of sync 7 -----------------
+^    StartSync - Player 1, send sync 7
+^ Birthright - Sending a message
+^    StartSync - Player 1, sync 7 sent
+^ CheckSync - Start of check sync 7
+^    CheckSync - Player 1, receive GO, sync 7
+^    CheckSync - Player 1, master ID 0, index 0, realm N. Import and Export
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 7 -----------------
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Start Rand Seed
+^ Birthright - Sending a message
+^ Next Seed 1 in    mapai.cpp line 0275
+^ DoNPCAdmin - Aerenwe  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Aerenwe:Banien's Deep  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Aerenwe:Banien's Deep  prov_tax:0000  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Aerenwe:Calrie  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:7 prov_tax:7
+^ DoNPCAdmin - Aerenwe:Calrie  prov_tax:0007  prov_trade:0006  prov_reg:0012
+^ PROVINCE INFO - Aerenwe:Dhoenel  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Aerenwe:Dhoenel  prov_tax:0004  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Aerenwe:Halried  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:7 prov_tax:7
+^ DoNPCAdmin - Aerenwe:Halried  prov_tax:0007  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Aerenwe:Northvale  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Aerenwe:Northvale  prov_tax:0000  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Aerenwe:Shadowgreen  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Aerenwe:Shadowgreen  prov_tax:0001  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Aerenwe:Westmarch  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Aerenwe:Westmarch  prov_tax:0002  prov_trade:0000  prov_reg:0002
+^ DoNPCAdmin - Aerenwe  realm_tax:0021  trade:0006  payroll:0003  maint:0005
+^ DoNPCAdmin - Aerenwe  regency:0087  treasury:000340
+^ DoNPCAdmin - Aerenwe is realm #14 in the realm order
+
+^ Next Seed 2 in    mapai.cpp line 0275
+^ DoNPCAdmin - Alamie  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Alamie:Alaroine  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Alamie:Alaroine  prov_tax:0002  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Alamie:Deseirain  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Alamie:Deseirain  prov_tax:0004  prov_trade:0003  prov_reg:0005
+^ PROVINCE INFO - Alamie:Hildon  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Alamie:Hildon  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Alamie:Laraeth  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Alamie:Laraeth  prov_tax:0003  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Alamie:Maesford  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Alamie:Maesford  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Alamie:Nortmoor  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Alamie:Nortmoor  prov_tax:0001  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Alamie:Sorelies  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Alamie:Sorelies  prov_tax:0001  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Alamie:Soutmoor  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Alamie:Soutmoor  prov_tax:0001  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Alamie:Traiward  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Alamie:Traiward  prov_tax:0003  prov_trade:0000  prov_reg:0005
+^ DoNPCAdmin - Alamie  realm_tax:0018  trade:0003  payroll:0012  maint:0006
+^ DoNPCAdmin - Alamie  regency:0084  treasury:000680
+^ DoNPCAdmin - Alamie is realm #29 in the realm order
+
+^ Next Seed 3 in    mapai.cpp line 0275
+^ DoNPCAdmin - Anuire  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Anuire:City of Anuire  FINAL province - civlvl:10 taxlvl:1 mod:0 roll:7 prov_tax:7
+^ DoNPCAdmin - Anuire:City of Anuire  prov_tax:0007  prov_trade:0010  prov_reg:0013
+^ DoNPCAdmin - Anuire  realm_tax:0007  trade:0010  payroll:0004  maint:0002
+^ DoNPCAdmin - Anuire  regency:0063  treasury:000260
+^ DoNPCAdmin - Anuire is realm #1 in the realm order
+
+^ Next Seed 4 in    mapai.cpp line 0275
+^ DoNPCAdmin - Avanil  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Avanil:Aerele  FINAL gld & tmpl - civ:4 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Ciliene  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Bhaine  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Brosien  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Seamist  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Wilder's Gorge  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Anuire  FINAL gld & tmpl - civ:7 hld:4 mod:0 roll:7 prov_tax:7
+^ PROVINCE INFO - Avanil:Anuire  FINAL gld & tmpl - civ:7 hld:4 mod:0 roll:2 prov_tax:9
+^ PROVINCE INFO - Avanil:Anuire  FINAL province - civlvl:7 taxlvl:1 mod:0 roll:6 prov_tax:15
+^ DoNPCAdmin - Avanil:Anuire  prov_tax:0015  prov_trade:0000  prov_reg:0014
+^ PROVINCE INFO - Avanil:Avarien  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:Avarien  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:8
+^ PROVINCE INFO - Avanil:Avarien  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:12
+^ DoNPCAdmin - Avanil:Avarien  prov_tax:0012  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Avanil:Bhrein  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Bhrein  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:5
+^ PROVINCE INFO - Avanil:Bhrein  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:9
+^ DoNPCAdmin - Avanil:Bhrein  prov_tax:0009  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Avanil:Caulnor  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:Caulnor  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:1 prov_tax:5
+^ PROVINCE INFO - Avanil:Caulnor  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:4 prov_tax:9
+^ DoNPCAdmin - Avanil:Caulnor  prov_tax:0009  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Avanil:Daulton  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Daulton  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:3 prov_tax:4
+^ PROVINCE INFO - Avanil:Daulton  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:4 prov_tax:8
+^ DoNPCAdmin - Avanil:Daulton  prov_tax:0008  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Avanil:Duriene  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Duriene  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:1 prov_tax:3
+^ PROVINCE INFO - Avanil:Duriene  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:8
+^ DoNPCAdmin - Avanil:Duriene  prov_tax:0008  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Avanil:Nentril  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:Nentril  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:8
+^ PROVINCE INFO - Avanil:Nentril  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:9
+^ DoNPCAdmin - Avanil:Nentril  prov_tax:0009  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Avanil:Taliern  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:Taliern  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:8
+^ PROVINCE INFO - Avanil:Taliern  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:10
+^ DoNPCAdmin - Avanil:Taliern  prov_tax:0010  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Avanil:Vanilen  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:Vanilen  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:7
+^ PROVINCE INFO - Avanil:Vanilen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:11
+^ DoNPCAdmin - Avanil:Vanilen  prov_tax:0011  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Avanil:Alamsreft  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Elevesnemiere  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Haesrien  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Monsedge  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Nabhriene  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:Nabhriene  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:4
+^ PROVINCE INFO - Avanil:Pechalinn  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Tuor's Hold  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:Tuor's Hold  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:6
+^ PROVINCE INFO - Avanil:Deseirain  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Maesford  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Sorelies  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Traiward  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:City of Anuire  FINAL gld & tmpl - civ:10 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:City of Anuire  FINAL gld & tmpl - civ:10 hld:2 mod:0 roll:1 prov_tax:4
+^ PROVINCE INFO - Avanil:Endier  FINAL gld & tmpl - civ:6 hld:3 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Avanil  realm_tax:0132  trade:0000  payroll:0034  maint:0022
+^ DoNPCAdmin - Avanil  regency:0120  treasury:000910
+^ DoNPCAdmin - Avanil is realm #20 in the realm order
+
+^ Next Seed 5 in    mapai.cpp line 0275
+^ DoNPCAdmin - Baruk-Azhik  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Baruk-Azhik:Bran's Retreat  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Bran's Retreat  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ DoNPCAdmin - Baruk-Azhik:Bran's Retreat  prov_tax:0003  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Baruk-Azhik:Cliff's Lament  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Cliff's Lament  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ DoNPCAdmin - Baruk-Azhik:Cliff's Lament  prov_tax:0005  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Baruk-Azhik:Land's Victory  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Land's Victory  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:2
+^ DoNPCAdmin - Baruk-Azhik:Land's Victory  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Baruk-Azhik:The Promontory  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:The Promontory  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:2
+^ DoNPCAdmin - Baruk-Azhik:The Promontory  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Baruk-Azhik:Rivenrock  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Rivenrock  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:7 prov_tax:9
+^ DoNPCAdmin - Baruk-Azhik:Rivenrock  prov_tax:0009  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Baruk-Azhik:Caudraight  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:Deepshadow  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Baruk-Azhik:Duornil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Mistil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Ruorven  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Algael  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Moergen  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Moriel  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Spiritsend  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Baruk-Azhik  realm_tax:0038  trade:0000  payroll:0016  maint:0006
+^ DoNPCAdmin - Baruk-Azhik  regency:0088  treasury:000310
+^ DoNPCAdmin - Baruk-Azhik is realm #21 in the realm order
+
+^ Next Seed 6 in    mapai.cpp line 0275
+^ DoNPCAdmin - Boeruine  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Boeruine:Bacaele  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Boeruine:Bacaele  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:5
+^ DoNPCAdmin - Boeruine:Bacaele  prov_tax:0005  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Calant  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Boeruine:Calant  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:6
+^ DoNPCAdmin - Boeruine:Calant  prov_tax:0006  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Dhalaese  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Boeruine:Dhalaese  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Boeruine:Dhalaese  prov_tax:0004  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Fhoruile  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Boeruine:Fhoruile  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:3
+^ DoNPCAdmin - Boeruine:Fhoruile  prov_tax:0003  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Nietier  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Boeruine:Nietier  prov_tax:0004  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Redoubt  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Boeruine:Redoubt  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:3
+^ DoNPCAdmin - Boeruine:Redoubt  prov_tax:0003  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Boeruine:Rivien  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Boeruine:Rivien  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:7 prov_tax:12
+^ DoNPCAdmin - Boeruine:Rivien  prov_tax:0012  prov_trade:0000  prov_reg:0012
+^ PROVINCE INFO - Boeruine:Seasedge  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Boeruine:Seasedge  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:7 prov_tax:11
+^ DoNPCAdmin - Boeruine:Seasedge  prov_tax:0011  prov_trade:0000  prov_reg:0012
+^ PROVINCE INFO - Boeruine:Tariene  FINAL gld & tmpl - civ:6 hld:4 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Boeruine:Tariene  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:3 prov_tax:7
+^ DoNPCAdmin - Boeruine:Tariene  prov_tax:0007  prov_trade:0006  prov_reg:0012
+^ PROVINCE INFO - Boeruine:Lindholme  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Boeruine:Wilder's Gorge  FINAL gld & tmpl - civ:1 hld:0 mod:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Boeruine  realm_tax:0058  trade:0006  payroll:0028  maint:0009
+^ DoNPCAdmin - Boeruine  regency:0110  treasury:000420
+^ DoNPCAdmin - Boeruine is realm #27 in the realm order
+
+^ Next Seed 7 in    mapai.cpp line 0275
+^ DoNPCAdmin - Brosengae  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Brosengae:Bindier  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Brosengae:Bindier  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:9
+^ DoNPCAdmin - Brosengae:Bindier  prov_tax:0009  prov_trade:0004  prov_reg:0014
+^ PROVINCE INFO - Brosengae:Coere  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Brosengae:Coere  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:2 prov_tax:3
+^ PROVINCE INFO - Brosengae:Coere  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:5
+^ DoNPCAdmin - Brosengae:Coere  prov_tax:0005  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Brosengae:Marilen  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Brosengae:Marilen  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:4 prov_tax:6
+^ PROVINCE INFO - Brosengae:Marilen  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:10
+^ DoNPCAdmin - Brosengae:Marilen  prov_tax:0010  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Brosengae:Anuire  FINAL gld & tmpl - civ:7 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Brosengae:Bhrein  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Brosengae:Duriene  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Brosengae:Taliern  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Brosengae:Haesrien  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Brosengae:Nabhriene  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Brosengae  realm_tax:0038  trade:0004  payroll:0003  maint:0005
+^ DoNPCAdmin - Brosengae  regency:0091  treasury:000490
+^ DoNPCAdmin - Brosengae is realm #22 in the realm order
+
+^ Next Seed 8 in    mapai.cpp line 0275
+^ DoNPCAdmin - Cariele  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Cariele:Alamsreft  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Ghonallison  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Haesrien  FINAL gld & tmpl - civ:5 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Cariele:Monsedge  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Alaroine  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Cariele:Deseirain  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Hildon  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Nortmoor  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Cariele:Sorelies  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Cariele:Sonnelind  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Tradebhein  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Avallaigh  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Bhindraith  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Cwmbheir  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Mhelliviene  FINAL gld & tmpl - civ:5 hld:5 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Mhelliviene  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:6 prov_tax:8
+^ DoNPCAdmin - Cariele:Mhelliviene  prov_tax:0008  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Cariele:Mountainsedge  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Mountainsedge  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:4
+^ DoNPCAdmin - Cariele:Mountainsedge  prov_tax:0004  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Cariele:Riverford  FINAL gld & tmpl - civ:5 hld:5 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Cariele:Riverford  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:5 prov_tax:9
+^ DoNPCAdmin - Cariele:Riverford  prov_tax:0009  prov_trade:0000  prov_reg:0010
+^ DoNPCAdmin - Cariele  realm_tax:0040  trade:0000  payroll:0005  maint:0006
+^ DoNPCAdmin - Cariele  regency:0070  treasury:000940
+^ DoNPCAdmin - Cariele is realm #5 in the realm order
+
+^ Next Seed 9 in    mapai.cpp line 0275
+^ DoNPCAdmin - Chimaeron  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Chimaeron:Barniere  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Chimaeron:Barniere  prov_tax:0000  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Chimaeron:Careine  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Chimaeron:Careine  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:2
+^ DoNPCAdmin - Chimaeron:Careine  prov_tax:0002  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Chimaeron:Hamein  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Chimaeron:Hamein  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Chimaeron:Hamein  prov_tax:0001  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Chimaeron:Lyssan  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Chimaeron:Lyssan  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:2
+^ DoNPCAdmin - Chimaeron:Lyssan  prov_tax:0002  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Chimaeron:Mhowe  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Chimaeron:Mhowe  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:2
+^ DoNPCAdmin - Chimaeron:Mhowe  prov_tax:0002  prov_trade:0002  prov_reg:0002
+^ PROVINCE INFO - Chimaeron:Ruorkhe  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Chimaeron:Ruorkhe  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ DoNPCAdmin - Chimaeron:Ruorkhe  prov_tax:0003  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Chimaeron:Salviene  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Chimaeron:Salviene  prov_tax:0001  prov_trade:0000  prov_reg:0006
+^ DoNPCAdmin - Chimaeron  realm_tax:0011  trade:0002  payroll:0007  maint:0005
+^ DoNPCAdmin - Chimaeron  regency:0087  treasury:000660
+^ DoNPCAdmin - Chimaeron is realm #7 in the realm order
+
+^ Next Seed 10 in    mapai.cpp line 0275
+^ DoNPCAdmin - Coeranys  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Coeranys:Achiese  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Conallier  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Thoralinar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Coeranys:City of Anuire  FINAL gld & tmpl - civ:10 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Ansien  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Coeranys:Hope's Demise  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Osoeriene  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Sendouras  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Coeranys:Soileite  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Bogsend  FINAL gld & tmpl - civ:3 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Coeranys:Bogsend  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Coeranys:Bogsend  prov_tax:0001  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Coeranys:Caudraight  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Coeranys:Caudraight  prov_tax:0003  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Coeranys:Deepshadow  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Deepshadow  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:4
+^ DoNPCAdmin - Coeranys:Deepshadow  prov_tax:0004  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Coeranys:Duornil  FINAL gld & tmpl - civ:2 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Duornil  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ DoNPCAdmin - Coeranys:Duornil  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Coeranys:Mistil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Mistil  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:2
+^ DoNPCAdmin - Coeranys:Mistil  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Coeranys:Ranien  FINAL gld & tmpl - civ:2 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Coeranys:Ranien  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Coeranys:Ranien  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Coeranys:Ruorven  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Coeranys:Ruorven  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:9
+^ DoNPCAdmin - Coeranys:Ruorven  prov_tax:0009  prov_trade:0004  prov_reg:0007
+^ DoNPCAdmin - Coeranys  realm_tax:0044  trade:0004  payroll:0004  maint:0007
+^ DoNPCAdmin - Coeranys  regency:0073  treasury:000520
+^ DoNPCAdmin - Coeranys is realm #12 in the realm order
+
+^ Next Seed 11 in    mapai.cpp line 0275
+^ DoNPCAdmin - Dhoesone  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Dhoesone:Bjondrig  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Dhoesone:Bjondrig  prov_tax:0000  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Dhoesone:Dharilein  FINAL province - civlvl:1 taxlvl:2 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Dhoesone:Dharilein  prov_tax:0003  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Dhoesone:Giant's Fastness  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Dhoesone:Giant's Fastness  prov_tax:0001  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Dhoesone:Hidaele  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Dhoesone:Hidaele  prov_tax:0004  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Dhoesone:Nolien  FINAL province - civlvl:3 taxlvl:2 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Dhoesone:Nolien  prov_tax:0003  prov_trade:0003  prov_reg:0007
+^ PROVINCE INFO - Dhoesone:Riveside  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Dhoesone:Riveside  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Dhoesone:Romiene  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Dhoesone:Romiene  prov_tax:0000  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Dhoesone:Ruidewash  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Dhoesone:Ruidewash  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Dhoesone:Sidhuire  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Dhoesone:Sidhuire  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Dhoesone:Soniele  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Dhoesone:Soniele  prov_tax:0001  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Dhoesone:Sonnelind  FINAL province - civlvl:4 taxlvl:2 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Dhoesone:Sonnelind  prov_tax:0004  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Dhoesone:Tradebhein  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Dhoesone:Tradebhein  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ DoNPCAdmin - Dhoesone  realm_tax:0025  trade:0003  payroll:0010  maint:0006
+^ DoNPCAdmin - Dhoesone  regency:0087  treasury:000770
+^ DoNPCAdmin - Dhoesone is realm #15 in the realm order
+
+^ Next Seed 12 in    mapai.cpp line 0275
+^ DoNPCAdmin - Diemed  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Diemed:Aerele  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:5
+^ DoNPCAdmin - Diemed:Aerele  prov_tax:0005  prov_trade:0004  prov_reg:0007
+^ PROVINCE INFO - Diemed:Bliene  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Diemed:Bliene  prov_tax:0003  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Diemed:Ciliene  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Diemed:Ciliene  prov_tax:0004  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Diemed:Duene  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Diemed:Duene  prov_tax:0004  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Diemed:Moere  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Diemed:Moere  prov_tax:0004  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Diemed:Tier  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Diemed:Tier  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ DoNPCAdmin - Diemed  realm_tax:0021  trade:0004  payroll:0009  maint:0005
+^ DoNPCAdmin - Diemed  regency:0091  treasury:000260
+^ DoNPCAdmin - Diemed is realm #16 in the realm order
+
+^ Next Seed 13 in    mapai.cpp line 0275
+^ DoNPCAdmin - Elinie is realm #10 in the realm order
+
+^ Next Seed 14 in    mapai.cpp line 0275
+^ DoNPCAdmin - Endier  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Endier:Ciliene  FINAL gld & tmpl - civ:6 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Endier:Moere  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:Tier  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Caerwil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Ghiere  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Rhumannen  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Tireste  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Endier:Maesford  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Traiward  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:City of Anuire  FINAL gld & tmpl - civ:10 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Endier  FINAL gld & tmpl - civ:6 hld:6 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Endier:Endier  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:7 prov_tax:12
+^ DoNPCAdmin - Endier:Endier  prov_tax:0012  prov_trade:0006  prov_reg:0021
+^ DoNPCAdmin - Endier  realm_tax:0033  trade:0006  payroll:0003  maint:0004
+^ DoNPCAdmin - Endier  regency:0080  treasury:000970
+^ DoNPCAdmin - Endier is realm #8 in the realm order
+
+^ Next Seed 15 in    mapai.cpp line 0275
+^ DoNPCAdmin - Five Peaks  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Five Peaks:The Gorge  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Five Peaks:The Gorge  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Floodspaeth  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Five Peaks:Floodspaeth  prov_tax:0004  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Helmshaven  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Five Peaks:Helmshaven  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Puinol  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Five Peaks:Puinol  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Sufhanie  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Five Peaks:Sufhanie  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Thasbyrn  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Five Peaks:Thasbyrn  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Five Peaks:Torain  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Five Peaks:Torain  prov_tax:0004  prov_trade:0000  prov_reg:0003
+^ DoNPCAdmin - Five Peaks  realm_tax:0020  trade:0000  payroll:0000  maint:0004
+^ DoNPCAdmin - Five Peaks  regency:0000  treasury:000310
+^ DoNPCAdmin - Five Peaks is realm #4 in the realm order
+
+^ Next Seed 16 in    mapai.cpp line 0275
+^ DoNPCAdmin - Ghoere  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Ghoere:Achiese  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:6 prov_tax:6
+^ PROVINCE INFO - Ghoere:Achiese  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:10
+^ DoNPCAdmin - Ghoere:Achiese  prov_tax:0010  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Ghoere:Bhalaene  FINAL gld & tmpl - civ:6 hld:4 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Ghoere:Bhalaene  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:9 prov_tax:13
+^ DoNPCAdmin - Ghoere:Bhalaene  prov_tax:0013  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Ghoere:Bheline  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Bheline  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:6
+^ DoNPCAdmin - Ghoere:Bheline  prov_tax:0006  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Ghoere:Conallier  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Ghoere:Conallier  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Ghoere:Danaroene  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Ghoere:Danaroene  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:7
+^ DoNPCAdmin - Ghoere:Danaroene  prov_tax:0007  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Ghoere:Ghiere  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Ghiere  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:5 prov_tax:6
+^ DoNPCAdmin - Ghoere:Ghiere  prov_tax:0006  prov_trade:0005  prov_reg:0008
+^ PROVINCE INFO - Ghoere:Rhumannen  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Ghoere:Rhumannen  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:6
+^ DoNPCAdmin - Ghoere:Rhumannen  prov_tax:0006  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Ghoere:Thoralinar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Ghoere:Thoralinar  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:8
+^ DoNPCAdmin - Ghoere:Thoralinar  prov_tax:0008  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Ghoere:Tireste  FINAL gld & tmpl - civ:5 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Tireste  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:4 prov_tax:5
+^ DoNPCAdmin - Ghoere:Tireste  prov_tax:0005  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Ghoere:Tornilen  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Ghoere:Tornilen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:6
+^ DoNPCAdmin - Ghoere:Tornilen  prov_tax:0006  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Ghoere:Cwlldon  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Ghoere:Tenarien  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Ghoere:Alaroine  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Laraeth  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Ghoere:Bogsend  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Ghoere:Caudraight  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Brothendar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Ghalliere  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Moriel  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Ghoere  realm_tax:0093  trade:0005  payroll:0030  maint:0009
+^ DoNPCAdmin - Ghoere  regency:0099  treasury:000740
+^ DoNPCAdmin - Ghoere is realm #24 in the realm order
+
+^ Next Seed 17 in    mapai.cpp line 0275
+^ DoNPCAdmin - Gorgon's Crown  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Gorgon's Crown:Abattoir  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Abattoir  prov_tax:0001  prov_trade:0000  prov_reg:0012
+^ PROVINCE INFO - Gorgon's Crown:Anathar  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Anathar  prov_tax:0001  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Gorgon's Crown:Elfseyes  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Elfseyes  prov_tax:0001  prov_trade:0000  prov_reg:0011
+^ PROVINCE INFO - Gorgon's Crown:Jogh Warren  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Gorgon's Crown:Jogh Warren  prov_tax:0004  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Gorgon's Crown:Kal-Saitharak  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Kal-Saitharak  prov_tax:0002  prov_trade:0000  prov_reg:0013
+^ PROVINCE INFO - Gorgon's Crown:Mettle  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Mettle  prov_tax:0001  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Gorgon's Crown:Motile  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Motile  prov_tax:0001  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Gorgon's Crown:Mutian's Point  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Mutian's Point  prov_tax:0001  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Gorgon's Crown:Orog's Head  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Orog's Head  prov_tax:0002  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Gorgon's Crown:Pelt  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Pelt  prov_tax:0001  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Gorgon's Crown:Plumbago  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Plumbago  prov_tax:0001  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Gorgon's Crown:Sage's Fen  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Gorgon's Crown:Sage's Fen  prov_tax:0003  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Gorgon's Crown:Sere's Hold  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Gorgon's Crown:Sere's Hold  prov_tax:0003  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Gorgon's Crown:Sideath  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Sideath  prov_tax:0001  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Gorgon's Crown:Stone's End  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Gorgon's Crown:Stone's End  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Gorgon's Crown:Sunder Falls  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Gorgon's Crown:Sunder Falls  prov_tax:0000  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Gorgon's Crown:Zaptig  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown:Zaptig  prov_tax:0001  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Gorgon's Crown:Brushfire  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Dwarf's Hold  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Elfsdemise  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Periltrees  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Riverspring  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Shattered Hills  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Sutren Hills  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Gorgon's Crown:Crushing Rock  FINAL gld & tmpl - civ:5 hld:5 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Gorgon's Crown:Fallen Rock  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Lost Realm  FINAL gld & tmpl - civ:2 hld:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Gorgon's Crown  realm_tax:0044  trade:0000  payroll:0000  maint:0022
+^ DoNPCAdmin - Gorgon's Crown  regency:0150  treasury:000870
+^ DoNPCAdmin - Gorgon's Crown is realm #26 in the realm order
+
+^ Next Seed 18 in    mapai.cpp line 0275
+^ DoNPCAdmin - Ilien  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Ilien:Ilien  FINAL province - civlvl:7 taxlvl:1 mod:0 roll:9 prov_tax:9
+^ DoNPCAdmin - Ilien:Ilien  prov_tax:0009  prov_trade:0007  prov_reg:0007
+^ DoNPCAdmin - Ilien  realm_tax:0009  trade:0007  payroll:0002  maint:0002
+^ DoNPCAdmin - Ilien  regency:0071  treasury:000270
+^ DoNPCAdmin - Ilien is realm #25 in the realm order
+
+^ Next Seed 19 in    mapai.cpp line 0275
+^ DoNPCAdmin - Markazor  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Markazor:Brushfire  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Markazor:Brushfire  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Markazor:Dwarf's Hold  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Markazor:Dwarf's Hold  prov_tax:0002  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Markazor:Elfsdemise  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Markazor:Elfsdemise  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Markazor:Periltrees  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Markazor:Periltrees  prov_tax:0004  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Markazor:Riverspring  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Markazor:Riverspring  prov_tax:0001  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Markazor:Shattered Hills  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Markazor:Shattered Hills  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Markazor:Sutren Hills  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ DoNPCAdmin - Markazor:Sutren Hills  prov_tax:0000  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Markazor:Lost Realm  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Markazor:Lost Realm  prov_tax:0001  prov_trade:0000  prov_reg:0002
+^ DoNPCAdmin - Markazor  realm_tax:0016  trade:0000  payroll:0000  maint:0005
+^ DoNPCAdmin - Markazor  regency:0052  treasury:000760
+^ DoNPCAdmin - Markazor is realm #31 in the realm order
+
+^ Next Seed 20 in    mapai.cpp line 0275
+^ DoNPCAdmin - Medoere  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Medoere:Caercas  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Medoere:Alamier  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Medoere:Alamier  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:9
+^ DoNPCAdmin - Medoere:Alamier  prov_tax:0009  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Medoere:Braeme  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Medoere:Braeme  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:8
+^ DoNPCAdmin - Medoere:Braeme  prov_tax:0008  prov_trade:0003  prov_reg:0007
+^ PROVINCE INFO - Medoere:Caerwil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Medoere:Caerwil  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:4
+^ DoNPCAdmin - Medoere:Caerwil  prov_tax:0004  prov_trade:0000  prov_reg:0004
+^ DoNPCAdmin - Medoere  realm_tax:0022  trade:0003  payroll:0006  maint:0004
+^ DoNPCAdmin - Medoere  regency:0072  treasury:000300
+^ DoNPCAdmin - Medoere is realm #11 in the realm order
+
+^ Next Seed 21 in    mapai.cpp line 0275
+^ DoNPCAdmin - Mhoried  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Mhoried:Bhalaene  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Conallier  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Tornilen  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Balteruine  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Balteruine  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:2
+^ DoNPCAdmin - Mhoried:Balteruine  prov_tax:0002  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Mhoried:Bevaldruor  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Mhoried:Bevaldruor  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:9 prov_tax:12
+^ DoNPCAdmin - Mhoried:Bevaldruor  prov_tax:0012  prov_trade:0000  prov_reg:0011
+^ PROVINCE INFO - Mhoried:Byrnnor  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Byrnnor  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:4
+^ DoNPCAdmin - Mhoried:Byrnnor  prov_tax:0004  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Mhoried:Cwlldon  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Cwlldon  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Mhoried:Cwlldon  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Mhoried:Dhalsiel  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Dhalsiel  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ DoNPCAdmin - Mhoried:Dhalsiel  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Mhoried:Maesilar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Mhoried:Maesilar  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:4
+^ DoNPCAdmin - Mhoried:Maesilar  prov_tax:0004  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Mhoried:Marloer's Gap  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Marloer's Gap  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:4
+^ DoNPCAdmin - Mhoried:Marloer's Gap  prov_tax:0004  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Mhoried:Tenarien  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Tenarien  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Mhoried:Tenarien  prov_tax:0004  prov_trade:0003  prov_reg:0003
+^ PROVINCE INFO - Mhoried:Torien's Watch  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Mhoried:Torien's Watch  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Mhoried:Winoene  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Winoene  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Mhoried:Winoene  prov_tax:0004  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Mhoried:City of Anuire  FINAL gld & tmpl - civ:10 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Rivenrock  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Mhoried  realm_tax:0048  trade:0003  payroll:0023  maint:0010
+^ DoNPCAdmin - Mhoried  regency:0096  treasury:000330
+^ DoNPCAdmin - Mhoried is realm #18 in the realm order
+
+^ Next Seed 22 in    mapai.cpp line 0275
+^ DoNPCAdmin - Chaos  starting regency:0000  treasury:000150
+^ DoNPCAdmin - Chaos  realm_tax:0000  trade:0000  payroll:0000  maint:0001
+^ DoNPCAdmin - Chaos  regency:0000  treasury:000140
+^ DoNPCAdmin - Chaos is realm #32 in the realm order
+
+^ Next Seed 23 in    mapai.cpp line 0275
+^ DoNPCAdmin - Mur-Kilad  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Mur-Kilad:Crushing Rock  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:7 prov_tax:7
+^ DoNPCAdmin - Mur-Kilad:Crushing Rock  prov_tax:0007  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Mur-Kilad:Fallen Rock  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Mur-Kilad:Fallen Rock  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ DoNPCAdmin - Mur-Kilad  realm_tax:0010  trade:0000  payroll:0000  maint:0004
+^ DoNPCAdmin - Mur-Kilad  regency:0055  treasury:000210
+^ DoNPCAdmin - Mur-Kilad is realm #13 in the realm order
+
+^ Next Seed 24 in    mapai.cpp line 0275
+^ DoNPCAdmin - Osoerde  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Osoerde:Algael  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Osoerde:Algael  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Osoerde:Brothendar  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Osoerde:Brothendar  prov_tax:0004  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Osoerde:Ghalliere  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Osoerde:Ghalliere  prov_tax:0001  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Osoerde:Gulfport  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Osoerde:Gulfport  prov_tax:0001  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Osoerde:Moergen  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Osoerde:Moergen  prov_tax:0002  prov_trade:0000  prov_reg:0002
+^ PROVINCE INFO - Osoerde:Moriel  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Osoerde:Moriel  prov_tax:0004  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Osoerde:Spiritsend  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Osoerde:Spiritsend  prov_tax:0003  prov_trade:0000  prov_reg:0003
+^ PROVINCE INFO - Osoerde:Sunken Lands  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Osoerde:Sunken Lands  prov_tax:0002  prov_trade:0000  prov_reg:0002
+^ DoNPCAdmin - Osoerde  realm_tax:0020  trade:0000  payroll:0006  maint:0005
+^ DoNPCAdmin - Osoerde  regency:0083  treasury:000240
+^ DoNPCAdmin - Osoerde is realm #33 in the realm order
+
+^ Next Seed 25 in    mapai.cpp line 0275
+^ DoNPCAdmin - Rhuobhe  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Rhuobhe:Rhuobhe  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Rhuobhe:Rhuobhe  prov_tax:0003  prov_trade:0000  prov_reg:0013
+^ DoNPCAdmin - Rhuobhe  realm_tax:0003  trade:0000  payroll:0000  maint:0002
+^ DoNPCAdmin - Rhuobhe  regency:0070  treasury:000160
+^ DoNPCAdmin - Rhuobhe is realm #2 in the realm order
+
+^ Next Seed 26 in    mapai.cpp line 0275
+^ DoNPCAdmin - Roesone  starting regency:0056  treasury:000150
+^ PROVINCE INFO - Roesone:Abbatuor  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Roesone:Abbatuor  prov_tax:0002  prov_trade:0003  prov_reg:0004
+^ PROVINCE INFO - Roesone:Bellam  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Roesone:Bellam  prov_tax:0001  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Roesone:Caercas  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:5
+^ DoNPCAdmin - Roesone:Caercas  prov_tax:0005  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Roesone:Duerlin  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Roesone:Duerlin  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Roesone:Edlin  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Roesone:Edlin  prov_tax:0002  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Roesone:Fairfield  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Roesone:Fairfield  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Roesone:Ghoried  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Roesone:Ghoried  prov_tax:0002  prov_trade:0000  prov_reg:0003
+^ DoNPCAdmin - Roesone  realm_tax:0018  trade:0003  payroll:0010  maint:0005
+^ DoNPCAdmin - Roesone  regency:0080  treasury:000210
+^ DoNPCAdmin - Roesone is realm #3 in the realm order
+
+^ Next Seed 27 in    mapai.cpp line 0275
+^ DoNPCAdmin - Sielwode  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Sielwode:Annydwr  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Sielwode:Annydwr  prov_tax:0003  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Sielwode:Cu Haellyrd  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Sielwode:Cu Haellyrd  prov_tax:0002  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Sielwode:Fhylallien  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Sielwode:Fhylallien  prov_tax:0003  prov_trade:0000  prov_reg:0011
+^ PROVINCE INFO - Sielwode:Ghyllwn  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Sielwode:Ghyllwn  prov_tax:0002  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Sielwode:Hoehnaen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Sielwode:Hoehnaen  prov_tax:0001  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Sielwode:Iseare  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:5
+^ DoNPCAdmin - Sielwode:Iseare  prov_tax:0005  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Sielwode:Llewhoellen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Sielwode:Llewhoellen  prov_tax:0002  prov_trade:0000  prov_reg:0009
+^ PROVINCE INFO - Sielwode:Tuar Llyrien  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Sielwode:Tuar Llyrien  prov_tax:0002  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Sielwode:Ywrndor  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Sielwode:Ywrndor  prov_tax:0003  prov_trade:0000  prov_reg:0008
+^ DoNPCAdmin - Sielwode  realm_tax:0023  trade:0000  payroll:0008  maint:0006
+^ DoNPCAdmin - Sielwode  regency:0092  treasury:000240
+^ DoNPCAdmin - Sielwode is realm #19 in the realm order
+
+^ Next Seed 28 in    mapai.cpp line 0275
+^ DoNPCAdmin - Spiderfell  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Spiderfell:Spiderfell  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:7 prov_tax:7
+^ DoNPCAdmin - Spiderfell:Spiderfell  prov_tax:0007  prov_trade:0000  prov_reg:0005
+^ DoNPCAdmin - Spiderfell  realm_tax:0007  trade:0000  payroll:0000  maint:0002
+^ DoNPCAdmin - Spiderfell  regency:0055  treasury:000700
+^ DoNPCAdmin - Spiderfell is realm #9 in the realm order
+
+^ Next Seed 29 in    mapai.cpp line 0275
+^ DoNPCAdmin - Taeghas  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Taeghas:Bayside  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Taeghas:Bayside  prov_tax:0001  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Taeghas:Bhaine  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:5 prov_tax:5
+^ DoNPCAdmin - Taeghas:Bhaine  prov_tax:0005  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Taeghas:Brosien  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Taeghas:Brosien  prov_tax:0002  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Taeghas:Islien  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Taeghas:Islien  prov_tax:0002  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Taeghas:Portage  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Taeghas:Portage  prov_tax:0001  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Taeghas:Seamist  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Taeghas:Seamist  prov_tax:0002  prov_trade:0000  prov_reg:0008
+^ PROVINCE INFO - Taeghas:Seasdeep  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Taeghas:Seasdeep  prov_tax:0002  prov_trade:0003  prov_reg:0007
+^ PROVINCE INFO - Taeghas:Wilder's Gorge  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Taeghas:Wilder's Gorge  prov_tax:0002  prov_trade:0000  prov_reg:0007
+^ DoNPCAdmin - Taeghas  realm_tax:0017  trade:0003  payroll:0003  maint:0004
+^ DoNPCAdmin - Taeghas  regency:0083  treasury:000280
+^ DoNPCAdmin - Taeghas is realm #23 in the realm order
+
+^ Next Seed 30 in    mapai.cpp line 0275
+^ DoNPCAdmin - Talinie  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Talinie:Calant  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Talinie:Dhalaese  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Talinie:Fhoruile  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Rivien  FINAL gld & tmpl - civ:6 hld:6 mod:0 roll:8 prov_tax:8
+^ PROVINCE INFO - Talinie:Seasedge  FINAL gld & tmpl - civ:6 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Tariene  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Freestead  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Freestead  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ DoNPCAdmin - Talinie:Freestead  prov_tax:0005  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Talinie:Greensward  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Greensward  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:4
+^ DoNPCAdmin - Talinie:Greensward  prov_tax:0004  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Talinie:Ice Haven  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Talinie:Ice Haven  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:4
+^ DoNPCAdmin - Talinie:Ice Haven  prov_tax:0004  prov_trade:0003  prov_reg:0007
+^ PROVINCE INFO - Talinie:Lindholme  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Lindholme  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:5 prov_tax:8
+^ DoNPCAdmin - Talinie:Lindholme  prov_tax:0008  prov_trade:0000  prov_reg:0011
+^ PROVINCE INFO - Talinie:Seaport  FINAL gld & tmpl - civ:1 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Talinie:Seaport  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Talinie:Seaport  prov_tax:0001  prov_trade:0000  prov_reg:0001
+^ PROVINCE INFO - Talinie:Serimset  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Serimset  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ DoNPCAdmin - Talinie:Serimset  prov_tax:0005  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Talinie:Winter's Deep  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Winter's Deep  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:5
+^ DoNPCAdmin - Talinie:Winter's Deep  prov_tax:0005  prov_trade:0000  prov_reg:0006
+^ DoNPCAdmin - Talinie  realm_tax:0049  trade:0003  payroll:0007  maint:0006
+^ DoNPCAdmin - Talinie  regency:0083  treasury:000540
+^ DoNPCAdmin - Talinie is realm #6 in the realm order
+
+^ Next Seed 31 in    mapai.cpp line 0275
+^ DoNPCAdmin - Thurazor  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Thurazor:Bloodbay  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Thurazor:Bloodbay  prov_tax:0003  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Thurazor:Crushing Hills  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Thurazor:Crushing Hills  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Thurazor:Doom's Peak  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Thurazor:Doom's Peak  prov_tax:0002  prov_trade:0000  prov_reg:0004
+^ PROVINCE INFO - Thurazor:Falling Timber  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ DoNPCAdmin - Thurazor:Falling Timber  prov_tax:0002  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Thurazor:Mergarrote  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Thurazor:Mergarrote  prov_tax:0003  prov_trade:0000  prov_reg:0006
+^ PROVINCE INFO - Thurazor:Storm's Release  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ DoNPCAdmin - Thurazor:Storm's Release  prov_tax:0001  prov_trade:0000  prov_reg:0006
+^ DoNPCAdmin - Thurazor  realm_tax:0013  trade:0000  payroll:0009  maint:0004
+^ DoNPCAdmin - Thurazor  regency:0074  treasury:000150
+^ DoNPCAdmin - Thurazor is realm #30 in the realm order
+
+^ Next Seed 32 in    mapai.cpp line 0275
+^ DoNPCAdmin - Tuarhievel  starting regency:0050  treasury:000150
+^ PROVINCE INFO - Tuarhievel:Avallaigh  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Tuarhievel:Avallaigh  prov_tax:0003  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Tuarhievel:Bhindraith  FINAL gld & tmpl - civ:2 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Tuarhievel:Bhindraith  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Tuarhievel:Bhindraith  prov_tax:0003  prov_trade:0000  prov_reg:0007
+^ PROVINCE INFO - Tuarhievel:Braethindyr  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Tuarhievel:Braethindyr  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ DoNPCAdmin - Tuarhievel:Braethindyr  prov_tax:0005  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Tuarhievel:Cwmbheir  FINAL gld & tmpl - civ:6 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Tuarhievel:Cwmbheir  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Tuarhievel:Cwmbheir  prov_tax:0004  prov_trade:0000  prov_reg:0015
+^ PROVINCE INFO - Tuarhievel:Cymryr  FINAL gld & tmpl - civ:3 hld:5 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Tuarhievel:Cymryr  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ DoNPCAdmin - Tuarhievel:Cymryr  prov_tax:0004  prov_trade:0000  prov_reg:0005
+^ PROVINCE INFO - Tuarhievel:Dhoneaghmiere  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Tuarhievel:Dhoneaghmiere  prov_tax:0003  prov_trade:0000  prov_reg:0010
+^ PROVINCE INFO - Tuarhievel:Llyrandor  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ DoNPCAdmin - Tuarhievel:Llyrandor  prov_tax:0003  prov_trade:0000  prov_reg:0010
+^ DoNPCAdmin - Tuarhievel  realm_tax:0025  trade:0000  payroll:0013  maint:0005
+^ DoNPCAdmin - Tuarhievel  regency:0105  treasury:000720
+^ DoNPCAdmin - Tuarhievel is realm #28 in the realm order
+
+^ Next Seed 33 in    mapai.cpp line 0275
+^ DoNPCAdmin - Tuornen is realm #34 in the realm order
+
+^ DoNPCAdmin - Order for new turn:  
+^              #0 - Chaos
+^              #1 - Anuire
+^              #2 - Rhuobhe
+^              #3 - Roesone
+^              #4 - Five Peaks
+^              #5 - Cariele
+^              #6 - Talinie
+^              #7 - Chimaeron
+^              #8 - Endier
+^              #9 - Spiderfell
+^              #10 - Elinie
+^              #11 - Medoere
+^              #12 - Coeranys
+^              #13 - Mur-Kilad
+^              #14 - Aerenwe
+^              #15 - Dhoesone
+^              #16 - Diemed
+^              #17 - unused
+^              #18 - Mhoried
+^              #19 - Sielwode
+^              #20 - Avanil
+^              #21 - Baruk-Azhik
+^              #22 - Brosengae
+^              #23 - Taeghas
+^              #24 - Ghoere
+^              #25 - Ilien
+^              #26 - Gorgon's Crown
+^              #27 - Boeruine
+^              #28 - Tuarhievel
+^              #29 - Alamie
+^              #30 - Thurazor
+^              #31 - Markazor
+^              #32 - Chaos
+^              #33 - Osoerde
+^              #34 - Tuornen
+^ Saved game on turn 0.
+^ =============================================
+^ ===          START OF TURN 00           ===
+^ =============================================
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ StartSync/CheckSync - start of sync 7 -----------------
+^    StartSync - Player 1, send sync 7
+^ Birthright - Sending a message
+^    StartSync - Player 1, sync 7 sent
+^ CheckSync - Start of check sync 7
+^    CheckSync - Player 1, receive GO, sync 7
+^    CheckSync - Player 1, master ID 0, index 0, realm N. Import and Export
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 7 -----------------
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+v Player ID:0, has left the game.
+v Saved game on turn 0.
+^ StartSync/CheckSync - start of sync 7 -----------------
+^    StartSync - Player 2, send sync 7
+^ Birthright - Sending a message
+^    StartSync - Player 2, sync 7 sent
+^ CheckSync - Start of check sync 7
+^    CheckSync - Player 2, receive GO, sync 7
+^    CheckSync - Player 2, master ID 1, index 0, realm N. Import and Export
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 7 -----------------
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Start Rand Seed
+^ Next Seed 1 in    mapai.cpp line 0275
+^ Next Seed 2 in    mapai.cpp line 0275
+^ PROVINCE INFO - Alamie:Alaroine  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Alamie:Deseirain  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Alamie:Hildon  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Alamie:Laraeth  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Alamie:Maesford  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Alamie:Nortmoor  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Alamie:Sorelies  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Alamie:Soutmoor  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Alamie:Traiward  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ Next Seed 3 in    mapai.cpp line 0275
+^ PROVINCE INFO - Anuire:City of Anuire  FINAL province - civlvl:10 taxlvl:1 mod:0 roll:16 prov_tax:16
+^ Next Seed 4 in    mapai.cpp line 0275
+^ PROVINCE INFO - Avanil:Aerele  FINAL gld & tmpl - civ:4 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Ciliene  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Bhaine  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Brosien  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Seamist  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Wilder's Gorge  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Anuire  FINAL gld & tmpl - civ:7 hld:4 mod:0 roll:6 prov_tax:6
+^ PROVINCE INFO - Avanil:Anuire  FINAL gld & tmpl - civ:7 hld:4 mod:0 roll:7 prov_tax:13
+^ PROVINCE INFO - Avanil:Anuire  FINAL province - civlvl:7 taxlvl:1 mod:0 roll:11 prov_tax:24
+^ PROVINCE INFO - Avanil:Avarien  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Avarien  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:4
+^ PROVINCE INFO - Avanil:Avarien  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:8
+^ PROVINCE INFO - Avanil:Bhrein  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Bhrein  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:4
+^ PROVINCE INFO - Avanil:Bhrein  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:8
+^ PROVINCE INFO - Avanil:Caulnor  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Caulnor  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:5 prov_tax:7
+^ PROVINCE INFO - Avanil:Caulnor  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:5 prov_tax:12
+^ PROVINCE INFO - Avanil:Daulton  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Daulton  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:1 prov_tax:2
+^ PROVINCE INFO - Avanil:Daulton  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:7 prov_tax:9
+^ PROVINCE INFO - Avanil:Duriene  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Duriene  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:2 prov_tax:3
+^ PROVINCE INFO - Avanil:Duriene  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:6
+^ PROVINCE INFO - Avanil:Nentril  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:Nentril  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:6
+^ PROVINCE INFO - Avanil:Nentril  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:7
+^ PROVINCE INFO - Avanil:Taliern  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Taliern  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:4
+^ PROVINCE INFO - Avanil:Taliern  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:7
+^ PROVINCE INFO - Avanil:Vanilen  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Vanilen  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:3
+^ PROVINCE INFO - Avanil:Vanilen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:7
+^ PROVINCE INFO - Avanil:Alamsreft  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Elevesnemiere  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Haesrien  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Monsedge  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Nabhriene  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Nabhriene  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:1
+^ PROVINCE INFO - Avanil:Pechalinn  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Tuor's Hold  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Tuor's Hold  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:7
+^ PROVINCE INFO - Avanil:Deseirain  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Maesford  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Sorelies  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Traiward  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:City of Anuire  FINAL gld & tmpl - civ:10 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:City of Anuire  FINAL gld & tmpl - civ:10 hld:2 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Avanil:Endier  FINAL gld & tmpl - civ:6 hld:3 mod:0 roll:3 prov_tax:3
+^ Next Seed 5 in    mapai.cpp line 0275
+^ PROVINCE INFO - Baruk-Azhik:Bran's Retreat  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:Bran's Retreat  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:6
+^ PROVINCE INFO - Baruk-Azhik:Cliff's Lament  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Cliff's Lament  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:6
+^ PROVINCE INFO - Baruk-Azhik:Land's Victory  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:Land's Victory  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:6
+^ PROVINCE INFO - Baruk-Azhik:The Promontory  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Baruk-Azhik:The Promontory  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:7
+^ PROVINCE INFO - Baruk-Azhik:Rivenrock  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Rivenrock  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:Caudraight  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Deepshadow  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:Duornil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Mistil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Ruorven  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Algael  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Moergen  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Moriel  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Spiritsend  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ Next Seed 6 in    mapai.cpp line 0275
+^ PROVINCE INFO - Boeruine:Bacaele  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Boeruine:Bacaele  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:5
+^ PROVINCE INFO - Boeruine:Calant  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Boeruine:Calant  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:6
+^ PROVINCE INFO - Boeruine:Dhalaese  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Boeruine:Dhalaese  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Boeruine:Fhoruile  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Boeruine:Fhoruile  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:6
+^ PROVINCE INFO - Boeruine:Nietier  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Boeruine:Redoubt  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Boeruine:Redoubt  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:5
+^ PROVINCE INFO - Boeruine:Rivien  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:6 prov_tax:6
+^ PROVINCE INFO - Boeruine:Rivien  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:3 prov_tax:9
+^ PROVINCE INFO - Boeruine:Seasedge  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Boeruine:Seasedge  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:4 prov_tax:6
+^ PROVINCE INFO - Boeruine:Tariene  FINAL gld & tmpl - civ:6 hld:4 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Boeruine:Tariene  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:2 prov_tax:7
+^ PROVINCE INFO - Boeruine:Lindholme  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Boeruine:Wilder's Gorge  FINAL gld & tmpl - civ:1 hld:0 mod:0 roll:0 prov_tax:0
+^ Next Seed 7 in    mapai.cpp line 0275
+^ PROVINCE INFO - Brosengae:Bindier  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Brosengae:Bindier  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Brosengae:Coere  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Brosengae:Coere  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:4 prov_tax:7
+^ PROVINCE INFO - Brosengae:Coere  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:12
+^ PROVINCE INFO - Brosengae:Marilen  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Brosengae:Marilen  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:2 prov_tax:5
+^ PROVINCE INFO - Brosengae:Marilen  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:7
+^ PROVINCE INFO - Brosengae:Anuire  FINAL gld & tmpl - civ:7 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Brosengae:Bhrein  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Brosengae:Duriene  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Brosengae:Taliern  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Brosengae:Haesrien  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Brosengae:Nabhriene  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ Next Seed 8 in    mapai.cpp line 0275
+^ PROVINCE INFO - Cariele:Alamsreft  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Ghonallison  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Haesrien  FINAL gld & tmpl - civ:5 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Cariele:Monsedge  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Alaroine  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Deseirain  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Hildon  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Nortmoor  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Cariele:Sorelies  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Sonnelind  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Tradebhein  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Avallaigh  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Bhindraith  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Cwmbheir  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Mhelliviene  FINAL gld & tmpl - civ:5 hld:5 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Mhelliviene  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:2 prov_tax:4
+^ PROVINCE INFO - Cariele:Mountainsedge  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Mountainsedge  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:5
+^ PROVINCE INFO - Cariele:Riverford  FINAL gld & tmpl - civ:5 hld:5 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Riverford  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:2 prov_tax:5
+^ Next Seed 9 in    mapai.cpp line 0275
+^ PROVINCE INFO - Chimaeron:Barniere  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Chimaeron:Careine  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Chimaeron:Careine  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:4
+^ PROVINCE INFO - Chimaeron:Hamein  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Chimaeron:Hamein  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Chimaeron:Lyssan  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Chimaeron:Lyssan  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:4
+^ PROVINCE INFO - Chimaeron:Mhowe  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Chimaeron:Mhowe  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Chimaeron:Ruorkhe  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Chimaeron:Ruorkhe  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Chimaeron:Salviene  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ Next Seed 10 in    mapai.cpp line 0275
+^ PROVINCE INFO - Coeranys:Achiese  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Conallier  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Thoralinar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:City of Anuire  FINAL gld & tmpl - civ:10 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Ansien  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Hope's Demise  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Osoeriene  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Sendouras  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Soileite  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Bogsend  FINAL gld & tmpl - civ:3 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Coeranys:Bogsend  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Caudraight  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Coeranys:Deepshadow  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Coeranys:Deepshadow  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:7
+^ PROVINCE INFO - Coeranys:Duornil  FINAL gld & tmpl - civ:2 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Duornil  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:2
+^ PROVINCE INFO - Coeranys:Mistil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Mistil  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ PROVINCE INFO - Coeranys:Ranien  FINAL gld & tmpl - civ:2 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Coeranys:Ranien  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Ruorven  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Coeranys:Ruorven  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:9
+^ Next Seed 11 in    mapai.cpp line 0275
+^ PROVINCE INFO - Dhoesone:Bjondrig  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Dhoesone:Dharilein  FINAL province - civlvl:1 taxlvl:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Dhoesone:Giant's Fastness  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Dhoesone:Hidaele  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Dhoesone:Nolien  FINAL province - civlvl:3 taxlvl:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Dhoesone:Riveside  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Dhoesone:Romiene  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Dhoesone:Ruidewash  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Dhoesone:Sidhuire  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Dhoesone:Soniele  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Dhoesone:Sonnelind  FINAL province - civlvl:4 taxlvl:2 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Dhoesone:Tradebhein  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:1 prov_tax:1
+^ Next Seed 12 in    mapai.cpp line 0275
+^ Next Seed 13 in    mapai.cpp line 0275
+^ PROVINCE INFO - Elinie:Ansien  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Elinie:Chalsedon  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Elinie:Hope's Demise  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Elinie:Mholien  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Elinie:Osoeriene  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Elinie:Sendouras  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Elinie:Soileite  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ Next Seed 14 in    mapai.cpp line 0275
+^ PROVINCE INFO - Endier:Ciliene  FINAL gld & tmpl - civ:6 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Endier:Moere  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:Tier  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Caerwil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:Ghiere  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:Rhumannen  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:Tireste  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Endier:Maesford  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Traiward  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Endier:City of Anuire  FINAL gld & tmpl - civ:10 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Endier  FINAL gld & tmpl - civ:6 hld:6 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Endier:Endier  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:7 prov_tax:10
+^ Next Seed 15 in    mapai.cpp line 0275
+^ PROVINCE INFO - Five Peaks:The Gorge  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Five Peaks:Floodspaeth  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Five Peaks:Helmshaven  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Five Peaks:Puinol  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Five Peaks:Sufhanie  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Five Peaks:Thasbyrn  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Five Peaks:Torain  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ Next Seed 16 in    mapai.cpp line 0275
+^ PROVINCE INFO - Ghoere:Achiese  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Ghoere:Achiese  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:8
+^ PROVINCE INFO - Ghoere:Bhalaene  FINAL gld & tmpl - civ:6 hld:4 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Bhalaene  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:6 prov_tax:8
+^ PROVINCE INFO - Ghoere:Bheline  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:6 prov_tax:6
+^ PROVINCE INFO - Ghoere:Bheline  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:10
+^ PROVINCE INFO - Ghoere:Conallier  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Danaroene  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Danaroene  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:6
+^ PROVINCE INFO - Ghoere:Ghiere  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Ghiere  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:5 prov_tax:6
+^ PROVINCE INFO - Ghoere:Rhumannen  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Rhumannen  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:6
+^ PROVINCE INFO - Ghoere:Thoralinar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Thoralinar  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Ghoere:Tireste  FINAL gld & tmpl - civ:5 hld:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Tireste  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:2 prov_tax:4
+^ PROVINCE INFO - Ghoere:Tornilen  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Tornilen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:4
+^ PROVINCE INFO - Ghoere:Cwlldon  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Tenarien  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Ghoere:Alaroine  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Laraeth  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Ghoere:Bogsend  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Ghoere:Caudraight  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Brothendar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Ghalliere  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Moriel  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ Next Seed 17 in    mapai.cpp line 0275
+^ PROVINCE INFO - Gorgon's Crown:Abattoir  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Anathar  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Gorgon's Crown:Elfseyes  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Jogh Warren  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Kal-Saitharak  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Mettle  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Motile  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Mutian's Point  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Gorgon's Crown:Orog's Head  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Pelt  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Gorgon's Crown:Plumbago  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Sage's Fen  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Sere's Hold  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Sideath  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Stone's End  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Sunder Falls  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Zaptig  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Brushfire  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Dwarf's Hold  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Elfsdemise  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Periltrees  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Riverspring  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Shattered Hills  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Sutren Hills  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Crushing Rock  FINAL gld & tmpl - civ:5 hld:5 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Gorgon's Crown:Fallen Rock  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Lost Realm  FINAL gld & tmpl - civ:2 hld:1 mod:0 roll:1 prov_tax:1
+^ Next Seed 18 in    mapai.cpp line 0275
+^ PROVINCE INFO - Ilien:Ilien  FINAL province - civlvl:7 taxlvl:1 mod:0 roll:5 prov_tax:5
+^ Next Seed 19 in    mapai.cpp line 0275
+^ PROVINCE INFO - Markazor:Brushfire  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Markazor:Dwarf's Hold  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Markazor:Elfsdemise  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Markazor:Periltrees  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Markazor:Riverspring  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Markazor:Shattered Hills  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Markazor:Sutren Hills  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Markazor:Lost Realm  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ Next Seed 20 in    mapai.cpp line 0275
+^ PROVINCE INFO - Medoere:Caercas  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Medoere:Alamier  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Medoere:Alamier  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:7
+^ PROVINCE INFO - Medoere:Braeme  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Medoere:Braeme  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:2
+^ PROVINCE INFO - Medoere:Caerwil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Medoere:Caerwil  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:3
+^ Next Seed 21 in    mapai.cpp line 0275
+^ PROVINCE INFO - Mhoried:Bhalaene  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Conallier  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Tornilen  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Balteruine  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Balteruine  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:4
+^ PROVINCE INFO - Mhoried:Bevaldruor  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:6 prov_tax:6
+^ PROVINCE INFO - Mhoried:Bevaldruor  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:8 prov_tax:14
+^ PROVINCE INFO - Mhoried:Byrnnor  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Byrnnor  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Mhoried:Cwlldon  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Cwlldon  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Dhalsiel  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Dhalsiel  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Mhoried:Maesilar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Maesilar  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:3
+^ PROVINCE INFO - Mhoried:Marloer's Gap  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Marloer's Gap  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:3
+^ PROVINCE INFO - Mhoried:Tenarien  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Tenarien  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Torien's Watch  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Mhoried:Winoene  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Winoene  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:City of Anuire  FINAL gld & tmpl - civ:10 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Rivenrock  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:4 prov_tax:4
+^ Next Seed 22 in    mapai.cpp line 0275
+^ Next Seed 23 in    mapai.cpp line 0275
+^ PROVINCE INFO - Mur-Kilad:Crushing Rock  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Mur-Kilad:Fallen Rock  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ Next Seed 24 in    mapai.cpp line 0275
+^ PROVINCE INFO - Osoerde:Algael  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Osoerde:Brothendar  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Osoerde:Ghalliere  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Osoerde:Gulfport  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Osoerde:Moergen  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Osoerde:Moriel  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Osoerde:Spiritsend  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Osoerde:Sunken Lands  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ Next Seed 25 in    mapai.cpp line 0275
+^ PROVINCE INFO - Rhuobhe:Rhuobhe  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ Next Seed 26 in    mapai.cpp line 0275
+^ Next Seed 27 in    mapai.cpp line 0275
+^ PROVINCE INFO - Sielwode:Annydwr  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Sielwode:Cu Haellyrd  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Sielwode:Fhylallien  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Sielwode:Ghyllwn  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Sielwode:Hoehnaen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Sielwode:Iseare  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Sielwode:Llewhoellen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Sielwode:Tuar Llyrien  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Sielwode:Ywrndor  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ Next Seed 28 in    mapai.cpp line 0275
+^ PROVINCE INFO - Spiderfell:Spiderfell  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:6 prov_tax:6
+^ Next Seed 29 in    mapai.cpp line 0275
+^ PROVINCE INFO - Taeghas:Bayside  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Taeghas:Bhaine  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:9 prov_tax:9
+^ PROVINCE INFO - Taeghas:Brosien  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Taeghas:Islien  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Taeghas:Portage  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Taeghas:Seamist  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Taeghas:Seasdeep  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Taeghas:Wilder's Gorge  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ Next Seed 30 in    mapai.cpp line 0275
+^ PROVINCE INFO - Talinie:Calant  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Dhalaese  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Talinie:Fhoruile  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Talinie:Rivien  FINAL gld & tmpl - civ:6 hld:6 mod:0 roll:6 prov_tax:6
+^ PROVINCE INFO - Talinie:Seasedge  FINAL gld & tmpl - civ:6 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Tariene  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Freestead  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Freestead  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Talinie:Greensward  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Greensward  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:3
+^ PROVINCE INFO - Talinie:Ice Haven  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Ice Haven  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:5
+^ PROVINCE INFO - Talinie:Lindholme  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Lindholme  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:6 prov_tax:9
+^ PROVINCE INFO - Talinie:Seaport  FINAL gld & tmpl - civ:1 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Talinie:Seaport  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Talinie:Serimset  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Serimset  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Talinie:Winter's Deep  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Winter's Deep  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:4
+^ Next Seed 31 in    mapai.cpp line 0275
+^ PROVINCE INFO - Thurazor:Bloodbay  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Thurazor:Crushing Hills  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Thurazor:Doom's Peak  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Thurazor:Falling Timber  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Thurazor:Mergarrote  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Thurazor:Storm's Release  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ Next Seed 32 in    mapai.cpp line 0275
+^ PROVINCE INFO - Tuarhievel:Avallaigh  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Tuarhievel:Bhindraith  FINAL gld & tmpl - civ:2 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Tuarhievel:Bhindraith  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Tuarhievel:Braethindyr  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Tuarhievel:Braethindyr  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:7
+^ PROVINCE INFO - Tuarhievel:Cwmbheir  FINAL gld & tmpl - civ:6 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Tuarhievel:Cwmbheir  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Tuarhievel:Cymryr  FINAL gld & tmpl - civ:3 hld:5 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Tuarhievel:Cymryr  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Tuarhievel:Dhoneaghmiere  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Tuarhievel:Llyrandor  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ Next Seed 33 in    mapai.cpp line 0275
+^ PROVINCE INFO - Tuornen:Alamsreft  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Tuornen:Elevesnemiere  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Tuornen:Ghonallison  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Tuornen:Haesrien  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Tuornen:Haesrien  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:7 prov_tax:9
+^ PROVINCE INFO - Tuornen:Monsedge  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Tuornen:Nabhriene  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Tuornen:Pechalinn  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Tuornen:Tuor's Hold  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ Saved game on turn 0.
+^ =============================================
+^ ===          START OF TURN 00           ===
+^ =============================================
+^    multimap.cpp - Roesone regency:80
+^ PROVINCE INFO - Aerenwe:Banien's Deep  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Aerenwe:Calrie  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Aerenwe:Dhoenel  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Aerenwe:Halried  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Aerenwe:Northvale  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Aerenwe:Shadowgreen  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Aerenwe:Westmarch  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ Birthright - Sending a message
+^    multimap.cpp - Aerenwe regency:87
+^ Birthright - Sending a message
+^ StartSync/CheckSync - start of sync 0 -----------------
+^    StartSync - Player 2, send sync 0
+^ Birthright - Sending a message
+^    StartSync - Player 2, sync 0 sent
+^ CheckSync - Start of check sync 0
+^    CheckSync - Player 2, receive GO, sync 0
+^    CheckSync - Player 2, master ID 1, index 0, realm Diemed
+^    multimap.cpp - Diemed regency:91
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 0 -----------------
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^    multimap.cpp - Roesone regency:80
+^    multimap.cpp - Diemed regency:91
+^ Birthright - Sending a message
+^    multimap.cpp - Diemed regency:86
+^ ProcessGoldAndRegency - HomeRealm:Aerenwe  regency:0087
+^ Birthright - Sending a message
+^    multimap.cpp - Aerenwe regency:87
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ StartSync/CheckSync - start of sync 3 -----------------
+^    StartSync - Player 2, send sync 3
+^ Birthright - Sending a message
+^    StartSync - Player 2, sync 3 sent
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 2, receive GO, sync 3
+^    CheckSync - Player 2, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 2, receive GO, sync 3
+^    CheckSync - Player 2, master ID 1, index 0, realm Diemed
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 3 -----------------
+^ Next Seed 34 in    mapai.cpp line 3363
+^ Birthright - Sending a message
+^ Next Seed 35 in    mapai.cpp line 3363
+^    multimap.cpp - Tuarhievel unit:299 DestProvince:140
+^ Next Seed 36 in    mapai.cpp line 3363
+^    multimap.cpp - Brosengae unit:59 DestProvince:44
+^ Next Seed 37 in    mapai.cpp line 3363
+^ Next Seed 38 in    mapai.cpp line 3363
+^ Next Seed 39 in    mapai.cpp line 3363
+^    multimap.cpp - Five Peaks unit:263 DestProvince:148
+^ Next Seed 40 in    mapai.cpp line 3363
+^ Next Seed 41 in    mapai.cpp line 3363
+^    multimap.cpp - Gorgon's Crown unit:155 DestProvince:162
+^    multimap.cpp - DestPath1:1
+^    multimap.cpp - DestPath2:2
+^    multimap.cpp - DestPath3:4
+^    multimap.cpp - DestPath3:1
+^    multimap.cpp - DestPath3:5
+^    multimap.cpp - DestPath3:5
+^ Next Seed 42 in    mapai.cpp line 3363
+^ Next Seed 43 in    mapai.cpp line 3363
+^    multimap.cpp - Taeghas unit:65 DestProvince:46
+^ Next Seed 44 in    mapai.cpp line 3363
+^ Next Seed 45 in    mapai.cpp line 3363
+^    multimap.cpp - Alamie unit:131 DestProvince:152
+^    multimap.cpp - Alamie unit:309 DestProvince:91
+^    multimap.cpp - Alamie unit:131 DestProvince:96
+^    multimap.cpp - DestPath1:4
+^    multimap.cpp - DestPath2:4
+^    multimap.cpp - Alamie unit:131 DestProvince:98
+^    multimap.cpp - DestPath1:6
+^    multimap.cpp - DestPath2:1
+^    multimap.cpp - DestPath3:1
+^    multimap.cpp - Alamie unit:131 DestProvince:93
+^    multimap.cpp - DestPath1:4
+^    multimap.cpp - DestPath2:3
+^    multimap.cpp - DestPath3:4
+^    multimap.cpp - Alamie unit:131 DestProvince:99
+^    multimap.cpp - DestPath1:1
+^    multimap.cpp - DestPath2:4
+^    multimap.cpp - DestPath3:1
+^    multimap.cpp - DestPath3:1
+^    multimap.cpp - DestPath3:1
+^ Next Seed 46 in    mapai.cpp line 3363
+^ Next Seed 47 in    mapai.cpp line 3363
+^ Next Seed 48 in    mapai.cpp line 3363
+^ Next Seed 49 in    mapai.cpp line 3363
+^ Next Seed 50 in    mapai.cpp line 3363
+^ Next Seed 51 in    mapai.cpp line 3363
+^ Next Seed 52 in    mapai.cpp line 3363
+^    multimap.cpp - Sielwode unit:289 DestProvince:202
+^    multimap.cpp - DestPath1:1
+^ Next Seed 53 in    mapai.cpp line 3363
+^    multimap.cpp - Ghoere unit:92 DestProvince:69
+^    multimap.cpp - DestPath1:2
+^    multimap.cpp - DestPath2:2
+^ Next Seed 54 in    mapai.cpp line 3363
+^    multimap.cpp - Osoerde unit:225 DestProvince:194
+^    multimap.cpp - DestPath1:5
+^    multimap.cpp - DestPath2:4
+^    multimap.cpp - DestPath3:4
+^    multimap.cpp - DestPath3:3
+^    multimap.cpp - Osoerde unit:225 DestProvince:9
+^    multimap.cpp - Osoerde unit:225 DestProvince:194
+^    multimap.cpp - DestPath1:4
+^    multimap.cpp - DestPath2:4
+^    multimap.cpp - Osoerde unit:319 DestProvince:9
+^    multimap.cpp - Osoerde unit:225 DestProvince:9
+^    multimap.cpp - Osoerde unit:225 DestProvince:194
+^    multimap.cpp - DestPath1:5
+^    multimap.cpp - DestPath2:4
+^    multimap.cpp - DestPath3:4
+^    multimap.cpp - Osoerde unit:225 DestProvince:194
+^    multimap.cpp - DestPath1:4
+^    multimap.cpp - DestPath2:4
+^ Next Seed 55 in    mapai.cpp line 3363
+^ Next Seed 56 in    mapai.cpp line 3363
+^ Next Seed 57 in    mapai.cpp line 3363
+^ Next Seed 58 in    mapai.cpp line 3363
+^    multimap.cpp - Avanil unit:241 DestProvince:56
+^    multimap.cpp - DestPath1:6
+^    multimap.cpp - Avanil unit:68 DestProvince:56
+^    multimap.cpp - DestPath1:5
+^    multimap.cpp - Avanil unit:68 DestProvince:62
+^    multimap.cpp - Avanil unit:68 DestProvince:61
+^    multimap.cpp - Avanil unit:68 DestProvince:62
+^ Next Seed 59 in    mapai.cpp line 3363
+^    multimap.cpp - Boeruine unit:333 DestProvince:29
+^ Next Seed 60 in    mapai.cpp line 3363
+^ Next Seed 61 in    mapai.cpp line 3363
+^ Next Seed 62 in    mapai.cpp line 3363
+^ Next Seed 63 in    mapai.cpp line 3363
+^ StartSync/CheckSync - start of sync 4 -----------------
+^    StartSync - Player 2, send sync 4
+^ Birthright - Sending a message
+^    StartSync - Player 2, sync 4 sent
+^ CheckSync - Start of check sync 4
+^    CheckSync - Player 2, receive GO, sync 4
+^    CheckSync - Player 2, master ID 1, index 0, realm Diemed
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 4 -----------------
+^ Birthright - Sending a message
+^ StartSync/CheckSync - start of sync 1 -----------------
+^    StartSync - Player 2, send sync 1
+^ Birthright - Sending a message
+^    StartSync - Player 2, sync 1 sent
+^ CheckSync - Start of check sync 1
+^    CheckSync - Player 2, receive GO, sync 1
+^    CheckSync - Player 2, master ID 1, index 0, realm Diemed
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 1 -----------------
+^ Birthright - Sending a message
+^ StartSync/CheckSync - start of sync 2 -----------------
+^    StartSync - Player 2, send sync 2
+^ Birthright - Sending a message
+^    StartSync - Player 2, sync 2 sent
+^ CheckSync - Start of check sync 2
+^    CheckSync - Player 2, receive GO, sync 2
+^    CheckSync - Player 2, master ID 1, index 0, realm Diemed

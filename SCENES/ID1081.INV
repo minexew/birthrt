@@ -1,0 +1,32 @@
+// The Wizard
+// magic items
+50
+
+
+// spells
+
+133 // 1st Detect Magic
+135 // 1st Jump
+137 // 1st Magic Missile
+141 // 2nd Continual Light
+143 // 2nd Levitate
+144 // 2nd Locate Object
+148 // 3rd Fly
+150 // 3rd Infravision
+151 // 3rd Lightning Bolt
+153 // 4th Ice Storm
+154 // 4th Minor Globe of Invulnerability
+158 // 5th Teleport
+
+// blood abilities
+
+223 // protection from evil
+226 // travel
+
+
+// realm spells
+
+198 // Raze
+203 // Warding
+
+

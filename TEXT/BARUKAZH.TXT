@@ -1,0 +1,8 @@
+^F02 
+^F02 
+^F06  Baruk-Azhik
+^F02^W300
+   This mountainous Eastern Marches realm is filled
+   with snow-covered peaks and treacherous gorges.
+   It is home to dwarf fortresses built into the rocky
+   earth.

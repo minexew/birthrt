@@ -1,0 +1,30 @@
+[Version]
+1.0
+[Music]
+4
+[Panorama]
+Back01a
+Back01b
+Back01e
+Back01a
+Back01b
+Back01a
+Back01b
+Back01e
+Back01a
+Back01b
+[QuestThingType]
+582
+[Wad]
+ilien_mw.wad
+[Sounds]
+2
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 3
+[Notes]
+2
+1   23
+3   15

@@ -1,0 +1,26 @@
+[Version]
+1.0
+[Sounds]
+2
+[Music]
+10
+[Panorama]
+Back01d
+Back01c
+Back01f
+Back01c
+Back01d
+Back01f
+Back01c
+Back01d
+Back01c
+Back01f
+[QuestThingType]
+360
+[Wad]
+bord_kg.wad
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 5

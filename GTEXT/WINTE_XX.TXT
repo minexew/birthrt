@@ -1,0 +1,3 @@
+^F02^W304Ein seit langem verlassenes Elfendorf liegt in der Provinz Caercas. Niemand weiß genau, warum seine Einwohner geflohen sind, aber ein furchtbares Übel muß überdas Dorf gekommen sein. In all' den Jahrhunderten haben sich nur wenige mutige Narren nach Winterroot gewagt, um nach den Schätzen der Elfen und vor allem nach dem Ioun-Herzen zu suchen. Noch weniger sind von der Suche wieder zurückgekehrt. 
+^C064ZIEL: FINDEN SIE DAS IOUN-HERZ
+

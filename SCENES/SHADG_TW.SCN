@@ -1,0 +1,33 @@
+[Version]
+1.0
+[Sounds]
+5
+[Music]
+8
+[Panorama]
+Back01a
+Back01d
+Back01a
+Back01d
+Back01h
+Back01a
+Back01d
+Back01h
+Back01a
+Back01d
+[QuestThingType]
+404
+[Wad]
+Shadg_tw.wad
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 5
+[Notes]
+5
+1    31
+2    32
+3    33
+4    34
+5    35

@@ -1,0 +1,883 @@
+
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winsys\afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version Info
+//
+#ifdef _MULTIPLAY_ONLY
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,3,2
+ PRODUCTVERSION 1,0,3,2
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Synergistic Software Inc. / Sierra On-Line\0"
+            VALUE "FileDescription", "MultiOnly WinBR\0"
+            VALUE "FileVersion", "1, 0, 3, 2\0"
+            VALUE "InternalName", "WinBR\0"
+            VALUE "LegalCopyright", "Copyright © 1997\0"
+            VALUE "OriginalFilename", "WinBR.exe\0"
+            VALUE "ProductName", "Birthright: The Gorgon's Alliance\0"
+            VALUE "ProductVersion", "1, 0, 3, 2\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#else
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,4
+ PRODUCTVERSION 1,0,0,4
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Synergistic Software Inc. / Sierra On-Line\0"
+            VALUE "FileDescription", "WinBR\0"
+            VALUE "FileVersion", "1, 0, 0, 4\0"
+            VALUE "InternalName", "WinBR\0"
+            VALUE "LegalCopyright", "Copyright © 1997\0"
+            VALUE "OriginalFilename", "WinBR.exe\0"
+            VALUE "ProductName", "Birthright: The Gorgon's Alliance\0"
+            VALUE "ProductVersion", "1, 0, 0, 4\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+APPMENU MENU DISCARDABLE
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Save",                       ID_APP_FILE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Connect",                    ID_APP_FILE_CONNECT
+        MENUITEM "&Disconnect",                 ID_APP_FILE_DISCONNECT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_FILE_EXIT
+    END
+    POPUP "&Options"
+    BEGIN
+        POPUP "&Display"
+        BEGIN
+            MENUITEM "&Auto - Speed and detail",    ID_APP_OPTIONS_AUTO
+            MENUITEM "&Least detail - Most speed",  ID_APP_OPTIONS_LOWRES
+            MENUITEM "&Most detail - Least speed",  ID_APP_OPTIONS_HIGHRES
+        END
+        MENUITEM "&New Window",                 ID_APP_OPTIONS_NEWWINDOW
+        MENUITEM "&Music",                      ID_APP_OPTIONS_MUSIC
+        , CHECKED
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      ID_APP_HELP_ABOUT
+    END
+    POPUP "&Test"
+    BEGIN
+        MENUITEM "&Load",                       ID_APP_FILE_LOAD
+        MENUITEM "&Animate",                    ID_APP_TEST_ANIMATE, CHECKED
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+WAVEWAIT DIALOG DISCARDABLE  0, 0, 110, 48
+STYLE WS_CHILD | WS_VISIBLE | WS_CAPTION
+CAPTION "Birthright"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Mixing Sound Please Wait ",IDC_STATIC,45,15,45,20
+    ICON            "AAAAAAAA",IDC_STATIC,15,10,18,20
+    GROUPBOX        "",IDC_STATIC,5,0,100,40
+END
+
+IDD_EDITOR DIALOG DISCARDABLE  0, 0, 458, 279
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Avatar Editor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Save to Memory/Disk",IDC_BUTTON_CREATE_AVATAR,127,238,
+                    78,14
+    PUSHBUTTON      "Save to Memory",IDOK,209,259,59,14
+    EDITTEXT        IDC_EDIT_STRENGTH,325,31,22,14,ES_AUTOHSCROLL
+    LTEXT           "Strength",IDC_STATIC,281,36,28,8
+    LTEXT           "Dexterity",IDC_STATIC,281,53,28,8
+    LTEXT           "Constitution",IDC_STATIC,281,71,38,8
+    LTEXT           "Intelligence",IDC_STATIC,281,90,37,8
+    LTEXT           "Wisdom",IDC_STATIC,283,111,26,8
+    LTEXT           "Charisma",IDC_STATIC,281,130,30,8
+    EDITTEXT        IDC_EDIT_DEXTERITY,325,50,22,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CONSTITUTION,325,68,22,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_INTELLIGENCE,325,87,22,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_WISDOM,325,108,22,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CHARISMA,325,127,22,14,ES_AUTOHSCROLL
+    LTEXT           "Name",IDC_STATIC,157,36,20,8
+    EDITTEXT        IDC_EDIT_NAME,187,33,57,14,ES_AUTOHSCROLL
+    LTEXT           "Title",IDC_STATIC,157,59,14,8
+    LTEXT           "Alignment",IDC_STATIC,267,158,32,8
+    EDITTEXT        IDC_EDIT_LEVEL,188,90,17,14,ES_AUTOHSCROLL
+    LTEXT           "Level",IDC_STATIC,158,92,18,8
+    LISTBOX         IDC_LIST_ALIGNMENT,251,174,72,51,LBS_NOINTEGRALHEIGHT |
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Class",IDC_STATIC,185,158,18,8
+    LISTBOX         IDC_LIST_CLASS,153,174,85,51,LBS_NOINTEGRALHEIGHT |
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "HP",IDC_STATIC,166,116,11,8
+    LTEXT           "AC",IDC_STATIC,170,138,10,8
+    EDITTEXT        IDC_EDIT_HP,188,113,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_AC,188,135,17,14,ES_AUTOHSCROLL
+    LTEXT           "ID",IDC_STATIC,59,30,8,8
+    LISTBOX         IDC_LIST_ID,25,42,75,47,LBS_NOINTEGRALHEIGHT |
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Thing Type",IDC_STATIC,43,92,37,8
+    LISTBOX         IDC_LIST_THINGTYPE,25,104,76,47,LBS_NOINTEGRALHEIGHT |
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "AI Function",IDC_STATIC,39,156,37,8
+    LISTBOX         IDC_LIST_AI,25,168,77,51,LBS_NOINTEGRALHEIGHT |
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "ADD Player Characteristics",IDC_STATIC,145,17,267,214
+    GROUPBOX        "Engine Characteristics",IDC_STATIC,12,12,107,249
+    LTEXT           "Angle",IDC_STATIC,35,238,19,8
+    EDITTEXT        IDC_EDIT_ANGLE,61,234,21,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Save Scene",IDC_BUTTON_SAVE_SCENE,279,238,50,14
+    LISTBOX         IDC_LIST_RACE,337,174,68,49,LBS_SORT |
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Race",IDC_STATIC,361,159,18,8
+    PUSHBUTTON      "Save All Avatars",IDC_BUTTON_SAVE_ALL_AVATARS,341,238,
+                    60,14
+    PUSHBUTTON      "Delete Avatar",IDC_BUTTON_DELETE_AVATAR,217,238,50,14,
+                    WS_DISABLED
+    LISTBOX         IDC_LIST_TITLE,187,53,58,32,LBS_NOINTEGRALHEIGHT |
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Avatar ID",IDC_STATIC,223,99,31,8
+    LTEXT           "New",IDC_STATIC_ID,229,111,19,8
+    PUSHBUTTON      "Exit",IDC_BUTTON_CANCEL,281,259,50,14
+END
+
+IDD_EDIT_AI DIALOG DISCARDABLE  0, 0, 192, 117
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,135,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,135,24,50,14
+    LTEXT           "Target ID",IDC_STATIC,19,9,31,8
+    LTEXT           "Target X",IDC_STATIC,19,28,28,8
+    LTEXT           "Target Y",IDC_STATIC,19,47,28,8
+    EDITTEXT        IDC_EDIT_TARGETID,61,7,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TARGETX,61,25,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TARGETY,61,44,40,14,ES_AUTOHSCROLL
+    LTEXT           "Target Z",IDC_STATIC,19,68,28,8
+    LTEXT           "Target A",IDC_STATIC,19,90,28,8
+    EDITTEXT        IDC_EDIT_TARGETZ,61,63,40,14,ES_AUTOHSCROLL |
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_TARGETA,61,87,40,14,ES_AUTOHSCROLL
+    LTEXT           "Rate",IDC_STATIC,123,89,16,8
+    EDITTEXT        IDC_EDIT_RATE,145,87,24,14,ES_AUTOHSCROLL
+END
+
+EDITWALLDLG DIALOGEX 0, 0, 177, 268
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Wall Texture and Lighting"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Load",IDB_LOAD,6,6,32,12
+    PUSHBUTTON      "Save",IDB_SAVE,49,6,32,12,WS_DISABLED
+    PUSHBUTTON      "Save as",IDB_SAVEAS,92,6,32,12,WS_DISABLED
+    PUSHBUTTON      "Undo",IDB_UNDO,135,6,32,12,WS_DISABLED
+    CONTROL         "Sector",IDC_RADIO_SECTOR,"Button",BS_AUTORADIOBUTTON |
+                    WS_GROUP,6,28,37,10
+    CONTROL         "Line",IDC_RADIO_LINE,"Button",BS_AUTORADIOBUTTON,6,42,
+                    29,10
+    CONTROL         "Side 1",IDC_RADIO_SIDE1,"Button",BS_AUTORADIOBUTTON |
+                    WS_GROUP,92,28,36,10
+    CONTROL         "Side 2",IDC_RADIO_SIDE2,"Button",BS_AUTORADIOBUTTON,92,
+                    42,36,10
+    CONTROL         "Upper",IDC_RADIO_UPPER,"Button",BS_AUTORADIOBUTTON |
+                    WS_GROUP,135,28,35,10
+    CONTROL         "Middle",IDC_RADIO_MIDDLE,"Button",BS_AUTORADIOBUTTON,
+                    135,42,37,10
+    CONTROL         "Lower",IDC_RADIO_LOWER,"Button",BS_AUTORADIOBUTTON,135,
+                    56,35,10
+    PUSHBUTTON      "",IDC_EDIT_SECTOR,49,26,32,12
+    PUSHBUTTON      "",IDC_EDIT_LINE,49,40,32,12
+    LTEXT           "Special:",IDC_TEXT_SPECIAL,6,58,25,8
+    PUSHBUTTON      "",IDC_EDIT_SPECIAL,37,56,32,12
+    LTEXT           "Tag:",IDC_TEXT_TAG,76,58,16,8
+    PUSHBUTTON      "",IDC_EDIT_TAG,96,56,32,12
+    LTEXT           "Current Texture:",IDC_TEXT_CURRENT_TEXTURE,6,72,56,10,
+                    WS_DISABLED
+    LTEXT           "Static",IDC_TEXTURE_VAL,63,72,58,8
+    LISTBOX         IDC_LIST1,8,85,162,72,LBS_SORT | LBS_USETABSTOPS |
+                    LBS_NOINTEGRALHEIGHT | WS_DISABLED | WS_VSCROLL |
+                    WS_HSCROLL | WS_TABSTOP
+    GROUPBOX        "Lighting",IDC_LIGHTBOX,8,158,162,37,WS_DISABLED
+    LTEXT           "Use + and - to change light level",IDC_LIGHT_PROMPT,11,
+                    166,120,10,WS_DISABLED
+    LTEXT           "Sector:",IDC_SECTOR_LIGHT,12,177,26,10,WS_DISABLED
+    PUSHBUTTON      "",IDC_SECTOR_LIGHT_VAL,41,176,32,12
+    LTEXT           "Linedef:",IDC_LINEDEF_LIGHT,84,177,32,10,WS_DISABLED
+    LTEXT           "",IDC_LINEDEF_LIGHT_VAL,116,177,52,12,WS_DISABLED
+    GROUPBOX        "Position",IDC_POSITIONBOX,8,199,162,62,WS_DISABLED
+    LTEXT           "Home, End, PgUp, PgDn change position",
+                    IDC_POSITION_PROMPT,11,208,157,10,WS_DISABLED
+    LTEXT           "X offset:",IDC_POSITION_X,11,222,41,10,WS_DISABLED
+    PUSHBUTTON      "",IDC_POSITION_X_VAL,55,219,28,12
+    LTEXT           "Y offset:",IDC_POSITION_Y,96,222,29,10,WS_DISABLED
+    PUSHBUTTON      "",IDC_POSITION_Y_VAL,128,219,28,12
+    LTEXT           "Floor height:",IDC_FLOOR_HEIGHT,11,234,40,10,
+                    WS_DISABLED
+    PUSHBUTTON      "",IDC_FLOOR_HEIGHT_VAL,55,234,28,12
+    LTEXT           "Ceiling:",IDC_CEILING_HEIGHT,96,234,31,10,WS_DISABLED
+    PUSHBUTTON      "",IDC_CEILING_HEIGHT_VAL,128,234,28,12
+    CONTROL         "Peg High",IDC_POSITION_PEGGED_HIGH,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,14,248,45,10,0x8000000L
+    CONTROL         "Peg Low",IDC_POSITION_PEGGED_LOW,"Button",
+                    BS_AUTORADIOBUTTON,65,248,44,10,0x8000000L
+    CONTROL         "Unpeg",IDC_POSITION_UNPEGGED,"Button",
+                    BS_AUTORADIOBUTTON,118,248,37,10,0x8000000L
+END
+
+EDITWALLERRORDLG DIALOG DISCARDABLE  200, 0, 216, 140
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Wall Load Errors"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "I couldn't find the following textures:",IDC_STATIC,8,6,
+                    200,10
+    LISTBOX         IDC_LIST1,8,16,200,120,LBS_USETABSTOPS |
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL
+END
+
+EDITWALLLOADINGDLG DIALOG DISCARDABLE  100, 30, 120, 60
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Wall"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Editor is loading textures",IDC_STATIC,8,6,100,10
+    LTEXT           "Please wait...",IDC_STATIC,8,16,100,10
+END
+
+EDITWALLSECTORDLG DIALOG DISCARDABLE  40, 20, 186, 40
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Wall Set Sector Value"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Current sector value:",IDC_STATIC,8,6,82,10
+    LTEXT           "0",IDC_SECTOR_VAL,90,6,30,12
+    LTEXT           "Enter new sector value:",IDC_STATIC,8,16,82,10
+    EDITTEXT        IDC_EDIT_SECTOR,90,16,30,12
+    PUSHBUTTON      "OK",IDOK,146,6,32,12
+    PUSHBUTTON      "Cancel",IDCANCEL,146,22,32,12
+END
+
+EDITWALLLINEDEFDLG DIALOG DISCARDABLE  40, 20, 186, 40
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Wall Set Linedef Value"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Current linedef value:",IDC_CURRENT_PROMPT,8,6,82,10
+    LTEXT           "0",IDC_LINEDEF_VAL,90,6,30,12
+    LTEXT           "Enter new linedef value:",IDC_NEW_PROMPT,8,16,82,10
+    EDITTEXT        IDC_EDIT_LINE,90,16,30,12
+    PUSHBUTTON      "OK",IDOK,146,6,32,12
+    PUSHBUTTON      "Cancel",IDCANCEL,146,22,32,12
+END
+
+EDITWALLSELECTMOTIF DIALOG DISCARDABLE  40, 20, 100, 68
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Wall Select Motif"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Select a motif:",-1,8,6,82,10
+    CONTROL         "Castle 01",100,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,12,16,80,10,0x8000000L
+    CONTROL         "Castle 02",101,"Button",
+                    BS_AUTORADIOBUTTON,12,26,80,10,0x8000000L
+    CONTROL         "Underground",102,"Button",
+                    BS_AUTORADIOBUTTON,12,36,80,10,0x8000000L
+    PUSHBUTTON      "OK",IDOK,8,50,32,12
+END
+
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE
+BEGIN
+    "#include ""winsys\\afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR  DISCARDABLE     "res\\cursor1.cur"
+IDC_CURSOR2             CURSOR  DISCARDABLE     "res\\cursor2.cur"
+DAGGER                  CURSOR  DISCARDABLE     "res\\dagger.cur"
+CANCEL                  CURSOR  DISCARDABLE     "res\\cancel.cur"
+TARGET                  CURSOR  DISCARDABLE     "res\\target.cur"
+AHEAD                   CURSOR  DISCARDABLE     "res\\ahead.cur"
+BEHIND                  CURSOR  DISCARDABLE     "res\\behind.cur"
+LEFT                    CURSOR  DISCARDABLE     "res\\left.cur"
+RIGHT                   CURSOR  DISCARDABLE     "res\\right.cur"
+MARCH                   CURSOR  DISCARDABLE     "res\\march.cur"
+ENGAGE                  CURSOR  DISCARDABLE     "res\\engage.cur"
+MISSILE                 CURSOR  DISCARDABLE     "res\\missile.cur"
+MAGIC                   CURSOR  DISCARDABLE     "res\\magic.cur"
+WAITCURS                CURSOR  DISCARDABLE     "res\\waitcurs.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+BIRTHRIGHT1             ICON    DISCARDABLE     "res\\br1.ico"
+BIRTHRIGHT2             ICON    DISCARDABLE     "res\\br2.ico"
+BIRTHRIGHT3             ICON    DISCARDABLE     "res\\br3.ico"
+BIRTHRIGHT4             ICON    DISCARDABLE     "res\\br4.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Strings
+//
+
+STRINGTABLE PRELOAD DISCARDABLE
+BEGIN
+1000, "BRIKC101: Basic wall #1"
+1001, "BRIKC102: Basic wall #1 weathered"
+1002, "BRIKC103: Basic wall #1 w/ device"
+1003, "BRIKC104: Basic wall #1 w/ torch glow"
+1004, "BRIKC106: Basic wall #1 w/ window (transparentable)"
+1005, "BRIKC107: Basic wall #1 w/ banner #1"
+1006, "BRIKC108: Basic wall #1 w/ banner #2"
+1007, "BRIKC109: Basic wall #1 w/ banner #3"
+1008, "BRIKC110: Basic wall #1 w/ tapestry #1 (128x128)"
+1009, "BRIKC111: Basic wall #1 w/ tapestry #2 (128x128)"
+1010, "BRIKC112: Basic wall #1 w/ tapestry #3 (128x128)"
+1011, "BRIKC113: Basic wall #1 w/ tapestry #4 (256x128)"
+1012, "BRIKC114: Basic wall #1 w/ banner #4 "
+1013, "BRIKC115: Basic wall #1 w/ tapestry #5 (128x128)"
+1014, "BRIKC116: Basic wall #1 w/ tapestry #6 (256x128)"
+1015, "BRIKC117: Basic wall #1 w/ tapestry #7 (256x128)"
+1016, "BRIKCSW1: Basic wall #1 w/ switch off"
+1017, "BRIKCSW2: Basic wall #1 w/ switch on"
+1018, "BRIKC201: Basic wall #2 "
+1019, "BRIKC202: Basic wall #2 w/ device"
+1020, "BRIKC203: Basic wall #2 w/ torch glow"
+1021, "BRIKC204: Basic wall #2 warm"
+1022, "BRIKC205: Basic wall #2 hot"
+1023, "BRIKCARC: Arch (transparentable)"
+1024, "BRIKCSTP: Step (64x32)"
+1025, "DOOR00_C: Secret door edge (32x128)"
+1026, "X_LEDG01: Ledge flat"
+1027, "ROTIRN01: Rot iron wall (transparentable)"
+1028, "ROTIRN02: Rot iron window (64x64) (transparentable)"
+1029, "ROTIRN03: Rot iron rail (transparentable)"
+1030, "HEARTH1C: Hearth (64x64)"
+1031, "HEARTH1M: Hearth warm (64x64)"
+1032, "X_HRTH1C: Hearth flat"
+1033, "X_HRTH1M: Hearth flat warm"
+1034, "F_ASHESH: Ashes floor hot"
+1035, "F_ASHESC: Ashes floor cold"
+1036, "F_SLABC1: Basic floor #1 (H)"
+1037, "F_SLABC2: Basic floor #1 weathered (H)"
+1038, "F_SLABC3: Basic floor #1 w/ device (H)"
+1039, "F_SLABC4: Basic floor #1 w/ puddle (H)"
+1040, "C_WOD011: Basic ceiling"
+1041, "C_WOD012: Basic ceiling weathered"
+1042, "F_WOD011: Basic floor #2 - second story (H)"
+1043, "F_WOD012: Basic floor #2 - second story - weathered (H)"
+1044, "COLUM011: Column front (32x128)"
+1045, "COLUM012: Column side (32x128)"
+1046, "COLUM013: Column side w/ beam at top (32x112+16)"
+1047, "COLUM021: 12-sided  column (16x128)"
+1048, "BEAM01: Beam (64x32)"
+1049, "X_BEM011: Beam flat #1"
+1050, "X_BEM012: Beam flat #2"
+1051, "DOOR01_L: Door #1 - left"
+1052, "DOOR01_R: Door #1 - right"
+1053, "DOOR01_C: Door #1 edge (16x128)"
+1054, "DOOR02_X: Door #2"
+1055, "CVWOD201: Fancy wall #1 "
+1056, "CVWOD202: Fancy wall #1 w/ device"
+1057, "CVWOD203: Fancy wall #1 w/ device - wide (128x128)"
+1058, "CVWOD204: Fancy wall #1 w/ torch glow"
+1059, "CVWOD205: Fancy wall #1 w/ banner #4"
+1060, "CWOD2STP: Fancy step (64x32)"
+1061, "F_IWOD03: Fancy floor #1 (H)"
+1062, "C_IWOD01: Fancy ceiling #1"
+1063, "COLUM031: Fancy column #1 (32x128)"
+1064, "BEAM02: Fancy beam (64x32)"
+1065, "X_BEM021: Fancy beam flat"
+1066, "DOOR03_L: Fancy door - left"
+1067, "DOOR03_R: Fancy door- right"
+1068, "DOOR03_C: Fancy door edge (16x128)"
+1069, "F_DAIZ01: Daiz floor (H)"
+1070, "CVWOD101: Fancy wall #2"
+1071, "CVWOD102: Fancy wall #2 w/ device"
+1072, "CVWOD103: Fancy wall #2 w/ torch glow"
+1073, "CVWOD104: Fancy wall #2 w/ banner #5"
+1074, "F_IWOD02: Fancy floor #2 (H)"
+1075, "C_PLST01: Fancy ceiling #2"
+1076, "COLUM041: Fancy column #2 front"
+1077, "COLUM042: Fancy column #2 side"
+1078, "MARB0101: Sacred wall"
+1079, "MARB0102: Sacred wall w/ device (32X32)"
+1080, "MARB0103: Sacred wall w/ torch glow"
+1081, "MARB0105: Sacred wall w/ relief (128x128)"
+1082, "MARB0107: Sacred furniture side (16x64)"
+1083, "MRB01STP: Sacred step (64x32)"
+1084, "COLUM051: Sacred column (32x128)"
+1085, "COLUM061: Sacred 12-sided column (16X128)"
+1086, "BEAM03: Sacred beam (64x32)"
+1087, "X_BEM031: Sacred beam flat"
+1088, "DOOR04_C: Sacred door edge (32x128)"
+1089, "F_MRB011: Sacred floor (H)"
+1090, "F_MRB012: Sacred floor w/ device (H)"
+1091, "C_MRB011: Sacred ceiling"
+1092, "X_MRB011: Sacred ledge/furniture flat"
+1093, "F_IWOD01: Fancy floor #3 (H)"
+1094, "C_IWOD02: Fancy ceiling #3"
+1095, "STAING01: Stained glass #1 (128x128)"
+1096, "STAING02: Stained glass #2"
+1097, "STAING03: Stained glass #3 (128x128)"
+1098, "LADDER11: Ladder rungs (40x256) (transparentable)"
+1099, "LADDER12: Ladder sides (2x256) (transparentable)"
+1100, "FURN01A: Furniture side #1 (64x64)"
+1101, "FURN01B: Furniture edge #1 -horizontal (32x8)"
+1102, "FURN01C: Furniture edge #1 -vertical (8x32)"
+1103, "X_FURN01: Furniture flat #1 (H)"
+1104, "FURN02A: Furniture side #2 (64x64)"
+1105, "FURN02B: Furniture edge #2 -horizontal (32x8)"
+1106, "FURN02C: Furniture edge #2 -vertical (8x32)"
+1107, "X_FURN02: Furniture flat #2 (H)"
+1108, "TABLE02E: Table side on carpet #1 - E-W (64x64)"
+1109, "TABLE02N: Table side on carpet #1 - N-S (64x64)"
+1110, "BENCH02E: Bench side on carpet #1 - E-W (32x32)"
+1111, "BENCH02N: Bench side on carpet #1 - N-S (32x32)"
+1112, "TABLE01E: Table side on carpet #2 - E-W (64x64)"
+1113, "TABLE01N: Table side on carpet #2 - N-S (64x64)"
+1114, "BENCH01E: Bench side on carpet #2 - E-W (32x32)"
+1115, "BENCH01N: Bench side on carpet #2 - N-S (32x32)"
+1116, "CARPET01: Carpet #1 wall (64x64)"
+1117, "F_CARP01: Carpet #1 flat"
+1118, "CARPET02: Carpet #2 wall (64x64)"
+1119, "F_CARP02: Carpet #2 flat"
+1120, "CLOTH01: Cloth #1 (64x64)"
+1121, "X_CLTH01: Cloth flat #1"
+1122, "CLOTH02: Cloth #2 (64x64)"
+1123, "X_CLTH02: Cloth flat #2"
+1124, "CLOTH03: Cloth #3 (64x64)"
+1125, "X_CLTH03: Cloth flat #3"
+1126, "CLOTH04: Cloth #4 (64x64)"
+1127, "X_CLTH04: Cloth flat #4"
+1128, "CLOTH05: Cloth #5 (64x64)"
+1129, "X_CLTH05: Cloth flat #5"
+1130, "CLOTH06: Cloth #6 (64x64)"
+1131, "X_CLTH06: Cloth flat #6"
+1132, "CLOTH07: Cloth #7 (64x64)"
+1133, "X_CLTH07: Cloth flat #7"
+1134, "MAGMIR01: Magic Mirror (64x64)"
+1135, "F_WATR01: Water flat (H)"
+1136, "BLACK: Black wall (64x64)"
+1137, "X_BLACK: Black flat"
+1138, "BRIKA102: Basic wall"
+1139, "BRIKA103: Basic wall w/ window (transparentable)"
+1140, "BRIKA104: Basic wall w/ torch glow"
+1141, "BRIKASTP: Basic step (64x32)"
+1142, "COLUM071: Basic column (32x128)"
+1143, "X_LEDG02: Ledge flat"
+1144, "LADDER21: Ladder rungs (40x512) (transparentable)"
+1145, "LADDER22: Ladder sides (2x512) (transparentable)"
+1146, "F_DIRT01: Ground #1"
+1147, "F_DIRT02: Ground #2"
+1148, "X_COBL01: Ground #3"
+1149, "F_GRAS01: Ground #4"
+1150, "F_GRAS02: Ground #5"
+1151, "F_WATR02: Water flat (H)"
+1152, "PRTCLS01: Portcullis (128x256) (transparentable)"
+1153, "SKY1: Sky wall"
+1154, "F_SKY1: Sky ceiling"
+1155, "F_WATR03: Water"
+1156, "F_WATR04: Water"
+1157, "F_WATR05: Water"
+1158, "F_LAVA01: Lava"
+1159, "F_LAVA02: Lava"
+1160, "F_ACID01: Acid"
+1161, "LASTXXXX"
+
+2000, "BRIKE101: Basic wall #1"
+2001, "BRIKE102: Basic wall #1 weathered"
+2002, "BRIKE103: Basic wall #1 w/ device"
+2003, "BRIKE104: Basic wall #1 w/ torch glow"
+2004, "BRIKE105: Basic wall #1 w/ window (transparentable)"
+2005, "BRIKE106: Basic wall #1 w/ banner #1"
+2006, "BRIKE107: Basic wall #1 w/ banner #2"
+2007, "BRIKE108: Basic wall #1 w/ tapestry #1 (128x128)"
+2008, "BRIKE109: Basic wall #1 w/ tapestry #2 (128x128)"
+2009, "BRIKESW1: Basic wall #1 w/ switch off"
+2010, "BRIKESW2: Basic wall #1 w/ switch on"
+2011, "BRIKE201: Basic wall #2"
+2012, "BRIKE202: Basic wall #2 w/ device"
+2013, "BRIKE203: Basic wall #2 w/ torch glow"
+2014, "BRIKE204: Basic wall #2 warm"
+2015, "BRIKE205: Basic wall #2 hot"
+2016, "BRIKEARC: Arch (transparentable)"
+2017, "BRIKESTP: Step (64x32)"
+2018, "DOOR11_C: Secret door edge (32x128)"
+2019, "X_LEDG04: Ledge flat"
+2020, "ROTIRN07: Rot iron wall (transparentable)"
+2021, "ROTIRN08: Rot iron window (64x64) (transparentable)"
+2022, "ROTIRN09: Rot iron rail (transparentable)"
+2023, "HEARTH2C: Hearth (64x64)"
+2024, "HEARTH2M: Hearth warm (64x64)"
+2025, "X_HRTH2C: Hearth flat"
+2026, "X_HRTH2M: Hearth flat warm"
+2027, "F_ASHESH: Ashes floor hot"
+2028, "F_ASHESC: Ashes floor cold"
+2029, "F_SLABE1: Basic floor #1 (H)"
+2030, "F_SLABE2: Basic floor #1 weathered (H)"
+2031, "F_SLABE3: Basic floor #1 w/ device (H)"
+2032, "F_SLABE4: Basic floor #1 w/ puddle (H)"
+2033, "C_SLAB01: Basic ceiling"
+2034, "C_SLAB02: Basic ceiling weathered"
+2035, "COLUM121: Column front (32x128)"
+2036, "COLUM122: Column side (32x128)"
+2037, "COLUM123: Column side w/ beam at top (32x112+16)"
+2038, "COLUM131: 12-sided  column (16x128)"
+2039, "BEAM06: Beam (64x32)"
+2040, "X_BEM041: Beam flat #1"
+2041, "X_BEM042: Beam flat #2"
+2042, "DOOR07_L: Door #1 - left"
+2043, "DOOR07_R: Door #1 - right"
+2044, "DOOR07_C: Door #1 edge (16x128)"
+2045, "DOOR08_L: Door #2 - left (128x128)"
+2046, "DOOR08_R: Door #2 - right (128x128)"
+2047, "DOOR08_R: Door #2 edge - use Door #2 -right"
+2048, "CVWOD401: Fancy wall #1"
+2049, "CVWOD402: Fancy wall #1 w/ device"
+2050, "CVWOD403: Fancy wall #1 w/ device - wide (128x128)"
+2051, "CVWOD404: Fancy wall #1 w/ torch glow"
+2052, "CVWOD405: Fancy wall #1 w/ banner #4"
+2053, "CWOD4STP: Fancy step (64x32)"
+2054, "F_IWOD06: Fancy floor #1 (H)"
+2055, "C_IWOD03: Fancy ceiling #1"
+2056, "COLUM141: Fancy column #1 (32x128)"
+2057, "BEAM07: Fancy beam (64x32)"
+2058, "X_BEM051: Fancy beam flat"
+2059, "DOOR09_L: Fancy door - left"
+2060, "DOOR09_R: Fancy door- right"
+2061, "DOOR09_C: Fancy door edge (16x128)"
+2062, "F_DAIZ02: Daiz floor (H)"
+2063, "CVWOD301: Fancy wall #2"
+2064, "CVWOD302: Fancy wall #2 w/ device"
+2065, "CVWOD303: Fancy wall #2 w/ torch glow"
+2066, "CVWOD304: Fancy wall #2 w/ banner #5"
+2067, "F_IWOD05: Fancy floor #2 (H)"
+2068, "C_PLST02: Fancy ceiling #2"
+2069, "COLUM151: Fancy column #2 front"
+2070, "COLUM152: Fancy column #2 side"
+2071, "MARB0301: Sacred wall"
+2072, "MARB0302: Sacred wall w/ device (32X32)"
+2073, "MARB0303: Sacred wall w/ torch glow"
+2074, "MARB0304: Sacred wall w/ relief (128x128)"
+2075, "MARB0305: Sacred furniture side (16x64)"
+2076, "MRB03STP: Sacred step (64x32)"
+2077, "COLUM161: Sacred column (32x128)"
+2078, "COLUM171: Sacred 12-sided column (16X128)"
+2079, "BEAM08: Sacred beam (64x32)"
+2080, "X_BEM061: Sacred beam flat"
+2081, "DOOR10_L: Sacred door - left"
+2082, "DOOR10_R: Sacred door - right"
+2083, "DOOR10_C: Sacred door edge (32x128)"
+2084, "F_MRB031: Sacred floor (H)"
+2085, "F_MRB032: Sacred floor w/ device (H)"
+2086, "C_MRB031: Sacred ceiling"
+2087, "X_MRB031: Sacred ledge/furniture flat"
+2088, "F_IWOD04: Fancy floor #3 (H)"
+2089, "C_IWOD04: Fancy ceiling #3"
+2090, "STAING04: Stained glass #1 (128x128)"
+2091, "STAING05: Stained glass #2"
+2092, "STAING06: Stained glass #3 (128x128)"
+2093, "LADDER11: Ladder rungs (40x256) (transparentable)"
+2094, "LADDER12: Ladder sides (2x256) (transparentable)"
+2095, "FURN03A: Furniture side #1 (64x64)"
+2096, "FURN03B: Furniture edge #1 -horizontal (32x8)"
+2097, "FURN03C: Furniture edge #1 -vertical (8x32)"
+2098, "X_FURN03: Furniture flat #1 (H)"
+2099, "FURN04A: Furniture side #2 (64x64)"
+2100, "FURN04B: Furniture edge #2 -horizontal (32x8)"
+2101, "FURN04C: Furniture edge #2 -vertical (8x32)"
+2102, "X_FURN04: Furniture flat #2 (H)"
+2103, "TABLE04E: Table side on carpet #1 - E-W (64x64)"
+2104, "TABLE04N: Table side on carpet #1 - N-S (64x64)"
+2105, "BENCH04E: Bench side on carpet #1 - E-W (32x32)"
+2106, "BENCH04N: Bench side on carpet #1 - N-S (32x32)"
+2107, "TABLE03E: Table side on carpet #2 - E-W (64x64)"
+2108, "TABLE03N: Table side on carpet #2 - N-S (64x64)"
+2109, "BENCH03E: Bench side on carpet #2 - E-W (32x32)"
+2110, "BENCH03N: Bench side on carpet #2 - N-S (32x32)"
+2111, "CARPET01: Carpet #1 wall (64x64)"
+2112, "F_CARP01: Carpet #1 flat"
+2113, "CARPET02: Carpet #2 wall (64x64)"
+2114, "F_CARP02: Carpet #2 flat"
+2115, "CLOTH01: Cloth #1 (64x64)"
+2116, "X_CLTH01: Cloth flat #1"
+2117, "CLOTH02: Cloth #2 (64x64)"
+2118, "X_CLTH02: Cloth flat #2"
+2119, "CLOTH03: Cloth #3 (64x64)"
+2120, "X_CLTH03: Cloth flat #3"
+2121, "CLOTH04: Cloth #4 (64x64)"
+2122, "X_CLTH04: Cloth flat #4"
+2123, "CLOTH05: Cloth #5 (64x64)"
+2124, "X_CLTH05: Cloth flat #5"
+2125, "CLOTH06: Cloth #6 (64x64)"
+2126, "X_CLTH06: Cloth flat #6"
+2127, "CLOTH07: Cloth #7 (64x64)"
+2128, "X_CLTH07: Cloth flat #7"
+2129, "MAGMIR01: Magic Mirror (64x64)"
+2130, "F_WATR01: Water flat (H)"
+2131, "BLACK: Black wall (64x64)"
+2132, "X_BLACK: Black flat"
+2133, "BRIKD102: Basic wall"
+2134, "BRIKD103: Basic wall w/ window (transparentable)"
+2135, "BRIKD104: Basic wall w/ torch glow"
+2136, "BRIKDSTP: Basic step (64x32)"
+2137, "COLUM181: Basic column (32x128)"
+2138, "X_LEDG05: Ledge flat"
+2139, "LADDER21: Ladder rungs (40x512) (transparentable)"
+2140, "LADDER22: Ladder sides (2x512) (transparentable)"
+2141, "F_DIRT01: Ground #1"
+2142, "F_DIRT02: Ground #2"
+2143, "X_COBL01: Ground #3"
+2144, "F_GRAS01: Ground #4"
+2145, "F_GRAS02: Ground #5"
+2146, "F_WATR02: Water flat (H)"
+2147, "PRTCLS03: Portcullis (128x256) (transparentable)"
+2148, "SKY1: Sky wall"
+2149, "F_SKY1: Sky ceiling"
+2150, "LASTXXXX"
+
+
+3000, "DUNGC101: Basic dungeon wall (unshaded)"
+3001, "DUNGC102: Dungeon wall (unshaded) w/ device"
+3002, "DUNGC103: Dungeon wall (unshaded) w/ lava glow"
+3003, "DUNGC104: Basic dungeon wall"
+3004, "DUNGC105: Dungeon wall w/ device #1"
+3005, "DUNGC106: Dungeon wall w/ window (transparentable)"
+3006, "DUNGC107: Dungeon wall w/ torch glow"
+3007, "DUNGC108: Dungeon wall w/ device #2"
+3008, "DUNGC109: Dungeon wall w/ banner"
+3009, "DUNGC110: Dungeon wall weathered"
+3010, "DUNGC111: Dungeon wall w/ device #3 (wide) -128x128"
+3011, "DUNGCSW1: Dungeon wall w/ switch off"
+3012, "DUNGCSW2: Dungeon wall w/ switch on"
+3013, "DUNGCSTP: Dungeon step front - 64x32"
+3014, "DUNGCHOT: Dungeon lava wall - 64x32"
+3015, "F_DNGC01: Basic dungeon floor"
+3016, "F_DNGC02: Dungeon floor w/ light"
+3017, "F_DNGC03: Dungeon floor w/ device"
+3018, "F_DNGC04: Dungeon floor w/ hole"
+3019, "F_DNGC05: Dungeon floor (hot)"
+3020, "C_DNGC01: Basic dungeon ceiling - E-W"
+3021, "C_DNGC02: Basic dungeon ceiling - N-S"
+3022, "DOOR05_L: Basic dungeon door - left"
+3023, "DOOR05_R: Basic dungeon door - right"
+3024, "DOOR05_C: Basic dungeon door - edge - 8x128"
+3025, "IRNBRS01: Iron bars (transparentable)"
+3026, "PRTCLS02: Iron bar portcullis (transparentable)"
+3027, "ROTIRN06: Rotiron window - 64x64 (transparentable)"
+3028, "DUNGCSD1: Transitional wall/edge (unshaded) - 16x128"
+3029, "DUNGCSD2: Transitional wall/edge - 16x128"
+3030, "X_LEDG03: Transitional ledge flat"
+3031, "MARB0201: Basic marble wall"
+3032, "MARB0202: Marble wall w/ device #1"
+3033, "MARB0203: Marble wall w/ device #2"
+3034, "MARB0204: Marble wall w/ torch glow"
+3035, "MARB0205: Marble wall w/ device #3 (wide) -128x128"
+3036, "MARB0206: Marble furniture side/edge - 32x32"
+3037, "MARB0207: Marble furniture side/edge - 16x64"
+3038, "MRB02STP: Marble step front - 64x32"
+3039, "COLUM081: Marble column front/side - 32x128"
+3040, "COLUM091: Marble column (12-sided) - 16x128"
+3041, "BEAM04: Marble beam side - 64x32"
+3042, "C_MRB021: Basic marble ceiling"
+3043, "F_MRB021: Basic marble floor"
+3044, "F_MRB022: Marble floor w/ light large"
+3045, "F_MRB023: Marble floor w/ light small"
+3046, "X_MRB021: Marble ledge flat"
+3047, "DOOR06_L: Marble door - left"
+3048, "DOOR06_R: Marble door - right"
+3049, "DOOR06_C: Marble door - edge"
+3050, "ROTIRN04: Rotiron wall (transparentable)"
+3051, "ROTIRN05: Rotiron window - 64x64 (transparentable)"
+3052, "RFWOD101: Rough wood wall"
+3053, "COLUM101: Rough wood column - 32x128"
+3054, "BEAM05: Rough wood beam side - 63x32"
+3055, "X_RFWOD1: Rough wood furniture flat"
+3056, "X_RFWOD2: Rough wood beam flat"
+3057, "F_LAVA01: Lava floor"
+3058, "F_WATR03: Water floor"
+3059, "BLACK: Black wall - 32x32"
+3060, "X_BLACK: Black flat"
+3061, "LADDER11: Ladder front 48x256 (transparentable)"
+3062, "LADDER12: Ladder side - 4x256 (transparentable)"
+3063, "CAVEC101: Basic cave wall (unshaded)"
+3064, "CAVEC102: Cave wall w/ lava glow (unshaded)"
+3065, "CAVEC_L1: Cave wall left edge (unshaded) - 32x128 (transparentable)"
+3066, "CAVEC_R1: Cave wall right edge (unshaded) - 32x128 (transparentable)"
+3067, "CAVEC103: Basic cave wall"
+3068, "CAVEC104: Cave wall w/ device #1"
+3069, "CAVEC105: Cave wall w/ torch glow"
+3070, "CAVEC106: Cave wall w/ device #2"
+3071, "CAVEC_L2: Cave wall left edge - 32x128 (transparentable)"
+3072, "CAVEC_R2: Cave wall right edge - 32x128 (transparentable)"
+3073, "CAVECARC: Cave arched doorway (transparentable)"
+3074, "CAVECHOT: Cave lava wall - 64x32"
+3075, "C_CAVC01: Basic cave ceiling"
+3076, "F_CAVC01: Basic cave floor"
+3077, "F_CAVC02: Cave floor w/ light"
+3078, "F_CAVC03: Cave floor w/ hole"
+3079, "F_CAVC04: Cave floor - hot"
+3080, "BIZRC101: Basic bizarre wall (unshaded)"
+3081, "BIZRC_L1: Bizarre wall left edge (unshaded) - 32x128 (transparentable)"
+3082, "BIZRC_R1: Bizarre wall right edge (unshaded) - 32x128 (transparentable)"
+3083, "BIZRC102: Basic bizarre wall"
+3084, "BIZRC103: Bizarre wall w/ device"
+3085, "BIZRC104: Bizarre wall w/ window (transparentable)"
+3086, "BIZRC105: Bizarre wall w/ torch glow"
+3087, "BIZRC_L2: Bizarre wall left edge - 32x128 (transparentable)"
+3088, "BIZRC_R2: Bizarre wall right edge - 32x128 (transparentable)"
+3089, "BIZRCARC: Bizarre door arch (transparentable)"
+3090, "C_BZRC01: Basic bizarre ceiling"
+3091, "F_BZRC01: Basic bizarre floor"
+3092, "F_BZRC01: Basic bizarre floor w/ light"
+3093, "F_BZRC01: Basic bizarre floor w/ hole"
+3094, "LASTXXXX"
+
+
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE
+BEGIN
+    IDD_EDITOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 451
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 273
+    END
+
+    IDD_EDIT_AI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 185
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 110
+    END
+
+    "EDITWALLDLG", DIALOG
+    BEGIN
+        RIGHTMARGIN, 170
+        BOTTOMMARGIN, 236
+    END
+
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+

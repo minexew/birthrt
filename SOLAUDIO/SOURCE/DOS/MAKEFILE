@@ -1,0 +1,20 @@
+include = .\;c:\watcom\h
+
+target	= skel.exe
+targetub = skelub.exe
+debugAsmOpts = 
+debugOpt = 
+bannerOpt=
+
+objects = &
+	skel.obj &
+	custmsys.obj &
+	kernaud.obj &
+	fatal.obj &
+	audio.obj &
+	audioa.obj
+
+$(target) : $(debugObjs) $(objects) 
+	*wlink name $(target) system dos4g option map option stack=16k &
+		debug all file {$(objects)}
+#	c:\watcom\bin\4gwbind c:\watcom\bin\4gwpro.exe $(targetub) $(target) $(bannerOpt) -V

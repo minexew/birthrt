@@ -1,0 +1,26 @@
+[Version]
+1.0
+[Music]
+8
+[Sounds]
+5
+[Panorama]
+Back01c
+Back01d
+Back01g
+Back01c
+Back01d
+Back01g
+Back01c
+Back01d
+Back01c
+Back01d
+[QuestThingType]
+172
+[Wad]
+rhoub_kw.wad
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 5

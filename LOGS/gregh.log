@@ -1,0 +1,1599 @@
+v Saved game on turn 0.
+v MultiPlayer::Finalize - player left the game
+v GenericMultiPlayer::Finalize
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v Saved game on turn 0.
+v MultiPlayer::Finalize - player left the game
+v GenericMultiPlayer::Finalize
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+v MultiPlayer::LookForMessages - finalize 1
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ MultiPlayer::StartWait - Sync Point 7
+^ StartSync/CheckSync - start of sync 7 -----------------
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ GMulPlay::ReceiveMessage - leaving, return 0 (0=error)
+^ MulPlay::LookForMessages - After Peeking Msg, ReceiveMessage NON-SYNC Failed!
+^ GMulPlay::ReceiveMessage - leaving, return 0 (0=error)
+^ MulPlay::LookForMessages - After Peeking Msg, ReceiveMessage NON-SYNC Failed!
+^ GMulPlay::ReceiveMessage - leaving, return 0 (0=error)
+^ MulPlay::LookForMessages - After Peeking Msg, ReceiveMessage NON-SYNC Failed!
+^    StartSync - Player 3, send sync 7
+^ Birthright - Sending a message
+^ PlatformNetworkModule::SendMessage - pointcasting sync message. OurID:3  MsgNum:3000001
+^ PlatformNetworkModule::SendMessage - pointcast: received ACK from 1  MsgNum:3000001
+^    StartSync - Player 3, sync 7 sent
+^ MultiPlayer::EndWait - Sync Point 7
+^ MultiPlayer::StartWait - Sync Point 7
+^ CheckSync - Start of check sync 7
+^    CheckSync - Player 3, receive GO, sync 7
+^    CheckSync - Player 3, master ID 1, index 0, realm N. Import and Export
+^ GMulPlay::ReceiveMessage - leaving, return 0 (0=error)
+^ MulPlay::LookForMessages - After Peeking Msg, ReceiveMessage NON-SYNC Failed!
+^ PlatformNetworkModule::ReceiveMessages - received sync 43 message from 1 (1).
+^ MulPlay::LookForMessages - receiving sync message.  OurID:3  FromID:1  MsgNum:1000003
+^ PlatformNetworkModule::ReceiveMessages - received sync 43 message from 1 (1).
+^ PlatformNetworkModule::ReceiveMessages - Ack'd sync message from 1 with 0 result (0=no error).
+^ GMulPlay::ReceiveMessage - looking for sync, received SYNC (20), FromID:1 (ix=0)  MsgNum:1000003
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ MulPlay::LookForMessages - callin HandleSpecialMessages with a sync message.  FromID:1/1  MsgNum:1000003
+^ MulPlay::HandleSpecialMessage - recording sync message.  OurID:3  FromID:1  SyncNum:43  MsgNum:1000003
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 7 -----------------
+^ MultiPlayer::EndWait - Sync Point 7
+^ PlatformNetworkModule::ReceiveMessages - received sync 7 message from 1 (1).
+^ MulPlay::LookForMessages - receiving sync message.  OurID:3  FromID:1  MsgNum:1000004
+^ PlatformNetworkModule::ReceiveMessages - received sync 7 message from 1 (1).
+^ PlatformNetworkModule::ReceiveMessages - Ack'd sync message from 1 with 0 result (0=no error).
+^ GMulPlay::ReceiveMessage - looking for sync, received SYNC (20), FromID:1 (ix=0)  MsgNum:1000004
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ MulPlay::LookForMessages - callin HandleSpecialMessages with a sync message.  FromID:1/1  MsgNum:1000004
+^ MulPlay::HandleSpecialMessage - recording sync message.  OurID:3  FromID:1  SyncNum:7  MsgNum:1000004
+^ Birthright - Sending a message
+^ MultiPlayer::DoMultiRealmStuff - non-master player:3  requesting:Roesone
+^ Birthright - Sending a message
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ Start Rand Seed
+^ Next Seed 1 in    mapai.cpp line 0275
+^ Next Seed 2 in    mapai.cpp line 0275
+^ PROVINCE INFO - Alamie:Alaroine  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Alamie:Deseirain  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Alamie:Hildon  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Alamie:Laraeth  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Alamie:Maesford  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Alamie:Nortmoor  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Alamie:Sorelies  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Alamie:Soutmoor  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Alamie:Traiward  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ Next Seed 3 in    mapai.cpp line 0275
+^ PROVINCE INFO - Anuire:City of Anuire  FINAL province - civlvl:10 taxlvl:1 mod:0 roll:16 prov_tax:16
+^ Next Seed 4 in    mapai.cpp line 0275
+^ PROVINCE INFO - Avanil:Aerele  FINAL gld & tmpl - civ:4 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Ciliene  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Bhaine  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Brosien  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Seamist  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Wilder's Gorge  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Anuire  FINAL gld & tmpl - civ:7 hld:4 mod:0 roll:6 prov_tax:6
+^ PROVINCE INFO - Avanil:Anuire  FINAL gld & tmpl - civ:7 hld:4 mod:0 roll:7 prov_tax:13
+^ PROVINCE INFO - Avanil:Anuire  FINAL province - civlvl:7 taxlvl:1 mod:0 roll:11 prov_tax:24
+^ PROVINCE INFO - Avanil:Avarien  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Avarien  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:4
+^ PROVINCE INFO - Avanil:Avarien  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:8
+^ PROVINCE INFO - Avanil:Bhrein  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Bhrein  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:4
+^ PROVINCE INFO - Avanil:Bhrein  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:8
+^ PROVINCE INFO - Avanil:Caulnor  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Caulnor  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:5 prov_tax:7
+^ PROVINCE INFO - Avanil:Caulnor  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:5 prov_tax:12
+^ PROVINCE INFO - Avanil:Daulton  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Daulton  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:1 prov_tax:2
+^ PROVINCE INFO - Avanil:Daulton  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:7 prov_tax:9
+^ PROVINCE INFO - Avanil:Duriene  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Duriene  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:2 prov_tax:3
+^ PROVINCE INFO - Avanil:Duriene  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:6
+^ PROVINCE INFO - Avanil:Nentril  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Avanil:Nentril  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:6
+^ PROVINCE INFO - Avanil:Nentril  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:7
+^ PROVINCE INFO - Avanil:Taliern  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Taliern  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:4
+^ PROVINCE INFO - Avanil:Taliern  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:7
+^ PROVINCE INFO - Avanil:Vanilen  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Vanilen  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:3
+^ PROVINCE INFO - Avanil:Vanilen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:7
+^ PROVINCE INFO - Avanil:Alamsreft  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Elevesnemiere  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Haesrien  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Monsedge  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Nabhriene  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Nabhriene  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:1
+^ PROVINCE INFO - Avanil:Pechalinn  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Tuor's Hold  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Avanil:Tuor's Hold  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:7
+^ PROVINCE INFO - Avanil:Deseirain  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:Maesford  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:Sorelies  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Avanil:Traiward  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Avanil:City of Anuire  FINAL gld & tmpl - civ:10 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Avanil:City of Anuire  FINAL gld & tmpl - civ:10 hld:2 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Avanil:Endier  FINAL gld & tmpl - civ:6 hld:3 mod:0 roll:3 prov_tax:3
+^ Next Seed 5 in    mapai.cpp line 0275
+^ PROVINCE INFO - Baruk-Azhik:Bran's Retreat  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:Bran's Retreat  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:6
+^ PROVINCE INFO - Baruk-Azhik:Cliff's Lament  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Cliff's Lament  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:6
+^ PROVINCE INFO - Baruk-Azhik:Land's Victory  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:Land's Victory  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:6
+^ PROVINCE INFO - Baruk-Azhik:The Promontory  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Baruk-Azhik:The Promontory  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:7
+^ PROVINCE INFO - Baruk-Azhik:Rivenrock  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Rivenrock  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:Caudraight  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Deepshadow  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Baruk-Azhik:Duornil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Mistil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Ruorven  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Algael  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Baruk-Azhik:Moergen  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Moriel  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Baruk-Azhik:Spiritsend  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ Next Seed 6 in    mapai.cpp line 0275
+^ PROVINCE INFO - Boeruine:Bacaele  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Boeruine:Bacaele  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:5
+^ PROVINCE INFO - Boeruine:Calant  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Boeruine:Calant  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:6
+^ PROVINCE INFO - Boeruine:Dhalaese  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Boeruine:Dhalaese  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Boeruine:Fhoruile  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Boeruine:Fhoruile  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:6
+^ PROVINCE INFO - Boeruine:Nietier  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Boeruine:Redoubt  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Boeruine:Redoubt  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:5
+^ PROVINCE INFO - Boeruine:Rivien  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:6 prov_tax:6
+^ PROVINCE INFO - Boeruine:Rivien  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:3 prov_tax:9
+^ PROVINCE INFO - Boeruine:Seasedge  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Boeruine:Seasedge  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:4 prov_tax:6
+^ PROVINCE INFO - Boeruine:Tariene  FINAL gld & tmpl - civ:6 hld:4 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Boeruine:Tariene  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:2 prov_tax:7
+^ PROVINCE INFO - Boeruine:Lindholme  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Boeruine:Wilder's Gorge  FINAL gld & tmpl - civ:1 hld:0 mod:0 roll:0 prov_tax:0
+^ Next Seed 7 in    mapai.cpp line 0275
+^ PROVINCE INFO - Brosengae:Bindier  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Brosengae:Bindier  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Brosengae:Coere  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Brosengae:Coere  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:4 prov_tax:7
+^ PROVINCE INFO - Brosengae:Coere  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:12
+^ PROVINCE INFO - Brosengae:Marilen  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Brosengae:Marilen  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:2 prov_tax:5
+^ PROVINCE INFO - Brosengae:Marilen  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:2 prov_tax:7
+^ PROVINCE INFO - Brosengae:Anuire  FINAL gld & tmpl - civ:7 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Brosengae:Bhrein  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Brosengae:Duriene  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Brosengae:Taliern  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Brosengae:Haesrien  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Brosengae:Nabhriene  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ Next Seed 8 in    mapai.cpp line 0275
+^ PROVINCE INFO - Cariele:Alamsreft  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Ghonallison  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Haesrien  FINAL gld & tmpl - civ:5 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Cariele:Monsedge  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Alaroine  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Deseirain  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Hildon  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Nortmoor  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Cariele:Sorelies  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Sonnelind  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Tradebhein  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Avallaigh  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Bhindraith  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Cariele:Cwmbheir  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Mhelliviene  FINAL gld & tmpl - civ:5 hld:5 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Cariele:Mhelliviene  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:2 prov_tax:4
+^ PROVINCE INFO - Cariele:Mountainsedge  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Mountainsedge  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:5
+^ PROVINCE INFO - Cariele:Riverford  FINAL gld & tmpl - civ:5 hld:5 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Cariele:Riverford  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:2 prov_tax:5
+^ Next Seed 9 in    mapai.cpp line 0275
+^ PROVINCE INFO - Chimaeron:Barniere  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Chimaeron:Careine  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Chimaeron:Careine  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:4
+^ PROVINCE INFO - Chimaeron:Hamein  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Chimaeron:Hamein  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Chimaeron:Lyssan  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Chimaeron:Lyssan  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:4
+^ PROVINCE INFO - Chimaeron:Mhowe  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Chimaeron:Mhowe  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Chimaeron:Ruorkhe  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Chimaeron:Ruorkhe  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Chimaeron:Salviene  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ Next Seed 10 in    mapai.cpp line 0275
+^ PROVINCE INFO - Coeranys:Achiese  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Conallier  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Thoralinar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:City of Anuire  FINAL gld & tmpl - civ:10 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Ansien  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Hope's Demise  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Osoeriene  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Sendouras  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Soileite  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Bogsend  FINAL gld & tmpl - civ:3 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Coeranys:Bogsend  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Caudraight  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Coeranys:Deepshadow  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Coeranys:Deepshadow  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:7
+^ PROVINCE INFO - Coeranys:Duornil  FINAL gld & tmpl - civ:2 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Duornil  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:2
+^ PROVINCE INFO - Coeranys:Mistil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Coeranys:Mistil  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:3
+^ PROVINCE INFO - Coeranys:Ranien  FINAL gld & tmpl - civ:2 hld:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Coeranys:Ranien  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Coeranys:Ruorven  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Coeranys:Ruorven  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:9
+^ Next Seed 11 in    mapai.cpp line 0275
+^ PROVINCE INFO - Dhoesone:Bjondrig  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Dhoesone:Dharilein  FINAL province - civlvl:1 taxlvl:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Dhoesone:Giant's Fastness  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Dhoesone:Hidaele  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Dhoesone:Nolien  FINAL province - civlvl:3 taxlvl:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Dhoesone:Riveside  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Dhoesone:Romiene  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Dhoesone:Ruidewash  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Dhoesone:Sidhuire  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Dhoesone:Soniele  FINAL province - civlvl:1 taxlvl:0 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Dhoesone:Sonnelind  FINAL province - civlvl:4 taxlvl:2 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Dhoesone:Tradebhein  FINAL province - civlvl:2 taxlvl:2 mod:0 roll:1 prov_tax:1
+^ Next Seed 12 in    mapai.cpp line 0275
+^ Next Seed 13 in    mapai.cpp line 0275
+^ PROVINCE INFO - Elinie:Ansien  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Elinie:Chalsedon  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Elinie:Hope's Demise  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Elinie:Mholien  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Elinie:Osoeriene  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Elinie:Sendouras  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Elinie:Soileite  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ Next Seed 14 in    mapai.cpp line 0275
+^ PROVINCE INFO - Endier:Ciliene  FINAL gld & tmpl - civ:6 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Endier:Moere  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:Tier  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Caerwil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:Ghiere  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:Rhumannen  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Endier:Tireste  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Endier:Maesford  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Traiward  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Endier:City of Anuire  FINAL gld & tmpl - civ:10 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Endier:Endier  FINAL gld & tmpl - civ:6 hld:6 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Endier:Endier  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:7 prov_tax:10
+^ Next Seed 15 in    mapai.cpp line 0275
+^ PROVINCE INFO - Five Peaks:The Gorge  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Five Peaks:Floodspaeth  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Five Peaks:Helmshaven  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Five Peaks:Puinol  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Five Peaks:Sufhanie  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Five Peaks:Thasbyrn  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Five Peaks:Torain  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ Next Seed 16 in    mapai.cpp line 0275
+^ PROVINCE INFO - Ghoere:Achiese  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Ghoere:Achiese  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:8
+^ PROVINCE INFO - Ghoere:Bhalaene  FINAL gld & tmpl - civ:6 hld:4 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Bhalaene  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:6 prov_tax:8
+^ PROVINCE INFO - Ghoere:Bheline  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:6 prov_tax:6
+^ PROVINCE INFO - Ghoere:Bheline  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:10
+^ PROVINCE INFO - Ghoere:Conallier  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Danaroene  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Danaroene  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:6
+^ PROVINCE INFO - Ghoere:Ghiere  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Ghiere  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:5 prov_tax:6
+^ PROVINCE INFO - Ghoere:Rhumannen  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Rhumannen  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:6
+^ PROVINCE INFO - Ghoere:Thoralinar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Thoralinar  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Ghoere:Tireste  FINAL gld & tmpl - civ:5 hld:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Tireste  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:2 prov_tax:4
+^ PROVINCE INFO - Ghoere:Tornilen  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Tornilen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:4
+^ PROVINCE INFO - Ghoere:Cwlldon  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Ghoere:Tenarien  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Ghoere:Alaroine  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Laraeth  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Ghoere:Bogsend  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Ghoere:Caudraight  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Brothendar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Ghalliere  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Ghoere:Moriel  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:3 prov_tax:3
+^ Next Seed 17 in    mapai.cpp line 0275
+^ PROVINCE INFO - Gorgon's Crown:Abattoir  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Anathar  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Gorgon's Crown:Elfseyes  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Jogh Warren  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Kal-Saitharak  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Mettle  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Motile  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Mutian's Point  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Gorgon's Crown:Orog's Head  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Pelt  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Gorgon's Crown:Plumbago  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Sage's Fen  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Sere's Hold  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Sideath  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Stone's End  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Sunder Falls  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Zaptig  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Brushfire  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Dwarf's Hold  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Elfsdemise  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Periltrees  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Riverspring  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Shattered Hills  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Gorgon's Crown:Sutren Hills  FINAL gld & tmpl - civ:1 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Gorgon's Crown:Crushing Rock  FINAL gld & tmpl - civ:5 hld:5 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Gorgon's Crown:Fallen Rock  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Gorgon's Crown:Lost Realm  FINAL gld & tmpl - civ:2 hld:1 mod:0 roll:1 prov_tax:1
+^ Next Seed 18 in    mapai.cpp line 0275
+^ PROVINCE INFO - Ilien:Ilien  FINAL province - civlvl:7 taxlvl:1 mod:0 roll:5 prov_tax:5
+^ Next Seed 19 in    mapai.cpp line 0275
+^ PROVINCE INFO - Markazor:Brushfire  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Markazor:Dwarf's Hold  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Markazor:Elfsdemise  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Markazor:Periltrees  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Markazor:Riverspring  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Markazor:Shattered Hills  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Markazor:Sutren Hills  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Markazor:Lost Realm  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ Next Seed 20 in    mapai.cpp line 0275
+^ PROVINCE INFO - Medoere:Caercas  FINAL gld & tmpl - civ:4 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Medoere:Alamier  FINAL gld & tmpl - civ:4 hld:4 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Medoere:Alamier  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:4 prov_tax:7
+^ PROVINCE INFO - Medoere:Braeme  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Medoere:Braeme  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:2
+^ PROVINCE INFO - Medoere:Caerwil  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Medoere:Caerwil  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:3
+^ Next Seed 21 in    mapai.cpp line 0275
+^ PROVINCE INFO - Mhoried:Bhalaene  FINAL gld & tmpl - civ:6 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Conallier  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Tornilen  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Balteruine  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Balteruine  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:4
+^ PROVINCE INFO - Mhoried:Bevaldruor  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:6 prov_tax:6
+^ PROVINCE INFO - Mhoried:Bevaldruor  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:8 prov_tax:14
+^ PROVINCE INFO - Mhoried:Byrnnor  FINAL gld & tmpl - civ:4 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Byrnnor  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Mhoried:Cwlldon  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Cwlldon  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Dhalsiel  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Dhalsiel  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Mhoried:Maesilar  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Maesilar  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:3
+^ PROVINCE INFO - Mhoried:Marloer's Gap  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Marloer's Gap  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:3
+^ PROVINCE INFO - Mhoried:Tenarien  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Tenarien  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:Torien's Watch  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Mhoried:Winoene  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Mhoried:Winoene  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Mhoried:City of Anuire  FINAL gld & tmpl - civ:10 hld:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Mhoried:Rivenrock  FINAL gld & tmpl - civ:5 hld:3 mod:0 roll:4 prov_tax:4
+^ Next Seed 22 in    mapai.cpp line 0275
+^ Next Seed 23 in    mapai.cpp line 0275
+^ PROVINCE INFO - Mur-Kilad:Crushing Rock  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Mur-Kilad:Fallen Rock  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ Next Seed 24 in    mapai.cpp line 0275
+^ PROVINCE INFO - Osoerde:Algael  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Osoerde:Brothendar  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Osoerde:Ghalliere  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Osoerde:Gulfport  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Osoerde:Moergen  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Osoerde:Moriel  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Osoerde:Spiritsend  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Osoerde:Sunken Lands  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ Next Seed 25 in    mapai.cpp line 0275
+^ PROVINCE INFO - Rhuobhe:Rhuobhe  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ Next Seed 26 in    mapai.cpp line 0275
+^ Next Seed 27 in    mapai.cpp line 0275
+^ PROVINCE INFO - Sielwode:Annydwr  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Sielwode:Cu Haellyrd  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Sielwode:Fhylallien  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Sielwode:Ghyllwn  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Sielwode:Hoehnaen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Sielwode:Iseare  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Sielwode:Llewhoellen  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Sielwode:Tuar Llyrien  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Sielwode:Ywrndor  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ Next Seed 28 in    mapai.cpp line 0275
+^ PROVINCE INFO - Spiderfell:Spiderfell  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:6 prov_tax:6
+^ Next Seed 29 in    mapai.cpp line 0275
+^ PROVINCE INFO - Taeghas:Bayside  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Taeghas:Bhaine  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:9 prov_tax:9
+^ PROVINCE INFO - Taeghas:Brosien  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Taeghas:Islien  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Taeghas:Portage  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Taeghas:Seamist  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Taeghas:Seasdeep  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Taeghas:Wilder's Gorge  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ Next Seed 30 in    mapai.cpp line 0275
+^ PROVINCE INFO - Talinie:Calant  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Dhalaese  FINAL gld & tmpl - civ:3 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Talinie:Fhoruile  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Talinie:Rivien  FINAL gld & tmpl - civ:6 hld:6 mod:0 roll:6 prov_tax:6
+^ PROVINCE INFO - Talinie:Seasedge  FINAL gld & tmpl - civ:6 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Tariene  FINAL gld & tmpl - civ:6 hld:5 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Freestead  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Freestead  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Talinie:Greensward  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Greensward  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:3
+^ PROVINCE INFO - Talinie:Ice Haven  FINAL gld & tmpl - civ:3 hld:3 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Ice Haven  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:5
+^ PROVINCE INFO - Talinie:Lindholme  FINAL gld & tmpl - civ:5 hld:4 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Talinie:Lindholme  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:6 prov_tax:9
+^ PROVINCE INFO - Talinie:Seaport  FINAL gld & tmpl - civ:1 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Talinie:Seaport  FINAL province - civlvl:1 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Talinie:Serimset  FINAL gld & tmpl - civ:2 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Serimset  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:5
+^ PROVINCE INFO - Talinie:Winter's Deep  FINAL gld & tmpl - civ:3 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Talinie:Winter's Deep  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:4
+^ Next Seed 31 in    mapai.cpp line 0275
+^ PROVINCE INFO - Thurazor:Bloodbay  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Thurazor:Crushing Hills  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Thurazor:Doom's Peak  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Thurazor:Falling Timber  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:5
+^ PROVINCE INFO - Thurazor:Mergarrote  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Thurazor:Storm's Release  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ Next Seed 32 in    mapai.cpp line 0275
+^ PROVINCE INFO - Tuarhievel:Avallaigh  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Tuarhievel:Bhindraith  FINAL gld & tmpl - civ:2 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Tuarhievel:Bhindraith  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Tuarhievel:Braethindyr  FINAL gld & tmpl - civ:4 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Tuarhievel:Braethindyr  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:5 prov_tax:7
+^ PROVINCE INFO - Tuarhievel:Cwmbheir  FINAL gld & tmpl - civ:6 hld:0 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Tuarhievel:Cwmbheir  FINAL province - civlvl:6 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Tuarhievel:Cymryr  FINAL gld & tmpl - civ:3 hld:5 mod:0 roll:0 prov_tax:0
+^ PROVINCE INFO - Tuarhievel:Cymryr  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Tuarhievel:Dhoneaghmiere  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Tuarhievel:Llyrandor  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ Next Seed 33 in    mapai.cpp line 0275
+^ PROVINCE INFO - Tuornen:Alamsreft  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Tuornen:Elevesnemiere  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Tuornen:Ghonallison  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Tuornen:Haesrien  FINAL gld & tmpl - civ:5 hld:2 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Tuornen:Haesrien  FINAL province - civlvl:5 taxlvl:1 mod:0 roll:7 prov_tax:9
+^ PROVINCE INFO - Tuornen:Monsedge  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:4 prov_tax:4
+^ PROVINCE INFO - Tuornen:Nabhriene  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Tuornen:Pechalinn  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Tuornen:Tuor's Hold  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ Saved game on turn 0.
+^ =============================================
+^ ===          START OF TURN 00           ===
+^ =============================================
+^ PROVINCE INFO - Roesone:Abbatuor  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:2 prov_tax:2
+^ PROVINCE INFO - Roesone:Bellam  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Roesone:Caercas  FINAL province - civlvl:4 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Roesone:Duerlin  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Roesone:Edlin  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ PROVINCE INFO - Roesone:Fairfield  FINAL province - civlvl:3 taxlvl:1 mod:0 roll:3 prov_tax:3
+^ PROVINCE INFO - Roesone:Ghoried  FINAL province - civlvl:2 taxlvl:1 mod:0 roll:1 prov_tax:1
+^ Birthright - Sending a message
+^    multimap.cpp - Roesone regency:80
+^ Birthright - Sending a message
+^ MultiPlayer::StartWait - Sync Point 0
+^ StartSync/CheckSync - start of sync 0 -----------------
+^    StartSync - Player 3, send sync 0
+^ Birthright - Sending a message
+^ PlatformNetworkModule::SendMessage - pointcasting sync message. OurID:3  MsgNum:3000006
+^ PlatformNetworkModule::SendMessage - pointcast: received ACK from 1  MsgNum:3000006
+^    StartSync - Player 3, sync 0 sent
+^ MultiPlayer::EndWait - Sync Point 0
+^ MultiPlayer::StartWait - Sync Point 0
+^ CheckSync - Start of check sync 0
+^    CheckSync - Player 3, receive GO, sync 0
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    multimap.cpp - Aerenwe regency:87
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    multimap.cpp - Diemed regency:91
+^ PlatformNetworkModule::ReceiveMessages - received sync 43 message from 1 (1).
+^ MulPlay::LookForMessages - receiving sync message.  OurID:3  FromID:1  MsgNum:100000b
+^ PlatformNetworkModule::ReceiveMessages - received sync 43 message from 1 (1).
+^ PlatformNetworkModule::ReceiveMessages - Ack'd sync message from 1 with 0 result (0=no error).
+^ GMulPlay::ReceiveMessage - looking for sync, received SYNC (20), FromID:1 (ix=0)  MsgNum:100000b
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ MulPlay::LookForMessages - callin HandleSpecialMessages with a sync message.  FromID:1/1  MsgNum:100000b
+^ MulPlay::HandleSpecialMessage - recording sync message.  OurID:3  FromID:1  SyncNum:43  MsgNum:100000b
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 0 -----------------
+^ MultiPlayer::EndWait - Sync Point 0
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ PlatformNetworkModule::ReceiveMessages - received sync 0 message from 1 (1).
+^ PlatformNetworkModule::ReceiveMessages - received sync 0 message from 1 (1).
+^ GenericMultiPlayer::SendMessage - initial localAcks :  00xxxxxx
+^ PlatformNetworkModule::ReceiveMessages - received sync 0 message from 1 (1).
+^ MulPlay::LookForMessages - receiving sync message.  OurID:3  FromID:1  MsgNum:100000c
+^ PlatformNetworkModule::ReceiveMessages - received sync 0 message from 1 (1).
+^ PlatformNetworkModule::ReceiveMessages - Ack'd sync message from 1 with 0 result (0=no error).
+^ GMulPlay::ReceiveMessage - looking for sync, received SYNC (20), FromID:1 (ix=0)  MsgNum:100000c
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ MulPlay::LookForMessages - callin HandleSpecialMessages with a sync message.  FromID:1/1  MsgNum:100000c
+^ MulPlay::HandleSpecialMessage - recording sync message.  OurID:3  FromID:1  SyncNum:0  MsgNum:100000c
+^ GenericMultiPlayer::SendMessage - resend localAcks  :  00xxxxxx
+^ GenericMultiPlayer::SendMessage - doing pointcast to 1, FAILED
+^ GenericMultiPlayer::SendMessage - doing pointcast to 2, no error
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ GenericMultiPlayer::SendMessage - resend localAcks  :  02xxxxxx
+^ GenericMultiPlayer::SendMessage - doing pointcast to 1, no error
+^ GenericMultiPlayer::SendMessage - pointcast 1 - received all sync ACKs
+^ Birthright - Sending a message
+^ GenericMultiPlayer::SendMessage - initial localAcks :  10xxxxxx
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ GenericMultiPlayer::SendMessage - resend localAcks  :  10xxxxxx
+^ GenericMultiPlayer::SendMessage - doing pointcast to 2, no error
+^ GenericMultiPlayer::SendMessage - pointcast 2 - received all sync ACKs
+^ ProcessGoldAndRegency - HomeRealm:Roesone  regency:0080
+^ Birthright - Sending a message
+^    multimap.cpp - Roesone regency:80
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ GenericMultiPlayer::SendMessage - initial localAcks :  02xxxxxx
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ GenericMultiPlayer::SendMessage - resend localAcks  :  02xxxxxx
+^ GenericMultiPlayer::SendMessage - doing pointcast to 1, no error
+^ GenericMultiPlayer::SendMessage - pointcast 1 - received all sync ACKs
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ GenericMultiPlayer::SendMessage - initial localAcks :  02xxxxxx
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    multimap.cpp - Diemed regency:91
+^ GenericMultiPlayer::SendMessage - resend localAcks  :  02xxxxxx
+^ GenericMultiPlayer::SendMessage - doing pointcast to 1, no error
+^ GenericMultiPlayer::SendMessage - pointcast 1 - received all sync ACKs
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ Birthright - Sending a message
+^ MultiPlayer::StartWait - Sync Point 3
+^ StartSync/CheckSync - start of sync 3 -----------------
+^    StartSync - Player 3, send sync 3
+^ Birthright - Sending a message
+^ PlatformNetworkModule::SendMessage - pointcasting sync message. OurID:3  MsgNum:3000044
+^ PlatformNetworkModule::SendMessage - pointcast: received ACK from 1  MsgNum:3000044
+^    StartSync - Player 3, sync 3 sent
+^ MultiPlayer::EndWait - Sync Point 3
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ GMulPlay::ReceiveMessage - leaving, return 0 (0=error)
+^ MulPlay::LookForMessages - After Peeking Msg, ReceiveMessage NON-SYNC Failed!
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    multimap.cpp - Diemed regency:86
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    multimap.cpp - Aerenwe regency:87
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ CheckSync - Start of check sync 3
+^ PlatformNetworkModule::ReceiveMessages - received sync 43 message from 1 (1).
+^ MulPlay::LookForMessages - receiving sync message.  OurID:3  FromID:1  MsgNum:1000019
+^ PlatformNetworkModule::ReceiveMessages - received sync 43 message from 1 (1).
+^ PlatformNetworkModule::ReceiveMessages - Ack'd sync message from 1 with 0 result (0=no error).
+^ GMulPlay::ReceiveMessage - looking for sync, received SYNC (20), FromID:1 (ix=0)  MsgNum:1000019
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ MulPlay::LookForMessages - callin HandleSpecialMessages with a sync message.  FromID:1/1  MsgNum:1000019
+^ MulPlay::HandleSpecialMessage - recording sync message.  OurID:3  FromID:1  SyncNum:43  MsgNum:1000019
+^    CheckSync - Player 3, receive GO, sync 3
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 3 -----------------
+^ Next Seed 34 in    mapai.cpp line 3363
+^ Birthright - Sending a message
+^ Next Seed 35 in    mapai.cpp line 3363
+^    multimap.cpp - Tuarhievel unit:189 DestProvince:141
+^    multimap.cpp - DestPath1:6
+^ Next Seed 36 in    mapai.cpp line 3363
+^    multimap.cpp - Brosengae unit:59 DestProvince:44
+^ Next Seed 37 in    mapai.cpp line 3363
+^ Next Seed 38 in    mapai.cpp line 3363
+^ PlatformNetworkModule::ReceiveMessages - received sync 3 message from 1 (1).
+^ MulPlay::LookForMessages - receiving sync message.  OurID:3  FromID:1  MsgNum:100001a
+^ PlatformNetworkModule::ReceiveMessages - received sync 3 message from 1 (1).
+^ PlatformNetworkModule::ReceiveMessages - Ack'd sync message from 1 with 0 result (0=no error).
+^ GMulPlay::ReceiveMessage - looking for sync, received SYNC (20), FromID:1 (ix=0)  MsgNum:100001a
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ MulPlay::LookForMessages - callin HandleSpecialMessages with a sync message.  FromID:1/1  MsgNum:100001a
+^ MulPlay::HandleSpecialMessage - recording sync message.  OurID:3  FromID:1  SyncNum:3  MsgNum:100001a
+^ Next Seed 39 in    mapai.cpp line 3363
+^    multimap.cpp - Five Peaks unit:263 DestProvince:148
+^ Next Seed 40 in    mapai.cpp line 3363
+^ Next Seed 41 in    mapai.cpp line 3363
+^ Next Seed 42 in    mapai.cpp line 3363
+^    multimap.cpp - Dhoesone unit:255 DestProvince:116
+^    multimap.cpp - DestPath1:1
+^    multimap.cpp - DestPath2:2
+^    multimap.cpp - DestPath3:3
+^    multimap.cpp - DestPath3:2
+^    multimap.cpp - DestPath3:3
+^    multimap.cpp - Dhoesone unit:148 DestProvince:109
+^    multimap.cpp - Dhoesone unit:255 DestProvince:140
+^    multimap.cpp - DestPath1:5
+^    multimap.cpp - DestPath2:4
+^    multimap.cpp - DestPath3:5
+^    multimap.cpp - DestPath3:5
+^    multimap.cpp - DestPath3:1
+^    multimap.cpp - DestPath3:1
+^    multimap.cpp - DestPath3:1
+^    multimap.cpp - DestPath3:2
+^    multimap.cpp - DestPath3:6
+^    multimap.cpp - Dhoesone unit:148 DestProvince:113
+^    multimap.cpp - DestPath1:2
+^    multimap.cpp - DestPath2:3
+^    multimap.cpp - DestPath3:1
+^    multimap.cpp - DestPath3:2
+^    multimap.cpp - DestPath3:3
+^    multimap.cpp - DestPath3:2
+^    multimap.cpp - DestPath3:3
+^    multimap.cpp - Dhoesone unit:148 DestProvince:109
+^    multimap.cpp - Dhoesone unit:148 DestProvince:114
+^    multimap.cpp - DestPath1:1
+^    multimap.cpp - DestPath2:1
+^    multimap.cpp - DestPath3:1
+^    multimap.cpp - Dhoesone unit:148 DestProvince:112
+^    multimap.cpp - DestPath1:4
+^    multimap.cpp - DestPath2:4
+^    multimap.cpp - DestPath3:4
+^    multimap.cpp - Dhoesone unit:148 DestProvince:113
+^    multimap.cpp - DestPath1:2
+^    multimap.cpp - DestPath2:3
+^    multimap.cpp - DestPath3:1
+^    multimap.cpp - DestPath3:2
+^    multimap.cpp - DestPath3:3
+^    multimap.cpp - DestPath3:2
+^    multimap.cpp - DestPath3:3
+^ Next Seed 43 in    mapai.cpp line 3363
+^    multimap.cpp - Taeghas unit:65 DestProvince:46
+^ Next Seed 44 in    mapai.cpp line 3363
+^ Next Seed 45 in    mapai.cpp line 3363
+^    multimap.cpp - Alamie unit:131 DestProvince:152
+^    multimap.cpp - Alamie unit:131 DestProvince:93
+^    multimap.cpp - DestPath1:4
+^    multimap.cpp - Alamie unit:131 DestProvince:93
+^    multimap.cpp - Alamie unit:131 DestProvince:97
+^    multimap.cpp - DestPath1:1
+^ Next Seed 46 in    mapai.cpp line 3363
+^ Next Seed 47 in    mapai.cpp line 3363
+^ Next Seed 48 in    mapai.cpp line 3363
+^ Next Seed 49 in    mapai.cpp line 3363
+^ Next Seed 50 in    mapai.cpp line 3363
+^ Next Seed 51 in    mapai.cpp line 3363
+^ Next Seed 52 in    mapai.cpp line 3363
+^    multimap.cpp - Sielwode unit:229 DestProvince:198
+^ Next Seed 53 in    mapai.cpp line 3363
+^    multimap.cpp - Ghoere unit:92 DestProvince:69
+^    multimap.cpp - DestPath1:2
+^    multimap.cpp - DestPath2:2
+^ Next Seed 54 in    mapai.cpp line 3363
+^    multimap.cpp - Osoerde unit:324 DestProvince:9
+^    multimap.cpp - Osoerde unit:225 DestProvince:194
+^    multimap.cpp - DestPath1:5
+^    multimap.cpp - DestPath2:4
+^    multimap.cpp - DestPath3:4
+^    multimap.cpp - DestPath3:3
+^    multimap.cpp - Osoerde unit:225 DestProvince:189
+^    multimap.cpp - Osoerde unit:225 DestProvince:190
+^    multimap.cpp - DestPath1:1
+^    multimap.cpp - Osoerde unit:225 DestProvince:194
+^    multimap.cpp - DestPath1:4
+^    multimap.cpp - DestPath2:4
+^    multimap.cpp - DestPath3:3
+^    multimap.cpp - Osoerde unit:225 DestProvince:194
+^    multimap.cpp - DestPath1:4
+^    multimap.cpp - DestPath2:4
+^    multimap.cpp - Osoerde unit:225 DestProvince:9
+^    multimap.cpp - Osoerde unit:225 DestProvince:194
+^    multimap.cpp - DestPath1:4
+^    multimap.cpp - DestPath2:4
+^ Next Seed 55 in    mapai.cpp line 3363
+^ Next Seed 56 in    mapai.cpp line 3363
+^ Next Seed 57 in    mapai.cpp line 3363
+^ Next Seed 58 in    mapai.cpp line 3363
+^    multimap.cpp - Avanil unit:68 DestProvince:56
+^    multimap.cpp - DestPath1:6
+^    multimap.cpp - Avanil unit:68 DestProvince:61
+^    multimap.cpp - Avanil unit:68 DestProvince:59
+^    multimap.cpp - Avanil unit:68 DestProvince:62
+^    multimap.cpp - Avanil unit:68 DestProvince:59
+^    multimap.cpp - DestPath1:2
+^ Next Seed 59 in    mapai.cpp line 3363
+^    multimap.cpp - Boeruine unit:30 DestProvince:32
+^ Next Seed 60 in    mapai.cpp line 3363
+^ Next Seed 61 in    mapai.cpp line 3363
+^    multimap.cpp - Markazor unit:272 DestProvince:206
+^    multimap.cpp - DestPath1:5
+^    multimap.cpp - Markazor unit:351 DestProvince:155
+^    multimap.cpp - DestPath1:6
+^ Next Seed 62 in    mapai.cpp line 3363
+^ Next Seed 63 in    mapai.cpp line 3363
+^ MultiPlayer::StartWait - Sync Point 4
+^ StartSync/CheckSync - start of sync 4 -----------------
+^    StartSync - Player 3, send sync 4
+^ Birthright - Sending a message
+^ PlatformNetworkModule::SendMessage - pointcasting sync message. OurID:3  MsgNum:3000046
+^ PlatformNetworkModule::SendMessage - pointcast: received ACK from 1  MsgNum:3000046
+^    StartSync - Player 3, sync 4 sent
+^ MultiPlayer::EndWait - Sync Point 4
+^ MultiPlayer::StartWait - Sync Point 4
+^ CheckSync - Start of check sync 4
+^    CheckSync - Player 3, receive GO, sync 4
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ PlatformNetworkModule::ReceiveMessages - received sync 43 message from 1 (1).
+^ MulPlay::LookForMessages - receiving sync message.  OurID:3  FromID:1  MsgNum:100001c
+^ PlatformNetworkModule::ReceiveMessages - received sync 43 message from 1 (1).
+^ PlatformNetworkModule::ReceiveMessages - Ack'd sync message from 1 with 0 result (0=no error).
+^ GMulPlay::ReceiveMessage - looking for sync, received SYNC (20), FromID:1 (ix=0)  MsgNum:100001c
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ MulPlay::LookForMessages - callin HandleSpecialMessages with a sync message.  FromID:1/1  MsgNum:100001c
+^ MulPlay::HandleSpecialMessage - recording sync message.  OurID:3  FromID:1  SyncNum:43  MsgNum:100001c
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 4 -----------------
+^ MultiPlayer::EndWait - Sync Point 4
+^ Birthright - Sending a message
+^ PlatformNetworkModule::ReceiveMessages - received sync 4 message from 1 (1).
+^ MulPlay::LookForMessages - receiving sync message.  OurID:3  FromID:1  MsgNum:100001d
+^ PlatformNetworkModule::ReceiveMessages - received sync 4 message from 1 (1).
+^ PlatformNetworkModule::ReceiveMessages - Ack'd sync message from 1 with 0 result (0=no error).
+^ GMulPlay::ReceiveMessage - looking for sync, received SYNC (20), FromID:1 (ix=0)  MsgNum:100001d
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ MulPlay::LookForMessages - callin HandleSpecialMessages with a sync message.  FromID:1/1  MsgNum:100001d
+^ MulPlay::HandleSpecialMessage - recording sync message.  OurID:3  FromID:1  SyncNum:4  MsgNum:100001d
+^ MultiPlayer::StartWait - Sync Point 1
+^ StartSync/CheckSync - start of sync 1 -----------------
+^    StartSync - Player 3, send sync 1
+^ Birthright - Sending a message
+^ PlatformNetworkModule::SendMessage - pointcasting sync message. OurID:3  MsgNum:3000048
+^ PlatformNetworkModule::SendMessage - pointcast: received ACK from 1  MsgNum:3000048
+^    StartSync - Player 3, sync 1 sent
+^ MultiPlayer::EndWait - Sync Point 1
+^ MultiPlayer::StartWait - Sync Point 1
+^ CheckSync - Start of check sync 1
+^    CheckSync - Player 3, receive GO, sync 1
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ PlatformNetworkModule::ReceiveMessages - received sync 43 message from 1 (1).
+^ MulPlay::LookForMessages - receiving sync message.  OurID:3  FromID:1  MsgNum:100001e
+^ PlatformNetworkModule::ReceiveMessages - received sync 43 message from 1 (1).
+^ PlatformNetworkModule::ReceiveMessages - Ack'd sync message from 1 with 0 result (0=no error).
+^ GMulPlay::ReceiveMessage - looking for sync, received SYNC (20), FromID:1 (ix=0)  MsgNum:100001e
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ MulPlay::LookForMessages - callin HandleSpecialMessages with a sync message.  FromID:1/1  MsgNum:100001e
+^ MulPlay::HandleSpecialMessage - recording sync message.  OurID:3  FromID:1  SyncNum:43  MsgNum:100001e
+^    CheckSync - FOUND iMPS_SYNC_GO for masterindex 0.
+^ StartSync/CheckSync - End of sync 1 -----------------
+^ MultiPlayer::EndWait - Sync Point 1
+^ MultiPlayer::StartWait - Sync Point 2
+^ Birthright - Sending a message
+^ StartSync/CheckSync - start of sync 2 -----------------
+^    StartSync - Player 3, send sync 2
+^ Birthright - Sending a message
+^ PlatformNetworkModule::SendMessage - pointcasting sync message. OurID:3  MsgNum:300004a
+^ PlatformNetworkModule::ReceiveMessages - received sync 1 message from 1 (1).
+^ PlatformNetworkModule::ReceiveMessages - received sync 1 message from 1 (1).
+^ PlatformNetworkModule::SendMessage - pointcasting sync message. OurID:3  MsgNum:300004a
+^ PlatformNetworkModule::SendMessage - pointcasting sync message. OurID:3  MsgNum:300004a
+^ PlatformNetworkModule::SendMessage - pointcasting sync message. OurID:3  MsgNum:300004a
+^ PlatformNetworkModule::ReceiveMessages - received sync 1 message from 1 (1).
+^ PlatformNetworkModule::ReceiveMessages - received sync 1 message from 1 (1).
+^ PlatformNetworkModule::SendMessage - pointcasting sync message. OurID:3  MsgNum:300004a
+^ PlatformNetworkModule::SendMessage - pointcast: received ACK from 1  MsgNum:300004a
+^    StartSync - Player 3, sync 2 sent
+^ MultiPlayer::EndWait - Sync Point 2
+^ MultiPlayer::StartWait - Sync Point 2
+^ CheckSync - Start of check sync 2
+^    CheckSync - Player 3, receive GO, sync 2
+^    CheckSync - Player 3, master ID 1, index 0, realm Diemed
+^ PlatformNetworkModule::ReceiveMessages - received sync 1 message from 1 (1).
+^ MulPlay::LookForMessages - receiving sync message.  OurID:3  FromID:1  MsgNum:100001f
+^ PlatformNetworkModule::ReceiveMessages - received sync 1 message from 1 (1).
+^ PlatformNetworkModule::ReceiveMessages - Ack'd sync message from 1 with 0 result (0=no error).
+^ GMulPlay::ReceiveMessage - looking for sync, received SYNC (20), FromID:1 (ix=0)  MsgNum:100001f
+^ GMulPlay::ReceiveMessage - leaving, return 1 (0=error)
+^ MulPlay::LookForMessages - callin HandleSpecialMessages with a sync message.  FromID:1/1  MsgNum:100001f
+^ MulPlay::HandleSpecialMessage - recording sync message.  OurID:3  FromID:1  SyncNum:1  MsgNum:100001f

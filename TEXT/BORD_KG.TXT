@@ -1,0 +1,2 @@
+^F02^W304This small border castle in the province of Redoubt is occupied by Rhuobhe Manslayer's troops. It's said that his Lieutenant, Nhoun the Elf, stalks anyone who dares enter his fortress of twisted tunnels. Many have ventured underground to see if the rumor of the legendary artifact, Dierdrien's Ring, being on the premises holds true. None have returned.
+^C064QUEST GOAL:  DEFEAT NHOUN AND FIND DIERDRIEN'S RING^C000

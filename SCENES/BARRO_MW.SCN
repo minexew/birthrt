@@ -1,0 +1,29 @@
+[Version]
+1.0
+[Music]
+3
+[Sounds]
+3
+[Panorama]
+Back01a
+Back01b
+Back01f
+Back01a
+Back01b
+Back01f
+Back01a
+Back01b
+Back01f
+Back01b
+[QuestThingType]
+358
+[Wad]
+barro_mw.wad
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 5
+[Exit]
+1
+137 barro2mw

@@ -1,0 +1,3 @@
+^F02^W304Kal-Saitharak ist ein Bollwerk des Bösen. Als das Heimatschloß des Gorgon wurde es von diesem über die Jahrtausende hinweg befestigt und beherbergt wertvolle Artefakte, darunter den Kelch der Toten. Das Schloß thront trutzig im Zentrum der Region. Schon viele Armeen, die es dem Gorgon entreißen wollten, haben sich daran die Zähne ausgebissen.
+^C064ZIEL: FINDEN SIE DEN KELCH DER TOTEN
+

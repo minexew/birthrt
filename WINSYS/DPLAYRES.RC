@@ -1,0 +1,127 @@
+
+NETPROVIDER DIALOG DISCARDABLE  0, 0, 167, 106
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Choose Connection Mechanism"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         ID_LBPROVIDER,3,36,157,45,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "OK",IDOK,5,85,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,110,85,50,14
+    GROUPBOX        "",IDC_STATIC,4,0,156,32
+    LTEXT           "Choose the type of connection to make.  All players must choose the same connection.",
+                    IDC_STATIC,8,8,148,20
+END
+
+NETCONNECT DIALOG DISCARDABLE  0, 0, 247, 204
+STYLE DS_MODALFRAME | WS_VISIBLE | WS_CAPTION
+CAPTION "Network Games"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         ID_LBCONNECT,5,55,235,35,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Create",ID_PBMASTER,5,187,50,14
+    PUSHBUTTON      "Join",ID_PBJOIN,60,187,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,150,187,50,14
+    LISTBOX         ID_LBPLAYERS,5,105,105,78,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_DISABLED | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Games",IDC_STATIC,5,45,25,8
+    LTEXT           "Players",IDC_STATIC,5,95,30,8
+    LTEXT           "Select the game you wish to play, and click the Join button, or click Create to start a new game for you and others to play.  Click Cancel to leave.",
+                    IDC_STATIC,10,10,225,25
+    GROUPBOX        "",IDC_STATIC,4,0,236,40
+    GROUPBOX        "",IDC_STATIC,118,89,122,94
+    LTEXT           "Your score shows the hit points you make on other opponents in the game.  The bigger the weapon you use the higher the score you get.",
+                    IDC_STATIC,122,97,114,33
+    LTEXT           "Pressing the Esc key at any time allows Thexder to transport to a random location in the level.  You will be assessed 10 penalty points for doing this, however.",
+                    IDC_STATIC,122,131,114,48
+END
+
+NETLOGON DIALOG DISCARDABLE  0, 0, 222, 141
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Create Network Game"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        ID_EFNETSESSION,5,15,207,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,4,120,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,164,120,50,14
+    LTEXT           "Name the game you wish to create.",IDC_STATIC,5,5,204,8
+    EDITTEXT        ID_EFNETNUMBER,108,48,67,12
+    LTEXT           "Select game number",IDC_STATIC,108,40,84,8
+    GROUPBOX        "",IDC_STATIC,12,40,88,36
+END
+
+NETCOMM DIALOG DISCARDABLE  0, 0, 186, 150
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Network Communicator"
+FONT 7, "MS Serif"
+BEGIN
+    DEFPUSHBUTTON   "Send/Update",ID_PBSEND,65,0,49,12
+    EDITTEXT        ID_EFTALK,9,20,168,12,ES_AUTOHSCROLL
+    GROUPBOX        "Message",IDC_STATIC,4,11,180,26
+    LISTBOX         ID_LBCOMMHISTORY,8,121,170,24,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL
+    GROUPBOX        "Messages",IDC_STATIC,4,108,180,40
+    LISTBOX         ID_LBCOMMPLAYERS,9,52,168,48,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Players",IDC_STATIC,4,41,180,65
+END
+
+
+NETJOINWAIT DIALOG DISCARDABLE  0, 0, 151, 49
+STYLE WS_CHILD | WS_VISIBLE | WS_CAPTION
+CAPTION "Thexder"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Waiting for Setup Information from the Master.  Please Wait ",
+                    IDC_STATIC,46,10,89,25
+    ICON            "AAAAAAAA",ID_STATIC,15,10,18,20
+    GROUPBOX        "",IDC_STATIC,5,0,140,40
+END
+
+
+
+
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+	IDS_GAME_NAME				"Thexder"
+END
+	
+// -- English
+STRINGTABLE DISCARDABLE 
+BEGIN
+	IDS_GAME_CDCHECKNOTFOUND		"Creator must have Thexder CD inserted."
+	IDS_GAME_CDCHECKTITLE			"Official CD not found"
+	IDS_NET_NETGAMEDISCONNECT		"Network game disconnected.\n" 
+                    		"Do you wish to continue playing your single player game?\n"
+                    		"'No' will exit the program."
+	IDS_NET_NOTSUPPORTED				"Networking not supported or not installed."
+	IDS_NET_MODEMGAME					"Select this and click Join to dial a game already created."
+	IDS_NET_CONNECTTOSLOW			"Connect rate is too slow must be 9600 or more"
+END
+// -- French
+STRINGTABLE DISCARDABLE 
+BEGIN
+	IDS_GAME_CDCHECKNOTFOUND		"Le créateur doit insérer le CD Thexder."
+	IDS_GAME_CDCHECKTITLE			"Impossible de trouver le CD officiel"
+	IDS_NET_NETGAMEDISCONNECT		"Jeu en réseau déconnecté.\n" 
+                    		"Continuer jeu à un seul joueur ?\n"
+                    		"'Non' fait quitter le programme."
+	IDS_NET_NOTSUPPORTED				"Connexion en réseau non supportée ou non installée."
+	IDS_NET_MODEMGAME					"Sélectionnez ceci et cliquez sur Joindre pour appeler un jeu déjà créé."
+	IDS_NET_CONNECTTOSLOW			"La vitesse de connexion est trop lente - Doit être 9600 ou plus"
+END
+// -- German
+STRINGTABLE DISCARDABLE 
+BEGIN
+	IDS_GAME_CDCHECKNOTFOUND		"Der Creator benötigt die Thexder-CD."
+	IDS_GAME_CDCHECKTITLE			"Offizielle CD nicht gefunden"
+	IDS_NET_NETGAMEDISCONNECT		"Netzwerkspiel wurde getrennt.\n" 
+                    		"Möchten Sie das Spiel als Einzelspieler weiterspielen?\n"
+                    		"'Nein' führt zum Beenden des Programms."
+	IDS_NET_NOTSUPPORTED				"Netzwerk nicht unterstützt oder nicht installiert."
+	IDS_NET_MODEMGAME					"Hier markieren und auf JOIN klicken, um ein bereits kreiertes Spiel anzuwählen."
+	IDS_NET_CONNECTTOSLOW			"Datenfluß ist zu langsam, Sie benötigen einen Connect von 9600 oder höher."
+END

@@ -1,0 +1,36 @@
+// magic items
+50
+// spells
+
+133 // Detect Magic
+134 // Feather Fall
+135 // Jump
+136 // Light
+137 // Magic Missile
+
+140 // Blindness
+141 // Continual Light
+143 // Levitate
+144 // Locate Object
+
+147 // Fireball
+149 // Stone Undead
+150 // Infravision
+
+152 // Confusion
+155 // Stoneskin
+
+157 // Disintegrate
+
+
+// blood abilities
+
+216 // divine aura
+217 // enhanced sense - divination
+
+
+// realm spells
+
+194 // Demagogue
+198 // Raze
+

@@ -1,0 +1,157 @@
+# DESCRIPTION
+# -----------
+# Generic make file for a C program.
+
+# If this makefile is called "makefile" then just run WMAKE.
+# If it has another name such as "example.mak" then you have to
+# give the file name at the command line:
+#   WMAKE /f example.mak
+
+# BEGINNING OF MAKE FILE....
+
+##########################
+## User settable macros ##
+##########################
+
+ASM = ml
+##AFLAGS = -5p
+AFLAGS = /Gz /c /Cp /Zm /Zp4 /DDEBUG
+ExeFile  =
+
+CCompiler = wcc386
+CPPCompiler = wpp386
+
+#CCompiler = cl
+#CPPCompiler = cl
+
+# This is a wmake style makefile
+
+op_sys = dos
+
+!ifeq DEBUG ON
+version = debugging
+!else
+version = production
+!endif
+
+msg_debugging  = linking $(op_sys) debug version ...
+msg_production = linking $(op_sys) production version ...
+
+dos_debugging_object_dir = dosobjsd
+dos_production_object_dir = dosobjsr
+
+dos_executable = resutil.exe
+dos_system = dos4g
+#dos_system = nt
+
+OBJD = $($(op_sys)_$(version)_object_dir)
+
+Exe_file     = $($(op_sys)_executable)
+System       = $($(op_sys)_system)
+
+#compiler option flags
+# makefile flag to just preprocess a file.
+preprocess_flag = -pcl
+pentium_profiling = et
+
+browser_info = -db
+remove_stack_checking = -s
+# save & restore segment registers
+save_registers = -r
+optimize_on = -5s -otexan
+optimize_off = -5s -od
+warning_level = -w3
+# Note: -d2 implies -od (No optimizations.)
+debugging_on = -d2 -d_DEBUG -hw
+large_memory_model = -mf
+# Note: -za for Ansi C implies that enum are int.
+no_lang_extension = -za
+# pack structures at one byte
+one_byte_data_packing = -zp1
+# minimum int enumerations
+int_enumerations = -ei
+default_signed_chars = -j
+quiet = -zq
+
+# Following doesn't work for DOS debugger
+#	$(optimize_on) &
+
+# Following is best setup for WATCOM DOS debugger.
+!ifdef PREPROCESS
+dos_debugging_Compiler_Options = &
+	$(warning_level) &
+	$(quiet) &
+	$(preprocess_flag)
+
+
+dos_production_Compiler_Options = &
+	$(dos_debugging_Compiler_Options)
+!else
+dos_debugging_Compiler_Options = &
+	$(optimize_off) &
+	$(debugging_on) &
+	$(remove_stack_checking) &
+	$(warning_level) &
+	$(save_registers) &
+	$(quiet) &
+	$(one_byte_data_packing) &
+	$(default_signed_chars) &
+	-bt=$(System) -fo$(OBJD)\
+
+
+# Following is more optimized
+dos_production_Compiler_Options = &
+	$(optimize_on) &
+	$(remove_stack_checking) &
+	$(warning_level) &
+	$(quiet) &
+	$(one_byte_data_packing) &
+	$(default_signed_chars) &
+	-bt=$(System) -fo=$(OBJD)\
+
+!endif
+
+# Linker_options   =
+dos_production_Linker_Options = option stack=32k option map
+dos_debugging_Linker_options  = debug all option stack=32k option map
+
+
+SYSTEM_OBJ =	$(OBJD)\resutil.obj &
+		$(OBJD)\lzssencd.obj &
+		$(OBJD)\lzssdcod.obj
+
+####################
+## Makefile rules ##
+####################
+
+install : $(Exe_file)
+
+resutil.exe: $(SYSTEM_OBJ)
+        echo $(msg_$(version))
+        *wlink system $(System) $(dos_$(version)_Linker_Options) name $^. &
+                file {$(SYSTEM_OBJ) $($(op_sys)_$(version)_OBJ) } &
+                $(LIBPATH) $(LIBRARIES)
+
+.EXTENSIONS:
+.EXTENSIONS: .exe .obj .mbr .asm .res .c .cpp .h .hxx .hpp .rc
+
+# Search Paths.
+.c.obj: .AUTODEPEND
+	*$(CCompiler) $($(op_sys)_$(version)_Compiler_Options) $<
+
+.cpp.obj: .AUTODEPEND
+	*$(CPPCompiler) $($(op_sys)_$(version)_Compiler_Options) -ew $<
+
+.rc.res: .AUTODEPEND
+	*$(RCCompiler) $(RES_OPTIONS) $<
+
+#.asm.obj: .SYMBOLIC
+#        *$(ASM) $(AFLAGS) /Fo$(OBJD)\ $<
+
+.asm.obj: .SYMBOLIC
+        ml /Zi $<
+
+clean : .SYMBOLIC
+        del $(OBJD)\*.obj
+        del *.err
+

@@ -1,0 +1,39 @@
+
+Name of sample file = D:\BIRTHRT\Clock001.tbs
+QsortCmpCalls = 48776
+QsortNumElements = 5759
+Average number Qsort passes =   8.47
+QsortCalls = 90
+num_code_table_creates = 46
+num_mte_info_creates = 303
+num_Mte_creates = 676
+num_SearchCalls = 4465
+num_SearchLinear = 0
+num_FoundLinear = 0
+num_SearchCmps = 47930
+Average num compares per Mte search = 10.73
+num_SearchFound = 3581
+num_SearchNotFound = 884
+num_SearchCacheHits = 538
+Average Mte search cache hits = 12.05%
+num_eipIndexFind = 56215
+num_eipFindCmps = 70105
+Average num compares per eip_table find = 1.25
+num_eipDeferredMteS = 51751
+num_eipTableCreates = 3603
+num_modV86 = 8
+num_mod16 = 159
+num_mod32 = 509
+num Mte's reported as 16Bit that were converted to 32Bit = 1
+
+number of samples = 56215,  TBS file size = 1.83 Mb
+Average seconds per TBS file megabyte = 2.18, average megabytes per second = 0.46
+
+Analyzer run time = 3.98 seconds
+
+Average microseconds per sample = 71
+
+Samples per second = 14113.8
+
+peak storage used = 521432
+number of mallocs=25, number of frees=0

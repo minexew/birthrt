@@ -1,0 +1,3 @@
+^F02^W304Barrow Hill ist der dunkle, halb verfaulte Grabhügel des einst als Einsiedler lebenden Elbenzauberers Delwyheinn. Dieses Grab blieb über Jahrhunderte hinweg verborgen. Man sagt, dieses Hügelgrab werde von Zombies heimgesucht, von den Überbleibseln aus Delwyheinns dunklen Experimenten mit Lebensmagie. Jetzt schleichen sie suchend in den Gängen umher, um ihren Haß und ihr Verlangen nach Lebendigen zu stillen und den Ring der Zauberkunde zu bewachen. In einer versiegelten Kammer im Innern, einem feuchten, verfallenen Loch, das dem verblichenen Zauberer als letzte Ruhestätte dient, sollen sich noch Informationen über Magie befinden.
+^C064ZIEL: BESIEGEN SIE DELWYHEINN, UND FINDEN SIE DEN RING DER ZAUBERKUNDE ^C000
+

@@ -1,0 +1,156 @@
+# how many scenarios
+30
+# each Scenario is :
+# first my units icon numbers (see gamemap.cpp) Max of 15 units
+# then his units.  Max of 15 units
+# third is Terrain(0-3) SubTerrain(0-3) Speed(1=fast-3) Difficulty(1=hard-3)
+# Scenario 1
+Infantry Eliminates Spiders
+1
+25
+0 0 3 3
+# Scenario 2
+Infantry VS Pike Advance
+1
+4
+0 0 3 3
+# Scenario 3
+The Best VS The Rest
+7 1
+0 3
+0 0 3 3
+# Scenario 4
+Dwarven Shoot Out
+18
+3
+0 0 3 3
+# Scenario 5
+Elf Cavalry Stops Goblins
+16 16
+19 19
+0 0 3 3
+# Scenario 6
+Elves at Home in Woods
+16 16
+19 19
+2 3 3 3
+# Scenario 7
+Dwarves are Mountain Men
+18 18 18
+15 15 15
+1 3 3 3
+# Scenario 8
+Rivers Make Good Defense
+2 2 2 2 7 7
+19 19 19 20 20
+0 2 3 3
+# Scenario 9
+Wizards Devastate Armies
+29
+0
+0 0 3 3
+# Scenario 10
+Priests Turn Undead to Dust
+36
+24
+0 0 2 2
+# Scenario 11
+Spell VS Bow
+30
+15
+0 0 2 2
+# Scenario 12
+Trees Can Block Spells
+37
+15
+2 3 2 2
+# Scenario 13
+Wizards Fight from Distance
+40 1 1 18 18
+0 0 8 8
+3 3 2 2
+# Scenario 14
+Priests Cast Better
+35 1 1 18 18
+24 24 24 24
+0 0 2 2
+# Scenario 15
+Knights Charge
+7 7 7 7 7
+19 19 19 19 19 19 19 19
+0 0 2 2
+# Scenario 16
+Keep Bows Unengaged
+18 18 18 18 18
+2 2 2 0 0 0 8 8
+0 1 2 2
+# Scenario 17
+Each Unit's Advantage
+26 36 2 2 2 7
+24 24 25 25 25 25
+3 1 2 2
+# Scenario 18
+Leaders Boost Morale
+30 15 15 15 15 16 16
+23 23 23 23 19 19 19
+2 3 2 2
+# Scenario 19
+Trees Are Elves' Allies
+15 15 15 15 16 16
+23 23 23 23 19 19 19
+2 3 2 2
+# Scenario 20
+Soften, Then Charge
+29 8 8 8 8 7 7 7 7
+24 25 25 25 25 25 25 25 25 25 25 25 25 25 25
+0 0 2 2
+# Scenario 21
+Speed Defeats Archers
+37 8 8 8 8 8 7 7 7 7
+39 15 15 15 15 15 16 16 16 16
+0 0 1 2
+# Scenario 22
+Spiders Don't Shoot
+8 8 8 8 7 7
+25 25 25 25 25 25 25 25 25 25 25 25 25 25
+0 0 1 2
+# Scenario 23
+Equal Forces
+7 7 2 2 2 8 8 1 1 4 4 30
+7 7 2 2 2 8 8 1 1 4 4 40
+0 0 1 2
+# Scenario 24
+Rhoubhe's Invasion
+36 7 7 6 6 6 1 1
+24 24 24 24 34 15 15 15
+2 0 1 2
+# Scenario 25
+Levy Shield Bows
+5 5 5 5 2 2 0 0
+7 7 1 1
+0 0 1 1
+# Scenario 26
+Repel Goblin Hordes
+18 18 18 18 18 17 17 17 17 17
+19 19 19 19 19 20 20 20 20 20 20 21 21 21 21
+1 0 1 1
+# Scenario 27
+Dwarf and Elf VS Human
+18 18 18 18 18 17 17 17 17 17 16 16 16 16 16
+2 2 2 2 2 0 0 0 0 0 8 8 8 8 8
+1 3 1 1
+# Scenario 28
+Tougher Odds
+18 18 18 18 18 17 17 17 17 17 16 16 16 16 16
+2 2 2 2 2 1 1 1 1 1 7 7 7 7 7
+0 0 1 1
+# Scenario 29
+Humanoid VS Monster
+35 38 18 18 18 18 16 16 16 16 1 1 7 7
+24 24 24 24 22 22 21 21 21 21 20 20 20 20
+1 2 1 1
+# Scenario 30
+Defeat the Gorgon
+35 29 38 18 18 18 18 16 16 16 16 1 1 7 7
+32 39 24 24 24 24 22 22 21 21 21 20 20 20 20
+2 1 1 1

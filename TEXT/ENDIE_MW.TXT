@@ -1,0 +1,4 @@
+^F02^W304The plush opulence of an Imperial hunting estate has been plunged into the decadent evil of a cult dedicated to the worship of the dark god Azrai. Its once opulent halls are now populated by evil acolytes and their brutal bodyguards. The dark and pernicious priests have rededicated this place. Where once a man could challenge nature in an honorable test of skills, there is now a place where unnatural beasts mock honor and the codes of a warrior. In the depths of the keep lies the stolen Emperor's Crown, its legendary power fueling the malignant plans of these worshippers of evil.
+^C064QUEST GOAL:  FIND THE EMPEROR'S CROWN^C000
+
+

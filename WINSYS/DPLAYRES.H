@@ -1,0 +1,17 @@
+#define IDS_GAME_NAME						(50)
+#define IDS_GAME_DIRECTPLAY				(51)
+#define IDS_GAME_CDCHECKNOTFOUND			(52)
+#define IDS_GAME_CDCHECKTITLE				(53)
+
+#define IDS_NET_NETGAMEDISCONNECT		(100)
+#define IDS_NET_NOTSUPPORTED				(101)
+#define IDS_NET_MODEMGAME					(102)
+#define IDS_NET_CONNECTTOSLOW				(103)
+
+#define ID_LBPROVIDER						(200)
+#define ID_LBCONNECT							(201)
+#define ID_LBPLAYERS							(202)
+#define ID_PBMASTER							(203)
+#define ID_PBJOIN								(204)
+#define ID_EFNETSESSION						(205)
+#define ID_UPCOMMWIN							(206)

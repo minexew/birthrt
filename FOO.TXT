@@ -1,0 +1,2022 @@
+WATCOM Make Version 10.6
+Copyright by WATCOM International Corp. 1988, 1996. All rights reserved.
+WATCOM is a trademark of WATCOM International Corp.
+	wcc386 -w3 -zq -pcl -dAUDIO_LIB          memmanag.c
+#line 1 "memmanag.c"
+
+/* ========================================================================
+	MemManag.c - Memory manager routines
+   Copyright (c) 1989-1994 by Alan B. Clark
+   Right for non-exclusive use by Synergistic Software granted.
+	All other rights reserved.
+	========================================================================
+	Contains the following internal functions:
+.		get_free_mem	- returns the available in the far heap
+.		CheckValidBlk	- verify block number is acceptable
+.		FindFreeHeader	- find a free block header
+.		SetBlockAttr	- Used by all the Set and Clr functions below
+.		GetBlockSize	- returns the size of a block in bytes
+.		FindBlock		- finds a block of memory and returns an index to it
+.		CleanUpBlock	- perform housekeeping on a block of memory
+.		MergeBlocks		- If current and next blocks are free then concatinate them
+.		ReportFreeMem	- return the largest block that could be made by compaction
+.		CompactMem		- move blocks around to concentrate free memory
+.		PurgeMem			- remove purged blocks to satisfy an allocation request
+.		MoveFreeBlock	- swap the positions of an empty and an inuse block
+
+	Contains the following general functions:
++		InitMemManag	- initializes the memory manager
++		QuitMemManag	- Releases the memory allocated to the memory manager
+.		ValidateBlockID - Check for a valid block ID: fatal_error or pass-thru
++		ClrLock			- unlock a locked block
+.		SetPurge			- allow a block to be purged
+.		ClrPurge			- dissallow purging a block
++		SetResource		- mark a block as a resource
++		ClrResource		- remove the resource mark
++		SetClassPerm	- mark a block as perminent
++		SetClass1		- mark a block as class 1
++		SetClass2		- mark a block as class 2
++		SetClassTemp	- mark a block as temporary
+.		GetBlockIndex	- find the block index cooresponding to a pointer
++		NewExternalBlock - Make a block header point to a block outside the manager
++		NewBlock			- allocates a new block of memory
++		DisposBlock		- deallocates a block of memory. if a resource, inform the resource manager
++		DisposClass		- deallocates all blocks of memory within a class
+.		SetPurgeClass	-	sets all blocks of memory within a class as purgable
+.		SetBlockSize	- enlarge or shrink a block while preserving its contents
++		SetLock			- lock a block of memory in place
+
+	======================================================================== */
+/* ®RM200¯ */
+/* includes */
+
+#line 1 "C:\WATCOM\H\stdio.h"
+
+/*
+   stdio.h	Standard I/O functions
+ 
+   Copyright by WATCOM International Corp. 1988-1996.  All rights reserved.
+ */
+
+#line 10 "C:\WATCOM\H\stdio.h"
+ 
+#pragma pack(__push,1);
+#line 15 "C:\WATCOM\H\stdio.h"
+
+/* macros for MS compatibility */
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+#line 34 "C:\WATCOM\H\stdio.h"
+typedef unsigned short wchar_t;
+
+#line 41 "C:\WATCOM\H\stdio.h"
+
+
+#line 52 "C:\WATCOM\H\stdio.h"
+
+
+
+ typedef unsigned size_t;
+
+
+
+ 
+  
+ #line 64 "C:\WATCOM\H\stdio.h"
+
+
+
+ #line 70 "C:\WATCOM\H\stdio.h"
+  typedef char *__va_list[1];
+ 
+ 
+
+
+
+ 
+#line 80 "C:\WATCOM\H\stdio.h"
+/* number of files that can be handled */
+
+
+typedef struct	__iobuf {
+	unsigned char	*_ptr;		/* next character position */ 
+	int		_cnt;		/* number of characters left */ 
+	unsigned char	*_base; 	/* location of buffer */ 
+	unsigned	_flag;		/* mode of file access */ 
+	int		_handle;	/* file handle */ 
+	unsigned	_bufsize;	/* size of buffer */ 
+	unsigned char	_ungotten;	/* character placed here by ungetc */ 
+	unsigned char	_tmpfchar;	/* tmpfile number */ 
+} FILE;
+
+typedef long	fpos_t;
+
+/* extensions enabled */
+ 
+ 
+ #line 102 "C:\WATCOM\H\stdio.h"
+  /* maximum length of full pathname excl. '\0' */
+ 
+#line 107 "C:\WATCOM\H\stdio.h"
+
+#line 111 "C:\WATCOM\H\stdio.h"
+extern	FILE   __near __iob[];
+
+/*
+   Define macros to access the three default file pointer (and descriptors)
+   provided to each process by default.  They will always occupy the
+   first three file pointers in each processes' table.
+ */
+/* standard input file	*/
+/* standard output file */
+/* standard error file	*/
+/* extensions enabled */
+
+/* standard auxiliary file  */
+/* standard printer file  */
+
+
+
+/* values for _flag field in FILE struct and _iomode array */
+
+/* file opened for reading */
+/* file opened for writing */
+/* ungetc has been done */
+/* big buffer allocated */
+/* EOF has occurred */
+/* error has occurred on this file */
+/* file opened for append */
+/* file is binary, skip CRLF processing */
+/* full buffering */
+/* line buffering */
+/* no buffering */
+/* this is a temporary file */
+/* buffer has been modified */
+/* is console device */
+/*  FILE is dynamically allocated   */
+
+/*  End of File/Error return code   */
+
+/*  Seek relative to start of file  */
+/*  Seek relative to current positn */
+/*  Seek relative to end of file    */
+
+
+/*  Max times tmpnam can be called  */
+
+extern void	clearerr( FILE *__fp );
+extern int	fclose( FILE *__fp );
+extern int	feof( FILE *__fp );
+extern int	ferror( FILE *__fp );
+extern int	fflush( FILE *__fp );
+extern int	fgetc( FILE *__fp );
+extern int	fgetpos( FILE *__fp, fpos_t *__pos );
+extern char	*fgets( char *__s, int __n, FILE *__fp );
+extern FILE	*fopen( const char *__filename, const char *__mode );
+extern int	fprintf( FILE *__fp, const char *__format, ... );
+extern int	fputc( int __c, FILE *__fp );
+extern int	fputs( const char *__s, FILE *__fp );
+extern size_t	fread( void *__ptr, size_t __size, size_t __n, FILE *__fp );
+extern FILE	*freopen( const char *__filename, const char *__mode, FILE *__fp );
+extern int	fscanf( FILE*__fp, const char *__format, ... );
+extern int	fseek( FILE *__fp, long int __offset, int __whence );
+extern int	fsetpos( FILE *__fp, const fpos_t *__pos );
+extern long int ftell( FILE *__fp );
+extern size_t	fwrite( const void *__ptr, size_t __size, size_t __n, FILE *__fp );
+extern int	getc( FILE *__fp );
+extern int	getchar( void );
+extern char	*gets( char *__s );
+extern void	perror( const char *__s );
+extern int	printf( const char *__format, ... );
+extern int	putc( int __c, FILE *__fp );
+extern int	putchar( int __c );
+extern int	puts( const char *__s );
+extern int	remove( const char *__filename );
+extern int	rename( const char *__old, const char *__new );
+extern void	rewind( FILE *__fp );
+extern int	scanf( const char *__format, ... );
+extern void	setbuf( FILE *__fp, char *__buf );
+extern int	setvbuf( FILE *__fp, char *__buf, int __mode, size_t __size );
+extern int	sprintf( char *__s, const char *__format, ... );
+extern int	sscanf( const char *__s, const char *__format, ... );
+extern FILE	*tmpfile( void );
+extern char	*tmpnam( char *__s );
+extern int	ungetc( int __c, FILE *__fp );
+extern int	vfprintf( FILE *__fp, const char *__format, __va_list __arg );
+extern int	vprintf( const char *__format, __va_list __arg );
+extern int	vsprintf( char *__s, const char *__format, __va_list __arg );
+
+/* extensions enabled */
+extern int	fcloseall( void );
+extern FILE	*fdopen( int __handle, const char *__mode );
+extern FILE	*_fdopen( int __handle, const char *__mode );
+extern int	_grow_handles( int __new_count );
+extern int	fgetchar( void );
+extern int	fputchar( int __c );
+extern FILE	*_fsopen( const char *__filename, const char *__mode, int __shflag );
+extern int	flushall( void );
+extern int	vfscanf( FILE *__fp, const char *__format, __va_list __arg );
+extern int	vscanf( const char *__format, __va_list __arg );
+extern int	vsscanf( const char *__s, const char *__format, __va_list __arg );
+extern int	_bprintf( char *__buf, unsigned int __bufsize, const char *__fmt, ... );
+extern int	_vbprintf( char *__s, unsigned int __bufsize, const char *__format, __va_list __arg );
+#line 247 "C:\WATCOM\H\stdio.h"
+
+
+
+
+
+
+
+
+#line 259 "C:\WATCOM\H\stdio.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+#pragma pack(__pop);
+#line 282 "C:\WATCOM\H\stdio.h"
+
+#line 286 "C:\WATCOM\H\stdio.h"
+
+#line 47 "memmanag.c"
+
+#line 1 "C:\WATCOM\H\stdlib.h"
+
+/*
+   stdlib.h	Standard Library functions
+ 
+   Copyright by WATCOM International Corp. 1988-1996.  All rights reserved.
+ */
+
+#line 10 "C:\WATCOM\H\stdlib.h"
+ 
+#pragma pack(__push,1);
+#line 15 "C:\WATCOM\H\stdlib.h"
+
+/* macros for MS compatibility */
+#line 20 "C:\WATCOM\H\stdlib.h"
+#line 23 "C:\WATCOM\H\stdlib.h"
+#line 26 "C:\WATCOM\H\stdlib.h"
+
+#line 42 "C:\WATCOM\H\stdlib.h"
+
+#line 52 "C:\WATCOM\H\stdlib.h"
+
+#line 57 "C:\WATCOM\H\stdlib.h"
+
+#line 65 "C:\WATCOM\H\stdlib.h"
+
+
+
+
+
+
+    
+
+
+typedef struct	{
+	int	quot;
+	int	rem;
+} div_t;
+
+typedef struct	{
+	long	quot;
+	long	rem;
+} ldiv_t;
+
+extern void	 abort( void );
+extern int	 abs( int __j );
+extern int	 atexit( register void ( *__func )( void ) );
+extern double	 atof( const char *__nptr );
+extern int	 atoi( const char *__nptr );
+extern long int  atol( const char *__nptr );
+extern void	*bsearch( const void *__key, const void *__base,
+		    size_t __nmemb, size_t __size,
+		    int ( *__compar )( const void *__pkey, const void *__pbase ) );
+extern void	 break_on( void );
+extern void	 break_off( void );
+extern void	*calloc( size_t __n, size_t __size );
+extern div_t	 div( int __numer, int __denom );
+extern void	 exit( int __status );
+extern void	 free( void *__ptr );
+extern char	*getenv( const char *__name );
+extern long int  labs( long int __j );
+extern ldiv_t	 ldiv( long int __numer, long int __denom );
+extern void	*malloc( size_t __size );
+extern int	 mblen( const char *__s, size_t __n );
+extern size_t	 mbstowcs( wchar_t *__pwcs, const char *__s, size_t __n );
+extern int	 mbtowc( wchar_t *__pwc, const char *__s, size_t __n );
+extern size_t	 wcstombs( char *__s, const wchar_t *__pwcs, size_t __n );
+extern int	 wctomb( char *__s, wchar_t __wchar );
+extern void	 qsort( void *__base, size_t __nmemb, size_t __size,
+		    int (*__compar)( const void *, const void * ) );
+extern int	 rand( void );
+extern void	*realloc( void *__ptr, size_t __size );
+extern void	 srand( unsigned int __seed );
+extern double	 strtod( const char *__nptr, char **__endptr );
+extern long int  strtol( const char *__nptr, char **__endptr, int __base );
+extern unsigned long	 strtoul( const char *__nptr, char **__endptr, int __base );
+extern int	 system( const char *__string );
+
+#line 124 "C:\WATCOM\H\stdlib.h"
+
+
+
+
+
+
+/* extensions enabled */
+
+extern void	 _exit( int __status );
+extern char	*ecvt( double __val, int __ndig, int *__dec, int *__sign );
+extern char	*_ecvt( double __val, int __ndig, int *__dec, int *__sign );
+extern char	*fcvt( double __val, int __ndig, int *__dec, int *__sign );
+extern char	*_fcvt( double __val, int __ndig, int *__dec, int *__sign );
+extern char	*_fullpath( char *__buf, const char *__path, size_t __size );
+extern char	*gcvt( double __val, int __ndig, char *__buf );
+extern char	*_gcvt( double __val, int __ndig, char *__buf );
+extern char	*itoa( int __value, char *__buf, int __radix );
+extern char	*_itoa( int __value, char *__buf, int __radix );
+extern unsigned long _lrotl( unsigned long __value, unsigned int __shift );
+extern unsigned long _lrotr( unsigned long __value, unsigned int __shift );
+extern char	*ltoa( long int __value, char *__buf, int __radix );
+extern char	*_ltoa( long int __value, char *__buf, int __radix );
+extern void	 _makepath( char *__path, const char *__drive,
+		    const char *__dir, const char *__fname,
+		    const char *__ext );
+extern unsigned int _rotl( unsigned int __value, unsigned int __shift );
+extern unsigned int _rotr( unsigned int __value, unsigned int __shift );
+extern int	 putenv( const char *__string );
+extern void	 _searchenv( const char *__name, const char *__env_var,
+		    char *__buf );
+extern void	 _splitpath2( const char *__inp, char *__outp,
+		    char **__drive, char **__dir, char **__fn, char **__ext );
+extern void	 _splitpath( const char *__path, char *__drive,
+		    char *__dir, char *__fname, char *__ext );
+extern void	 swab( char *__src, char *__dest, int __num );
+#line 162 "C:\WATCOM\H\stdlib.h"
+extern char	*ultoa( unsigned long int __value, char *__buf, int __radix );
+extern char	*_utoa( unsigned int __value, char *__buf, int __radix );
+extern char	*utoa( unsigned int __value, char *__buf, int __radix );
+
+#line 172 "C:\WATCOM\H\stdlib.h"
+
+/* min and max macros */
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 210 "C:\WATCOM\H\stdlib.h"
+
+/*
+  The following sizes are the maximum sizes of buffers used by the _fullpath()
+  _makepath() and _splitpath() functions.  They include space for the '\0'
+  terminator.
+ */
+#line 223 "C:\WATCOM\H\stdlib.h"
+/* maximum length of full pathname */
+/* maximum length of drive component */
+/* maximum length of path component */
+/* maximum length of file name component */
+/* maximum length of extension component */
+
+/* maximum length of file name (with extension) */
+
+
+
+/* maximum size of output buffer
+				    for _splitpath2() */
+
+extern char **__near environ;	/*  pointer to environment table	*/ 
+
+
+    
+
+extern int  (*__get_errno_ptr()) ;
+
+extern	int		 (*__get_doserrno_ptr()) ;	/* DOS system error code value */ 
+extern	unsigned __near _psp;		/* Program Segment Prefix */ 
+/* Real Address Mode */
+/* Protected Address Mode */
+extern	unsigned char __near _osmode;	/* DOS_MODE or OS2_MODE */ 
+extern	int	__near	_fmode; 	/* default file translation mode */ 
+extern char *		sys_errlist[];	/* strerror error message table */ 
+extern int	__near	sys_nerr;	/* # of entries on sys_errlist array */ 
+extern unsigned __near	__minreal;	/* DOS4GW var for WLINK MINREAL option*/ 
+extern unsigned long __near __win_alloc_flags; /* Windows allocation flags */ 
+extern unsigned long __near __win_realloc_flags;/* Windows reallocation flags */ 
+extern unsigned char __near _osmajor;	/*  O/S version #		    */ 
+extern unsigned char __near _osminor;	/*  O/S version #		    */ 
+extern unsigned __near	    _amblksiz;	/*  mallocs done in multiples of    */ 
+
+extern void __near *__brk(unsigned __new_brk_value);
+extern void __near *sbrk(int __increment);
+ typedef void (*onexit_t)();
+extern onexit_t onexit(onexit_t __func);
+
+
+ 
+#pragma pack(__pop);
+#line 269 "C:\WATCOM\H\stdlib.h"
+
+#line 273 "C:\WATCOM\H\stdlib.h"
+
+#line 48 "memmanag.c"
+
+#line 1 "C:\WATCOM\H\string.h"
+
+/*
+   string.h	String functions
+ 
+   Copyright by WATCOM International Corp. 1988-1996.  All rights reserved.
+ */
+
+#line 10 "C:\WATCOM\H\string.h"
+
+/* macros for MS compatibility */
+#line 15 "C:\WATCOM\H\string.h"
+#line 18 "C:\WATCOM\H\string.h"
+#line 21 "C:\WATCOM\H\string.h"
+
+#line 37 "C:\WATCOM\H\string.h"
+
+#line 47 "C:\WATCOM\H\string.h"
+
+#line 52 "C:\WATCOM\H\string.h"
+
+#line 60 "C:\WATCOM\H\string.h"
+
+extern void *memchr( const void *__s, int __c, size_t __n );
+extern int   memcmp( const void *__s1, const void *__s2, size_t __n );
+extern void *memcpy( void *__s1, const void *__s2, size_t __n );
+extern void *memmove( void *__s1, const void *__s2, size_t __n );
+extern void *memset( void *__s, int __c, size_t __n );
+extern char *strcat( char *__s1, const char *__s2 );
+extern char *strchr( const char *__s, int __c );
+extern int strcmp( const char *__s1, const char *__s2 );
+extern int strcoll( const char *__s1, const char *__s2 );
+extern size_t strxfrm( char *__s1, const char *__s2, size_t __n );
+extern char *strcpy( char *__s1, const char *__s2 );
+extern size_t strcspn( const char *__s1, const char *__s2 );
+extern char *strerror( int __errnum );
+extern size_t strlen( const char *__s );
+extern char *strncat( char *__s1, const char *__s2, size_t __n );
+extern int strncmp( const char *__s1, const char *__s2, size_t __n );
+extern char *strncpy( char *__s1, const char *__s2, size_t __n );
+extern char *strpbrk( const char *__s1, const char *__s2 );
+extern char *strrchr( const char *__s, int __c );
+extern size_t strspn( const char *__s1, const char *__s2 );
+extern char *strstr( const char *__s1, const char *__s2 );
+extern char *strtok( char *__s1, const char *__s2 );
+
+/* extensions enabled */
+
+/* WATCOM's Additional Functions (non-ANSI, non-POSIX) */
+
+
+extern void __far *_fmemccpy(void __far *__s1,const void __far *__s2,int __c,size_t __n);
+
+
+extern void __far *_fmemchr( const void __far *__s, int __c, size_t __n );
+
+
+extern void __far *_fmemcpy( void __far *__s1, const void __far *__s2, size_t __n );
+
+
+extern void __far *_fmemmove( void __far *__s1, const void __far *__s2, size_t __n );
+
+
+extern void __far *_fmemset( void __far *__s, int __c, size_t __n );
+
+
+extern int  _fmemcmp( const void __far *__s1, const void __far *__s2, size_t __n );
+
+
+extern int  _fmemicmp( const void __far *__s1, const void __far *__s2, size_t __n );
+
+
+extern char __far *_fstrcat( char __far *__s1, const char __far *__s2 );
+
+
+extern char __far *_fstrchr( const char __far *__s, int __c );
+
+
+extern int  _fstrcmp( const char __far *__s1, const char __far *__s2 );
+
+
+extern char __far *_fstrcpy( char __far *__s1, const char __far *__s2 );
+
+
+extern size_t _fstrcspn( const char __far *__s1, const char __far *__s2 );
+
+
+extern char __far *_fstrdup( const char __far *__string );
+
+
+extern int  _fstricmp( const char __far *__s1, const char __far *__s2 );
+
+
+extern char __far *_fstrncat( char __far *__s1, const char __far *__s2, size_t __n );
+
+
+extern size_t _fstrlen( const char __far *__s );
+
+
+extern char __far *_fstrlwr( char __far *__string );
+
+
+extern int  _fstrncmp( const char __far *__s1, const char __far *__s2, size_t __n );
+
+
+extern char __far *_fstrncpy( char __far *__s1, const char __far *__s2, size_t __n );
+
+
+extern int  _fstrnicmp( const char __far *__s1, const char __far *__s2, size_t __n );
+
+
+extern char __far *_fstrnset( char __far *__string, int __c, size_t __len );
+
+
+extern char __far *_fstrpbrk( const char __far *__s1, const char __far *__s2 );
+
+
+extern char __far *_fstrrchr( const char __far *__s, int __c );
+
+
+extern char __far *_fstrrev( char __far *__string );
+
+
+extern char __far *_fstrset( char __far *__string, int __c );
+
+
+extern size_t _fstrspn( const char __far *__s1, const char __far *__s2 );
+
+
+extern char __far *_fstrstr( const char __far *__s1, const char __far *__s2 );
+
+
+extern char __far *_fstrtok( char __far *__s1, const char __far *__s2 );
+
+
+extern char __far *_fstrupr( char __far *__string );
+
+extern void movedata( unsigned __srcseg, unsigned __srcoff,
+	       unsigned __tgtseg, unsigned __tgtoff, unsigned __len );
+extern void *memccpy( void *__s1, const void *__s2, int __c, size_t __n );
+extern int  memicmp( const void *__s1, const void *__s2, size_t __n );
+extern int  _memicmp( const void *__s1, const void *__s2, size_t __n );
+extern int   strcmpi( const char *__s1, const char *__s2 );
+extern char *strdup( const char *__string );
+extern char *_strdup( const char *__string );
+extern int   stricmp( const char *__s1, const char *__s2 );
+extern int   _stricmp( const char *__s1, const char *__s2 );
+extern char *strlwr( char *__string );
+extern char *_strlwr( char *__string );
+extern int   strnicmp( const char *__s1, const char *__s2, size_t __n );
+extern int   _strnicmp( const char *__s1, const char *__s2, size_t __n );
+extern char *strnset( char *__string, int __c, size_t __len );
+extern char *strrev( char *__string );
+extern char *_strrev( char *__string );
+extern char *strset( char *__string, int __c );
+extern char *strupr( char *__string );
+extern char *_strupr( char *__string );
+#line 222 "C:\WATCOM\H\string.h"
+
+/* EXTENSIONS */
+
+/* __INLINE_FUNCTIONS__ */#line 235 "C:\WATCOM\H\string.h"
+
+
+#line 240 "C:\WATCOM\H\string.h"
+
+#line 49 "memmanag.c"
+
+#line 1 "C:\WATCOM\H\malloc.h"
+
+/*
+   malloc.h	Memory allocation functions
+ 
+   Copyright by WATCOM International Corp. 1988-1996.  All rights reserved.
+ */
+
+#line 10 "C:\WATCOM\H\malloc.h"
+ 
+#pragma pack(__push,1);
+#line 15 "C:\WATCOM\H\malloc.h"
+
+/* macros for MS compatibility */
+#line 20 "C:\WATCOM\H\malloc.h"
+#line 23 "C:\WATCOM\H\malloc.h"
+#line 26 "C:\WATCOM\H\malloc.h"
+
+#line 31 "C:\WATCOM\H\malloc.h"
+
+#line 39 "C:\WATCOM\H\malloc.h"
+
+
+extern void  *alloca(size_t __size);
+extern void  *_alloca(size_t __size);
+extern void  *__doalloca(size_t __size);
+extern unsigned stackavail( void );
+#pragma aux stackavail __modify __nomemory;
+
+
+
+
+
+
+
+
+#pragma aux     __doalloca =				\
+	    "sub esp,eax"				\
+	    __parm __nomemory [eax] __value [esp] __modify __exact __nomemory [esp];
+#line 68 "C:\WATCOM\H\malloc.h"
+
+
+
+/* heap isn't initialized */
+/* heap header is corrupted */
+/* heap entry is corrupted */
+/* end of heap entries (_heapwalk) */
+/* invalid heap entry pointer (_heapwalk) */
+
+
+
+
+typedef struct _heapinfo {
+    void __far		*_pentry;	/* heap pointer */ 
+    size_t		_size;		/* heap entry size */ 
+    int 		_useflag;	/* heap entry 'in-use' flag */ 
+} _HEAPINFO;
+
+extern int _heapenable( int __enabled );
+extern int _heapchk( void );
+extern int _nheapchk( void );
+extern int _fheapchk( void );
+extern int _heapset( unsigned int __fill );
+extern int _nheapset( unsigned int __fill );
+extern int _fheapset( unsigned int __fill );
+extern int _heapwalk( struct _heapinfo *__entry );
+extern int _nheapwalk( struct _heapinfo *__entry );
+extern int _fheapwalk( struct _heapinfo *__entry );
+
+extern void _heapgrow( void );
+extern void _nheapgrow( void );
+extern void _fheapgrow( void );
+extern int _heapmin( void );
+extern int _nheapmin( void );
+extern int _fheapmin( void );
+extern int _heapshrink( void );
+extern int _nheapshrink( void );
+extern int _fheapshrink( void );
+
+extern int __nmemneed( size_t );
+extern int __fmemneed( size_t );
+
+extern void __far  *_fcalloc( size_t __n,size_t __size );
+
+
+extern void __near *_ncalloc( size_t __n,size_t __size );
+
+extern void *_expand( void *__ptr,size_t __size );
+
+extern void __far  *_fexpand( void __far *__ptr,size_t __size );
+
+
+extern void __near *_nexpand( void __near *__ptr,size_t __size );
+
+
+extern void _ffree( void __far *__ptr );
+
+
+extern void __far *_fmalloc( size_t __size );
+
+extern unsigned int _freect( size_t __size );
+extern void __huge *halloc( long __n,size_t __size );
+extern void hfree( void __huge * );
+
+extern void _nfree( void __near *__ptr );
+
+
+extern void __near *_nmalloc( size_t __size );
+
+
+extern void __near *_nrealloc( void __near *__ptr,size_t __size );
+
+
+extern void __far  *_frealloc( void __far *__ptr,size_t __size );
+
+extern size_t _msize( void *__ptr );
+
+extern size_t _nmsize( void __near *__ptr );
+
+
+extern size_t _fmsize( void __far *__ptr );
+
+extern size_t _memavl( void );
+extern size_t _memmax( void );
+extern void *calloc( size_t __n,size_t __size );
+extern void free( void *__ptr );
+extern void *malloc( size_t __size );
+extern void *realloc( void *__ptr,size_t __size );
+
+ 
+
+/* based heap function prototypes */
+
+
+
+
+extern int _bfreeseg(__segment __seg);
+extern __segment _bheapseg(size_t size);
+extern void __based(void) *_bcalloc(__segment __seg,size_t __num,size_t __size);
+extern void __based(void) *_bexpand(__segment __seg,void __based(void) *__mem,
+				size_t __size);
+extern void _bfree(__segment __seg,void __based(void) *__mem);
+extern int _bheapchk(__segment __seg);
+extern int _bheapmin(__segment __seg);
+extern int _bheapset(__segment __seg,unsigned int __fill);
+extern int _bheapwalk(__segment __seg,struct _heapinfo *__entry);
+extern void __based(void) *_bmalloc(__segment __seg,size_t __size);
+extern size_t _bmsize(__segment __seg,void __based(void) *__mem);
+extern void __based(void) *_brealloc(__segment __seg,void __based(void) *__mem,
+				size_t __size);
+
+ 
+#pragma pack(__pop);
+#line 184 "C:\WATCOM\H\malloc.h"
+
+#line 188 "C:\WATCOM\H\malloc.h"
+
+#line 50 "memmanag.c"
+
+#line 1 "C:\WATCOM\H\dos.h"
+
+/*
+   dos.h       Defines the structs and unions used to handle the input and
+               output registers for the DOS and 386 DOS Extender interface
+               routines.
+ 
+   Copyright by WATCOM International Corp. 1988-1996.  All rights reserved.
+ */
+
+#line 12 "C:\WATCOM\H\dos.h"
+
+/* macros for MS compatibility */
+#line 17 "C:\WATCOM\H\dos.h"
+#line 20 "C:\WATCOM\H\dos.h"
+#line 23 "C:\WATCOM\H\dos.h"
+
+#line 1 "C:\WATCOM\H\i86.h"
+
+/*
+   i86.h	Defines the structs and unions used to handle the input and
+ 		output registers for the Intel x86 and 386 interrupt interface
+ 		routines.
+ 
+   Copyright by WATCOM International Corp. 1988-1996.  All rights reserved.
+ */
+
+#line 12 "C:\WATCOM\H\i86.h"
+ 
+#pragma pack(__push,1);
+#line 17 "C:\WATCOM\H\i86.h"
+
+/* macros for MS compatibility */
+#line 22 "C:\WATCOM\H\i86.h"
+#line 25 "C:\WATCOM\H\i86.h"
+#line 28 "C:\WATCOM\H\i86.h"
+
+
+
+/* dword registers */
+
+struct DWORDREGS {
+	unsigned int eax;
+	unsigned int ebx;
+	unsigned int ecx;
+	unsigned int edx;
+	unsigned int esi;
+	unsigned int edi;
+	unsigned int cflag;
+};
+ 
+#line 46 "C:\WATCOM\H\i86.h"
+
+/* word registers */
+
+struct WORDREGS {
+	unsigned short ax;   unsigned short _1; 
+	unsigned short bx;   unsigned short _2; 
+	unsigned short cx;   unsigned short _3; 
+	unsigned short dx;   unsigned short _4; 
+	unsigned short si;   unsigned short _5; 
+	unsigned short di;   unsigned short _6; 
+#line 59 "C:\WATCOM\H\i86.h"
+	unsigned int cflag;
+
+};
+
+/* byte registers */
+
+struct BYTEREGS {
+	unsigned char al, ah;   unsigned short _1; 
+	unsigned char bl, bh;   unsigned short _2; 
+	unsigned char cl, ch;   unsigned short _3; 
+	unsigned char dl, dh;   unsigned short _4; 
+};
+
+/* general purpose registers union - overlays the corresponding dword,
+  word, and byte registers.
+ */
+
+union REGS {
+
+	struct DWORDREGS x;
+#line 82 "C:\WATCOM\H\i86.h"
+	struct WORDREGS  w;
+	struct BYTEREGS  h;
+};
+
+
+/* segment registers */
+
+struct SREGS {
+	unsigned short es, cs, ss, ds;
+
+	unsigned short fs, gs;
+
+};
+
+    
+
+/* intr structs */
+
+struct REGPACKB {
+	unsigned char al, ah;   unsigned short _1; 
+	unsigned char bl, bh;   unsigned short _2; 
+	unsigned char cl, ch;   unsigned short _3; 
+	unsigned char dl, dh;   unsigned short _4; 
+};
+
+struct REGPACKW {
+	unsigned short ax;   unsigned short _1; 
+	unsigned short bx;   unsigned short _2; 
+	unsigned short cx;   unsigned short _3; 
+	unsigned short dx;   unsigned short _4; 
+	unsigned short bp;   unsigned short _5; 
+	unsigned short si;   unsigned short _6; 
+	unsigned short di;   unsigned short _7; 
+	unsigned short ds;
+	unsigned short es;
+
+	unsigned short fs;
+	unsigned short gs;
+
+#line 124 "C:\WATCOM\H\i86.h"
+	unsigned int flags;
+
+};
+
+struct REGPACKX {
+	unsigned int   eax, ebx, ecx, edx, ebp, esi, edi;
+	unsigned short ds, es, fs, gs;
+	unsigned int   flags;
+};
+
+union REGPACK {
+	struct REGPACKB h;
+	struct REGPACKW w;
+
+	struct REGPACKX x;
+#line 142 "C:\WATCOM\H\i86.h"
+};
+
+/* input parm to an 'interrupt' function is union INTPACK */
+/* e.g.  interrupt int10( union INTPACK r ) {}		  */
+
+struct INTPACKX {
+	unsigned gs,fs,es,ds,edi,esi,ebp,esp,ebx,edx,ecx,eax,eip,cs,flags;
+};
+/*
+   NOTE: The gs and fs fields will not be correct unless the compiler
+	 is invoked with at least the /3 switch.
+*/
+struct INTPACKW {
+	unsigned short gs;   unsigned short _1; 
+	unsigned short fs;   unsigned short _2; 
+	unsigned short es;   unsigned short _3; 
+	unsigned short ds;   unsigned short _4; 
+	unsigned short di;   unsigned short _5; 
+	unsigned short si;   unsigned short _6; 
+	unsigned short bp;   unsigned short _7; 
+	unsigned short sp;   unsigned short _8; 
+	unsigned short bx;   unsigned short _9; 
+	unsigned short dx;   unsigned short _a; 
+	unsigned short cx;   unsigned short _b; 
+	unsigned short ax;   unsigned short _c; 
+	unsigned short ip;   unsigned short _d; 
+	unsigned short cs;   unsigned short _e; 
+	unsigned flags;
+};
+struct INTPACKB {
+
+	unsigned /*gs*/  :32,/*fs*/  :32,
+		 /*es*/ :32,/*ds*/  :32,
+		 /*edi*/:32,/*esi*/ :32,
+		 /*ebp*/:32,/*esp*/ :32;
+#line 183 "C:\WATCOM\H\i86.h"
+	unsigned char bl, bh;  unsigned short _1; 
+	unsigned char dl, dh;  unsigned short _2; 
+	unsigned char cl, ch;  unsigned short _3; 
+	unsigned char al, ah;  unsigned short _4; 
+};
+union  INTPACK {
+	struct INTPACKB h;
+	struct INTPACKW w;
+
+	struct INTPACKX x;
+#line 196 "C:\WATCOM\H\i86.h"
+};
+
+/* bits defined for flags field defined in REGPACKW and INTPACKW */
+
+enum {
+    INTR_CF	= 0x0001,	/* carry */ 
+    INTR_PF	= 0x0004,	/* parity */ 
+    INTR_AF	= 0x0010,	/* auxiliary carry */ 
+    INTR_ZF	= 0x0040,	/* zero */ 
+    INTR_SF	= 0x0080,	/* sign */ 
+    INTR_TF	= 0x0100,	/* trace */ 
+    INTR_IF	= 0x0200,	/* interrupt */ 
+    INTR_DF	= 0x0400,	/* direction */ 
+    INTR_OF	= 0x0800	/* overflow */ 
+};
+
+extern	void _disable( void );
+extern	void _enable( void );
+
+#line 218 "C:\WATCOM\H\i86.h"
+
+extern void	delay(unsigned int __milliseconds);
+
+extern int	int386( int, union REGS *, union REGS * );
+extern int	int386x( int, union REGS *, union REGS *, struct SREGS * );
+#line 227 "C:\WATCOM\H\i86.h"
+extern void	intr( int, union REGPACK * );
+extern void	nosound( void );
+extern void	segread( struct SREGS * );
+extern void	sound( unsigned __frequency );
+
+/* macros to break 'far' pointers into segment and offset components */
+
+
+
+
+
+  unsigned short FP_SEG( const volatile void __far * );
+  #pragma aux	 FP_SEG = __parm __caller [eax dx] __value [dx];
+#line 243 "C:\WATCOM\H\i86.h"
+
+
+/* make a far pointer from segment and offset */
+
+
+ 
+#pragma pack(__pop);
+#line 253 "C:\WATCOM\H\i86.h"
+
+
+#line 258 "C:\WATCOM\H\i86.h"
+
+#line 24 "C:\WATCOM\H\dos.h"
+
+
+#line 29 "C:\WATCOM\H\dos.h"
+ 
+#pragma pack(__push,1);
+#line 34 "C:\WATCOM\H\dos.h"
+
+/* dosexterror struct */
+
+struct _DOSERROR {
+        int exterror;
+        char errclass;
+        char action;
+        char locus;
+};
+
+struct DOSERROR {
+        int exterror;
+        char class;
+        char action;
+        char locus;
+};
+
+
+struct dosdate_t {
+        unsigned char day;      /* 1-31 */ 
+        unsigned char month;    /* 1-12 */ 
+        unsigned short year;    /* 1980-2099 */ 
+        unsigned char dayofweek;/* 0-6 (0=Sunday) */ 
+};
+
+
+struct dostime_t {
+        unsigned char hour;     /* 0-23 */ 
+        unsigned char minute;   /* 0-59 */ 
+        unsigned char second;   /* 0-59 */ 
+        unsigned char hsecond;  /* 1/100 second; 0-99 */ 
+};
+
+
+struct find_t {
+        char reserved[21];      /* reserved for use by DOS    */ 
+        char attrib;            /* attribute byte for file    */ 
+        unsigned short wr_time; /* time of last write to file */ 
+        unsigned short wr_date; /* date of last write to file */ 
+        unsigned long  size;    /* length of file in bytes    */ 
+#line 77 "C:\WATCOM\H\dos.h"
+        char name[13];          /* null-terminated filename   */ 
+
+};
+
+
+/* Critical error handler equates for _hardresume result parameter */
+
+/* Ignore the error */
+/* Retry the operation */
+/* Abort the program */
+/* Fail the system call in progress */
+
+/* File attribute constants for attribute field */
+
+/* Normal file - read/write permitted */
+/* Read-only file */
+/* Hidden file */
+/* System file */
+/* Volume-ID entry */
+/* Subdirectory */
+/* Archive file */
+
+
+
+struct _diskfree_t {
+        unsigned short total_clusters;
+        unsigned short avail_clusters;
+        unsigned short sectors_per_cluster;
+        unsigned short bytes_per_sector;
+};
+
+
+
+extern int      bdos(int __dosfn, unsigned int __dx, unsigned int __al);
+extern void     _chain_intr(register void (__interrupt __far *__handler)());
+#line 115 "C:\WATCOM\H\dos.h"
+extern unsigned _dos_allocmem( unsigned __size, unsigned short *__seg );
+
+extern unsigned _dos_close( int __handle );
+extern unsigned _dos_commit( int __handle );
+extern unsigned _dos_creat( const char *__path, unsigned __attr, int *__handle );
+extern unsigned _dos_creatnew( const char *__path, unsigned __attr, int *__handle );
+extern unsigned _dos_findfirst(const char *__path,unsigned __attr,struct find_t *__buf );
+extern unsigned _dos_findnext( struct find_t *__buf );
+extern unsigned _dos_findclose( struct find_t *__buf );
+#line 127 "C:\WATCOM\H\dos.h"
+extern unsigned _dos_freemem( unsigned short __seg );
+
+extern void     _dos_getdate( struct dosdate_t *__date );
+extern unsigned _dos_getdiskfree( unsigned __drive, struct _diskfree_t *__diskspace);
+extern unsigned	_getdiskfree( unsigned __drive, struct _diskfree_t *__diskspace);
+extern void     _dos_getdrive( unsigned *__drive );
+extern unsigned	_getdrive( void );
+extern unsigned _dos_getfileattr( const char *__path, unsigned *__attr );
+extern unsigned _dos_getftime( int __handle, unsigned short *__date,
+                        unsigned short *__time );
+extern void     _dos_gettime( struct dostime_t *__time );
+extern void     (__interrupt __far *_dos_getvect(int __intnum))();
+extern void     _dos_keep(unsigned __retcode,unsigned __memsize);
+
+extern unsigned _dos_open( const char *__path, unsigned __mode, int *__handle );
+extern unsigned _dos_read( int __handle, void __far *__buf, unsigned __count,
+                    unsigned *__bytes );
+extern unsigned _dos_setblock( unsigned __size, unsigned short __seg,
+                        unsigned  *__maxsize );
+extern unsigned _dos_setdate( struct dosdate_t *__date );
+extern void     _dos_setdrive( unsigned __drivenum, unsigned *__drives );
+extern unsigned _dos_setfileattr( const char *__path, unsigned __attr );
+extern unsigned _dos_setftime(int __handle,unsigned short __date,unsigned short __time);
+extern unsigned _dos_settime( struct dostime_t *__time );
+extern void     _dos_setvect(int __intnum,void (__interrupt __far *__handler)());
+extern unsigned _dos_write( int __handle, void const __far *__buf, unsigned __count,
+                    unsigned *__bytes );
+extern int      dosexterr(struct _DOSERROR *);
+extern void     _harderr(register int (__far *__func)(unsigned __deverr,
+                        unsigned __errcode,unsigned __far *__devhdr));
+extern void     _hardresume(int __result);
+extern void     _hardretn(int __error);
+extern int      intdos(union REGS *, union REGS *);
+extern int      intdosx(union REGS *, union REGS *, struct SREGS *);
+extern void     sleep(unsigned __seconds);
+
+ 
+#pragma pack(__pop);
+#line 168 "C:\WATCOM\H\dos.h"
+
+#line 172 "C:\WATCOM\H\dos.h"
+#line 175 "C:\WATCOM\H\dos.h"
+
+#line 51 "memmanag.c"
+
+
+
+#line 1 "C:\WATCOM\H\i86.h"
+
+/*
+   i86.h	Defines the structs and unions used to handle the input and
+ 		output registers for the Intel x86 and 386 interrupt interface
+ 		routines.
+ 
+   Copyright by WATCOM International Corp. 1988-1996.  All rights reserved.
+ */
+#line 259 "C:\WATCOM\H\i86.h"
+#line 54 "memmanag.c"
+
+#line 1 "C:\WATCOM\H\bios.h"
+
+/*
+   bios.h	BIOS functions
+ 
+   Copyright by WATCOM International Corp. 1988-1996.  All rights reserved.
+ */
+
+#line 10 "C:\WATCOM\H\bios.h"
+ 
+#pragma pack(__push,1);
+#line 15 "C:\WATCOM\H\bios.h"
+
+/* macros for MS compatibility */
+#line 20 "C:\WATCOM\H\bios.h"
+#line 23 "C:\WATCOM\H\bios.h"
+#line 26 "C:\WATCOM\H\bios.h"
+
+struct	_diskinfo_t {		/* disk parameters */ 
+	unsigned drive; 	/* drive number    */ 
+	unsigned head;		/* head number	   */ 
+	unsigned track; 	/* track number    */ 
+	unsigned sector;	/* sector number   */ 
+	unsigned nsectors;	/* number of sectors to read/write/compare  */ 
+	void __far *buffer;	/* buffer to read to,write from, or compare */ 
+};
+
+/* extensions enabled */
+
+
+
+/* constants for BIOS disk access functions */
+
+
+
+
+
+
+
+/* constants for BIOS serial communications (RS-232) support */
+
+/* serial port services */
+
+/* init serial port */
+/* send character */
+/* receive character */
+/* get serial port status */
+
+/* serial port initializers.  One and only one constant from each of the
+  following four groups - character size, stop bit, parity, and baud rate -
+  must be specified in the initialization byte.
+ */
+
+/* character size initializers */
+
+/* 7 bits characters */
+/* 8 bits characters */
+
+/* stop bit values - on or off */
+
+/* 1 stop bit */
+/* 2 stop bits */
+
+/*  parity initializers */
+
+/* no parity */
+/* odd parity */
+/* space parity */
+/* even parity */
+
+/*  baud rate initializers */
+
+/* 110 baud */
+/* 150 baud */
+/* 300 baud */
+/* 600 baud */
+/* 1200 baud */
+/* 2400 baud */
+/* 4800 baud */
+/* 9600 baud */
+
+/* keyboard services */
+
+/* read next character from keyboard */
+/* check for keystroke */
+/* get current shift key status */
+
+/* services for enhanced keyboards */
+
+/* read next character from keyboard */
+/* check for keystroke */
+/* get current shift key status */
+
+/* printer services */
+
+/* write character to printer */
+/* initialize printer */
+/* get printer status */
+
+/* time-of-day services */
+
+/* get current clock count */
+/* set current clock count */
+
+
+extern unsigned short _bios_disk(unsigned __cmd,struct  _diskinfo_t  *__diskinfo);
+extern unsigned short _bios_equiplist(void);
+extern unsigned short _bios_keybrd(unsigned __cmd);
+extern unsigned short _bios_memsize(void);
+extern unsigned short _bios_printer(unsigned __cmd,unsigned __port,unsigned __data);
+extern unsigned short _bios_serialcom(unsigned __cmd,unsigned __port,unsigned __data);
+extern unsigned short _bios_timeofday(unsigned __cmd,long *__timeval);
+
+
+#line 134 "C:\WATCOM\H\bios.h"
+
+ 
+#pragma pack(__pop);
+#line 140 "C:\WATCOM\H\bios.h"
+
+#line 144 "C:\WATCOM\H\bios.h"
+
+#line 55 "memmanag.c"
+
+#line 59 "memmanag.c"
+
+#line 1 "C:\WATCOM\H\conio.h"
+
+/*
+   conio.h	Console and Port I/O functions
+ 
+   Copyright by WATCOM International Corp. 1988-1996.  All rights reserved.
+ */
+
+#line 10 "C:\WATCOM\H\conio.h"
+
+/* macros for MS compatibility */
+#line 15 "C:\WATCOM\H\conio.h"
+#line 18 "C:\WATCOM\H\conio.h"
+#line 21 "C:\WATCOM\H\conio.h"
+
+#line 30 "C:\WATCOM\H\conio.h"
+
+extern char *cgets(char *__buf);
+extern int cputs(const char *__buf);
+extern int cprintf(const char *__fmt,...);
+extern int cscanf(const char *__fmt,...);
+extern int getch(void);
+extern int getche(void);
+extern int kbhit(void);
+extern unsigned inp(unsigned __port);
+extern unsigned inpw(unsigned __port);
+extern unsigned outp(unsigned __port, unsigned __value);
+extern unsigned outpw(unsigned __port,unsigned __value);
+
+extern unsigned inpd(unsigned __port);
+extern unsigned outpd(unsigned __port, unsigned __value);
+
+extern int putch(int __c);
+extern int ungetch(int __c);
+extern int vcprintf( const char *__format, __va_list __arg );
+extern int vcscanf( const char *__format, __va_list __arg );
+
+#line 57 "C:\WATCOM\H\conio.h"
+
+
+#line 62 "C:\WATCOM\H\conio.h"
+
+#line 60 "memmanag.c"
+
+#line 1 "system.h"
+
+/* =======================================================================
+   Copyright (c) 1990,1995   Synergistic Software
+   All Rights Reserved.
+   =======================================================================
+   Filename: SYSTEM.H   -Header file for all source files
+   Author: Chris Phillips & Wes Cumberland
+   ========================================================================
+   Contains the following internal functions:
+   Contains the following general functions:
+   ======================================================================== */
+
+
+
+/* ------------------------------------------------------------------------
+	Type defines
+   ------------------------------------------------------------------------ */
+#line 1 "C:\WATCOM\H\stdio.h"
+
+/*
+   stdio.h	Standard I/O functions
+ 
+   Copyright by WATCOM International Corp. 1988-1996.  All rights reserved.
+ */
+#line 287 "C:\WATCOM\H\stdio.h"
+#line 17 "system.h"
+		// for FILE*. 
+#line 1 "C:\WATCOM\H\stdlib.h"
+
+/*
+   stdlib.h	Standard Library functions
+ 
+   Copyright by WATCOM International Corp. 1988-1996.  All rights reserved.
+ */
+#line 274 "C:\WATCOM\H\stdlib.h"
+#line 18 "system.h"
+		// for rand. 
+
+#line 23 "system.h"
+
+
+#line 1 "typedefs.h"
+
+/* =======================================================================
+   Copyright (c) 1990,1995   Synergistic Software
+   All Rights Reserved.
+   =======================================================================
+   Filename: TYPEDEFS.H   -Header file for all core types
+   Author: Everyone
+   ======================================================================== */
+
+
+
+// Our own memcpy. 
+#line 1 "C:\WATCOM\H\string.h"
+
+/*
+   string.h	String functions
+ 
+   Copyright by WATCOM International Corp. 1988-1996.  All rights reserved.
+ */
+#line 241 "C:\WATCOM\H\string.h"
+#line 12 "typedefs.h"
+
+#line 16 "typedefs.h"
+extern void *_memcpy( void *__s1, const void *__s2, size_t __n );
+#line 20 "typedefs.h"
+//#define memcpy(dest,src,num)	if((num) > 3){ _memcpy((dest),(src),(num));}else{ long i;for(i = 0; i < (num); ++i) *(dest) = *(src);} 
+
+
+
+	typedef signed long		LONG;
+
+
+//#ifndef _WINDOWS 
+//ypedef signed long		LONG; 
+#line 32 "typedefs.h"
+	typedef unsigned long	BOOL;
+
+//#endif 
+
+
+	
+
+
+
+	
+
+
+#line 47 "typedefs.h"
+
+// only use for data 
+typedef signed char		SBYTE;
+typedef unsigned char	UBYTE;
+typedef signed short	SHORT;
+typedef unsigned short	USHORT;
+typedef signed short	ERRCODE;
+typedef unsigned long	ULONG;
+typedef unsigned char *	PTR;
+typedef PTR	*			HDL;
+
+// only use for strings 
+typedef char			CHAR;
+typedef unsigned char	UCHAR;
+typedef char *			CSTRPTR;
+
+// function prototype types 
+typedef void	(*PFV)(void);
+typedef LONG	(*PFLV)(void);
+typedef LONG	(*PFLL)(LONG);
+typedef void	(*PFVL)(LONG);
+typedef int		(*PFIL)(LONG);
+typedef void	(*PFVLLL)(LONG,LONG,LONG);
+typedef void	(*PFVLL)(LONG,LONG);
+typedef void	(*PFVLLB)(LONG,LONG,BOOL);
+typedef LONG	(*PFLLLL)(LONG,LONG,LONG);
+
+// match graphics structs 
+//#ifndef _WINDOWS 
+
+	typedef struct _RECT
+	{
+	    LONG    left;
+	    LONG    top;
+	    LONG    right;
+	    LONG    bottom;
+	} RECT, *PRECT;
+	
+	typedef struct {
+		LONG		x, y;
+	} POINT;
+
+	typedef unsigned long   DWORD;
+	typedef unsigned int    UINT;
+	typedef unsigned char BYTE;
+	typedef BYTE *	    LPBYTE;
+
+
+
+ /* Flic File Header */
+ typedef struct
+ {
+ 	LONG		size;				/* Size of flic including this header. */ 
+ 	USHORT	type;				/* Either FLI_TYPE or FLC_TYPE below. */ 
+ 	USHORT	frames;			/* Number of frames in flic. */ 
+ 	USHORT	width;			/* Flic width in pixels. */ 
+ 	USHORT	height;			/* Flic height in pixels. */ 
+ 	USHORT	depth;			/* Bits per pixel.	(Always 8 now.) */ 
+ 	USHORT	flags;			/* FLI_FINISHED | FLI_LOOPED ideally. */ 
+ 	LONG		speed;			/* Delay between frames. */ 
+ 	USHORT	scale;			/* Set to zero. */ 
+ 	SHORT		xCenter;			/* */ 
+ 	SHORT		yCenter;			/* */ 
+ //!! fix padding bug in visual c++ !!!!!!!!!!!!!!!!!!!!! 
+ //	ULONG		creator;			/* Serial # of flic creator. (FLC only.) */ 
+ //	ULONG		updated;			/* Date of flic update. (FLC only.) */ 
+ //	ULONG		updater;			/* Serial # of flic updater. (FLC only.) */ 
+ 	USHORT	creator1;		/* Serial # of flic creator. (FLC only.) */ 
+ 	USHORT	creator2;		/* Serial # of flic creator. (FLC only.) */ 
+ 	USHORT	updated1;		/* Date of flic update. (FLC only.) */ 
+ 	USHORT	updated2;		/* Date of flic update. (FLC only.) */ 
+ 	USHORT	updater1;		/* Serial # of flic updater. (FLC only.) */ 
+ 	USHORT	updater2;		/* Serial # of flic updater. (FLC only.) */ 
+ //!! fix padding bug in visual c++ !!!!!!!!!!!!!!!!!!!!! 
+ 	USHORT	aspect_dx;		/* Width of square rectangle. (FLC only.) */ 
+ 	USHORT	aspect_dy;		/* Height of square rectangle. (FLC only.) */ 
+ 	UBYTE		reserved2[38];	/* Set to zero. */ 
+ 	ULONG		oframe1;			/* Offset to frame 1. (FLC only.) */ 
+ 	ULONG		oframe2;			/* Offset to frame 2. (FLC only.) */ 
+ 	UBYTE		reserved3[40];	/* Set to zero. */ 
+ } FLICHEAD, *FLICHEADPTR;
+
+
+
+// Note: X & Y for the 3D POINT & VECTOR types must be the first 
+//       two data items so we can call the 2D rotate point fns on them. 
+
+typedef struct _POINT_3D
+{
+	LONG x;
+	LONG y;
+	LONG z;
+} POINT_3D, *PTR_POINT_3D;
+
+typedef struct _VECTOR
+{
+	LONG dx;
+	LONG dy;
+} VECTOR, *PTR_VECTOR;
+
+typedef struct _VECTOR_3D
+{
+	LONG dx;
+	LONG dy;
+	LONG dz;
+} VECTOR_3D, *PTR_VECTOR_3D;
+
+
+typedef struct
+{
+	POINT a,b;
+} LINE2D;
+
+typedef POINT 		FIXED_POINT;       	// For 24.8 fixed point math points. 
+typedef POINT_3D	FIXED_POINT_3D;		// x & y are 28.8 and z is LONG 
+typedef VECTOR		FIXED_VECTOR;   	// a pair of 24.8 delta values. 
+typedef VECTOR_3D	FIXED_VECTOR_3D;	// x & y are 24.8 and z is a LONG. 
+
+// The following two data types are for 16.16 fixed point integers. 
+// It only works on INTEL machines. And is used instead of >>16 to get 
+// at the high order bits. 
+typedef struct {
+	SHORT	sFraction;
+	SHORT	sHigh;
+	} SPLIT_LONG;
+typedef union
+{
+  LONG			lval;
+  SPLIT_LONG	TwoHalves;
+  
+} FIXED16;
+/* -----------------------------------------------------------------
+   Pragmas
+   ----------------------------------------------------------------- */
+// init cont problems with shorts 
+#pragma warning 389 4
+// unused variables 
+#pragma warning  14 4
+
+
+// _TYPEDEFS_H
+
+#line 25 "system.h"
+ 
+
+
+
+#line 1 "colors.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 29 "system.h"
+
+
+
+
+#line 1 "memmanag.h"
+
+/* ========================================================================
+   Copyright (c) 1990,1996	Synergistic Software
+   All Rights Reserved
+   Author: G. Powell
+   ======================================================================== */
+
+
+
+/* ------------------------------------------------------------------------
+   Sub Includes
+   ------------------------------------------------------------------------ */
+#line 15 "memmanag.h"
+
+/* ------------------------------------------------------------------------
+   Defines and Compile Flags
+   ------------------------------------------------------------------------ */
+
+
+
+/* Equates for memory manager block attributes */
+// Note: UNUSED, FREEMEM, BLKINUSE, BLKTYPE3, BLKTYPE4, STARTBLK, ENDBLK 
+//       are all mutually exclusive states, not bits. 
+
+
+
+
+
+
+
+
+
+// Note : CLASSPERM, CLASS1, CLASS2, CLASSTEMP are mutually exclusive states, 
+//		  not bits. 
+
+
+
+
+
+
+// Note: LOCKED, PURABLE, MODLY, MODIFABLE are all bits, not states. 
+
+// Used by Dispose when called from PurgeMem_
+
+
+// Set this render frame if touched by BLKPTR.
+// The previous state of MOLDYBIT, last frame.
+
+#line 53 "memmanag.h"
+
+// Note: The Resource Id Bit is set on the resource handle itself. 
+
+
+
+/* ------------------------------------------------------------------------
+   Enums
+   ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------
+   Typedefs
+   ------------------------------------------------------------------------ */
+typedef USHORT ATTR_BLK_TYPE;
+
+/* ------------------------------------------------------------------------
+   Macros
+   ------------------------------------------------------------------------ */
+/* These macros set or clear attribute bits in the memory manager */
+// Fragments memory if left on.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 96 "memmanag.h"
+
+
+
+
+
+
+
+	
+
+
+/* ------------------------------------------------------------------------
+   Global Variables
+   ------------------------------------------------------------------------ */
+#line 112 "memmanag.h"
+
+extern ULONG *				apBlocks;				/* memmanag.c */ 
+extern SHORT *				aiNextBlk;				/* memmanag.c */ 
+extern SHORT *				aiPrevBlk;				/* memmanag.c */ 
+extern ATTR_BLK_TYPE *		abBlockAttr;			/* memmanag.c */ 
+extern USHORT				cNumBlkHeads;			/* memmanag.c */ 
+extern BOOL					fReport;				/* memmanag.c */ 
+
+#line 123 "memmanag.h"
+
+/* ------------------------------------------------------------------------
+   Prototypes
+   ------------------------------------------------------------------------ */
+#line 130 "memmanag.h"
+
+void *BLKPTR(LONG);
+void * _zalloc(char * /* Name */ , LONG /* lineNo */ , LONG i);
+void * _zone_alloc(LONG i);
+ULONG InitMemManag (ULONG cbMinMemoryNeeded,
+					USHORT cNumBlkHeads_,
+					USHORT cNumResHeads_,
+					BOOL fReport_);
+void QuitMemManag (void);
+ULONG get_free_mem(void);
+SHORT NewExternalBlock (PTR p);
+SHORT SetBlockAttr (SHORT i, ATTR_BLK_TYPE mask, ATTR_BLK_TYPE value);
+ATTR_BLK_TYPE GetBlockAttr (SHORT i);
+ULONG GetBlockSize (LONG i);
+ULONG GetDataBlkSize (LONG i);
+SHORT _NewBlock (ULONG cBytes);
+SHORT _NewBlockHigh (ULONG cBytes);
+SHORT _SetPurge (SHORT );
+SHORT _ClrPurge (SHORT );
+SHORT DisposBlock (SHORT i);
+SHORT DisposClass (UBYTE );
+SHORT SetPurgeClass (UBYTE );
+ULONG ReportFreeMem (ULONG fPurgable);
+ULONG ReportInUse (ULONG fPurgable);
+SHORT SetBlockSize (SHORT i, ULONG cBytes);
+SHORT SetLock (SHORT i);
+SHORT HandleOutOfMemory (void);
+void PrintMemList (void);
+PTR  _GetBlockPtr(SHORT hdl);
+void ClearAllMoldyBits();
+BOOL IsBlockMoldy(SHORT i);
+BOOL IsBlockPurgable(SHORT i);
+BOOL IsBlockMultiUser(SHORT i);
+
+BOOL IsHandleFlushed(LONG i);
+
+#line 174 "memmanag.h"
+
+
+
+
+
+
+
+
+#line 185 "memmanag.h"
+
+// _MEMMANAG_H
+#line 33 "system.h"
+ 
+
+
+
+#line 1 "resmanag.h"
+
+/* ========================================================================
+   Copyright (c) 1990,1996	Synergistic Software
+   All Rights Reserved
+   Author: G. Powell
+   ======================================================================== */
+
+
+
+/* ------------------------------------------------------------------------
+   Sub Includes
+   ------------------------------------------------------------------------ */
+#line 15 "resmanag.h"
+
+#line 19 "resmanag.h"
+
+/* ------------------------------------------------------------------------
+   Defines and Compile Flags
+   ------------------------------------------------------------------------ */
+
+// Resource flags, (bits) ORed together in gResFlags array. 
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------
+   Enums
+   ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------
+   Typedefs
+   ------------------------------------------------------------------------ */
+typedef SHORT  (*PFRESLOAD)		(CSTRPTR szResName, BOOL fSetPal, BOOL fLockRes, BOOL fRotated, LONG iResFileSlot);
+typedef SHORT  (*PFRESDISPOSE)	(SHORT sResHandle, SHORT sMemHandle);
+typedef SHORT  (*PFRESSETPURGE)	(SHORT sResHandle, SHORT sMemHandle);
+typedef SHORT  (*PFRESCLRPURGE)	(SHORT sResHandle, SHORT sMemHandle);
+typedef ULONG  (*PFRESHASH)		(CSTRPTR szResName);
+
+/* RESTYPE structure */
+typedef struct _RESTYPE
+{
+	char			achExtension[4];	// three letter extension to register 
+	PFRESLOAD		pfLoadProc;			// Load function 
+	PFRESDISPOSE	pfDisposeProc;		// Dispose function 
+	PFRESSETPURGE	pfSetPurgeProc;		// Set Purge function 
+	PFRESCLRPURGE	pfClrPurgeProc;		// Clear Purge function 
+	PFRESHASH		pfHashProc;			// Hash the szResName. 
+} RESTYPE, PRESTYPE;
+
+/* ------------------------------------------------------------------------
+   Macros
+   ------------------------------------------------------------------------ */
+
+#line 68 "resmanag.h"
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------
+   Global Variables
+   ------------------------------------------------------------------------ */
+#line 82 "resmanag.h"
+
+extern ULONG				*cbResOffset;			/* resmanag.c */ 
+extern SHORT				*iResBlock;		   		/* resmanag.c */ 
+extern UBYTE				*iResFile;				/* resmanag.c */ 
+//extern USHORT				iNextResSlotAvail;		/* resmanag.c */ 
+ 
+extern CSTRPTR				*szFileNames;			/* resmanag.c */ 
+//GWP This is really bad but I don't want to write the access fns. 
+//    And the memory manager needs access to this data. 
+extern UBYTE				*gResFlags;
+extern UBYTE				*giResFileNames;
+
+extern UBYTE				iNextFileNameAvail;		/* resmanag.c */ 
+extern BOOL					fNewRes;				/* resmanag.c */ 
+extern int					file;
+
+extern UBYTE				*iResExtIndex;		/* index into ResExtentions */ 
+extern RESTYPE				ResExtentions[];
+
+extern LONG					iMaxResSlots;
+extern LONG					iMaxResSlotsUsed;
+
+#line 107 "resmanag.h"
+
+/* ------------------------------------------------------------------------
+   Prototypes
+   ------------------------------------------------------------------------ */
+#line 114 "resmanag.h"
+
+/* resmanag.c */
+void DeleteResFile (CSTRPTR szFileName);
+void ReleaseResFile (LONG iFile);
+LONG GetOpenResFileSlot ();
+SHORT OpenResFile_ (CSTRPTR szFileName);
+void  ScanResFiles ();
+void CopyResFile (CSTRPTR szResFileName, CSTRPTR szDestPath);
+SHORT _GetResource_ (CSTRPTR szResName, BOOL fSetPal, BOOL fLockRes, BOOL fRotated);
+SHORT Query_iResBlock (SHORT i);
+SHORT PutPCX (SHORT iS, USHORT x, USHORT y, USHORT width, USHORT height, CSTRPTR szFileName);
+SHORT PutScreen (SHORT iS, USHORT x, USHORT y, USHORT width, USHORT height, CSTRPTR szFileName);
+SHORT RegisterResExtention ( CSTRPTR sExtention,
+							   PFRESLOAD LoadProc,
+							   PFRESDISPOSE DisposeProc,
+							   PFRESSETPURGE SetPurgeProc,
+							   PFRESCLRPURGE ClrPurgeProc,
+							   PFRESHASH HashProc );
+SHORT DisposRes (SHORT iResBlk, SHORT iMemBlk);
+SHORT ReleaseRes (SHORT iResBlk);
+SHORT SetPurgeRes (SHORT iResBlk, SHORT iMemBlk);
+SHORT ClrPurgeRes (SHORT iResBlk, SHORT iMemBlk);
+ULONG HashCRC(CSTRPTR szResName);
+ULONG HashID(CSTRPTR szFileName);
+USHORT CheckSum(SHORT i);
+SHORT _TestAndLoadFromResFile_ (CSTRPTR szResName, BOOL fLockRes);
+LONG ResourceFileAccess (CSTRPTR pszFile);
+
+// Call before initializing the memory manager. Or inside the memory 
+// manager init fn. 
+BOOL InitResourceManager(USHORT NumResHandles);
+void FreeResourceManager();
+
+#line 150 "resmanag.h"
+// _RESMAMANG_H
+#line 37 "system.h"
+ 
+
+
+
+#line 1 "regions.h"
+
+/* ========================================================================
+   Copyright (c) 1990,1996	Synergistic Software
+   All Rights Reserved
+   Author: G. Powell
+   ======================================================================== */
+
+
+
+/* ------------------------------------------------------------------------
+   Sub Includes
+   ------------------------------------------------------------------------ */
+#line 15 "regions.h"
+
+/* ------------------------------------------------------------------------
+   Defines and Compile Flags
+   ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------
+   Enums
+   ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------
+   Typedefs
+   ------------------------------------------------------------------------ */
+typedef enum {
+	REGION_EVENT_NOT_HANDLED,
+	REGION_HANDLED_EVENT
+} REGION_EVENT_TYPE;
+
+// Structure to return the previous key state in add_key & del_key. 
+typedef struct _KeyStruct {
+	LONG	val;
+	LONG	val2;
+	PFVLL	func;
+} KEYSTRUCT, *PTR_KEYSTRUCT;
+
+typedef enum {
+		CHANGE_ALL_REGIONS = 6,
+		CHANGE_TOP_STACK = -12
+	} CHANGE_REGION_MODE;
+
+/* ------------------------------------------------------------------------
+   Macros   
+   ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------
+   Prototypes
+   ------------------------------------------------------------------------ */
+#line 51 "regions.h"
+
+/* regions.c */
+void add_key(LONG /* key */ ,
+				  PFVLL /* func */ , 
+				  LONG /* val */ , 
+				  LONG /* val2 */ );
+
+void replace_key_vals(LONG /* key */ , 
+                 PFVLL /* pNewFunc */ ,
+                 LONG /* NewVal */ ,
+                 LONG /* NewVal2 */ ,
+                 PTR_KEYSTRUCT /* pOldKeyStruct */ );
+void del_key(LONG /* key */ , 
+             PTR_KEYSTRUCT /* pKeyStruct */ );
+
+LONG add_region(LONG x,LONG y,LONG w,LONG h,LONG key,PFVLL func,LONG val, LONG val2,LONG id, int idToolTip);
+void del_region(PFVLL func,LONG key);
+void del_all_regions(void);
+REGION_EVENT_TYPE check_regions();
+void paint_tooltips(void);
+void init_regions(void);
+void push_regions(void);
+void pop_regions(void);
+void activate_region(LONG id, BOOL state_on);
+void OutlineAllRegions(void);
+BOOL change_tooltip(PFVLL func, LONG key, LONG x, LONG y, 
+					LONG newTooltip,
+					CHANGE_REGION_MODE crMode);
+BOOL change_function(PFVLL Oldfunc, 
+                     LONG Oldkey, 
+                     LONG x, LONG y, 
+                     PFVLL NewFunc,
+					 LONG NewKey,
+					 LONG NewVal,
+					 LONG NewVal2,
+					 CHANGE_REGION_MODE crMode);
+
+BOOL del_region_xy(PFVLL Oldfunc,
+				   LONG x, 
+				   LONG y, 
+				   LONG w, 
+				   LONG h, 
+				   CHANGE_REGION_MODE crMode);
+#line 97 "regions.h"
+// _REGIONS_H
+#line 41 "system.h"
+
+
+
+
+#line 1 "m^C

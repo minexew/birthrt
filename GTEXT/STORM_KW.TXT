@@ -1,0 +1,5 @@
+^F02^W310Stormpoint ist die Hauptstadt von Taeghas, einem kleinen Reich an der Westküste Anuires. Herrscher dort ist Harald Khorien, ein Magier mäßigen Talents, der jedoch alle magischen Quellen in dem großen und spärlich besiedelten Land besitzt und so dennoch über eine beachtliche Macht verfügt. Khorien ist im Grunde nicht daran interessiert, sein Reich zu regieren, hat sich daher in den Dienst des Prinzen Darien Aran gestellt und hütet den Mantel der Massen. 
+Die hinteren Räume des Gebäudes sind bezeichnend für das Zuhause eines Zauberers, denn hier geschehen die eigenartigsten Dinge.
+       In der Burg wohnen vor allem die Wachen des Zauberers, manche Räume jedoch werden von magischen Kreaturen bewacht. Fast alle Türen sind geheim oder nur eine Illusion.
+^C064ZIEL: FINDEN SIE DEN MANTEL DER MASSEN
+

@@ -1,0 +1,9 @@
+^F02 
+^F06  Coeranys
+^F02^W308
+   This Eastern Marches realm consists of grasslands
+   and swamps where rangers known as "Landrunners"
+   protect the various herds of cattle, horses, and
+   other creatures.  The inhabitants of Coeranys are
+   passionate, dedicated people who live their lives
+   in joy.

@@ -1,0 +1,157 @@
+BRIKC101: Basic wall #1
+BRIKC102: Basic wall #1 weathered
+BRIKC103: Basic wall #1 w/ device (transparentable)
+BRIKC104: Basic wall #1 w/ torch glow
+BRIKC106: Basic wall #1 w/ window (transparentable)
+BRIKC107: Basic wall #1 w/ banner #1
+BRIKC108: Basic wall #1 w/ banner #2
+BRIKC109: Basic wall #1 w/ banner #3
+BRIKC110: Basic wall #1 w/ tapestry #1 (128x128)
+BRIKC111: Basic wall #1 w/ tapestry #2 (128x128)
+BRIKC112: Basic wall #1 w/ tapestry #3 (128x128)
+BRIKC113: Basic wall #1 w/ tapestry #4 (256x128)
+BRIKC114: Basic wall #1 w/ banner #4
+BRIKC115: Basic wall #1 w/ tapestry #5 (128x128)
+BRIKC116: Basic wall #1 w/ tapestry #6 (256x128)
+BRIKC117: Basic wall #1 w/ tapestry #7 (256x128)
+BRIKC201: Basic wall #2
+BRIKC202: Basic wall #2 w/ device (transparentable)
+BRIKC203: Basic wall #2 w/ torch glow
+BRIKC204: Basic wall #2 warm
+BRIKC205: Basic wall #2 hot
+BRIKCARC: Arch (transparentable)
+BRIKCSTP: Step (64x32)
+BRIKCSW1: Castle Wall Switch--off
+BRIKCSW2: Castle Wall Switch--on
+DUNGCSW1: Dungeon Wall Switch--off
+DUNGCSW2: Dungeon Wall Switch--on
+DOOR00_C: Secret door edge (32x128)
+X_LEDG01: Ledge flat
+ROTIRN01: Rot iron wall (transparentable)
+ROTIRN02: Rot iron window (64x64) (transparentable)
+ROTIRN03: Rot iron rail (transparentable)
+HEARTH1C: Hearth (64x64)
+HEARTH1M: Hearth warm (64x64)
+X_HRTH1C: Hearth flat
+X_HRTH1M: Hearth flat warm
+F_ASHESH: Ashes floor hot
+F_ASHESC: Ashes floor cold
+F_SLABC1: Basic floor #1 (H)
+F_SLABC2: Basic floor #1 weathered (H)
+F_SLABC3: Basic floor #1 w/ device (H)
+F_SLABC4: Basic floor #1 w/ puddle (H)
+C_WOD011: Basic ceiling
+C_WOD012: Basic ceiling weathered
+F_WOD011: Basic floor #2 - second story (H)
+F_WOD012: Basic floor #2 - second story - weathered (H)
+COLUM011: Column front (32x128)
+COLUM012: Column side (32x128)
+COLUM013: Column side w/ beam at top (32x112+16)
+COLUM021: 12-sided  column (16x128)
+BEAM01: Beam (64x32)
+X_BEM011: Beam flat #1
+X_BEM012: Beam flat #2
+DOOR01_L: Door #1 - left (transparentable)
+DOOR01_R: Door #1 - right (transparentable)
+DOOR01_C: Door #1 edge (16x128)
+DOOR02_L: Door #2 - left (128x128) (transparentable)
+DOOR02_R: Door #2 - right (128x128) (transparentable)
+DOOR02_R: Door #2 edge - use "Door #2 -right"
+CVWOD201: Fancy wall #1
+CVWOD202: Fancy wall #1 w/ device (transparentable)
+CVWOD203: Fancy wall #1 w/ device - wide (128x128)
+CVWOD204: Fancy wall #1 w/ torch glow
+CVWOD205: Fancy wall #1 w/ banner #4
+CWOD2STP: Fancy step (64x32)
+F_IWOD03: Fancy floor #1 (H)
+C_CWOD01: Fancy ceiling #1
+COLUM031: Fancy column #1 (32x128)
+BEAM02: Fancy beam (64x32)
+X_BEM021: Fancy beam flat
+DOOR03_L: Fancy door - left (transparentable)
+DOOR03_R: Fancy door- right (transparentable)
+DOOR03_C: Fancy door edge (16x128)
+F_DAIZ01: Daiz floor (H)
+CVWOD101: Fancy wall #2
+CVWOD102: Fancy wall #2 w/ device
+CVWOD103: Fancy wall #2 w/ torch glow
+CVWOD104: Fancy wall #2 w/ banner #5
+F_IWOD02: Fancy floor #2 (H)
+C_PLST01: Fancy ceiling #2
+COLUM041: Fancy column #2 front
+COLUM042: Fancy column #2 side
+MARB0101: Sacred wall
+MARB0102: Sacred wall w/ device (32X32)
+MARB0103: Sacred wall w/ torch glow
+MARB0105: Sacred wall w/ relief (128x128)(transparentable)
+MARB0107: Sacred furniture side (16x64)
+MRB01STP: Sacred step (64x32)
+COLUM051: Sacred column (32x128)
+COLUM061: Sacred 12-sided column (16X128)
+BEAM03: Sacred beam (64x32)
+X_BEM031: Sacred beam flat
+DOOR04_L: Sacred door - left (transparentable)
+DOOR04_R: Sacred door - right (transparentable)
+DOOR04_C: Sacred door edge (32x128)
+F_MRB011: Sacred floor (H)
+F_MRB012: Sacred floor w/ device (H)
+C_MRB011: Sacred ceiling
+X_MRB011: Sacred ledge/furniture flat
+F_IWOD01: Fancy floor #3 (H)
+C_IWOD02: Fancy ceiling #3
+STAING01: Stained glass #1 (128x128)
+STAING02: Stained glass #2
+STAING03: Stained glass #3 (128x128)
+LADDER11: Ladder rungs (40x256) (transparentable)
+LADDER12: Ladder sides (2x256) (transparentable)
+FURN01A: Furniture side #1 (64x64)
+FURN01B: Furniture edge #1 -horizontal (32x8)
+FURN01C: Furniture edge #1 -vertical (8x32)
+X_FURN01: Furniture flat #1 (H)
+FURN02A: Furniture side #2 (64x64)
+FURN02B: Furniture edge #2 -horizontal (32x8)
+FURN02C: Furniture edge #2 -vertical (8x32)
+X_FURN02: Furniture flat #2 (H)
+TABLE02E: Table side on carpet #1 - E-W (64x64)
+TABLE02N: Table side on carpet #1 - N-S (64x64)
+BENCH02E: Bench side on carpet #1 - E-W (32x32)
+BENCH02N: Bench side on carpet #1 - N-S (32x32)
+TABLE01E: Table side on carpet #2 - E-W (64x64)
+TABLE01N: Table side on carpet #2 - N-S (64x64)
+BENCH01E: Bench side on carpet #2 - E-W (32x32)
+BENCH01N: Bench side on carpet #2 - N-S (32x32)
+CARPET01: Carpet #1 wall (64x64)
+F_CARP01: Carpet #1 flat
+CARPET02: Carpet #2 wall (64x64)
+F_CARP02: Carpet #2 flat
+CLOTH01: Cloth #1 (64x64)
+X_CLTH01: Cloth flat #1
+CLOTH02: Cloth #2 (64x64)
+X_CLTH02: Cloth flat #2
+CLOTH03: Cloth #3 (64x64)
+X_CLTH03: Cloth flat #3
+CLOTH04: Cloth #4 (64x64)
+X_CLTH04: Cloth flat #4
+CLOTH05: Cloth #5 (64x64)
+X_CLTH05: Cloth flat #5
+CLOTH06: Cloth #6 (64x64)
+X_CLTH06: Cloth flat #6
+CLOTH07: Cloth #7 (64x64)
+X_CLTH07: Cloth flat #7
+MAGMIR01: Magic Mirror (64x64)
+F_WATR01: Water flat (H)
+BRIKA102: Basic wall (64x128)
+BRIKA103: Basic wall w/ window (transparentable)
+BRIKASTP: Basic step (64x32)
+COLUM071: Basic column (32x128)
+X_LEDG02: Ledge flat
+F_DIRT01: Ground #1
+F_DIRT02: Ground #2
+X_COBL01: Ground #3
+F_GRAS01: Ground #4
+F_GRAS02: Ground #5
+F_WATR02: Water flat (H)
+PRTCLS01: Portcullis (128x256) (transparentable)
+SKY1: Sky wall
+F_SKY1: Sky ceiling
+

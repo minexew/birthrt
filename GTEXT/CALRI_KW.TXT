@@ -1,0 +1,4 @@
+^F02^W304
+In der bewaldeten Provinz Calrie thront eine gewaltige Burg über einem kleinen Tal. Es ist allgemein bekannt, daß es dort geheime Räume gibt, die bis zur heutigen Zeit nie entdeckt worden sind und aus denen der böse Geist der früheren Könige nie vertrieben wurde. So soll in den Verliesen noch immer ein mächtiger Dämon eingeschlossen sein, der das Szepter von Cuiraecen bewacht. Wenn dies wahr ist, kann dieser Dämon womöglich ausbrechen und sich dafür rächen, heraufbeschworen und danach eingesperrt worden zu sein. Es kann nicht ausgeschlossen werden, daß sein nicht Zorn auch Euch gelten würde, Majestät. 
+^C064ZIEL: BESIEGEN SIE KAST-EKCTRAL, UND HOLEN SIE DAS SZEPTER VON CUIRAECEN
+

@@ -1,0 +1,5 @@
+^F02 
+^F06    Magier Caine
+^F02^W309
+      Caine ist ein altersloser Zauberer, der in Falcons Roost, seinem Turm nahe Spiderfell, lebt. Er gewinnt seine Kraft sowohl aus dem Fluß Maesil als auch aus Spiderfell und beschützt als Gegenleistung das Land.
+

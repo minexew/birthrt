@@ -1,0 +1,8 @@
+^F02 
+^F06    Wizard Caine
+^F02^W309
+      An ageless wizard who lives in his tower Falcons'
+      Roost, near the Spiderfell.  He draws his power
+      from the river Maesil and the Spiderfell.  In ex-
+      change for his small holding, Caine protects the
+      land.

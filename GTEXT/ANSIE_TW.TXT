@@ -1,0 +1,5 @@
+^F02^W304
+    Ansien ist die Hauptstadt von Elinie, wo der Einfluß der Khinasi am königlichen Schloß deutlich sichtbar wird. Anders als bei den in Anuire verbreiteten Burgen handelt es sich dabei nicht einfach um eine Anhäufung von Steinen. Diese Burg ist viel eleganter, bietet aber dennoch Schutz für seine Bewohner. Hier lagern viele wertvolle Artefakte für Krieg und Magie.
+     Geheime Wände und Räume bilden labyrinthartige Pfade, von denen einer angeblich zur Schatzkammer führt, in der die Staatskrone von Anuire ruhen soll.
+^C064ZIEL: FINDEN SIE DIE STAATSKRONE VON ANUIRE
+

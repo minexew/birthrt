@@ -1,0 +1,8 @@
+^F02 
+^F06Duke Carilon Alam
+^F02^W310
+This is an ambitious, avaricious man who is in cahoots
+with Avanil.  He cares nothing for his realm and hopes
+instead to retake the Empire or, at least, make the
+histories reflect him as a great statesman.  He has very
+little chance of either.

@@ -1,0 +1,4 @@
+^F02^W304In der Provinz Deseirain schmiedet ein kleiner Baron zusammen mit dem König von Alamie große Pläne. Diese gierigen und verderbten Männer möchten ihre Besitztümer noch weiter ausdehnen und bereiten ihre Truppen heimlich auf einen Krieg vor. Es kursiert das Gerücht, in Lofton sei ein besonderer Gegenstand versteckt, der es der königlichen Armee ermögliche, sich mühelos fortzubewegen. Das Geheimnis soll in den Verliesen verborgen sein ...
+Zahlreiche Verschwörungen und Geheimnisse haben über die Jahrhunderte hinweg ihre Spuren hinterlassen: In jedem Winkel des Schlosses finden sich verschlossene Türen und geheime Tafeln, von denen niemand mehr weiß. Hier liegen Amulette und andere Gegenstände verborgen, die man braucht, um die verborgenen Türen durchschreiten zu können. 
+^C064ZIEL: FINDEN SIE DEN STAB DES TRANSPORTS ^C000
+

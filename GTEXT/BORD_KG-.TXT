@@ -1,0 +1,2 @@
+^F02^W304 Rupp Heldentöters Truppen besetzen die kleine Burg, die in einem Grenzgebiet in der Provinz Redoubt liegt. Rupps Statthalter, Nhoun der Elf, soll jeden heimlich verfolgen, der den Mut hat, seine labyrinthartige Festung zu betreten. So mancher wagte sich in den Untergrund, um zu sehen, ob Dierdriens Ring, jenes legendäre Artefakt, wirklich dort verborgen liegt. Doch keiner von ihnen kehrte jemals zurück.
+^C064ZIEL: BESIEGEN SIE NOUN, UND FINDEN SIE DIERDRIENS RING ^C000

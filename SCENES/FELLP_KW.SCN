@@ -1,0 +1,31 @@
+[Version]
+1.0
+[Sounds]
+3
+[Music]
+9
+[Panorama]
+Back01b
+Back01c
+Back01g
+Back01b
+Back01c
+Back01g
+Back01b
+Back01c
+Back01b
+Back01c
+[QuestThingType]
+387
+[Wad]
+fellp_kw.wad
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 5
+[Notes]
+3
+1    17
+2    18
+3    19

@@ -1,0 +1,2 @@
+^F02^W304A long abandoned elven village lies in the province of Caercas. None know exactly why its inhabitants fled, simply that a terrible evil befell the village. Over the centuries only the foolishly brave have ventured into Winterroot in search of elven treasure, including the Ioun Heart. Few ever return.
+^C064QUEST GOAL:  FIND THE IOUN HEART

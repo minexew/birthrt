@@ -1,0 +1,5 @@
+WATCOM Linker Version 10.6
+Copyright by WATCOM International Corp. 1985, 1996. All rights reserved.
+Created on:       97/04/01 19:22:56
+Error(2008): cannot open dosobjsr\lzssencd.obj : file not found
+Error(2008): cannot open dosobjsr\lzssdcod.obj : file not found

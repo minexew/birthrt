@@ -1,0 +1,42 @@
+75
+50
+66
+
+// spells
+
+133 // Detect Magic
+134 // Feather Fall
+136 // Light
+137 // Magic Missile
+
+141 // Continual Light
+143 // Levitate
+145 // Poison Arrow
+146 // Strength
+
+147 // Fireball
+148 // Fly
+149 // Stone Undead
+
+152 // Confusion
+153 // Ice Storm
+155 // Stoneskin
+
+156 // Cone of Cold
+158 // Teleport
+
+159 // Chain Lightning
+
+
+// blood abilities
+
+224 // regeneration
+216 // divine aura
+
+
+// realm spells
+
+193 // Death Plague
+195 // Dispel Realm Magic
+196 // Legion of Dead
+197 // Mass Destruction

@@ -1,0 +1,91 @@
+0
+# The number above this is the file version. If its not zero the rest of the
+# data is expected to be binary.
+# The thingtype index. Must be the same index as the art.
+70 
+# PLAYER_STATS class Version
+0
+# Abilities (An integer between 0 and 20) (25 for Strength)
+# Strength
+12
+# Dexterity
+14
+# Constitution
+13
+# Intelligence
+15
+# Wisdom
+9
+# Charisma
+14
+# 
+# Race
+# -1 == Not set, 0 == DWARF, 1 == ELF, 2 == HALF_ELF, 3 == HALFLING, 4 == ANUIREAN
+# 5 == BRECHT, 6 == KHINASI, 7 == RJURIK, 8 == VOS, 9 == GOBLIN, 10 == GNOLLS
+4
+# Player Name
+# Not Set == 0, ASSAN_IBN_DAOUTA == 1, KALILAH_BINT_DAOUTA == 2, CARILON_ALAM == 3
+# DIERDREN_ALEM == 4, ELUVIE_CARIELE == 5, MEDHLORIE_HAENSEN == 6, ERIENE_MIERELEN == 7, 
+# HYDE_TERMONIE == 8, FHIELE_DHOESONE == 9, CLUMINE_DHOESONE == 10, FHILERAENE == 11,
+# LLYTHA_DAMAAN == 12, GRIMM_GRAYBEARD == 13, DIIRK_WATERSHOLD == 14
+# KALIEN == 15, CAINE == 16, HARALD_KHORIEN == 17, TREVOR_ONWEN == 18, 
+# HEIRL_DIEM == 19, LASICA_DIEM == 20, ISAELIE == 21, CORWYN_RHYSDIORDAN == 22
+# LAELA_FLAERTES == 23, BRAEDONNAL_TUARE == 24, LILIENE_SWORDWRAITH == 25
+# COLE_ALWIER == 26, MARLAE_ROESONE == 27, MICHAEL_AGNELIE == 28, SURIS_ENLIEN == 29
+# KOTRIN_SKIRVIN == 30, THURIENE_DONALLS == 31, TORELE_ANVIRAS == 32 
+Denerik
+# Player Title
+# Not Set == 0, PATRIARCH == 1, HIGH_HIEROPHANT == 2, DUCHESS == 3, BARONESS == 4, 
+# PRINCE == 5, OVERTHANE == 6, GUILDER == 7, WIZARD == 8, COUNT == 9, BARON == 10
+# EMERALD_QUEEN == 11, QUEEN == 12, ARCHPRIEST == 13, LORD == 14, THANE == 15
+0
+# Player Description
+# Not Set == 0
+0
+# Alignment type
+# NON_ALIGNED = 0, LAWFUL_GOOD = 1, LAWFUL_NEUTRAL = 2, LAWFUL_EVIL = 3,
+# NEUTRAL_GOOD = 4, TRUE_NEUTRAL = 5, NEUTRAL_EVIL = 6, CHAOTIC_GOOD = 7,
+# CHAOTIC_NEUTRAL = 8 , CHAOTIC_EVIL = 9,
+6
+# Hit Points (current set, use zero by default)
+31
+# Armor Class (If zero, use the Armor Type)
+0
+# Armor Type None = 0
+# BANDED_MAIL = 1, BREASTPLATE = 2, BRIGANDINE = 3, BRONZE_PLATE = 4, 
+# FIELD_PLATE = 5, FULL_PLATE = 6, HALF_PLATE = 7, HIDE = 8, IMPROVED_MAIL = 9,
+# PLATE_MAIL = 10, RING_MAIL = 11, SCALE_MAIL = 12, SPLINT_MAIL = 13, 
+# LEATHER = 14, PADDED = 15, STUDDED_LEATHER = 16, CHAIN_MAIL = 17
+2
+# Weapon (Remember the art is what it is.) (Use if damage dice is zero)
+# NO_WEAPON = 0,  CLAYMORE = 1, CROSSBOW_LT = 2,
+# CROSSBOW_HVY = 3, CUTLASS = 4, MAIN_GAUCHE = 5, RAPIER = 6, SABRE = 7,
+# MACE_HORSEMANS = 8, MACE_FOOTMANS = 9, MORNINGSTAR = 10, BROAD_SWORD = 11,
+# SHORT_SWORD = 12, DAGGER = 13, LANCE = 14, BATTLE_AXE = 15, HALBERD = 16,
+# SLEDGE_HAMMER = 17, CLUB_GREAT = 18, BOW = 19, ONE_HAND_SPEAR = 20,
+# TWO_HAND_SPEAR = 21, TWO_HAND_SWORD = 22, HORSEMANS_FLAIL = 23,
+# TWO_HAND_BASTARD_SWORD = 24, CLUB_WAR = 25, QUARTER_STAFF = 26
+6
+# Morale (Unused)
+17
+# Total HitPts. (By default use zero)
+0
+# Thaco
+0
+# Damage Dice (number, die, factor), (number, die, factor)
+# if die are zero, then weapon type and strength are used to calcuate damage
+(0 0 0) (0 0 0)
+# Hit Dice (number, die, factor)
+# if Hit pts are zero then Hit die are used to calculate hitpts.
+( 0 0 0)
+# Experience points for killing this character.
+15
+#Player class information. ClassType, level, ExperiencePts.
+# ClassType == -1 is not set (Only Two!)
+# ExperiencePts == 0 will give you the minimun for that level + 1
+# 0 == Fighter, 1 == Paladin, 2 == Ranger, 3 == Priest, 4 == Wizard,
+# 5 == Magician, 6 == Thief, 7 == Bard.
+6 6 0
+-1 0 0
+# Number of Attacks per round
+1

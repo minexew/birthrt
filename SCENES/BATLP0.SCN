@@ -1,0 +1,24 @@
+[Version]
+1.0
+[Music]
+100
+[Panorama]
+back05a
+back05b
+back05d
+back05a
+back05d
+back05b
+back05c
+back05a
+back05b
+back05d
+[Map]
+1
+ZoomFactor 20
+[Wad]
+batlp0.wad
+[Pallet]
+nova_b
+[BtlExceptions]
+0

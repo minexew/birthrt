@@ -1,0 +1,19 @@
+^F03PERSONAL COMBAT CONTROLS
+^F02 
+F3  ^t024Type in a Message to Send
+F4  ^t024Select Person or Group for Message
+  
+I   ^t032Inventory Screen^t150R   ^t168Retreat
+Tab ^t032Next Character  ^t150S   ^t168Status Screen
+X   ^t032Attack 1        ^t150C   ^t168Attack 2
+ 
+TURN BASED CONTROLS
+D   ^t032Done
+F   ^t032Fall Back
+  
+ARCADE CONTROLS
+D   ^t032Defend
+  
+Shift X   ^t056Quick Attack 1
+Shift C   ^t056Quick Attack 2
+0 (zero)  ^t056Quick Exit from Personal Combat

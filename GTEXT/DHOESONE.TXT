@@ -1,0 +1,9 @@
+^F06 
+^F06 Dhoesone
+^F02^W308
+  Dhoesone ist ein ungezähmtes Reich in den Nordländern, das
+  von weiten Mooren und Nadelwäldern bedeckt ist. Die Wälder des
+  Reiches werden von Gilden genutzt und sind von geheimnisvollen 
+  und verschlossenen Menschen bewohnt. Die Schäfer der Moore
+  sind robuster Natur und schlagen eher den Rjurikern als den
+  Anuireanern nach.

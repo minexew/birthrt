@@ -1,0 +1,2 @@
+^F02^W304You are on your way to a small, sturdy fortress well outside of Bindier where a bold thief and his vicious mercenaries, having stolen the Banner of Roele from the royal armories, have taken refuge. The sounds of their revelry flood the surrounding countryside on the many rainy nights. None know if he is backed by another regent; however, it is known that this is indeed the sanctuary of the lucky looter.
+^C064QUEST GOAL:  FIND THE BANNER OF ROELE

@@ -1,0 +1,61 @@
+^F03ADVENTURE CONTROLS
+^F02 
+Keypad + and -  Zoom Adventure Map In and Out
+Arrows^t048Move Camera in that Direction
+F3^t048Type in a Message to Send
+F4^t048Select Person or Group for Message
+ 
+A ^t016Move/Jump Up     ^t172Shift ^t220Run
+Z ^t016Move/Crouch Down ^t172PgUp  ^t220Look Up
+V ^t016Follow View      ^t172PgDn  ^t220Look Down
+L ^t016Change Leader    ^t172Esc   ^t220Main Menu
+E ^t016Exit Adventure   ^t172F1    ^t220Quick Help
+ 
+Insert  Slide Left    ^t130Space  ^t172Activate Door/Switch
+Delete  Slide Right   ^t130F5-F9  ^t172Place Camera
+ 
+M   ^t024Toggle Adventure Map (Off, Small, and Large)
+F2  ^t024Toggle Full Screen (Windows only)
+1-6 ^t024Cast Memorized Spells
+^F11[^F02 and ^F11]^F02   Shrink and Enlarge Screen
+^n
+^F03PERSONAL COMBAT CONTROLS
+^F02 
+F3  ^t024Type in a Message to Send
+F4  ^t024Select Person or Group for Message
+  
+I   ^t032Inventory Screen^t150R   ^t168Retreat
+Tab ^t032Next Character  ^t150S   ^t168Status Screen
+X   ^t032Attack 1        ^t150C   ^t168Attack 2
+ 
+TURN BASED CONTROLS
+D   ^t032Done
+F   ^t032Fall Back
+  
+ARCADE CONTROLS
+D   ^t032Defend
+  
+Shift X   ^t056Quick Attack 1
+Shift C   ^t056Quick Attack 2
+0 (zero)  ^t056Quick Exit from Personal Combat
+^n
+^F03REALM MANAGEMENT CONTROLS
+^F02 
+Keypad + and - Zoom Anuire Map In and Out
+Arrows   ^t048Scroll Camera across Anuire Map
+Esc      ^t048Main Menu
+F1       ^t048Quick Help
+F3       ^t048Type in a Message to Send
+F4       ^t048Select Person or Group for Message
+^F03 
+  
+  
+ARMY COMBAT CONTROLS
+^F02 
+Keypad + and - Zoom Adventure Map In and Out
+ 
+Arrows   ^t048Move Camera in that Direction
+F3       ^t048Type in a Message to Send
+F4       ^t048Select Person or Group for Message
+^F11[^F02 and ^F11]^F02  ^t048Shrink and Enlarge Screen
+^n

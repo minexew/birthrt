@@ -1,0 +1,692 @@
+WATCOM Linker Version 10.6
+Copyright by WATCOM International Corp. 1985, 1996. All rights reserved.
+Created on:       97/04/09 09:57:03
+Executable Image: skel.exe
+creating a DOS/4G executable
+
+
+                        +------------+
+                        |   Groups   |
+                        +------------+
+
+Group                           Address              Size
+=====                           =======              ====
+
+DGROUP                          0002:00000000        000065a0
+
+
+
+                        +--------------+
+                        |   Segments   |
+                        +--------------+
+
+Segment                Class          Group          Address         Size
+=======                =====          =====          =======         ====
+
+BEGTEXT                CODE                          0001:00000000   00000010
+_TEXT                  CODE                          0001:00000010   0000dc29
+_NULL                  BEGDATA        DGROUP         0002:00000000   00000004
+_AFTERNULL             BEGDATA        DGROUP         0002:00000004   00000000
+CONST                  DATA           DGROUP         0002:00000004   00000620
+CONST2                 DATA           DGROUP         0002:00000624   0000030c
+_DATA                  DATA           DGROUP         0002:00000930   0000179e
+XIB                    DATA           DGROUP         0002:000020ce   00000000
+XI                     DATA           DGROUP         0002:000020ce   00000024
+XIE                    DATA           DGROUP         0002:000020f2   00000000
+YIB                    DATA           DGROUP         0002:000020f2   00000000
+YI                     DATA           DGROUP         0002:000020f2   00000006
+YIE                    DATA           DGROUP         0002:000020f8   00000000
+TIB                    DATA           DGROUP         0002:000020f8   00000000
+TI                     DATA           DGROUP         0002:000020f8   00000000
+TIE                    DATA           DGROUP         0002:000020f8   00000000
+DATA                   DATA           DGROUP         0002:000020f8   00000000
+_BSS                   BSS            DGROUP         0002:000020f8   000004a4
+STACK                  STACK          DGROUP         0002:000025a0   00004000
+
+
+                        +----------------+
+                        |   Memory Map   |
+                        +----------------+
+
+* = unreferenced symbol
++ = symbol only referenced locally
+
+Address        Symbol
+=======        ======
+
+Module: skel.obj(D:\BIRTHRT\SOLAUDIO\SOURCE\DOS\skel.cpp)
+0001:00000010  main
+Module: custmsys.obj(D:\BIRTHRT\SOLAUDIO\SOURCE\DOS\custmsys.cpp)
+0001:00000158  void near * near GetAdr( int )
+0001:0000017f* void near FreeAdr( int )
+0001:0000019a  int near Open( int )
+0001:000001ea  int near Close( int )
+0001:00000219  int near LSeek( int, long, int )
+0001:00000250  int near FileLength( int )
+0001:0000027f  int near Read( int, void near *, int )
+0001:000002b6* void near Fatal( int, int )
+0001:00000309  int near GetNumEntry( char const near *, int )
+0001:00000333  int near GetElapsedTicks()
+0001:0000035a  char near * near GetAudioDriverName()
+0001:00000381  near MemID::MemID()
+0001:000003b0  near MemID::MemID( MemID const near & )
+0001:000003e0  near MemID::MemID( void near * )
+0001:0000040e  void near MemID::Get( int unsigned )
+0001:00000447  void near MemID::Realloc( int unsigned )
+0001:00000485  void near MemID::Free()
+0001:000004c8  int near MemID::Read( int, int unsigned, int unsigned ) const
+0001:0000050c  int unsigned near MemID::Size() const
+0001:0000054c  void near * near MemID::operator =( void near * )
+0001:0000057c  void near * near MemID::operator *() const
+0001:000005a4  char near & near MemID::operator []( int unsigned ) const
+0001:000005d1  long near MemID::IsAllocated() const
+0001:00000609  int near MemID::Load( char near * )
+Module: kernaud.obj(D:\BIRTHRT\SOLAUDIO\SOURCE\DOS\kernaud.cpp)
+0001:000006b4  int near KernelAudioInitialize()
+0001:000007a3  void near KernelAudioTerminate()
+0001:000007f6* void near KernelAudioService()
+0001:00000836+ int near KernelInterface::AudioInstalled()
+0001:0000086f+ int near KernelInterface::AudioPreload( int )
+0001:000008d4+ int near KernelInterface::AudioWaitToPlay( int, int, int, int )
+0001:00000989+ int near KernelInterface::AudioActiveSamples()
+0001:000009db  int near KernelInterface::AudioPlay( int, int, int, int, long )
+0001:00000aa0+ void near KernelInterface::AudioStopAll()
+0001:00000ae3+ void near KernelInterface::AudioStop( int, int )
+0001:00000b3a+ void near KernelInterface::AudioLoop( int, int, int )
+0001:00000ba5  int near KernelInterface::AudioPauseAll()
+0001:00000bf7+ int near KernelInterface::AudioPause( int, int )
+0001:00000c6f  int near KernelInterface::AudioResumeAll()
+0001:00000cc1+ int near KernelInterface::AudioResume( int, int )
+0001:00000d39  int near KernelInterface::AudioDurationAll( int near * )
+0001:00000d9e+ int near KernelInterface::AudioDuration( int, int near *, int )
+0001:00000e29+ void near KernelInterface::AudioSetRate( int )
+0001:00000ea0+ void near KernelInterface::AudioDefaultRate()
+0001:00000ee6+ int near KernelInterface::AudioCurrentRate()
+0001:00000f3b+ void near KernelInterface::AudioSetBits( int )
+0001:00000fa1+ void near KernelInterface::AudioDefaultBits()
+0001:00000fe7+ int near KernelInterface::AudioCurrentBits()
+0001:0000103c+ void near KernelInterface::AudioSetChannels( int )
+0001:000010a0+ void near KernelInterface::AudioDefaultChannels()
+0001:000010e6+ int near KernelInterface::AudioCurrentChannels()
+0001:0000113b+ int near KernelInterface::AudioGetVolReduction()
+0001:00001190+ void near KernelInterface::AudioSetVolReduction( int )
+0001:000011f6+ void near KernelInterface::AudioDistortAll( int )
+0001:00001287+ void near KernelInterface::AudioDistort( int, int, int )
+0001:0000134c+ int near KernelInterface::AudioGlobalVolume()
+0001:000013a1+ int near KernelInterface::AudioSampleVolume( int, int near *, int )
+0001:0000142f+ void near KernelInterface::AudioVolumeAll( int )
+0001:00001493+ void near KernelInterface::AudioVolume( int, int, int )
+0001:0000150b+ int near KernelInterface::AudioFade( int, int, int, int, int, int )
+0001:000018ac+ near KernelInterface::KernelInterface()
+0001:00001669+ int near KernelInterface::AudioCheckNoise()
+0001:000016c5+ void near KernelInterface::AudioPan( int, int, int )
+0001:0000174e+ void near KernelInterface::AudioPanOff( int, int )
+0001:000017d8+ int near KernelInterface::AudioGetDACCritical()
+0001:0000182d+ void near KernelInterface::AudioSetDACCritical( int )
+0002:00002104  KernelInterface near * near kernel
+Module: fatal.obj(D:\BIRTHRT\SOLAUDIO\SOURCE\DOS\fatal.cpp)
+0001:000018dc  void near _fatal_test( int, char near *, int )
+0001:00001913+ void near fatal_exit( char const near *, ... )
+0001:000019c0+ void near close_graph()
+0001:000019db+ void near remove_keyint()
+Module: audio.obj(D:\BIRTHRT\SOLAUDIO\SOURCE\DOS\audio.cpp)
+0001:00007008+ near AudioMgr::~AudioMgr()
+0001:00006fec+ void near AudioMgrDOS::SubmitMaxBuffers()
+0001:00006fd0+ void near AudioMgrDOS::DACCallBack( int, int )
+0001:00001a21+ int near GetNum( char near *, int )
+0001:00001a54+ int near GetTicks()
+0001:00001a7c  near AudioMgrDOS::AudioMgrDOS()
+0001:00001c25+ near AudioMgrDOS::~AudioMgrDOS()
+0001:00001cb4+ int unsigned near AudioMgrDOS::GetDACDefaultSize()
+0001:00001cdb+ void near * near AudioMgrDOS::LoadAudioDrv()
+0001:00001d20+ void near AudioMgrDOS::FreeAudioDrv()
+0001:00001d49+ int near AudioMgrDOS::InitAudioDriver()
+0001:00001fea+ int near AudioMgrDOS::FindSampleN( short near *, int, int )
+0001:000021ed+ int near AudioMgrDOS::AudioSelect( int )
+0001:0000293d+ void near AudioMgrDOS::AudioPlay()
+0001:00002c00+ void near AudioMgrDOS::AudioStop( int )
+0001:00002d2e+ void near AudioMgrDOS::DropSample( int )
+0001:00002e77+ int near AudioMgrDOS::AudioPause( int )
+0001:00002f07+ int near AudioMgrDOS::AudioResume( int )
+0001:00003028+ int near AudioMgrDOS::AudioLoc( int )
+0001:0000315e+ void near AudioMgrDOS::AudioRate( int )
+0001:000031cf+ void near AudioMgrDOS::AudioBits( int )
+0001:00003240+ void near AudioMgrDOS::AudioChannels( int )
+0001:000032b1+ void near AudioMgrDOS::AudioDistort( int, int )
+0001:000032f6+ void near AudioMgrDOS::AudioVolume( int, int )
+0001:00003356+ int near AudioMgrDOS::StaticMergeBuffers()
+0001:00003387+ int near AudioMgrDOS::MergeBuffers()
+0001:00003632+ int near AudioMgrDOS::MergeBuffer( int, int )
+0001:0000382e+ void near AudioMgrDOS::FillBuffer( int )
+0001:000040fe+ int near AudioMgrDOS::CheckNoise()
+0001:00004388+ void near AudioMgrDOS::DistortBuffer( int, char near * )
+0001:00004402+ void near AudioMgrDOS::VolumeBuffer( int, char near * )
+0001:00004515+ int near AudioMgrDOS::CheckSOLFormat( int )
+0001:000047e0+ int near AudioMgrDOS::CheckWAVEFormat( int )
+0001:00004c36+ void near AudioMgrDOS::CheckRawFormat( int )
+0001:00004d39+ void near AudioMgrDOS::AdjustAudBuffSizes( int unsigned near *, int unsigned near * )
+0001:00004dfd+ int near AudioMgrDOS::GetDACBuffer()
+0001:00004e99+ void near AudioMgrDOS::EndAudio()
+0001:00004f2e+ int near AudioMgrDOS::CallDAC( int, int )
+0001:00004f73+ void near AudioMgrDOS::AudioServer()
+0001:0000504d+ int near AudioMgrDOS::AudioFade( int )
+0001:000051cf+ void near AudioMgrDOS::AudioCheck()
+0001:00005289+ int near AudioMgrDOS::ImpInitializeAudioDriver()
+0001:000052c0+ void near AudioMgrDOS::ImpTerminateAudioDriver()
+0001:000052f1+ int near AudioMgrDOS::ImpAudioInstalled()
+0001:00005319+ int near AudioMgrDOS::ImpAudioPreload( int )
+0001:00005357+ int near AudioMgrDOS::ImpGetSampleNumber( int, int near *, int )
+0001:000054c2+ int near AudioMgrDOS::ImpGetSampleNumber( int, int, int, int, int, int near * )
+0001:0000565f+ int near AudioMgrDOS::ImpAudioWaitToPlay( int, int, int, int )
+0001:00005791+ int near AudioMgrDOS::ImpAudioWaitToPlay( int, int, int, int, int, int, int )
+0001:000057e6+ int near AudioMgrDOS::ImpAudioActiveSamples()
+0001:00005812+ int near AudioMgrDOS::ImpAudioPlay( int, int, int, int, long )
+0001:00005a95+ int near AudioMgrDOS::ImpAudioPlay( int, int, int, int, int, int, int, int )
+0001:00005cc5+ void near AudioMgrDOS::ImpAudioStopNoEx( int )
+0001:00005cfa+ void near AudioMgrDOS::ImpAudioStopAll()
+0001:00005d23+ void near AudioMgrDOS::ImpAudioStop( int, int )
+0001:00005d6c+ void near AudioMgrDOS::ImpAudioStop( int, int, int, int, int )
+0001:00005dc1+ void near AudioMgrDOS::ImpAudioLoop( int, int, int )
+0001:00005e0a+ void near AudioMgrDOS::ImpAudioLoop( int, int, int, int, int, int )
+0001:00005e5f+ int near AudioMgrDOS::ImpAudioPauseNoEx( int )
+0001:00005ea0+ int near AudioMgrDOS::ImpAudioPauseAll()
+0001:00005ed1+ int near AudioMgrDOS::ImpAudioPause( int, int )
+0001:00005f5f+ int near AudioMgrDOS::ImpAudioPause( int, int, int, int, int )
+0001:00005ff9+ int near AudioMgrDOS::ImpAudioResumeNoEx( int )
+0001:0000603a+ int near AudioMgrDOS::ImpAudioResumeAll()
+0001:0000606b+ int near AudioMgrDOS::ImpAudioResume( int, int )
+0001:000060f9+ int near AudioMgrDOS::ImpAudioResume( int, int, int, int, int )
+0001:00006193+ int near AudioMgrDOS::ImpAudioDurationNoEx( int, int near * )
+0001:000061fa+ int near AudioMgrDOS::ImpAudioDurationAll( int near * )
+0001:00006235+ int near AudioMgrDOS::ImpAudioDuration( int, int near *, int )
+0001:000062c7+ int near AudioMgrDOS::ImpAudioDuration( int, int, int, int, int, int near * )
+0001:00006365+ void near AudioMgrDOS::ImpAudioSetRate( int )
+0001:0000639d+ void near AudioMgrDOS::ImpAudioDefaultRate()
+0001:000063c5+ int near AudioMgrDOS::ImpAudioCurrentRate()
+0001:000063f1+ void near AudioMgrDOS::ImpAudioSetBits( int )
+0001:00006429+ void near AudioMgrDOS::ImpAudioDefaultBits()
+0001:00006451+ int near AudioMgrDOS::ImpAudioCurrentBits()
+0001:0000647d+ void near AudioMgrDOS::ImpAudioSetChannels( int )
+0001:000064b5+ void near AudioMgrDOS::ImpAudioDefaultChannels()
+0001:000064dd+ int near AudioMgrDOS::ImpAudioCurrentChannels()
+0001:00006509+ int near AudioMgrDOS::ImpAudioGetVolReduction()
+0001:00006535+ void near AudioMgrDOS::ImpAudioSetVolReduction( int )
+0001:0000655c+ int near AudioMgrDOS::ImpAudioGetDACCritical()
+0001:00006588+ void near AudioMgrDOS::ImpAudioSetDACCritical( int )
+0001:000065af+ void near AudioMgrDOS::ImpAudioDistortNoEx( int, int )
+0001:000065de+ void near AudioMgrDOS::ImpAudioDistortAll( int )
+0001:0000660b+ void near AudioMgrDOS::ImpAudioDistort( int, int, int )
+0001:00006658+ void near AudioMgrDOS::ImpAudioDistort( int, int, int, int, int, int )
+0001:000066b1+ int near AudioMgrDOS::ImpAudioGlobalVolume()
+0001:0000671d+ int near AudioMgrDOS::ImpAudioSampleVolume( int, int near *, int )
+0001:00006782+ int near AudioMgrDOS::ImpAudioSampleVolume( int, int, int, int, int, int near * )
+0001:000067f3+ void near AudioMgrDOS::ImpAudioVolumeNoEx( int, int )
+0001:00006822+ void near AudioMgrDOS::ImpAudioVolumeAll( int )
+0001:0000684f+ void near AudioMgrDOS::ImpAudioVolume( int, int, int )
+0001:0000689c+ void near AudioMgrDOS::ImpAudioVolume( int, int, int, int, int, int )
+0001:000068f5+ int near AudioMgrDOS::ImpAudioFade( int, int, int, int, int, int )
+0001:000069f0+ int near AudioMgrDOS::ImpAudioFade36( int, int, int, int, int, int, int, int, int )
+0001:00006ad3+ int near AudioMgrDOS::ImpAudioCheckNoise()
+0001:00006b02+ void near AudioMgrDOS::ImpAudioPan( int, int, int )
+0001:00006b4b+ void near AudioMgrDOS::ImpAudioPan( int, int, int, int, int, int )
+0001:00006ba0+ void near AudioMgrDOS::ImpAudioPanOff( int, int )
+0001:00006f94+ int near Min( int, int )
+0001:00006f58+ int near Min( int, int unsigned )
+0001:00006f0c+ near AudioMgrDOS::Sample::Sample()
+0001:00006cd4+ AudioMgrDOS::Sample near & near AudioMgrDOS::Sample::operator =( AudioMgrDOS::Sample const near & )
+0002:00000930+ int near audVolFD
+0002:00000934+ int near sfxVolFD
+0001:00006ca4+ near AudioMgr::AudioMgr()
+0001:00006bea+ void near AudioMgrDOS::ImpAudioPanOff( int, int, int, int, int )
+0001:00006c40+ int near AudioMgrDOS::ImpAudioSampNotInMem()
+0002:00002118+ __185bitaudioDriver near audioDriver
+0002:0000211c+ __33cp8jDACBuffer near DACBuffer
+0002:00002128+ MemID near audioDrv
+0002:00002130+ int near audioInstalled
+0002:00002134+ int near activeSamples
+0002:00002138  AudioMgr near * near audioMgr
+Module: audioa.obj(audioa.asm)
+0001:00007ffc  ConvRate
+0001:00007eb9  ConvBits
+0001:00007f08  Pan
+0001:00008198* CopyEOS
+0001:000070d8  Distort
+0001:0000828a  MonitorNoise
+0001:00007b23  Silence
+0001:00007f5c  ConvChannels
+0001:00007b50  Decomp
+0001:000081d1* DupeChannel
+0001:000082d0  MemCopy
+0001:00007ea0  DecompGet
+0001:00007030  Merge
+0001:00007117  Volume
+Module: C:\WATCOM\lib386\plib3s.lib(vfun_err)
+0001:000082ea  __wcpp_2_undef_vfun_
+Module: C:\WATCOM\lib386\dos\clib3s.lib(stk386)
+0001:00008329* __STK
+0001:00008316  __CHK
+0001:00008326* __GRO
+0001:00008347* __STKOVERFLOW
+Module: C:\WATCOM\lib386\dos\clib3s.lib(printf)
+0001:00008353  printf
+Module: C:\WATCOM\lib386\dos\clib3s.lib(exit)
+0001:00008376  __null_int23_exit
+0001:00008377  exit
+0001:00008391* _exit
+0002:00000b20+ __atexit
+0002:00000b24  __int23_exit
+0002:00000b28  __FPE_handler_exit
+Module: C:\WATCOM\lib386\dos\clib3s.lib(kbhit)
+0001:000083a7  kbhit
+Module: C:\WATCOM\lib386\dos\clib3s.lib(getch)
+0001:000083be  getch
+Module: C:\WATCOM\lib386\dos\clib3s.lib(cstrt386)
+0001:00000003* ___begtext
+0002:00000000* __nullarea
+0002:00000b2c* __GDAptr
+0002:00000b30* __D16Infoseg
+0002:00000b32* __x386_zero_base_selector
+0001:000083dc  _cstart_
+0001:0000866b  __exit
+0001:0000866e  __do_exit_with_msg__
+0001:000086a8  __GETDS
+0001:000086a8  __GETDSStart_
+0001:000086b3  __GETDSEnd_
+Module: C:\WATCOM\lib386\dos\clib3s.lib(sprintf)
+0001:000086ca  sprintf
+Module: C:\WATCOM\lib386\dos\clib3s.lib(open)
+0001:000086fd  open
+0001:0000871f  sopen
+0001:0000890c* __set_binary
+Module: C:\WATCOM\lib386\dos\clib3s.lib(close)
+0001:00008978  close
+Module: C:\WATCOM\lib386\dos\clib3s.lib(lseek)
+0001:000089a2* _lseek
+0001:000089bc  lseek
+Module: C:\WATCOM\lib386\dos\clib3s.lib(filelen)
+0001:00008a09  filelength
+Module: C:\WATCOM\lib386\dos\clib3s.lib(read)
+0001:00008a4d  read
+Module: C:\WATCOM\lib386\plib3s.lib(undefmbr)
+0001:00008b58  __wcpp_2_undefined_member_function_
+Module: C:\WATCOM\lib386\plib3s.lib(undefed)
+0001:00008b68  __wcpp_2_undefed_cdtor_
+Module: C:\WATCOM\lib386\dos\clib3s.lib(nmalloc)
+0001:00008b78  malloc
+0001:00008b86  _nmalloc
+0002:00000b34  __nheapbeg
+0002:00000b38  __MiniHeapRover
+0002:00000b3c  __LargestSizeB4MiniHeapRover
+Module: C:\WATCOM\lib386\dos\clib3s.lib(nrealloc)
+0001:00008c7b  realloc
+0001:00008c90+ _nrealloc
+Module: C:\WATCOM\lib386\dos\clib3s.lib(nfree)
+0001:00008d4a  free
+0001:00008d58  _nfree
+0002:0000213c  __MiniHeapFreeRover
+Module: C:\WATCOM\lib386\plib3s.lib(pure_err)
+0001:00008ddb  __wcpp_2_pure_error_
+Module: C:\WATCOM\lib386\plib3s.lib(opnew)
+0001:00008e00  void near * near operator new( int unsigned )
+Module: C:\WATCOM\lib386\plib3s.lib(opdel)
+0001:00008e50  void near operator delete( void near * )
+Module: C:\WATCOM\lib386\dos\clib3s.lib(fopen)
+0001:00008e64+ __open_flags
+0001:0000902a+ _fsopen
+0001:00009073  fopen
+0001:000090ed* freopen
+Module: C:\WATCOM\lib386\dos\clib3s.lib(vsprintf)
+0001:00009159  vsprintf
+Module: C:\WATCOM\lib386\dos\clib3s.lib(fprintf)
+0001:00009180  fprintf
+Module: C:\WATCOM\lib386\dos\clib3s.lib(fclose)
+0001:000091a5  fclose
+0001:000091d2  __shutdown_stream
+0001:00009208+ __MkTmpFile
+0001:0000927d  __doclose
+Module: C:\WATCOM\lib386\plib3s.lib(stabact)
+0001:00009324  __wcpp_2_ctor_array_
+Module: C:\WATCOM\lib386\plib3s.lib(dtorarst)
+0001:00009380  __wcpp_2_dtor_array_store_
+Module: C:\WATCOM\lib386\plib3s.lib(opdelarr)
+0001:000093ac  void near operator delete []( void near * )
+Module: C:\WATCOM\lib386\dos\clib3s.lib(fmemcpy)
+0001:000093b9  _fmemcpy
+Module: C:\WATCOM\lib386\dos\clib3s.lib(memcpy)
+0001:000093eb  memcpy
+Module: C:\WATCOM\lib386\dos\clib3s.lib(cmp386)
+0001:00009420  strcmp
+Module: C:\WATCOM\lib386\dos\clib3s.lib(strncmp)
+0001:000094cc  strncmp
+Module: C:\WATCOM\lib386\dos\clib3s.lib(set386)
+0001:00009510  memset
+Module: C:\WATCOM\lib386\plib3s.lib(prwdata)
+0002:00000b40  _wint_pure_error_flag
+0002:00000b42  _wint_undef_vfun_flag
+0002:00000b44* _wint_module_init
+Module: C:\WATCOM\lib386\plib3s.lib(fatalerr)
+0001:00009534  __wcpp_2_fatal_runtime_error_
+Module: C:\WATCOM\lib386\dos\clib3s.lib(xmsg)
+0001:0000955b+ __exit_with_msg
+0001:00009568  __fatal_runtime_error
+Module: C:\WATCOM\lib386\dos\clib3s.lib(crwd386)
+0002:00000b58  _psp
+0002:00000b83  _osmajor
+0002:00000b84  _osminor
+0002:00000b7a  _Extender
+0002:00000b7b  _ExtenderSubtype
+0002:00000b7c  __X32VM
+0002:00000b5c* __x386_stacklow
+0002:00000b50  _LpCmdLine
+0002:00000b54  _LpPgmName
+0002:00000b48  _dynend
+0002:00000b4c  _curbrk
+0002:00000b5c  _STACKLOW
+0002:00000b60  _STACKTOP
+0002:00000b64  __ASTACKSIZ
+0002:00000b68  __ASTACKPTR
+0002:00000b6c  _cbyte
+0002:00000b70* _cbyte2
+0002:00000b74  _child
+0002:00000b7d  _Envptr
+0002:00000b81  _Envseg
+0002:00000b78  __no87
+0002:00000b85  __FPE_handler
+0002:00000b85  ___FPE_handler
+Module: C:\WATCOM\lib386\dos\clib3s.lib(iob)
+0002:00000b8c  __iob
+0002:00000d94* __tmpfnext
+0002:00000d95  _fmode
+0002:00002140  __ClosedStreams
+Module: C:\WATCOM\lib386\dos\clib3s.lib(fprtf)
+0001:000095b7  __fprtf
+Module: C:\WATCOM\lib386\dos\clib3s.lib(cmain386)
+0001:00009648  __CMain
+Module: C:\WATCOM\lib386\dos\clib3s.lib(inirt386)
+0001:000096a2  __InitRtns
+0001:000096ed  __FiniRtns
+Module: C:\WATCOM\lib386\dos\clib3s.lib(seg386)
+0000:00001234  __DOSseg__
+Module: C:\WATCOM\lib386\dos\clib3s.lib(prtf)
+0001:0000973c  __prtf
+Module: C:\WATCOM\lib386\dos\clib3s.lib(isatt)
+0001:0000a3e3  isatty
+Module: C:\WATCOM\lib386\dos\clib3s.lib(seterrno)
+0001:0000a408* __set_EDOM
+0001:0000a413* __set_ERANGE
+0001:0000a417* __set_EINVAL
+0001:0000a427  __set_errno
+0001:0000a433+ __set_doserrno
+Module: C:\WATCOM\lib386\dos\clib3s.lib(dosret)
+0001:0000a43a* _dosret0
+0001:0000a454+ _dosretax
+0001:0000a471  __set_errno_dos
+Module: C:\WATCOM\lib386\dos\clib3s.lib(umaskval)
+0002:00000db4  __umaskval
+Module: C:\WATCOM\lib386\dos\clib3s.lib(iomode)
+0001:0000a4ec  __IOMode
+0001:0000a542  __SetIOMode
+0002:00000db8  __NFiles
+0002:00000dbc+ __init_mode
+0002:00000e0c+ _iomode
+Module: C:\WATCOM\lib386\dos\clib3s.lib(_clse)
+0001:0000a558  __close
+Module: C:\WATCOM\lib386\dos\clib3s.lib(memalloc)
+0001:0000a58e  __MemAllocator
+0001:0000a636  __MemFree
+Module: C:\WATCOM\lib386\dos\clib3s.lib(grownear)
+0001:0000a792+ __FreeDPMIBlocks
+0001:0000a7ee  __ReAllocDPMIBlock
+0001:0000a994+ __LastFree
+0001:0000ab83  __ExpandDGROUP
+Module: C:\WATCOM\lib386\dos\clib3s.lib(nmemneed)
+0001:0000ad62  __nmemneed
+Module: C:\WATCOM\lib386\dos\clib3s.lib(heapmod)
+0002:00002144  __nheap_clean
+0002:00002145  __fheap_clean
+Module: C:\WATCOM\lib386\dos\clib3s.lib(nmsize)
+0001:0000ad65  _nmsize
+0001:0000ad65* _msize
+Module: C:\WATCOM\lib386\dos\clib3s.lib(nexpand)
+0001:0000ad72* _expand
+0001:0000ad87+ __HeapManager_expand
+0001:0000af32  _nexpand
+Module: C:\WATCOM\lib386\plib3s.lib(cppdata)
+0002:00002148  _wint_thread_data
+0002:00002168* __wcpp_2_data_catch_completed_
+0002:0000216c  __wcpp_2_data_dtreg_vfptrs_
+0002:00002180* __compiled_under_generic
+Module: C:\WATCOM\lib386\dos\clib3s.lib(tolower)
+0001:0000afc4* _tolower
+0001:0000afd2  tolower
+Module: C:\WATCOM\lib386\dos\clib3s.lib(allocfp)
+0001:0000afe4  __allocfp
+0001:0000b087  __freefp
+0001:0000b0be  __purgefp
+Module: C:\WATCOM\lib386\dos\clib3s.lib(fseek)
+0001:0000b123  fseek
+Module: C:\WATCOM\lib386\dos\clib3s.lib(chktty)
+0001:0000b276  __chktty
+Module: C:\WATCOM\lib386\dos\clib3s.lib(stinit)
+0002:00002184  __OpenStreams
+Module: C:\WATCOM\lib386\dos\clib3s.lib(gtpid)
+0001:0000b2aa  getpid
+Module: C:\WATCOM\lib386\dos\clib3s.lib(flush)
+0001:0000b2b0  __flush
+Module: C:\WATCOM\lib386\dos\clib3s.lib(ftell)
+0001:0000b392  ftell
+Module: C:\WATCOM\lib386\dos\clib3s.lib(remove)
+0001:0000b3db  remove
+Module: C:\WATCOM\lib386\plib3s.lib(stabarr)
+0001:0000b42a  __wcpp_2_arr_register_
+0002:000020e0* rt_init __based("XI") __wcpp_2_data_stab_init_arr_
+Module: C:\WATCOM\lib386\plib3s.lib(stabadt)
+0001:0000b464  __wcpp_2_dtor_array_
+Module: C:\WATCOM\lib386\dos\clib3s.lib(__stos)
+0001:0000b4b0  __STOSB
+0001:0000b4e7* __STOSD
+Module: C:\WATCOM\lib386\dos\clib3s.lib(enterdb)
+0001:0000b553  __EnterWVIDEO
+0002:00000e1c+ __WD_Present
+Module: C:\WATCOM\lib386\dos\clib3s.lib(fputc)
+0001:0000b57e  fputc
+Module: C:\WATCOM\lib386\dos\clib3s.lib(ioalloc)
+0001:0000b64c  __ioalloc
+Module: C:\WATCOM\lib386\dos\clib3s.lib(stack386)
+0001:0000b6cc  stackavail
+Module: C:\WATCOM\lib386\dos\clib3s.lib(cinit)
+0001:0000b6d5  __CommonInit
+Module: C:\WATCOM\lib386\dos\clib3s.lib(___argc)
+0002:00002188  ___Argc
+0002:0000218c  ___Argv
+Module: C:\WATCOM\lib386\dos\clib3s.lib(itoa)
+0001:0000b75f+ utoa
+0001:0000b7b1* _itoa
+0001:0000b7cb  itoa
+Module: C:\WATCOM\lib386\dos\clib3s.lib(noefgfmt)
+0002:00000e20  __EFG_printf
+0002:00000e24* __EFG_scanf
+Module: C:\WATCOM\lib386\dos\clib3s.lib(ltoa)
+0001:0000b835  ultoa
+0001:0000b885  ltoa
+0001:0000b8ba* _ltoa
+Module: C:\WATCOM\lib386\dos\clib3s.lib(toupper)
+0001:0000b8d4* _toupper
+0001:0000b8e2  toupper
+Module: C:\WATCOM\lib386\dos\clib3s.lib(errno)
+0001:0000b8f4  __get_errno_ptr
+0001:0000b8fa  __get_doserrno_ptr
+0002:00002190+ errno
+0002:00002194+ _doserrno
+Module: C:\WATCOM\lib386\dos\clib3s.lib(minreal)
+0002:00002198  __minreal
+Module: C:\WATCOM\lib386\dos\clib3s.lib(heapen)
+0001:0000b900* _heapenable
+0002:00000e28  __heap_enabled
+Module: C:\WATCOM\lib386\dos\clib3s.lib(sbrk386)
+0001:0000b910* sbrk
+0001:0000b9da  __brk
+Module: C:\WATCOM\lib386\dos\clib3s.lib(amblksiz)
+0002:00000e2c  _amblksiz
+Module: C:\WATCOM\lib386\dos\clib3s.lib(tell)
+0001:0000baa4  tell
+Module: C:\WATCOM\lib386\dos\clib3s.lib(initfile)
+0001:0000bab6  __InitFiles
+Module: C:\WATCOM\lib386\dos\clib3s.lib(ioexit)
+0001:0000bb2b  __full_io_exit
+0001:0000bb3a* fcloseall
+Module: C:\WATCOM\lib386\dos\clib3s.lib(qwrit)
+0001:0000bba5  __qwrite
+Module: C:\WATCOM\lib386\dos\clib3s.lib(fflush)
+0001:0000bc23  fflush
+Module: C:\WATCOM\lib386\dos\clib3s.lib(unlnk)
+0001:0000bc3d  unlink
+Module: C:\WATCOM\lib386\plib3s.lib(tssize)
+0001:0000bc88  __wcpp_2_ts_size_
+Module: C:\WATCOM\lib386\plib3s.lib(stabreg)
+0001:0000bcc8  __wcpp_2_base_register_
+0001:0000bced* __wcpp_2_base_deregister_
+Module: C:\WATCOM\lib386\plib3s.lib(stabdtor)
+0001:0000bef1  __wcpp_2_destruct_internal_
+0001:0000bef9* __wcpp_2_destruct_all_
+0001:0000bf04* __wcpp_2_destruct_after_all_
+0001:0000bf0f* __wcpp_2_destruct_
+0001:0000bf24* __wcpp_2_destruct_after_
+Module: C:\WATCOM\lib386\dos\clib3s.lib(sigsy)
+0001:0000c03f  __DPMI_hosted
+0001:0000c0cf  __restore_int23
+0001:0000c283  __restore_int_ctrl_break
+0001:0000c2b9  __grab_int23
+0001:0000c3cd  __grab_int_ctrl_break
+Module: C:\WATCOM\lib386\dos\clib3s.lib(flushall)
+0001:0000c4e1  flushall
+0001:0000c4ec+ __flushall
+Module: C:\WATCOM\lib386\plib3s.lib(stabthrw)
+0001:0000c53c  __wcpp_2_corrupted_stack_
+0001:0000c8d1* __wcpp_2_catch_done_
+0001:0000cb6b+ __wcpp_2_dispatchable_
+0001:0000cbcc+ __wcpp_2_save_exc_
+0001:0000cc58+ __wcpp_2_dispatch_
+0001:0000cd8f* __wcpp_2_rethrow_
+0001:0000cd97* __wcpp_2_throw_
+0001:0000cdaa* __wcpp_2_throw_zero_
+0002:000020e6+ ___wcpp_2_data_init_longjmp_
+Module: C:\WATCOM\lib386\plib3s.lib(stabtrav)
+0001:0000cecc  __wcpp_2_stab_entry_
+0001:0000cf00  __wcpp_2_stab_trav_init_
+0001:0000cf2e  __wcpp_2_stab_trav_comp_
+0001:0000cf37  __wcpp_2_stab_trav_next_
+0001:0000cfc5  __wcpp_2_stab_trav_move_
+Module: C:\WATCOM\lib386\dos\clib3s.lib(signl)
+0001:0000d069+ __sigabort
+0001:0000d074  __sigfpe_handler
+0001:0000d0a9* signal
+0001:0000d16d  raise
+Module: C:\WATCOM\lib386\dos\clib3s.lib(chint386)
+0001:0000d232  _chain_intr
+Module: C:\WATCOM\lib386\dos\clib3s.lib(d_setvec)
+0001:0000d253  _dos_setvect
+Module: C:\WATCOM\lib386\dos\clib3s.lib(d_getvec)
+0001:0000d28d  _dos_getvect
+Module: C:\WATCOM\lib386\plib3s.lib(callterm)
+0001:0000d2c4  __wcpp_2_call_terminate_
+Module: C:\WATCOM\lib386\plib3s.lib(tsequiv)
+0001:0000d2d9  __wcpp_2_ts_equiv_
+Module: C:\WATCOM\lib386\plib3s.lib(callunex)
+0001:0000d338  __wcpp_2_call_unexpected_
+Module: C:\WATCOM\lib386\dos\clib3s.lib(stjmp386)
+0001:0000d33e* _setjmp
+0001:0000d373  longjmp
+Module: C:\WATCOM\lib386\plib3s.lib(allocexc)
+0001:0000d3fc  __wcpp_2_alloc_exc_
+0001:0000d542  __wcpp_2_free_exc_
+0001:0000d571  __wcpp_2_pop_exc_
+0001:0000d580  __wcpp_2_push_exc_
+Module: C:\WATCOM\lib386\dos\clib3s.lib(ljmphdl)
+0002:00000e80  __longjmp_handler
+Module: C:\WATCOM\lib386\plib3s.lib(bittest)
+0001:0000d598  __wcpp_2_bit_test_
+Module: C:\WATCOM\lib386\dos\clib3s.lib(abort)
+0001:0000d5b7* abort
+0001:0000d5bd  __terminate
+0002:00000e8c  __abort
+Module: C:\WATCOM\lib386\math387s.lib(grabfpe)
+0001:0000d5d0  __grab_fpe
+Module: C:\WATCOM\lib386\plib3s.lib(termnate)
+0001:0000d5d8  void near terminate()
+Module: C:\WATCOM\lib386\plib3s.lib(unexpect)
+0001:0000d61c  void near unexpected()
+Module: C:\WATCOM\lib386\plib3s.lib(areaexc)
+0002:00000e90  __EXC_AREA
+Module: C:\WATCOM\lib386\dos\clib3s.lib(grabfp87)
+0001:0000d64c+ __GrabFP87
+Module: C:\WATCOM\lib386\dos\clib3s.lib(fpe387)
+0002:00001e90  __PMSeg
+0002:00001e92  __PMAddr
+0002:00001e96  __RMAddr
+0001:0000d67a+ __Init_FPE_handler
+0001:0000d6d7  __Fini_FPE_handler
+Module: C:\WATCOM\lib386\dos\clib3s.lib(fpeinth)
+0001:0000d734  __Enable_FPE
+0001:0000d749  __FPEHandler_
+0001:0000d756  __FPE2Handler_
+Module: C:\WATCOM\lib386\dos\clib3s.lib(fpephar)
+0001:0000d994  __Phar_hook_init_
+0001:0000da57  __Phar_hook_fini_
+Module: C:\WATCOM\lib386\dos\clib3s.lib(fpedos4g)
+0001:0000da84  __DOS4G_hook_init_
+0001:0000dab1  __DOS4G_hook_fini_
+Module: C:\WATCOM\lib386\dos\clib3s.lib(fpeergo)
+0001:0000daca  __Ergo_hook_init_
+0001:0000db08  __Ergo_hook_fini_
+Module: C:\WATCOM\lib386\dos\clib3s.lib(fpeintel)
+0001:0000db22  __Intel_hook_init_
+0001:0000db7a  __Intel_hook_fini_
+Module: C:\WATCOM\lib386\dos\clib3s.lib(_8087386)
+0002:000020b8  __8087
+0002:000020b9  __real87
+Module: C:\WATCOM\lib386\dos\clib3s.lib(fpeint)
+0002:000020bc  __FPE_int
+0002:000020bd  __IRQ_num
+0002:000020be  __IRQ_int
+0002:000020bf  __MST_pic
+0002:000020c0* __SLV_pic
+Module: C:\WATCOM\lib386\dos\clib3s.lib(chk8087)
+0001:0000db8d+ __init_8087
+0001:0000dbbc* _fpreset
+0001:0000dbc6  __chk8087
+Module: C:\WATCOM\lib386\dos\clib3s.lib(save8087)
+0002:000020c4  __Save8087
+0002:000020c8  __Rest8087
+Module: C:\WATCOM\lib386\dos\clib3s.lib(8087cw)
+0002:000020cc  __8087cw
+Module: C:\WATCOM\lib386\dos\clib3s.lib(ini87386)
+0001:0000dc12  __init_80x87
+
+
+                        +----------------------+
+                        |   Imported Symbols   |
+                        +----------------------+
+
+Symbol                              Module
+======                              ======
+
+
+
+                        +--------------------+
+                        |   Libraries Used   |
+                        +--------------------+
+
+C:\WATCOM\lib386\dos\clib3s.lib
+C:\WATCOM\lib386\plib3s.lib
+C:\WATCOM\lib386\math387s.lib
+
+
+                        +-----------------------+
+                        |   Linker Statistics   |
+                        +-----------------------+
+
+Stack size:  4000 (16384.)
+Memory size:  000141d9 (82393.)
+Entry point address: 0001:000083dc
+Link time: 00:02.36

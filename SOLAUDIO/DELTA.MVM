@@ -1,0 +1,4 @@
+project = BIRTHRT
+location = //MAINSERVER/PROJECTS/BIRTHRT.PRJ
+user root = //C:GLIB/BIRTHRT
+sub dir = /solaudio

@@ -1,0 +1,391 @@
+/* ========================================================================
+   Copyright (c) 1990,1996	Synergistic Software
+   All Rights Reserved
+   ========================================================================
+   Filename: combcntl.hxx
+   Author:   Gary Powell
+   
+   ========================================================================
+   
+   Contains the following general functions:
+
+   
+   ======================================================================== */
+
+#if !defined(_COMBCNTL_HXX)
+#define _COMBCNTL_HXX	1
+/* ------------------------------------------------------------------------
+   Includes
+   ------------------------------------------------------------------------ */
+
+
+#include "typedefs.h"
+
+#include "avatar.hxx"
+#include "panel.h"
+#include "realm.hxx"
+#include "sndvox.hxx"
+#include "sound.hxx"
+
+/* ------------------------------------------------------------------------
+   Notes
+   ------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------
+   Defines and Compile Flags
+   ------------------------------------------------------------------------ */
+#define MAX_NUMBER_CONTROLS	4
+
+#define MAX_COMBAT_SPELL_BOXES	6
+#define MAX_FIGHTER_COMBAT_SPELL_BOXES	4
+
+/* ------------------------------------------------------------------------
+   Macros
+   ------------------------------------------------------------------------ */
+   
+/* ------------------------------------------------------------------------
+   Classes
+   ------------------------------------------------------------------------ */
+
+// Class to hold the static array of the avatars and which menu they
+// are attached to.
+
+class CONTROL_PANELS {
+public:
+
+	class CURRENT_CONTROL {
+	public:
+		friend class CONTROL_PANELS;
+		
+		inline CURRENT_CONTROL();
+		~CURRENT_CONTROL() { }
+		
+		void mfSetControl(SHORT const /* hMenu */,
+		                  SHORT const /* hAvatar */,
+		                  BOOL	const /* SpeakFlag */,
+		                  LONG  const /* MaxSpellBoxes */);
+		void mfRelease();
+		void mfSetBeginCombat();
+		
+		// Test whether the avatar has new information to draw on the panel.
+		BOOL const mfNeedToUpdatePanel();
+		
+		// Reset the avatar back to follow the player state if possible.
+		void mfSetEndCombat();
+		
+		// Test whether this menu is hooked up to an avatar or not.
+		inline BOOL const mfPanelInUse() const;
+		
+		void mfPaintPanel();
+		void mfPaintFighterPanel();
+		
+		inline void mfSwapPanels(CURRENT_CONTROL &);
+		
+		inline void mfSpeakAcknowledgement() const;
+		
+		void mfUpdateOptions();
+		
+		// Data
+		SHORT	fhMenu;
+		SHORT	fhAvatar;
+	protected:
+	private:
+		LONG				fRpg_Btn;
+		LONG				fMaxSpellBoxes;
+		BOOL				fSpeakFlag;
+		CAvatar::AISTATUS	fOriginalStatus;
+		LONG   				fOriginalAngle;
+		
+		CAvatar::AISTATUS	fPrevStatus;
+		CAvatar::AISTATUS	fPrevPauseStatus;
+		LONG				fPrevHitPts;
+		SBYTE				fPrevDamage;
+		SHORT				fPrevEngaged;
+		SHORT				fPrevSpells[MAX_COMBAT_SPELL_BOXES];
+		FIGHT_SEQUENCE::ATTACK_MODE		fPrevAttackMode;
+		
+		LONG const mfConvertPanel(LONG const) const;
+		BOOL const mfIsRegularCombatPanel(LONG const /* panel */ ) const;
+		BOOL const mfIsFighterCombatPanel(LONG const /* panel */ ) const;
+		BOOL const mfNeedToConvert(LONG const /* panel1 */,
+		                           LONG const /* panel2 */ ) const;
+	};
+	friend class CURRENT_CONTROL;
+
+	static void mfMatchMenuToCurrent(LONG const);
+	inline static BOOL const mfCurrentInUse();
+	inline static BOOL const mfIsCurrentLeader();
+	static BOOL const mfGetCurrAvatarHdl();
+	inline static void mfSetBeginCombatAll();
+	inline static void mfMatchAvatarHdlToCurrent(SHORT const hLeader);
+	inline static void mfReleaseAll();
+	inline static void mfSetEndAllCombat();
+	inline static void mfCheckAllPanels();
+	inline static void mfPaintThisMenu(SHORT MenuIndex);
+	inline static void mfCurrentSpeakAcknowledgement();
+	inline static void mfSetCurrentToLeader();
+	inline static void mfSetAllDefend();
+	static void mfInitAllPanels();
+	static void mfCycleToNextPanel();
+	static void mfUpdateOptions();
+	
+protected:
+private:
+	static CURRENT_CONTROL	fccActive[MAX_NUMBER_CONTROLS];
+	static SHORT 			fsccIndex;
+	
+	static SHORT			fPrevsccIndex;
+	
+	static void 			mfSetNewCurrent(SHORT const);
+};
+
+/* ------------------------------------------------------------------------
+   Global Variables
+   ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------
+   Local Variables
+   ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------
+   Prototypes
+   ------------------------------------------------------------------------ */
+
+// Constructor
+inline CONTROL_PANELS::CURRENT_CONTROL::CURRENT_CONTROL() :
+	fhMenu(fERROR),
+	fhAvatar(fERROR),
+	fMaxSpellBoxes(0),
+	fSpeakFlag(FALSE),
+	fOriginalStatus(CAvatar::AI_RUNNING),
+	fOriginalAngle(0),
+	fPrevStatus(CAvatar::AI_INIT),
+	fPrevPauseStatus(CAvatar::AI_INIT),
+	fPrevHitPts(0),
+	fPrevDamage(-1),
+	fPrevEngaged(0),
+	fPrevAttackMode(FIGHT_SEQUENCE::ATM_NONE)
+{
+	for (LONG i = 0; i < MAX_COMBAT_SPELL_BOXES; i++)
+	{
+		fPrevSpells[i] = -1;
+	}
+}
+
+// Test whether this menu is hooked up to an avatar or not.
+inline BOOL const CONTROL_PANELS::CURRENT_CONTROL::mfPanelInUse() const
+{
+	return ((fhAvatar != fERROR) ? TRUE : FALSE);
+}
+
+inline BOOL const CONTROL_PANELS::CURRENT_CONTROL::mfIsRegularCombatPanel(LONG const panel) const
+{
+	return (panel >= D_COMBAT_CONTROL1 && panel <= D_COMBAT_CONTROL4);
+}
+
+inline BOOL const CONTROL_PANELS::CURRENT_CONTROL::mfIsFighterCombatPanel(LONG const panel) const
+{
+	return (panel >= D_COMBAT_FIGHTER_CONTROL1 && panel <= D_COMBAT_FIGHTER_CONTROL4);
+}
+
+inline BOOL const CONTROL_PANELS::CURRENT_CONTROL::mfNeedToConvert(LONG const Panel1,
+                                                                   LONG const Panel2) const
+{
+	BOOL Result = FALSE;
+	
+	if ((mfIsRegularCombatPanel(panel1) && mfIsFighterCombatPanel(panel2) ) ||
+	    (mfIsFighterCombatPanel(panel1) && mfIsRegularCombatPanel(panel2) )
+	   )
+	
+	{
+		Result = TRUE;
+	}
+	
+	return Result;
+}
+
+// This converts the panel from a single combat to a fighter one.
+// Note this relies on the panels being in sequence.
+inline LONG const CONTROL_PANELS::CURRENT_CONTROL::mfConvertPanel(LONG const panel) const
+{
+	LONG NewPanel;
+	if (mfIsRegularCombatPanel(panel))
+	{
+		NewPanel = D_COMBAT_FIGHTER_CONTROL1 + (panel - D_COMBAT_CONTROL1);
+	}
+	else
+	{
+		NewPanel = D_COMBAT_CONTROL1 + (panel - D_COMBAT_FIGHTER_CONTROL1);
+	}
+	
+	return NewPanel;
+}
+
+// Exchange places for two avatars.
+inline void CONTROL_PANELS::CURRENT_CONTROL::mfSwapPanels(CURRENT_CONTROL &OtherPanel)
+{
+	SHORT const ThisPanelId = fhMenu;
+	CURRENT_CONTROL const temp = *this;
+	
+	// Class copy.
+	*this = OtherPanel;
+	OtherPanel = temp;
+	
+	// Get rid of the current menus.
+	HidePanel(fhMenu);
+	HidePanel(OtherPanel.fhMenu);
+	
+	if (mfNeedToConvert(OtherPanel.fhMenu, fhMenu)
+	{
+		// Switch from fighter to regular combat panels.
+		OtherPanel.fhMenu = mfConvertPanel(fhMenu);
+		fhMenu = mfConvertPanel(ThisPanelId);
+	}
+	else
+	{
+		// Put back the menu id's.
+		OtherPanel.fhMenu = fhMenu;
+		fhMenu = ThisPanelId;
+	}
+	
+	// Put up the new menus.
+	mfSetControl(fhMenu, 
+	             fhAvatar, 
+	             fSpeakFlag,
+	             fMaxSpellBoxes);
+	OtherPanel.mfSetControl(OtherPanel.fhMenu, 
+							OtherPanel.fhAvatar, 
+							OtherPanel.fSpeakFlag,
+							OtherPanel.fMaxSpellBoxes);
+}
+			
+// Test for speech flag and utter accordlingly.
+inline void CONTROL_PANELS::CURRENT_CONTROL::mfSpeakAcknowledgement( ) const
+{
+	if (fSpeakFlag == TRUE && fhAvatar != fERROR)
+	{
+		CAvatar const * const pAvatar = (CAvatar const * const) BLKPTR(fhAvatar);
+		
+		switch(GAME_TTYPE::mfGetSoundType(pAvatar->mfType()))
+		{
+		case DOG_SOUNDS:
+			AddSndObj(SND_DOG_BARK1, SND_DOG_BARK_TOTAL, -1);
+			break;
+		default:
+			AddVoxSnd(VOX_CASTLE_INQUIRY, pAvatar->ThingIndex);
+			break;
+		}
+		
+	}
+}
+
+inline BOOL const CONTROL_PANELS::mfCurrentInUse()
+{
+	return fccActive[fsccIndex].mfPanelInUse();
+}
+	
+inline BOOL const CONTROL_PANELS::mfIsCurrentLeader()
+{
+	return 0 == fsccIndex;
+}
+	
+inline BOOL const CONTROL_PANELS::mfGetCurrAvatarHdl()
+{
+	return fccActive[fsccIndex].fhAvatar;
+}
+
+inline void CONTROL_PANELS::mfSetBeginCombatAll() 
+{
+	for (LONG i = 0; i < MAX_NUMBER_CONTROLS; i++)
+	{
+		fccActive[i].mfSetBeginCombat();
+	}
+}
+
+inline void CONTROL_PANELS::mfMatchAvatarHdlToCurrent(SHORT const hLeader) 
+{
+	for (LONG i = 0; i < MAX_NUMBER_CONTROLS; i++)
+	{
+		if (fccActive[i].fhAvatar == hLeader)
+		{
+			mfSetNewCurrent(i);
+			break;
+		}
+	}
+}
+
+inline void CONTROL_PANELS::mfReleaseAll() 
+{
+	for (LONG i = 0; i < MAX_NUMBER_CONTROLS; i++)
+	{
+		fccActive[i].mfRelease();
+	}
+	
+	mfSetNewCurrent(0);
+}
+
+inline void CONTROL_PANELS::mfSetEndAllCombat()
+{
+	for (LONG i = 0; i < MAX_NUMBER_CONTROLS; i++)
+	{
+		fccActive[i].mfSetEndCombat();
+	}
+}
+
+inline void CONTROL_PANELS::mfCheckAllPanels()
+{
+	for (LONG i = 0; i < MAX_NUMBER_CONTROLS; i++)
+	{
+		// Check them all, because the update check also refreshes
+		// the previous states.
+		if (fccActive[i].mfNeedToUpdatePanel() == TRUE)
+		{
+			fUpdatePanels = TRUE;
+		}
+	}
+	if (fsccIndex != fPrevsccIndex)
+	{
+		fPrevsccIndex = fsccIndex;
+		fUpdatePanels = TRUE;
+	}
+}
+
+
+inline void CONTROL_PANELS::mfPaintThisMenu(SHORT MenuIndex)
+    {
+    	for (LONG i = 0; i < MAX_NUMBER_CONTROLS; i++)
+	{
+		if (fccActive[i].fhMenu == MenuIndex)
+		{
+			fccActive[i].mfPaintPanel();
+			break;
+		}
+	}
+}
+
+inline void CONTROL_PANELS::mfCurrentSpeakAcknowledgement()
+{
+	fccActive[fsccIndex].mfSpeakAcknowledgement();
+}
+
+inline void CONTROL_PANELS::mfSetCurrentToLeader()
+{
+	fccActive[0].mfSwapPanels(fccActive[fsccIndex]);
+	mfSetNewCurrent(0);
+}
+
+inline void CONTROL_PANELS::mfSetAllDefend()
+{
+	for (LONG i = 0; i < MAX_NUMBER_CONTROLS; i++)
+	{
+		if (fccActive[i].fhAvatar != fERROR)
+		{
+			CAvatar * const pAvatar = (CAvatar * const) BLKPTR(fccActive[i].fhAvatar);
+			if (!pAvatar->mfAmIImmoblized())
+			{
+				pAvatar->mfSetAttackMode(FIGHT_SEQUENCE::ATM_DEFEND);
+			}
+		}
+	}
+}
+
+
+#endif // _COMBCNTL_HXX

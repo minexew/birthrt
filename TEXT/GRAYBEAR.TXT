@@ -1,0 +1,8 @@
+^F02 
+^F06  Overthane Grimm Graybeard
+^F02^W305
+   This dour, serious old dwarf is committed to his
+   goal of containing the Orogs, yet is pessimistic
+   about the outcome.  He does not disdain humans
+   but wants them to prove their worth before he
+   trusts them with any task or treasure of value.

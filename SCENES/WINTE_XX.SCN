@@ -1,0 +1,30 @@
+[Version]
+1.0
+[Sounds]
+4
+[Music]
+9
+[Panorama]
+Back01c
+Back01d
+Back01f
+Back01c
+Back01d
+Back01c
+Back01d
+Back01f
+Back01c
+Back01d
+[QuestThingType]
+581
+[Wad]
+winte_xx.wad
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 3
+[Notes]
+2
+1   40
+2   41

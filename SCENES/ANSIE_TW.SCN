@@ -1,0 +1,32 @@
+[Version]
+1.0
+[Music]
+7
+[Sounds]
+2
+[Panorama]
+Back01a
+Back01b
+Back01e
+Back01a
+Back01b
+Back01e
+Back01a
+Back01b
+Back01e
+Back01a
+[QuestThingType]
+389
+[Wad]
+ansie_tw.wad
+[Pallet]
+nova_d
+[Map]
+1
+ZoomFactor 5
+[Notes]
+4
+1   4
+2   5
+3   6
+4   7

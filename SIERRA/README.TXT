@@ -1,0 +1,721 @@
+ 
+                 BIRTHRIGHT: The Gorgon's Alliance
+
+       Produced and Copyrighted (c) 1997 by Sierra On-Line, Inc.
+
+                Developed by Synergistic Software
+
+              BIRTHRIGHT is licensed from TSR, Inc.
+
+TSR, the makers of Advanced Dungeons and Dragons, created BIRTHRIGHT
+in 1994 so that fans of fantasy role-playing games would have somewhere
+to go and something to do after they had fought every dragon and 
+beaten every foe, building their characters up to high level champions.
+
+Now what?  Now, assume the crown of one of the kings in Anuire and take
+your adventures to a higher plane, ruling your kingdom, and directing 
+armies of loyal followers while you try to unite the other scattered
+kingdoms of Anuire into the united empire that it once was.
+
+With tactical and strategic army combat, negotiations and politics with
+the other kings of Anuire, and with adventures suited to strong game
+characters, BIRTHRIGHT brings you the most powerful fantasy role-play
+gaming experience you have ever seen. 
+
+BIRTHRIGHT: The Gorgon's Alliance will be available in the summer of
+1997. Watch for it and claim your Birthright . . . if you are ready.
+
+
+
+
+    TOPICS DISCUSSED IN THIS README FILE INCLUDE:
+
+
+I.    Where can I get more information about BIRTHRIGHT?
+II.   Some notes that were omitted from the manual
+III.  I want it to go FASTER!!!
+IV.   Enhancing performance on systems with less than 16 Meg of RAM
+V.    Changes from the original TSR rules for BIRTHRIGHT
+VI.   Changes from TSR's standard rules for AD&D
+VII.  The quick start saved games
+VIII. Multi-player play tips and suggestions.
+IX.   Recovering from a lost game - Auto-save may save your game!
+
+
+=========================================================================
+
+SECTION I.      WHERE CAN I GET MORE INFORMATION ABOUT BIRTHRIGHT?
+
+=========================================================================
+
+
+Glad you're interested, because there is a lot of it and many places to
+look. First, you might want to start with Sierra's Birthright web 
+site. Check out www.sierra.com/titles/birthright. It gives some info about
+the game, and has links to Sierra's adventure chat board. Once we have
+enough traffic from BIRTHRIGHT owners, there will be a separate chat
+board dedicated to that topic. Watch that location for hints, tips,
+suggestions, and answers to the many questions that are sure to come up
+as players explore the BIRTHRIGHT game universe.
+
+You should also watch the web site for news about the BIRTHRIGHT contest.
+You can win the actual Sword of Roele - the coolest blade you've ever 
+seen - details on the web site. The web site also will have news of
+the downloadable utilities that we will be releasing to allow you to
+customize the game. The Birthright Character Editor is available now, 
+permitting you to create your own characters, roll or set their stats,
+setup their inventories, and choose the spells and blood abilities that 
+you really want.
+
+Next stop, Sierra's automated hint line at 1-900-451-3356 can give you clues
+and advice about solving the puzzles of the game's many adventures.
+
+OK, enough with help for the computer game, how about more info about the 
+BIRTHRIGHT world, its inhabitants, locations, magic, myths, and history?
+The following materials can be purchased from TSR at these addresses:
+
+        TSR, Inc.                            TSR, Ltd.
+        201 Sheridan Springs Road            120 Church End
+        Lake Geneva, WI 53147   USA          Cherry Hinton
+                                             Cambridge, England  CB1 3LB
+        1-800-TSR-5060                       44-1223-212517
+        FAX 1-414-248-7144                   FAX 44-1223-248066
+
+
+
+**************  NOTE: PRICES MAY VARY AT TSR'S DISCRETION.  *************
+****************  THESE PRICES WERE IN EFFECT ON 12/96.  ****************
+
+
+TSR #    TITLE                                          RETAIL PRICE
+
+3100    BIRTHRIGHT Campaign Setting                        $30.00
+3103    Cities of the Sun Campaign Expansion               $18.00
+3121    The Rjurik Highlands Campaign Expansion            $20.00
+3129    Havens Of The Great Bay Campaign Expansion         $20.00
+
+3101    Blood Enemies: Abominations of Cerilia Expansion   $18.00
+3104    Roesone Domain Sourcebook Accessory                $ 6.95
+3105    Endier Domain Sourcebook Accessory                 $ 6.95
+3106    Medoere Domain Sourcebook Accessory                $ 6.95
+3107    Tuornen Domain Sourcebook Accessory                $ 6.95
+3108    Ilien Domain Sourcebook Accessory                  $ 6.95
+3109    Talinie Domain Sourcebook Accessory                $ 6.95
+3111    Ariya Domain Sourcebook Accessory                  $ 6.95
+3119    Binsada Domain Sourcebook Accessory                $ 7.95
+3120    Baruk-Azhik Domain Sourcebook Accessory            $ 7.95
+3122    Halskapa Domain Sourcebook Accessory               $ 7.95
+3123    Khourane Domain Sourcebook Accessory               $ 7.95
+3124    Tuarhievel Domain Sourcebook Accessory             $ 7.95
+3127    Stjordvik Domain Sourcebook Accessory              $ 7.95
+
+3110    Warlock of the Stonecrowns Adventure               $ 9.95
+3102    Sword and Crown Adventure                          $ 9.95
+3118    The Sword Of Roele Adventure                       $12.95
+
+3112    The Iron Throne                                    $ 6.99
+3113    Greatheart                                         $ 5.95
+3133    War    (hard cover)                                $21.99
+3114    The Hag's Contract                                 $ 5.99
+3115    The Spider's Test                                  $ 5.99
+3116    The Falcon And The Wolf                            $ 5.99
+
+3117    The Book Of Magecraft                              $20.00
+3134    Naval Battle System: The Seas of Cerilia           $10.95
+3125    Legend's Of The Hero-Kings                         $20.00
+
+
+
+=========================================================================
+
+SECTION II.    SOME NOTES THAT WERE OMITTED FROM THE MANUAL:
+
+=========================================================================
+
+
+1. Best run on P100 or faster systems with 32 Meg of RAM. The game will
+        run in as little as 8 Meg for the DOS version and 16 Meg for the
+        Windows '95 version. If you have any difficulties running in
+        minimal configurations, please try shutting down other
+        applications. On systems with less memory, the art is simplified
+        so that not as much is loaded.
+2. On slower systems, you may have to hold the mouse button down longer
+        than you would think likely to get a mouse click to register.
+3. Many of the action cues are verbal. Play with the sound on to get all
+        the game's prompts and cues.
+4. The DOS version plays better in native DOS mode than in a Windows DOS
+        box, though this varies on different systems in different
+        configurations. If you have problems, please try the other mode.
+5. To speed the game up, you can select a number of options from the
+        OPTIONS menu (available from the game's Main Menu). Shrink the
+        game's window down to smaller sizes (the smaller the faster).
+        Turn off environmental sounds. On some systems, sound mixing
+        slows game play. Select fewer sound channels. The default is 8
+        channels (up to 8 sound effects, music, or voice cues
+        simultaneously). Fewer channels means less mixing and faster game
+        play. Finally, if you are able to do a maximum install, disk
+        access will be sped up (hard disk rather than CD access). In some
+        cases, with some systems, that will enhance play speed. After
+        that, what you see is what you get.
+6. If you would like to get game hints, check the Sierra, BIRTHRIGHT web
+        site. You can chat with other players as well as the game
+        designers and support techs. 
+7. A collection of utilities, extra adventure sites, and additional game
+        art may be released in Fall, 1997, if there is sufficient
+        interest. Watch for announcements on the web site. Registered game
+        owners will be sent announcements.
+8. BIRTHRIGHT I: The Gorgon's Alliance, is the first of a trilogy of
+        BIRTHRIGHT games. More of the continent of Cerilia, more
+        awnsheghlien, more monsters, more magic, and more way cool game
+        characters will be coming in BIRTHRIGHT II and III. We will also
+        be adding naval combat, trade, piracy, sieges, and a host of
+        other new features.
+9. If you manage to beat BIRTHRIGHT, don't stop. There are innumerable
+        ways that this game can be played. Try another character, another
+        strategy, and maybe even another goal. Can you win through
+        diplomacy? How about a strictly military campaign? Perhaps just
+        adventures and an all-out attack on the awnsheghlien? Try setting
+        the difficulty level to high (needs 500 points to win, not 300).
+        The end game is a bit more difficult. And, if you have seen all
+        that, then try the multi-player game. When you play against other
+        humans, the game takes on whole new dimensions. You just can't
+        predict the AIs when they aren't artificial.
+10. One factor that was not emphasized in the manual was that the
+        adventure and battle segments of the game are optional. If you
+        wish to have a faster game, without the time-consuming effort of
+        searching out treasures, solving puzzles, fighting monsters, or
+        directing individual units of troops, then just skip battles
+        and/or adventures thereafter and focus on the simulation,
+        strategic, and role-playing elements of the game of the realm map
+        mode. Battle results may not be quite as good as they would be if
+        you commanded the troops, but they'll be faster and you can do
+        more of them. You may use up more troops and it will take more
+        game months to win, but you will do it in much less clock time.
+        Your choice. Use the game options to make it play the way you
+        wish to play.
+11. When you use the teleport spell, it is possible to teleport to a
+        location that is unknown or undefined in the game. You have
+        failed your teleport and gotten lost in limbo! Use the spell
+        again to teleport back to a known location. This problem can be
+        avoided by only teleporting to locations that appear on your map
+        and are clearly outlined by walls that you cannot get past. That
+        should always work. Teleporting off into the blank areas of the
+        map that are unknown (perhaps in the middle of stone walls or a
+        mountainside, for instance), is less likely to succeed.
+12. The chat feature was changed slightly after the manual was printed.
+        You now press F3 to set all chat options (who can hear you, who
+        you choose to listen to, send to all or have private chat with 
+        just one, etc.) while F4 toggles the size of the chat history
+        window, letting you see more of what has been said before or 
+        take up less screen space with chat and allow more for the map.
+
+13. A feature was added to multi-player mode to speed up game play. You 
+        may select to have a time limit on each player's turns, selecting
+        slow play, medium play, or fast play. Fast play allows about 2
+        minutes per action per player. More time is allowed on slower
+        systems, so this limit is not absolute. That was found necessary
+        to give slow systems the same amount of effective game play time
+        as the faster systems that may be in a game. The timer stops when
+        events occur that are beyond a player's control, such as notices
+        from the game about events, delays while data is transferred, etc.
+        The passage of time is displayed in the bar that shows whose turn
+        it is. When it is your turn, this bar turns green, with your
+        realm's name on it. As time passes, this bar turns red, thermometer
+        style, showing the time remaining. When time is up, any action you
+        are in the middle of does an automatic ROLL or DONE, whichever
+        is appropriate. If you are not in the middle of an action, the
+        game generates a HOLD action for you. 
+
+14. When running under Windows 95, there is an option for playing in full
+        screen mode, rather than in a window. By pressing F2 or selecting
+        full screen in the options menu, you can enable DirectDraw mode
+        of display. DirectDraw, from Microsoft, is not supported for some
+        video cards. If you are aware that your video card does not work
+        with DirectDraw, then do not press F2 or select full screen from
+        the options menu. Or, if you are not sure, but if you have display
+        problems when you select full screen mode of display, then this is
+        most likely the problem. We cannot do anything about DirectDraw
+        conflicts, so this display mode should simply not be used.
+
+15. There are some kingdoms in Auire that are just too nasty for you to 
+        be able to easily do diplomacy with them. If you send an ambassidor
+        to Rhuobhe Manslayer's lair, for instance, he will be killed on
+        sight. But, if Rhuobhe should decide to talk to you, he may 
+        offer a diplomatic action. Similarly, the Gorgon, Five Peaks, and
+        other evil realms may approach you, even though you cannot approach
+        them.
+
+=========================================================================
+
+SECTION III.    I want it to go FASTER!!!
+=========================================================================
+
+If BIRTHRIGHT runs more slowly on your system than you prefer, there are
+a variety of game options that you can play with to increase the game
+speed. Try some or all of these until it plays best on your system:
+
+    1. Shrink the game play window down using the '[' key or by
+           setting the window size to smaller windows in the game's
+           option menu.
+    2. Set the number of sound channels being used to 2 or 3. The
+           game defaults to 8 channels of sound. When multiple sounds are
+           playing simultaneously, they must be mixed by the game at run
+           time. This can slow operation slightly.
+    3. Try the other version of the program. If you are running
+           Windows, try the DOS version. DOS often runs faster than
+           Windows. But, if you are running the DOS version, you may get
+           better performance from Windows, depending on the video driver
+           you have. Some Windows' video drivers have been optimized so
+           that the game gets a hardware assist from the board, speeding
+           up display speed and hence game play speed. We just cannot
+           predict which version will run best on your particular
+           hardware. So, try them both if you are not satisfied.
+    4. If you are running a minimum install, you can get more speed
+           from a full install where the game does not load from the CD
+           quite as much.
+    5. Turn off the environmental sounds (see your options menu).
+           Again, any expendable sound processing can buy you a little
+           more speed.
+    6. Adventure combat goes at whatever pace you set it in the
+           OPTIONS menu. For faster combat, set the combat speed higher.
+           Hits will occur faster.
+    7. Army combat goes at whatever pace you set it in the
+           OPTIONS menu. For faster combat, set the combat speed higher.
+           Casualties will occur faster. 
+
+==========================================================================
+
+SECTION IV. Enhancing performance on systems with less than 16 Meg of RAM
+
+==========================================================================
+
+BIRTHRIGHT is a large game with an enormous amount of art and audio
+content. If you have 32 Meg of RAM in your system, you will hear and see
+all that BIRTHRIGHT has to offer. On any system with less RAM, selected
+replacements and omissions are made so that you can get the same game
+play experience. In some cases, lower resolution art may be substituted,
+sounds or music may be omitted, and minor game changes made to
+accommodate lesser memory configurations. Our goal was to insure that the
+game would remain as playable as possible. We believe you would rather
+see fewer frames of animation or lower resolution art than to have the
+game constantly going to disk swapping art in and out in an attempt to
+make it look the same as it would on systems with more RAM. So, as memory
+gets tight, here are the items that may change to insure the game will
+still run:
+
+    1. Lower resolution map art at the realm map level.
+    2. Lower resolution animation art in the adventures and battles.
+    3. Fewer rotations of animation art in adventures and battles.
+    4. Lower resolution art on the walls of the adventures.
+    5. Force stacks limited to 7 troops rather than 15.
+    6. Some animation sequences omitted. Attack 2 and defend
+           sequences replaced with more usage of attack 1 sequences, for
+           instance.
+    7. Game music can be disabled.
+    8. Sound channels limited to 4 as opposed to 8.
+    9. Decorative wall textures omitted and replaced with plain
+           walls.
+    10. Lighting effects omitted behind wall torches.
+
+That's about it. Most of these changes are virtually unnoticeable. None
+of them hurt game playability. And, if you ever get more RAM in your
+system, you automatically get the game enhancements that you have been
+missing. For best results, in any tight memory situation, try running the
+DOS version of the program. It takes up much less RAM for the operating
+system, leaving more for the program's resources. The DOS 8 Meg version
+and the Windows '95 16 Meg version are identical, for instance.
+
+=========================================================================
+
+SECTION V.    Changes from the original TSR rules for BIRTHRIGHT
+
+=========================================================================
+
+As the computer version of BIRTHRIGHT evolved, there were a number of
+differences between it and the original TSR game that crept in. Some were
+inevitable differences imposed by the computer medium of presentation.
+Other changes were made because the computer could more conveniently do
+things that were just too tedious for a human DM to bother with. Still
+others occurred because the computer just could not handle some issues
+that a human would have no trouble with. I'll try to summarize the ones
+that are most obvious, but please realize that there are many other minor
+differences that have occurred. Whether they were necessary, inevitable,
+or accidental, I hope you will agree that we have made an extreme effort
+to remain faithful to the spirit of TSR's great game. We have tried to
+treat the written works of the original game creators as our bible and
+have added to their work only where omissions demanded, left out their
+work only where the computer game just could not do it, and changed any
+of their work only with their agreement and cooperation. After working on
+this project for far too many hours during the past year, we remain
+thoroughly impressed with what the folks at TSR have accomplished and
+sincerely hope that we have not strayed in any substantive way from what
+they have achieved.
+
+With that said, here are the major known differences at this time:
+
+    DIFFERENCE                    
+
+Decree realm action was omitted 
+Disband realm action was omitted 
+Finances realm action was omitted 
+Grant realm action was omitted           
+Ply Trade realm action was omitted    
+Research realm action was omitted 
+Training realm action was omitted 
+Usurpation (bloodtheft) was omitted 
+Halflings were omitted 
+Character creation was omitted 
+Diplomacy limited to a brief option list 
+
+Some features would bring with them a consequent requirement for art
+        that just would not fit in the initial game's release. These will
+        be added in each successive product. With the completion of the
+        trilogy, we hope to have all the BIRTHRIGHT art, characters, and
+        locations incorporated.
+Some features could not be included in the initial release of
+        BIRTHRIGHT I because of the limitations of the development
+        schedule and manpower availability. These features may be added
+        in subsequent BIRTHRIGHT computer games. We have to save
+        something to add in the later editions.
+
+=========================================================================
+
+SECTION VI.    Changes from TSR's standard rules for AD&D
+
+=========================================================================
+
+In some cases, standard AD&D rules and conventions made for awkward or
+frustrating game play. In those cases, we have occasionally elected to
+bend the rules a bit to make game play more enjoyable. For example, in a
+DM moderated game, a player might say "I'll have everyone drink the speed
+potion, then we quickly run through the room." In the computer game, this
+would require that you USE the speed potion on each member of your party
+in turn, using the inventory dialog box interface. By the time the 4th
+person has received their dose, the first person's potion is wearing off.
+We presumed, therefore, that since you could not (in BIRTHRIGHT I,
+anyway) split up your party, that anywhere that a speed potion is useful,
+you would want it used on your entire party. For that reason, use of such
+potions was made to automatically affect the whole party, not just the
+user. Similarly, if the party's leader puts on a Ring Of Feather Falling
+and jumps off a cliff, the other members of his party must also jump off
+that cliff, even though they don't have the ring. It seemed best, in this
+situation, to have the ring affect the entire party. This may not be the
+AD&D convention, but it is the right thing to do in our game, with the
+limitations imposed by an inhuman DM.
+
+Other changes of a similar nature were made to make BIRTHRIGHT: The
+Gorgon's Alliance easy to play and responsive to the needs of the player.
+If you see violations of AD&D conventions, it was generally for this
+reason. Examples include:
+
+        1. Many potions affect the entire party.
+        2. Many rings affect the entire party.
+        3. Many amulets affect the entire party. 
+        4. Many cloaks, gauntlets, Ioun stones, oils, and scrolls affect
+           the entire party.
+        5. Levitate allows slight, slow horizontal movement in addition
+           to the standard vertical movement. This change was needed to
+           solve some adventures.
+        6. All detect spells were adjusted to work with our adventure
+           maps as a convenient display mechanism.
+        7. The range of light and infravision spells and artifacts was
+           determined by the 3D render engine, not by the rulebook. 
+
+=========================================================================
+
+SECTION VII.   The Quick Start saved games.
+
+=========================================================================
+
+There are several saved games already placed in your saved game
+directory. These are examples of how you might start the game in some
+very different realms. Each is economically stable, able to raise troops
+without going broke, has stable borders and is not under any major attack
+by his neighbors. If you are not sure how to get going in BIRTHRIGHT, try
+loading one or more of these games, look at their taxes, holdings, trade
+routes, and troop placements and you will have some idea of what you
+should be trying to accomplish as you play the game. And, if you wish,
+play these games and skip the initial maintenance / setup efforts needed
+to get started. The saved games are:
+
+    1. ENDIER.SAV - a small realm in the center of the action, Endier
+       is dependent on its trade network to expand and conquer. Hire
+       the mercenaries you need to build an empire. With only one 
+       province to defend and a vast trade network This realm is quite
+       powerful.
+    2. ROESONE.SAV - a military powerhouse, safely on the edges of
+       the action, Roesone is a good empire to start with if you
+       intend to build your empire with your army.
+    3. BARUK.SAV - the dwarven realm, Baruk-Azhik is shielded by
+       mountains which offer both protection and obstacles to
+       expansion. If you can keep on the good side of the elves to
+       your north and the Chimaera to the south, you can build your
+       strength and attack when you are ready.
+    4. SIELWODE.SAV - an elven realm, threatened by goblins to the west,
+       evil dwarves to the north, and the Gorgon nearby, they are
+       heavily dependent on use of magic.
+
+
+=========================================================================
+
+SECTION VIII.     Multi-player tips and suggestions.
+
+=========================================================================
+
+When you play the Birthright in multi-player mode, some additional
+features are available that you might want to take advantage of. First, 
+you can save the game at any time and continue later. Of course. But,
+when you start that game up later, the game cannot know for sure who is
+who and which computer you are running on. So, it will allow you to 
+again choose your realm. In addition to continuing right where everyone
+left off, this gives you some other game play options as well:
+
+   1. You can change realms. Use this feature to abandon the realm that
+      you have trashed and take over another one that you like better. 
+   2. New players can be added to the game in this fashion. Let them
+      pick any realm they want, or negotiate ahead of time to limit them
+      to choices that the entire play group agrees to. Your choice.
+   3. You can load up a multi-player saved game while playing in single
+      player mode and continue playing it there. This permits players
+      to continue games they were enjoying, even if the other
+      players dropped out.
+
+That's the good news. The bad news is that this flexibility allows other
+players (not you, of course) to cheat. They can:
+
+   1. Steal your realm when you start up that saved game, selecting it
+      before you can select it. This is not nice.
+   2. Trade realms to some other leading territory when you honorably 
+      selected that loser realm that you had been struggling with. 
+   3. By playing a multi-player game in single player mode, then loading
+      it again when the group gets back together, you can alter the 
+      game without the other's consent. 
+
+These tactics are not nice. You may not want to play with people that 
+stoop to these tactics. Or, you can use these tricks to re-balance the 
+game so that an unusually lucky player is again at the same level as 
+his less fortunate fellow players. We leave this to the players to 
+handle. It's your game. Play it the way you want to and don't play with
+those that play unfairly. To protect yourself from potential cheaters,
+be sure to save your own copy of any multi-player game that you are
+stopping on. You can then host the game when you start up again.
+ 
+
+=========================================================================
+
+SECTION IX.    Recovering from a lost game - Auto-save may save your game! 
+
+=========================================================================
+
+If anything happens that ends your Birthright game unexpectedly (the game 
+crashed, the dog pulled the plug, my kid brother turned off the computer, 
+or anything at all) and you have not saved it lately, have no fear. We
+can help. Your current game is automatically saved at the start of every
+turn. It's called CURRENT.SAV. Rerun Birthright and LOAD CURRENT.SAV
+just as you would any other saved game and you can continue almost where
+you left off. Any actions that were part of the current turn will have 
+been lost, but not all those hours of game play that you foolishly forgot
+to save.
+
+ADDITIONAL CONTACT INFORMATION
+
+
+Sales Support
+
+United States
+Sierra Direct          U.S.A. Sales Phone: (800) 757-7707
+7100 W. Center Rd      International Sales:  (425) 746-5771 
+STE 301                Hours: Mon.-Sat. 7AM-11PM CST, Sun. 8AM-9PM CST
+Omaha, NE  68106       FAX: (402) 393-3224
+
+Disk and or Manual Replacement:         Product Returns:*
+Sierra On-Line Fulfillment              Sierra On-Line Returns
+4100 West 190th Street                  4100 West 190th Street
+Torrance, CA  90504                     Torrance, CA  90504
+
+NOTE: To replace your disk(s) please send only Disk #1 (or the CD) and
+copy of your dated Receipt, if less then 90 days.  After 90 days please
+include a $10 handling fee along with Disk / CD #1.  For Documentation,
+please include a $5.00 handling fee and a photocopy ONLY of disk #1.
+Payment should be made at the time of your request. Sorry, no credit
+cards.
+* Returns to this address valid in North America only.
+
+THE SIERRA NO-RISK GUARANTEE
+The Promise: We want you to be happy with every Sierra product you
+purchase from us. Period. If for any reason you're unhappy with the
+product, return it within 30 days for an exchange or a full refund
+- EVEN IF YOU BOUGHT IT RETAIL.
+(Hardware ordered direct must be returned within ten days.)
+
+The Only Catch: You've got to tell us why you don't like the game.
+Otherwise, we'll never get any better. Send it back to us and we
+promise we'll make things right. (If you bought it at a retail
+outlet, please send your original sales receipt.)
+ * Returns valid in North America only.
+
+United Kingdom
+Sierra On-Line Limited      Main: (0118) 920-9111
+2 Beacontree Plaza,         Monday-Friday, 9:00 a.m. - 5:00 p.m.
+Gillette Way,               Fax:   (0118) 987-5603
+Reading, Berkshire          Disk/CD replacements in the U.K. are ú6.00,
+RG2 0BS United Kingdom      or ú7.00 outside the UK. Add "ATTN.: Returns."
+
+France
+Parc Tertiaire de Meudon    TÇlÇphone: (01) 46.01.48.53
+Immeuble "Le Newton"        Lundi au Vendredi de 9h Ö 18h 
+25 rue Jeanne Braconnier    Fax: (01) 46-30-00-65
+92366 Meudon La Foràt Cedex
+France
+
+Germany
+Sierra Coktel Deutschland   Tel: (0) 6103-99-40-53
+Robert-Bosh-Str. 32         Montag bis Freitag von 10h - 17Uhr
+D-63303 Dreieich            Fax: (0) 6103-99-40-35
+Germany
+
+On-Line Sales
+
+CompuServe USA:                 GO SI (CServe Mall (Sales Only))
+CompuServe USA:                 GO SIERRA (Technical Support)
+CompuServe United Kingdom:      GO UKSIERRA
+CompuServe France:              GO FRSIERRA
+CompuServe Germany:             GO GESIERRA
+America Online:                 Keyword Sierra
+Internet USA:                   http://www.sierra.com
+Internet United Kingdom:        http://www.sierra-online.co.uk
+Internet France:                http://www.sierra.fr
+Internet Germany:               http://www.sierra.de
+
+
+Technical Support
+
+Automated Technical Support Line - USA:
+1-425-644-4343
+Sierra On-Line offers a 24-hour Automated Technical Support line with
+recorded answers to the most frequently asked technical questions. To
+access this service, call (425) 644-4343, and follow the recorded
+instructions to find your specific topic and resolve the issue. If
+this fails to solve your problem, you may still write, or fax us with
+your questions, or contact us via our On-Line services.
+
+U.S. Technical Support
+Sierra On-Line                  Main: (425) 644-4343
+Technical Support               Mon.-Fri. 8:00 a.m. - 4:45 p.m. PST 
+P.O. Box 85006                  Fax:   (425) 644-7697
+Bellevue, WA 98015-8506
+
+Automated Technical Support Line - United Kingdom:
+(0118) 920-9111
+Sierra On-Line UK offers a 24-hour Automated Technical Support line
+with recorded answers to the most frequently asked technical questions.
+To access this service,call (0118) 920-9111, and follow the recorded
+instructions to find your specific topic and resolve the issue. If
+this fails to solve your problem, you may still write, or fax us with
+your questions, or contact us via our Internet or CompuServe sites.
+
+U.K. Technical Support
+Sierra On-Line Limited      Phone: (0118) 920-9111
+2 Beacontree Plaza,         Monday-Friday, 9:00 a.m. - 5:00 p.m.
+Gillette Way,               Fax:   (0118) 987-5603
+Reading, Berkshire
+RG2 0BS United Kingdom
+
+France
+Parc Tertiaire de Meudon    TÇlÇphone: 01.46.01.46.50
+Immeuble "Le Newton"        Support Technique automatisÇ 7 jours sur 7 24h/24
+25 rue Jeanne Braconnier    Techniciens accessibles du Lundi au Vendredi de 
+92366 Meudon La Foràt Cedex         10h Ö 19h
+France                      Fax: 01.46.30.00.65
+
+Germany
+Sierra Coktel Deutschland   Phone: (0) 6103-99-40-40
+Robert-Bosh-Str. 32         Montag bis Freitag von 9 - 19Uhr
+D-63303 Dreieich            Fax: (0) 6103-99-40-35
+Deutschland                 Mailbox: (0) 6103-99-40-41
+
+Spain
+Coktel Educative Multimedia     TelÇfono: (01) 383-2623
+Avenida de Burgos 9             Lunes a Viernes de 9h30 a 14h y 
+1ß-OF2                               de 15h a 18h30 
+28036 Madrid                    Fax: (01) 381-243
+Spain
+
+Italy                       Contattare il vostro distribotore.
+
+
+24-Hour Automated Hint Lines
+
+U.S.A.:
+1-900-370-5583
+$.95 per minute (must be 18 years or older, or have parental permission).
+You may also contact Direct Sales to inquire whether a hint book is
+available for your product.
+
+On-Line Hints:
+
+Canada:
+1-900-451-3356
+$1.25 (Canadian) per minute (must be 18 years or older, or have parental 
+permission). You may also contact Direct Sales at 800-757-7707 to inquire
+whether a hint book is available for your product.
+
+France:
+08-36-68-46-50
+2,23F TTC la minute; tariff en vigueur au 1 Juillet 1996. (France
+mÇtropolitaine seulement)
+
+Germany:
+019-515-616
+Kosten: 1,20 DM pro Minute (Nur in Deutschland verfÅgbar)
+
+Italy:
+Contattare il vostro distribotore
+
+Spain:
+Coktel Educative Multimedia     TelÇfono: (01) 383-2623
+Avenida de Burgos 9             Lunes a Viernes de 9h30 a 14h 
+1ß-OF2                              y de 15h a 18h30
+28036 Madrid                    Fax: (01) 381-2437
+Spain
+
+
+
+
+United Kingdom:
+New Programs hint line: (0891) 660-660 (within the UK only)
+For adventure programs released after January 1st, 1993.  Charged
+50p/minute at all times. Maximum call length 7.5 minutes.  Maximum
+charge is ú3.75. Must have permission of the person who pays the
+phone bill before calling. Line available in the UK only.
+Requires a touch tone phone.
+
+
+
+MICROSOFT SDK
+________________________________________________________
+The Redistributable Code is the property of Microsoft Corporation and
+its suppliers and is protected by copyright law and international
+treaty provisions. You are authorized to make and use copies of the
+Redistributable Code either as part of the application in which you
+received the Redistributable Code, or in conjunction with the
+application for which its use is intended.  Except as expressly
+provided in the foregoing sentence, you are not authorized to
+reproduce and distribute the Redistributable Code.  Microsoft
+reserves all rights not expressly granted.  You may not reverse
+engineer, decompile, or disassemble the distributable Code, except
+and only to the extent that such activity is expressly permitted
+by applicable law notwithstanding this limitation.  THE
+REDISTRIBUTABLE CODE IS PROVIDED TO YOU "AS IS" WITHOUT WARRANTY
+OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
+PARTICULAR PURPOSE.  YOU ASSUME THE ENTIRE RISK ASTO THE ACCURACY A
+ND THE USE OF THE REDISTRIBUTABLE CODE.  MICROSOFT SHALL NOT BE LIABLE
+FOR ANY DAMAGES WHATSOEVER ARISING  OUT OF THE USE OF OR INABILITY TO
+USE THE REDISTRIBUTABLE CODE, EVEN IF MICROSOFT HAS BEEN ADVISED OF
+THE POSSIBILITY OF SUCH DAMAGE.
+---------------------------------------------------------
+
+Copyright Sierra On-line 1997
+
+

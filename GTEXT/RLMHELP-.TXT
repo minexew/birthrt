@@ -1,0 +1,17 @@
+^F11REICHSVERWALTUNG-STEUERUNG
+ 
+^F02+ und - auf Ziffernblock: Karte vergrößern / verkleinern 
+Pfeiltasten^t048Kamera über Karte bewegen 
+Esc      ^t048Hauptmenü
+F1       ^t048Hilfe
+F3       ^t048Zu versendende Nachricht eingeben
+F4       ^t048Empfänger der Nachricht auswählen
+
+^F11SCHLACHTFELD-STEUERUNG 
+ 
+^F10+ und - auf dem Ziffernblock: Vergrößern und Verkleinern der Karte
+Pfeiltasten^t048Kamera in entsprechende Richtung schwenken 
+F3       ^t048Zu sendende Nachricht eingeben
+F4       ^t048 Empfänger der Nachricht auswählen 
+[ und ]  ^t048Bildschirmausschnitt vergrößern / verkleinern 
+

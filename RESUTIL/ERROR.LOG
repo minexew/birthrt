@@ -1,0 +1,26 @@
+WATCOM Make Version 10.6
+Copyright by WATCOM International Corp. 1988, 1996. All rights reserved.
+WATCOM is a trademark of WATCOM International Corp.
+	wcc386 -5s -otexan -s -w3 -zq -zp1 -j -bt=dos4g -fo=dosobjsr\ resutil.c
+	ml /Zi lzssencd.asm
+REM ML.BAT, suitable for an old version of MASM.
+REM Produces non-debug version.
+masm /c /Zi;
+copy Zi.obj dosobjsr
+     0 file(s) copied
+	ml /Zi lzssdcod.asm
+REM ML.BAT, suitable for an old version of MASM.
+REM Produces non-debug version.
+masm /c /Zi;
+copy Zi.obj dosobjsr
+     0 file(s) copied
+	echo linking dos production version ...
+linking dos production version ...
+	wlink system dos4g option stack=32k option map name resutil.exe                 file {dosobjsr\resutil.obj dosobjsr\lzssencd.obj dosobjsr\lzssdcod.obj  }                  
+WATCOM Linker Version 10.6
+Copyright by WATCOM International Corp. 1985, 1996. All rights reserved.
+WATCOM is a trademark of WATCOM International Corp.
+loading object files
+Error(2008): cannot open dosobjsr\lzssencd.obj : file not found
+Error(2008): cannot open dosobjsr\lzssdcod.obj : file not found
+Should this file be deleted [Yes/No] ? 

@@ -1,0 +1,8 @@
+^F02 
+^F06 
+^F06  Guildmaster Mheallie Bireon
+^F02^W310
+   The most ruthless guild leader in all of Anuire and
+   the true power of the kingdom, she controls all
+   three of the local guilds.  She is skilled with bladed
+   weapons and yields to no one.

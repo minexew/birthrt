@@ -1,0 +1,32 @@
+srcDir = .
+
+cpp	= wpp386
+#cppOpts = /dWINDOWS /dREG_CALL_BUILD /dAUDIO_LIB /w3 /j /ei /zp1 /zq /otexan /5s /bt=nt /mf
+cppOpts	=  /I..\..\inc /dWINDOWS /dAUDIO_LIB /j /zp1 /otexan /5s /bt=nt /mf
+
+asm		= ml
+asmOpts	= /DWINDOWS /c /Cp /Zm /Zp4
+
+
+.EXTENSIONS:
+.EXTENSIONS: .obd .obj .asm .cpp .c .exe .rc .ico .cur .res
+
+.asm : $(srcDir)
+.asm.obj:
+	$(asm) $(asmOpts) $[@
+
+.cpp: $(srcDir)
+.cpp.obj: .AUTODEPEND
+	$(cpp) $(cppOpts) /d1 $(debugOpt) $[@
+
+.cpp.obd: .AUTODEPEND
+	$(cpp) $(cppOpts) /d2 $(debugOpt) $[@ /fo$[&.obd
+
+.c: $(srcDir)
+.c.obj: .AUTODEPEND
+	$(c) $(cOpts) $[@
+
+.rc:$(srcDir)
+.ico:$(srcDir)
+.cur:$(srcDir)
+#.res:$(srcDir)

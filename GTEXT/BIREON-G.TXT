@@ -1,0 +1,9 @@
+^F02 
+^F06 
+^F06  Gildenmeisterin Mheallie Bireon
+^F02^W310
+   Als unbarmherzigste Gildemeisterin in Anuire
+   und mächtigste Instanz des Reiches hat sie die Kontrolle über
+   alle drei Gilden der Stadt. Sie kann gut mit Schwert und Degen
+   umgehen und unterwirft sich niemandem.
+

@@ -1,0 +1,37 @@
+// magic items
+50
+73
+93
+93
+93
+68
+68
+
+// spells
+
+133 // Detect Magic
+135 // Jump
+137 // Magic Missile
+139 // Shocking Grasp
+
+141 // Continual Light
+143 // Levitate
+145 // Poison Arrow
+
+148 // Fly
+
+153 // Ice Storm
+
+
+// blood abilities
+
+215 // detect illusion
+216 // divine aura
+220 // healing - major
+222 // iron will
+
+
+// realm spells
+
+193 // Death Plague
+198 // Raze

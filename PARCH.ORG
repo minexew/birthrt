@@ -1,0 +1,113 @@
+/* ========================================================================
+   Copyright (c) 1990,1997	Synergistic Software
+   All Rights Reserved
+   ========================================================================
+   Filename: parch.cpp  -
+   Author:   Gary Powell
+   
+   ========================================================================
+   
+   Contains the following general functions:
+
+   
+   ======================================================================== */
+
+/* ------------------------------------------------------------------------
+   Includes
+   ------------------------------------------------------------------------ */
+
+#include <string.h>
+
+#include "engine.h"
+#include "system.h"
+#include "menu.h"
+#include "strenum.h"
+#include "strmgr.h"
+
+#include "parch.hxx"
+/* ------------------------------------------------------------------------
+   Notes
+   ------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------
+   Defines and Compile Flags
+   ------------------------------------------------------------------------ */
+   
+/* ------------------------------------------------------------------------
+   Macros
+   ------------------------------------------------------------------------ */
+   
+/* ------------------------------------------------------------------------
+   Prototypes
+   ------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------
+   Global Variables
+   ------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------
+   Local Variables
+   ------------------------------------------------------------------------ */
+/* ========================================================================
+   Function    - ParchmentDone
+   Description - The close the menu procedure.
+   Returns     - 
+   ======================================================================== */
+
+void ParchmentDone(LONG, LONG)
+{
+	HideMenu(D_QUESTION);
+	RunMenus();
+	SetButtonProc  (D_QUESTION, 0, NULL, 0, NO_KEY);
+}
+
+/* ========================================================================
+   Function    - PaintParchment
+   Description - The menu paint routine.
+   Returns     - 
+   ======================================================================== */
+
+void PaintParchment(LONG MenuCombo, LONG stringhandle)
+{
+	char	buffer[712];
+	LONG	menu_x, menu_y;
+	LONG	MenuId, ButtonId;
+	SPLIT_LONG(MenuCombo, MenuId, ButtonId);
+
+	if( GetButtonPosition( MenuId, ButtonId, &menu_x, &menu_y ) == fERROR)
+	    return;
+	
+	strcpy(buffer, STRMGR_GetStr(stringhandle));
+	init_gfont(FONT_SANS_12PT);
+	gprint_text(menu_x+10, menu_y+20, buffer, BLACK);
+}
+
+/* ========================================================================
+   Function    - InitializeParchmentMenu
+   Description - Put up the question dialog with parchment background.
+   Returns     - 
+   ======================================================================== */
+
+void InitializeParchmentMenu(LONG StringHandle)
+{
+	SetButtonLabel (D_QUESTION, QUESTION_TEXT, STR_NULL, BLACK );
+	SetButtonProc  (D_QUESTION, QUESTION_TEXT, NULL, 0, NO_KEY);
+	
+	SetButtonProc  (D_QUESTION, 0, PaintParchment, StringHandle, NO_KEY);
+
+	// turn off the first button
+	SetButtonLabel  (D_QUESTION, QUESTION_BTN1, -1, 0 );
+	SetButtonHilight(D_QUESTION, QUESTION_BTN1, FALSE );
+	
+	// turn on the middle button to DONE
+	SetButtonLabel  (D_QUESTION, QUESTION_BTN2, STR_DONE, WHITE );
+	SetButtonProc   (D_QUESTION, QUESTION_BTN2, ParchmentDone, QUESTION_BTN1, KEY_D );
+	SetButtonHilight(D_QUESTION, QUESTION_BTN2, TRUE );
+	
+	// turn on the last button as CANCEL
+	SetButtonLabel  (D_QUESTION, QUESTION_BTN3, -1, 0 );
+	SetButtonHilight(D_QUESTION, QUESTION_BTN3, FALSE );
+	
+	ShowMenu(D_QUESTION);
+}
+				

@@ -1,0 +1,98 @@
+copy makeinit.rel makeinit
+d:\birthrt\solaudio\source\dos\makeinit.rel => d:\birthrt\solaudio\source\dos\makeinit
+     1 file(s) copied
+del *.obj
+Deleting d:\birthrt\solaudio\source\dos\audio.obj
+Deleting d:\birthrt\solaudio\source\dos\skel.obj
+Deleting d:\birthrt\solaudio\source\dos\custmsys.obj
+Deleting d:\birthrt\solaudio\source\dos\kernaud.obj
+Deleting d:\birthrt\solaudio\source\dos\fatal.obj
+Deleting d:\birthrt\solaudio\source\dos\audioa.obj
+     5 file(s) deleted        229,376 bytes freed
+del *.exe
+Deleting d:\birthrt\solaudio\source\dos\testrel.exe
+Deleting d:\birthrt\solaudio\source\dos\testdbg.exe
+     2 file(s) deleted        262,144 bytes freed
+wmake
+WATCOM Make Version 10.6
+Copyright by WATCOM International Corp. 1988, 1996. All rights reserved.
+WATCOM is a trademark of WATCOM International Corp.
+	wpp386 /I..\..\inc /dDOS /dAUDIO_LIB /mf /5s /w3 /s /zp1 /oteanmlr /zq /ei /j /bt=dos4g  skel.cpp
+	wpp386 /I..\..\inc /dDOS /dAUDIO_LIB /mf /5s /w3 /s /zp1 /oteanmlr /zq /ei /j /bt=dos4g  custmsys.cpp
+	wpp386 /I..\..\inc /dDOS /dAUDIO_LIB /mf /5s /w3 /s /zp1 /oteanmlr /zq /ei /j /bt=dos4g  kernaud.cpp
+	wpp386 /I..\..\inc /dDOS /dAUDIO_LIB /mf /5s /w3 /s /zp1 /oteanmlr /zq /ei /j /bt=dos4g  fatal.cpp
+	wpp386 /I..\..\inc /dDOS /dAUDIO_LIB /mf /5s /w3 /s /zp1 /oteanmlr /zq /ei /j /bt=dos4g  audio.cpp
+audio.cpp(919): Warning! W389: (col 57) integral value may be truncated during assignment or initialization 
+audio.cpp(984): Warning! W389: (col 70) integral value may be truncated during assignment or initialization 
+audio.cpp(984): Warning! W389: (col 75) integral value may be truncated during assignment or initialization 
+audio.cpp(1120): Warning! W389: (col 75) integral value may be truncated during assignment or initialization 
+audio.cpp(1151): Warning! W389: (col 67) integral value may be truncated during assignment or initialization 
+audio.cpp(1155): Warning! W389: (col 63) integral value may be truncated during assignment or initialization 
+audio.cpp(1166): Warning! W389: (col 77) integral value may be truncated during assignment or initialization 
+audio.cpp(1176): Warning! W389: (col 57) integral value may be truncated during assignment or initialization 
+audio.cpp(1188): Warning! W389: (col 47) integral value may be truncated during assignment or initialization 
+audio.cpp(1188): Warning! W389: (col 52) integral value may be truncated during assignment or initialization 
+audio.cpp(1208): Warning! W389: (col 47) integral value may be truncated during assignment or initialization 
+audio.cpp(1211): Warning! W389: (col 38) integral value may be truncated during assignment or initialization 
+audio.cpp(1211): Warning! W389: (col 46) integral value may be truncated during assignment or initialization 
+	wlink name skel.exe system dos4g option map option stack=16k 		debug all file {skel.obj custmsys.obj kernaud.obj fatal.obj audio.obj audioa.obj}
+WATCOM Linker Version 10.6
+Copyright by WATCOM International Corp. 1985, 1996. All rights reserved.
+WATCOM is a trademark of WATCOM International Corp.
+loading object files
+searching libraries
+creating map file
+creating a DOS/4G executable
+wlib -n -c -p=64 solaudd.lib @libfiles.lbc
+rename skel.exe testrel.exe
+d:\birthrt\solaudio\source\dos\skel.exe -> d:\birthrt\solaudio\source\dos\testrel.exe
+     1 file(s) renamed
+copy makeinit.dbg makeinit
+d:\birthrt\solaudio\source\dos\makeinit.dbg => d:\birthrt\solaudio\source\dos\makeinit
+     1 file(s) copied
+del *.obj
+Deleting d:\birthrt\solaudio\source\dos\audio.obj
+Deleting d:\birthrt\solaudio\source\dos\skel.obj
+Deleting d:\birthrt\solaudio\source\dos\custmsys.obj
+Deleting d:\birthrt\solaudio\source\dos\kernaud.obj
+Deleting d:\birthrt\solaudio\source\dos\fatal.obj
+Deleting d:\birthrt\solaudio\source\dos\audioa.obj
+     5 file(s) deleted        196,608 bytes freed
+wmake
+WATCOM Make Version 10.6
+Copyright by WATCOM International Corp. 1988, 1996. All rights reserved.
+WATCOM is a trademark of WATCOM International Corp.
+	wpp386 /I..\..\inc /dDOS /dDEBUG /dAUDIO_LIB /mf /hw /d2 /5s /w3 /r /od /zq /ei /j /bt=dos4g  skel.cpp
+	wpp386 /I..\..\inc /dDOS /dDEBUG /dAUDIO_LIB /mf /hw /d2 /5s /w3 /r /od /zq /ei /j /bt=dos4g  custmsys.cpp
+	wpp386 /I..\..\inc /dDOS /dDEBUG /dAUDIO_LIB /mf /hw /d2 /5s /w3 /r /od /zq /ei /j /bt=dos4g  kernaud.cpp
+	wpp386 /I..\..\inc /dDOS /dDEBUG /dAUDIO_LIB /mf /hw /d2 /5s /w3 /r /od /zq /ei /j /bt=dos4g  fatal.cpp
+	wpp386 /I..\..\inc /dDOS /dDEBUG /dAUDIO_LIB /mf /hw /d2 /5s /w3 /r /od /zq /ei /j /bt=dos4g  audio.cpp
+audio.cpp(919): Warning! W389: (col 57) integral value may be truncated during assignment or initialization 
+audio.cpp(984): Warning! W389: (col 70) integral value may be truncated during assignment or initialization 
+audio.cpp(984): Warning! W389: (col 75) integral value may be truncated during assignment or initialization 
+audio.cpp(1120): Warning! W389: (col 75) integral value may be truncated during assignment or initialization 
+audio.cpp(1151): Warning! W389: (col 67) integral value may be truncated during assignment or initialization 
+audio.cpp(1155): Warning! W389: (col 63) integral value may be truncated during assignment or initialization 
+audio.cpp(1166): Warning! W389: (col 77) integral value may be truncated during assignment or initialization 
+audio.cpp(1176): Warning! W389: (col 57) integral value may be truncated during assignment or initialization 
+audio.cpp(1188): Warning! W389: (col 47) integral value may be truncated during assignment or initialization 
+audio.cpp(1188): Warning! W389: (col 52) integral value may be truncated during assignment or initialization 
+audio.cpp(1208): Warning! W389: (col 47) integral value may be truncated during assignment or initialization 
+audio.cpp(1211): Warning! W389: (col 38) integral value may be truncated during assignment or initialization 
+audio.cpp(1211): Warning! W389: (col 46) integral value may be truncated during assignment or initialization 
+	wlink name skel.exe system dos4g option map option stack=16k 		debug all file {skel.obj custmsys.obj kernaud.obj fatal.obj audio.obj audioa.obj}
+WATCOM Linker Version 10.6
+Copyright by WATCOM International Corp. 1985, 1996. All rights reserved.
+WATCOM is a trademark of WATCOM International Corp.
+loading object files
+searching libraries
+creating map file
+creating a DOS/4G executable
+wlib -n -c -p=64 solauddd.lib @libfiles.lbc
+rename skel.exe testdbg.exe
+d:\birthrt\solaudio\source\dos\skel.exe -> d:\birthrt\solaudio\source\dos\testdbg.exe
+     1 file(s) renamed
+copy *.lib ..\..\lib\dos\w
+d:\birthrt\solaudio\source\dos\solaudd.lib => d:\birthrt\solaudio\lib\dos\w\solaudd.lib
+d:\birthrt\solaudio\source\dos\solauddd.lib => d:\birthrt\solaudio\lib\dos\w\solauddd.lib
+     2 file(s) copied

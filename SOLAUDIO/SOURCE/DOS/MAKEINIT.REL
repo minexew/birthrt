@@ -1,0 +1,27 @@
+srcDir = .
+
+cpp	= wpp386
+#cppOpts	= /dDOS /dREG_CALL_BUILD /dAUDIO_LIB /5s /w3 /s /zp1 /oteanmlr /zq /ei /j /bt=dos
+#cppOpts	= /I..\..\inc /dDOS /dAUDIO_LIB /5s /w3 /s /zp1 /oteanmlr /zq /ei /j /bt=dos
+cppOpts	= /I..\..\inc /dDOS /dAUDIO_LIB /mf /5s /w3 /s /zp1 /oteanmlr /zq /ei /j /bt=dos4g
+
+asm	= ml
+asmOpts	= /c /Cp /Zm /Zp4
+
+.EXTENSIONS:
+.EXTENSIONS: .obd .obj .asm .cpp .exe
+
+.asm : $(srcDir)
+.asm.obj:
+	$(asm) $(asmOpts) $[@
+
+.asm.obd:
+	$(asm) $(asmOpts) $(debugAsmOpts) /Zi /Zd /Fo$[&.obd $[@
+
+.cpp: $(srcDir)
+.cpp.obj: .AUTODEPEND
+	$(cpp) $(cppOpts) $(debugOpt) $[@
+
+.cpp.obd: .AUTODEPEND
+	$(cpp) $(cppOpts) /d2 $(debugOpt) $[@ /fo$[&.obd
+

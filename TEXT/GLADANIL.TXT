@@ -1,0 +1,8 @@
+^F02 
+^F06Entier Gladanil
+^F02^W310
+This weak-willed fop spends most of his income on his
+wardrobe and decorations for his castle.  He is con-
+trolled by the local guilds because he has chosen to
+allow them great leeway, in response to his father's
+lack of cooperation with them.
